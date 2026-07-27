@@ -174,3 +174,65 @@ CALL logging('stg_inventory','-- Inventory successfully loaded');
 
 COMMIT;
 
+
+-- shift 
+
+SELECT * FROM stg_shift;
+
+START TRANSACTION;
+
+LOAD DATA LOCAL INFILE '/Users/mymac/Desktop/1. Restaurant Proj/8. shift_table.csv'
+INTO TABLE stg_shift
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n' -- <-- This removes the hidden '\r' character  (causing error).
+IGNORE 1 ROWS;
+
+CALL logging('stg_shift','-- Shift successfully loaded');
+
+COMMIT;
+
+
+-- staff
+
+START TRANSACTION;
+
+LOAD DATA LOCAL INFILE '/Users/mymac/Desktop/1. Restaurant Proj/9. staff_table.csv'
+INTO TABLE stg_staff
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+
+CALL logging('stg_staff','-- Staff successfully loaded');
+
+COMMIT;
+
+
+-- suppliers
+
+LOAD DATA LOCAL INFILE '/Users/mymac/Desktop/1. Restaurant Proj/11. suppliers.csv'
+INTO TABLE stg_suppliers
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+
+CALL logging('stg_suppliers','-- Suppliers successfully loaded');
+
+COMMIT;
+
+
+-- ingredients
+
+LOAD DATA LOCAL INFILE '/Users/mymac/Desktop/1. Restaurant Proj/3. Ingredients.csv'
+INTO TABLE stg_ingredients
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+
+CALL logging('stg_ingredients','-- Ingredients successfully loaded');
+
+COMMIT;
+
