@@ -236,3 +236,100 @@ CALL logging('stg_ingredients','-- Ingredients successfully loaded');
 
 COMMIT;
 
+-- recipe
+
+START TRANSACTION;
+TRUNCATE stg_recipe;
+
+LOAD DATA LOCAL INFILE '/Users/mymac/Desktop/1. Restaurant Proj/4-2 Recepie.csv'
+INTO TABLE stg_recipe
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n' -- <-- Remove '\r' character (causing error) from \r\n.
+IGNORE 1 ROWS;
+
+CALL logging('stg_recipe','-- Recipe successfully loaded');
+
+COMMIT;
+
+
+-- rota
+
+START TRANSACTION;
+TRUNCATE stg_rota;
+
+LOAD DATA LOCAL INFILE '/Users/mymac/Desktop/1. Restaurant Proj/10. rota_table.csv'
+INTO TABLE stg_rota
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+
+CALL logging('stg_rota','-- Rota successfully loaded');
+
+COMMIT;
+
+
+-- ingredients_supplier
+
+START TRANSACTION;
+
+LOAD DATA LOCAL INFILE '/Users/mymac/Desktop/1. Restaurant Proj/12. Ingredients_supplier.csv'
+INTO TABLE stg_ingredients_supplier
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
+
+CALL logging('stg_ingredients_supplier', '-- Ingredients_supplier successfully loaded');
+
+COMMIT;
+
+
+-- inventory_transactions
+
+START TRANSACTION;
+
+LOAD DATA LOCAL INFILE '/Users/mymac/Desktop/1. Restaurant Proj/13. inventory_transactions.csv'
+INTO TABLE stg_inventory_transactions
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n' -- <-- Remove '\r' character (causing error) from \r\n.
+IGNORE 1 ROWS;
+
+CALL logging('stg_inventory_transactions', '-- Inventory_transactions successfully loaded');
+
+COMMIT;
+
+
+-- inventory_daily_snapshot
+
+START TRANSACTION;
+
+LOAD DATA LOCAL INFILE '/Users/mymac/Desktop/1. Restaurant Proj/14-1. inventory_daily_snapshot copy.csv'
+INTO TABLE stg_inventory_daily_snapshot
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+CALL logging('stg_inventory_daily_snapshot','-- Inventory_daily_snapshot successfully loaded');
+
+COMMIT;
+
+
+-- orders
+
+START TRANSACTION;
+
+LOAD DATA LOCAL INFILE '/Users/mymac/Desktop/1. Restaurant Proj/transactions_updated.csv'
+INTO TABLE stg_orders
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+CALL logging('stg_orders', '-- Orders successfully loaded');
+
+COMMIT;
+
