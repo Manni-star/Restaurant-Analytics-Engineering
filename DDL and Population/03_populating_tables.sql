@@ -79,3 +79,36 @@ CREATE TABLE stg_orders AS
 SELECT *
 FROM orders
 WHERE 1 = 0;
+
+
+---------------------------------
+-- STEP 2 — LOAD CSV INTO STAGING
+---------------------------------
+
+SET FOREIGN_KEY_CHECKS = 0; 
+SET GLOBAL local_infile = 1;    -- Enable LOCAL INFILE (client side)
+
+-- Log Table:
+CREATE TABLE IF NOT EXISTS pipeline_logs (
+    log_id INT AUTO_INCREMENT PRIMARY KEY,
+    table_name VARCHAR(50),
+    rows_inserted INT,
+    log_message VARCHAR(100),
+    execution_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+-- Stored Proceedure for INSERTS logging
+DELIMITER $$
+CREATE PROCEDURE logging(IN source_table_var VARCHAR(50), IN message_var VARCHAR(100))
+BEGIN
+    -- 1. Create a quick variable to trap the actual row count instantly
+    DECLARE total_rows INT;
+    SET total_rows = ROW_COUNT();   -- ROW_COUNT() is internal tracking of Changes (Concurrent changes)
+
+    -- 2. Insert into logs using your inputs and variables
+    INSERT INTO pipeline_logs (table_name, rows_inserted, log_message)
+    VALUES (source_table_var, total_rows, message_var); -- No quotes around source_table_var!
+END $$
+DELIMITER ;
+
