@@ -333,3 +333,46 @@ CALL logging('stg_orders', '-- Orders successfully loaded');
 
 COMMIT;
 
+
+---------------------------------
+-- STEP 3 — VALIDATE STAGING DATA
+---------------------------------
+
+-- A. Row Count Check:
+
+SELECT COUNT(*) FROM stg_orders;
+
+
+-- B. Duplicate Grain Check:
+
+SELECT * FROM stg_orders LIMIT 10;
+
+SELECT
+    order_id,
+    item_id,
+    COUNT(*)
+FROM stg_orders
+GROUP BY
+    order_id,
+    item_id
+HAVING COUNT(*) > 1;
+
+
+-- C. NULL Checks:
+
+SELECT *
+FROM stg_orders
+WHERE order_id IS NULL;
+
+
+SELECT *
+FROM stg_orders
+WHERE STR_TO_DATE(created_at, '%Y-%m-%d %H:%i:%s') IS NULL;  -- catched mismatched values == Null !
+
+
+SELECT s.*
+FROM stg_orders s
+LEFT JOIN stg_customers c
+    ON s.cust_id = c.cust_id
+WHERE c.cust_id IS NULL;
+
