@@ -111,3 +111,52 @@ CREATE TABLE `rota` (
         `row_id`
     )
 );
+
+CREATE TABLE `suppliers` (
+    `supplier_id` varchar(70)  NOT NULL ,
+    `supplier_name` varchar(70)  NOT NULL ,
+    `specialization` varchar(100)  NOT NULL ,
+    PRIMARY KEY (
+        `supplier_id`
+    )
+);
+
+CREATE TABLE `ingredients_supplier` (
+    `ing_sup_id` varchar(70)  NOT NULL ,
+    `ing_id` varchar(70)  NOT NULL ,
+    `ing_name` varchar(70)  NOT NULL ,
+    `supplier_id` varchar(70)  NOT NULL ,
+    `lead_time` int  NOT NULL ,
+    PRIMARY KEY (
+        `ing_sup_id`
+    )
+);
+
+CREATE TABLE `inventory_transactions` (
+    `transaction_id` varchar(20)  NOT NULL ,
+    `ing_id` varchar(70)  NOT NULL ,
+    `transaction_date` date  NOT NULL ,
+    `transaction_type` varchar(50)  NOT NULL ,
+    `change_qty` int  NOT NULL ,
+    `supplier_id` varchar(70)  NOT NULL ,
+    PRIMARY KEY (
+        `transaction_id`
+    )
+);
+
+CREATE TABLE `inventory_daily_snapshot` (
+    `snap_id` varchar(20)  NOT NULL ,
+    `snapshot_date` date  NOT NULL ,
+    `ing_id` varchar(70)  NOT NULL ,
+    `ing_name` varchar(50)  NOT NULL ,
+    `opening_stock` int  NOT NULL ,
+    `consumed_packages` int  NOT NULL ,
+    `closing_stock` int  NOT NULL ,
+    `pending_order` varchar(10)  NOT NULL ,
+    PRIMARY KEY (
+        `snap_id`
+    )
+);
+
+
+
