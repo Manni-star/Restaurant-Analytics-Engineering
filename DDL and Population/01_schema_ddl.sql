@@ -67,3 +67,47 @@ CREATE TABLE `customers` (
         `cust_id`
     )
 );
+
+CREATE TABLE `address` (
+    `add_id` int  NOT NULL ,
+    `delivery_address` varchar(100)  NOT NULL ,
+    `delivery_city` varchar(50)  NOT NULL ,
+    `delivery_zipcode` varchar(10)  NOT NULL ,
+    PRIMARY KEY (
+        `add_id`
+    )
+);
+
+CREATE TABLE `shift` (
+    `shift_id` varchar(20)  NOT NULL ,
+    `day_of_week` varchar(20)  NOT NULL ,
+    `start_time` TIME  NOT NULL ,
+    `end_time` TIME  NOT NULL ,
+    PRIMARY KEY (
+        `shift_id`
+    )
+);
+
+CREATE TABLE `staff` (
+    `staff_id` varchar(20)  NOT NULL ,
+    `first_name` varchar(50)  NOT NULL ,
+    `last_name` varchar(50)  NOT NULL ,
+    `position` varchar(50)  NOT NULL ,
+    `hourly_rate` int  NOT NULL ,
+    `employment_type` varchar(50)  NOT NULL ,
+    `max_hours_per_week` int  NOT NULL ,
+    PRIMARY KEY (
+        `staff_id`
+    )
+);
+
+CREATE TABLE `rota` (
+    `row_id` int  NOT NULL ,
+    `rota_id` varchar(20)  NOT NULL ,
+    `date` DATE  NOT NULL ,
+    `shift_id` varchar(20)  NOT NULL ,
+    `staff_id` varchar(20)  NOT NULL ,
+    PRIMARY KEY (
+        `row_id`
+    )
+);
