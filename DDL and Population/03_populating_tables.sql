@@ -39,3 +39,43 @@ CREATE TABLE stg_staff AS
 SELECT *
 FROM staff
 WHERE 1 = 0;
+
+CREATE TABLE stg_suppliers AS
+SELECT *
+FROM suppliers
+WHERE 1 = 0;
+
+CREATE TABLE stg_ingredients AS
+SELECT *
+FROM ingredients
+WHERE 1 = 0;
+
+CREATE TABLE stg_recipe AS
+SELECT *
+FROM recipe
+WHERE 1 = 0;
+
+CREATE TABLE stg_rota AS
+SELECT *
+FROM rota
+WHERE 1 = 0;
+
+CREATE TABLE stg_ingredients_supplier AS
+SELECT *
+FROM ingredients_supplier
+WHERE 1 = 0;
+
+CREATE TABLE stg_inventory_transactions AS
+SELECT *
+FROM inventory_transactions
+WHERE 1 = 0;
+
+CREATE TABLE stg_inventory_daily_snapshot AS
+SELECT *
+FROM inventory_daily_snapshot
+WHERE 1 = 0;
+
+CREATE TABLE stg_orders AS
+SELECT *
+FROM orders
+WHERE 1 = 0;
