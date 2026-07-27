@@ -160,3 +160,45 @@ CREATE TABLE `inventory_daily_snapshot` (
 
 
 
+ALTER TABLE `orders` ADD CONSTRAINT `fk-orders-items-item_id` FOREIGN KEY(`item_id`)
+REFERENCES `items` (`item_id`);
+
+ALTER TABLE `orders` ADD CONSTRAINT `fk-orders-customers-cust_id` FOREIGN KEY(`cust_id`)
+REFERENCES `customers` (`cust_id`);
+
+ALTER TABLE `orders` ADD CONSTRAINT `fk-orders-address-add_id` FOREIGN KEY(`add_id`)
+REFERENCES `address` (`add_id`);
+
+ALTER TABLE `orders` ADD CONSTRAINT `fk-orders-shift-shift_id` FOREIGN KEY(`shift_id`)
+REFERENCES `shift` (`shift_id`);
+
+ALTER TABLE `recipe` ADD CONSTRAINT `fk-recipe-items-sku` FOREIGN KEY(`sku`)
+REFERENCES `items` (`sku`);
+
+ALTER TABLE `recipe` ADD CONSTRAINT `fk-recipe-ingredients-ingredients\ing_id` FOREIGN KEY(`ingredients`)
+REFERENCES `ingredients` (`ing_id`);
+
+ALTER TABLE `inventory` ADD CONSTRAINT `fk-inventory-ingredients-ing_id` FOREIGN KEY(`ing_id`)
+REFERENCES `ingredients` (`ing_id`);
+
+ALTER TABLE `rota` ADD CONSTRAINT `fk-rota-shift-shift_id` FOREIGN KEY(`shift_id`)
+REFERENCES `shift` (`shift_id`);
+
+ALTER TABLE `rota` ADD CONSTRAINT `fk-rota-staff-staff_id` FOREIGN KEY(`staff_id`)
+REFERENCES `staff` (`staff_id`);
+
+ALTER TABLE `ingredients_supplier` ADD CONSTRAINT `fk-ingredients_supplier-ingredients-ing_id` FOREIGN KEY(`ing_id`)
+REFERENCES `ingredients` (`ing_id`);
+
+ALTER TABLE `ingredients_supplier` ADD CONSTRAINT `fk-ingredients_supplier-suppliers-supplier_id` FOREIGN KEY(`supplier_id`)
+REFERENCES `suppliers` (`supplier_id`);
+
+ALTER TABLE `inventory_transactions` ADD CONSTRAINT `fk-inventory_transactions-ingredients-ing_id` FOREIGN KEY(`ing_id`)
+REFERENCES `ingredients` (`ing_id`);
+
+ALTER TABLE `inventory_transactions` ADD CONSTRAINT `fk-inventory_transactions-suppliers-supplier_id` FOREIGN KEY(`supplier_id`)
+REFERENCES `suppliers` (`supplier_id`);
+
+ALTER TABLE `inventory_daily_snapshot` ADD CONSTRAINT `fk-inventory_daily_snapshot-ingredients-ing_id` FOREIGN KEY(`ing_id`)
+REFERENCES `ingredients` (`ing_id`);
+
