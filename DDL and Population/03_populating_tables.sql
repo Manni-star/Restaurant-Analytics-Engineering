@@ -112,3 +112,65 @@ BEGIN
 END $$
 DELIMITER ;
 
+-- CUSTOMERS TABLE:
+
+START TRANSACTION;
+TRUNCATE stg_customers;
+
+LOAD DATA LOCAL INFILE '/Users/mymac/Desktop/1. Restaurant Proj/6. Customers.csv'
+INTO TABLE stg_customers
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"' -- Adds protection for text fields with commas
+IGNORE 1 ROWS;
+
+CALL logging('stg_customers', '-- Customers successfully loaded');
+
+COMMIT;
+
+
+-- address
+
+START TRANSACTION;
+TRUNCATE stg_address;
+
+LOAD DATA LOCAL INFILE '/Users/mymac/Desktop/1. Restaurant Proj/7. Address.csv'
+INTO TABLE stg_address
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+IGNORE 1 ROWS;
+
+CALL logging('stg_address', '-- Address successfully loaded');
+
+COMMIT;
+
+
+-- items 
+
+START TRANSACTION;
+TRUNCATE stg_items;
+
+LOAD DATA LOCAL INFILE '/Users/mymac/Desktop/1. Restaurant Proj/2. ITEMS.csv'
+INTO TABLE stg_items
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+IGNORE 1 ROWS;
+
+CALL logging('stg_items', '-- Items successfully loaded');
+
+COMMIT;
+
+
+-- inventory  
+
+START TRANSACTION;
+
+LOAD DATA LOCAL INFILE '/Users/mymac/Desktop/1. Restaurant Proj/5-1. Inventory.csv'
+INTO TABLE stg_inventory
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+IGNORE 1 ROWS;
+
+CALL logging('stg_inventory','-- Inventory successfully loaded');
+
+COMMIT;
+
