@@ -462,3 +462,68 @@ CALL logging('inventory','stg_inventory TO inventory');
 
 COMMIT;
 
+
+-- shift 
+
+START TRANSACTION;
+
+INSERT INTO shift
+SELECT *
+FROM stg_shift;
+
+CALL logging('shift','stg_shift TO shift');
+
+COMMIT;
+
+
+-- staff
+
+START TRANSACTION;
+
+INSERT INTO staff
+SELECT *
+FROM stg_staff;
+
+CALL logging('staff','stg_staff TO staff');
+
+COMMIT;
+
+
+-- suppliers
+
+START TRANSACTION;
+
+INSERT INTO suppliers
+SELECT *
+FROM stg_suppliers;
+
+CALL logging('suppliers','stg_suppliers TO suppliers');
+
+COMMIT;
+
+
+
+-- ingredients
+
+START TRANSACTION;
+
+INSERT INTO ingredients
+SELECT *
+FROM stg_ingredients;
+
+CALL logging('ingredients','stg_ingredients TO ingredients');
+
+COMMIT;
+
+-- recipe
+
+START TRANSACTION;
+
+INSERT INTO recipe
+SELECT *
+FROM stg_recipe;
+
+CALL logging('recipe','stg_recipe TO recipe');
+
+COMMIT;
+
