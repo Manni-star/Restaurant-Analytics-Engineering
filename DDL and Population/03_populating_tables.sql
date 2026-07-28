@@ -590,3 +590,40 @@ CALL logging('orders','stg_orders TO orders');
 COMMIT;
 
 
+-------------------------------------------
+-- STEP 6 — DROP STAGING TABLES 
+-------------------------------------------
+
+
+SHOW TABLES LIKE 'stg_%';
+
+
+DROP TABLES IF EXISTS stg_customers;
+DROP TABLES IF EXISTS stg_address;
+DROP TABLES IF EXISTS stg_items;
+DROP TABLES IF EXISTS stg_inventory;
+DROP TABLES IF EXISTS stg_shift;
+DROP TABLES IF EXISTS stg_staff;
+DROP TABLES IF EXISTS stg_suppliers;
+DROP TABLES IF EXISTS stg_ingredients;
+DROP TABLES IF EXISTS stg_recipe;
+DROP TABLES IF EXISTS stg_rota;
+DROP TABLES IF EXISTS stg_ingredients_supplier;
+DROP TABLES IF EXISTS stg_inventory_transactions;
+DROP TABLES IF EXISTS stg_inventory_daily_snapshot;
+DROP TABLES IF EXISTS stg_orders;
+
+
+
+SET FOREIGN_KEY_CHECKS = 1; 
+SET GLOBAL local_infile = 0; 
+
+
+SELECT 
+    TABLE_NAME AS 'Table Name', 
+    TABLE_ROWS AS 'Row Count'
+FROM INFORMATION_SCHEMA.TABLES
+WHERE TABLE_SCHEMA = 'restaurant_operations_analytics'
+ORDER BY TABLE_ROWS DESC;
+
+
