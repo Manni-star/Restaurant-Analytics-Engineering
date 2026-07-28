@@ -2043,3 +2043,234 @@ GROUP BY
     i.item_name
 ORDER BY 
 	baseline_true_net_profit DESC;
+    
+    
+    
+    
+    
+-- ==========================================================
+-- 	 MART 6 — Executive Decision Intelligence Mart
+-- ===========================================================
+
+-- 1. Revenue Growth Rate (Trend-Based KPI):
+
+-- Business Queston: 
+-- Is the business growing, and at what rate over time ?
+
+
+WITH daily_revenue AS (
+    SELECT
+        DATE(o.created_at) AS order_date,
+        SUM(o.quantity * i.item_price * 1.70) AS revenue
+    FROM orders o
+    JOIN items i
+        ON o.item_id = i.item_id
+    GROUP BY DATE(o.created_at)
+),
+
+growth AS (
+    SELECT
+        order_date,
+        revenue,
+
+        LAG(revenue) OVER (ORDER BY order_date) AS prev_revenue
+    FROM daily_revenue
+)
+
+SELECT
+    order_date,
+    revenue,
+    prev_revenue,
+
+    (revenue - prev_revenue) AS revenue_change,
+
+    (revenue - prev_revenue) / NULLIF(prev_revenue, 0) AS growth_rate
+FROM growth;
+
+
+
+
+-- 2. ORDER THROUGHPUT VELOCITY (Operational Throughput):
+
+-- Business Question: How fast is the system processing orders over time?
+
+-- ORDER THROUGHPUT VELOCITY:
+SELECT
+    DATE(created_at) AS order_date,
+    
+    COUNT(DISTINCT order_id) AS total_orders,
+    
+    COUNT(*) AS total_order_lines,
+    
+	 -- Order Density:
+    ROUND(COUNT(*) / NULLIF(COUNT(DISTINCT order_id), 0), 2) AS order_line_density_velocity, -- Order DENSITY aka Avg. "Basket Size"
+
+     -- True Velocity: The average number of items packed inside a single order ticket
+	COUNT(DISTINCT order_id) AS order_velocity 
+
+FROM orders
+GROUP BY 
+    DATE(created_at)
+ORDER BY 
+    order_date ASC;
+
+
+
+
+
+
+-- 3. Product Concentration Risk (HHI Index):
+
+-- i.e. GLOBAL ENTERPRISE REVENUE CONCENTRATION (HHI)
+
+-- CREATE VIEW product_risk_exposure AS
+WITH product_revenue_contributions AS (
+    -- STEP 1:
+    SELECT
+        o.item_id,
+        SUM(o.quantity * i.item_price * 1.70) AS item_lifetime_revenue
+    FROM orders o
+    JOIN items i ON o.item_id = i.item_id
+    GROUP BY o.item_id
+),
+
+market_share_matrix AS (
+    -- STEP 2: Calculate every item's percentage fraction of the whole company's revenue
+    SELECT
+        item_id,
+        item_lifetime_revenue,
+        (item_lifetime_revenue / (SELECT SUM(item_lifetime_revenue) FROM product_revenue_contributions)) * 100 AS market_share_percentage
+    FROM product_revenue_contributions
+)
+
+-- STEP 3: THE GLOBAL HHI BOARDROOM CALCULATOR
+SELECT
+	item_id,
+    POWER(market_share_percentage, 2) AS risk_component
+
+FROM market_share_matrix;
+
+SELECT
+	
+    ROUND(
+		SUM(risk_component) 
+	) AS hhi_product,
+
+    -- Structural Risk Interpretation (DOJ Guidelines)
+    CASE 
+        WHEN SUM(risk_component) < 1500 THEN 'SAFE: Highly diversified revenue portfolio.'
+        WHEN SUM(risk_component) BETWEEN 1500 AND 2500 THEN 'MODERATE CONCENTRATION: Monitor menu dependencies.'
+        ELSE 'CRITICAL SYSTEMIC RISK: Revenue highly concentrated! Single point of failure imminent.'
+    END AS portfolio_concentration_risk_profile
+    
+FROM product_risk_exposure;   -- HHI score = 417
+
+
+
+
+
+
+-- 4. Supplier Risk Exposure Index:
+
+-- SUPPLY CHAIN RISK EXPOSURE INDEX
+
+-- CREATE VIEW supplier_risk_exposure AS
+WITH supplier_spend AS (
+    SELECT
+        supplier_id,
+        SUM(change_qty) AS total_qty
+    FROM inventory_transactions
+    WHERE transaction_type = 'PURCHASE_ORDER'
+    GROUP BY supplier_id
+),
+
+total AS (
+    SELECT SUM(total_qty) AS grand_total
+    FROM supplier_spend
+)
+
+SELECT
+    s.supplier_id,
+    s.total_qty,
+
+    (s.total_qty / t.grand_total) AS supplier_share,  -- supply share is Not used as a Percentage
+
+    POWER((s.total_qty / t.grand_total), 2) AS risk_component  -- Note: We left out SUM() to preserve Row_Wise calculation (Unlike HHI)
+FROM supplier_spend s
+CROSS JOIN total t;
+
+
+SELECT
+	ROUND(
+		SUM(risk_component) * 10000
+	) AS hhi_supplier
+FROM supplier_risk_exposure sre;  -- HHI score = 2771
+
+
+
+
+
+-- 5. Business Momentum Score (Composite KPI):
+
+-- Business Question: Is the business growing, and at what rate over time?
+-- What is the overall health of the business?
+
+
+-- ENTERPRISE BUSINESS MOMENTUM SCORECARD
+WITH raw_monthly_metrics AS (
+    -- STEP 1: Aggregate baseline financial and operational metrics month-by-month
+    SELECT
+        DATE_FORMAT(DATE(o.created_at), '%Y-%m') AS fiscal_month,
+        ROUND(SUM(o.quantity * i.item_price * 1.70), 2) AS gross_sales, -- Metric 1
+        COUNT(DISTINCT o.order_id) AS ticket_velocity, -- Metric 2
+        COUNT(o.item_id) AS physical_items_cooked -- Metric 3
+    FROM orders o
+    JOIN items i ON o.item_id = i.item_id
+    GROUP BY DATE_FORMAT(DATE(o.created_at), '%Y-%m')
+),
+
+historical_momentum_shifts AS (
+    -- STEP 2: Use window functions to track month-over-month growth directions
+    SELECT
+        fiscal_month,
+        gross_sales,
+        ticket_velocity,
+        -- Pull previous month data sideways
+        LAG(gross_sales) OVER (ORDER BY fiscal_month ASC) AS prev_sales, -- Metric 1 LAG
+        LAG(ticket_velocity) OVER (ORDER BY fiscal_month ASC) AS prev_tickets -- Metric 2 LAG
+    FROM raw_monthly_metrics
+)
+
+-- STEP 3: THE COMPOSITE CORPORATE HEALTH GRADE MATRIX
+SELECT
+    fiscal_month,
+    gross_sales,  -- Metric 1
+    ticket_velocity,  -- Metric 2
+    
+    -- THE BLENDED PERFORMANCE COMPOSITE SCORE (Standardized scale out of 100)
+	-- ax + by + c; a= sales growth rate; b = order volume growth rate; x = 40%, y = 60%, c = +50 (neutral center anchor)
+    ROUND(
+        ( ( (gross_sales - prev_sales) / NULLIF(prev_sales, 0) * 40 ) + 
+          ( (ticket_velocity - prev_tickets) / NULLIF(prev_tickets, 0) * 60 ) + 50 )
+    , 1) AS corporate_momentum_index_score, 
+    
+    -- The Absolute Health Grade
+    CASE 
+        WHEN ( ( (gross_sales - prev_sales) / NULLIF(prev_sales, 0) * 40 ) + 
+			( (ticket_velocity - prev_tickets) / NULLIF(prev_tickets, 0) * 60 ) 
+            + 50 ) >= 65.0 
+				THEN 'GRADE A: Strong Market Acceleration'
+            
+        WHEN ( ( (gross_sales - prev_sales) / NULLIF(prev_sales, 0) * 40 ) + 
+			( (ticket_velocity - prev_tickets) / NULLIF(prev_tickets, 0) * 60 ) 
+            + 50 ) BETWEEN 45.0 AND 64.9 
+				THEN 'GRADE B: Stable Maintenance Pace'
+        ELSE 'GRADE F: Severe Capital De-acceleration! Review Strategy Dashboard.'
+    END AS overall_enterprise_health_grade
+
+FROM historical_momentum_shifts
+WHERE prev_sales IS NOT NULL -- Strips the initial baseline setup month for accurate trend plotting
+ORDER BY fiscal_month ASC;
+
+-- Metric-3 was omitted from equation to prevent multi-collinearity and tracking redundancy.
+-- This metric is heavily co-linear with Metric 2 (ticket_velocity) 
