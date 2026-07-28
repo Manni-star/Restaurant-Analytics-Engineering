@@ -548,3 +548,271 @@ GROUP BY
     ing_name
 ORDER BY 
     cumulative_risk_score DESC; -- Brings the absolute highest risk items to the top
+    
+    
+    
+    
+-- ================================================
+-- 		MART 3 — Procurement Intelligence Mart
+-- ================================================
+
+-- 1. Supplier Dependency Concentration Index:
+
+-- Are we over-dependent on a few suppliers for ingredients? (i.e. Monopoly vs Diversity)
+
+WITH base AS (
+SELECT
+	ing_id,
+    supplier_id,
+    COUNT(*) AS total_orders_by_supplier,
+    SUM(change_qty) AS supplier_volume,
+    SUM(SUM(change_qty)) OVER (PARTITION BY ing_id) AS total_volume
+FROM inventory_transactions
+WHERE transaction_type = "PURCHASE_ORDER"
+GROUP BY
+	ing_id,
+    supplier_id	
+),
+
+ratios AS (
+SELECT
+	b.*,
+    ROUND((supplier_volume / total_volume), 2) AS supplier_dependency_ratio  -- represents "proportional Volume" i.e. Market Share
+FROM base b
+)
+
+SELECT 
+	r.*,
+    -- Window function computes the overall Ingredient Risk Index (HHI: Herfindahl-Hirschman Index)
+    ROUND(
+		SUM(
+			POWER(supplier_dependency_ratio, 2)  -- ratio squared (then Summed against ing_id Bucket)
+		) 
+		OVER(PARTITION BY ing_id),
+	2) AS ingredient_hhi_risk_index  -- HHI: represents monopoly vs diversity
+FROM ratios r
+ORDER BY ing_id, supplier_id;
+
+
+
+
+-- 2. Supplier Reliability Score (Lead-Time Stability):
+
+-- It is Lead Time Consistency, i.e. Which suppliers deliver consistently (low lead-time variation) ?
+
+ -- "Actual" Lead Time is derived from inventory_transactions table. 
+ 
+ CREATE VIEW v_lead_time AS
+  WITH continuous_stream AS (
+    SELECT 
+        supplier_id,
+        ing_id,
+        transaction_type,
+        transaction_date,
+        -- Generate the uniform timeline
+        ROW_NUMBER() OVER(
+            PARTITION BY supplier_id, ing_id 
+            ORDER BY transaction_date, transaction_id
+        ) AS global_seq -- Forming a Numbered Sequence for block-2
+    FROM inventory_transactions
+),
+delivery_lookup AS (
+    SELECT 
+        supplier_id,
+        ing_id,
+        transaction_type,
+        transaction_date AS order_date,
+        -- Look ahead in the continuous stream to grab the very next receipt date
+        MIN(CASE WHEN transaction_type = 'PURCHASE_RECEIPT' THEN transaction_date END)
+            OVER(
+                PARTITION BY supplier_id, ing_id
+                ORDER BY global_seq -- Riding on Previous Numbered Sequence
+                ROWS BETWEEN 1 FOLLOWING AND UNBOUNDED FOLLOWING
+            ) AS receipt_date
+    FROM continuous_stream
+)
+
+-- It Filters Purchase_Orders, because Purchase_Receipts also got "paired" by "ROWS BETWEEN 1 FOLLOWING... "
+SELECT 
+    supplier_id,
+    ing_id,
+    transaction_type,
+    order_date,
+    receipt_date,
+    DATEDIFF(receipt_date, order_date) AS lead_time
+FROM delivery_lookup
+WHERE transaction_type = 'PURCHASE_ORDER'  -- Filteration by "Purchase_Order" is absolutely critical !
+ORDER BY ing_id, order_date ASC;
+
+
+SELECT * FROM `v_lead_time`;
+
+
+-- Now we use lead_time column for Coefficient of Variation analysis i.e. Supplier Instability Score
+
+WITH sup_instability AS (
+SELECT 
+	supplier_id,
+    ing_id,
+    ROUND(
+		AVG(lead_time)
+	, 2) AS avg_lead_time,
+    ROUND(
+		STDDEV_SAMP(lead_time)
+	, 2) AS lead_time_volatility,
+    ROUND(
+		COALESCE(STDDEV_SAMP(lead_time) / AVG(lead_time), 0)
+	, 2) AS supplier_instability_score
+FROM v_lead_time
+GROUP BY
+	supplier_id,
+    ing_id
+)
+SELECT 
+	si.*,
+	(1 - supplier_instability_score)*100 AS sup_reliability_score
+FROM sup_instability si;
+	
+-- Result: All our Suppliers have Reliable Lead Time ( Score = 100% )
+
+   
+   
+-- Contract Slippage = Actual Lead Time − Static Contract Lead Time
+WITH sup_instability AS (
+SELECT 
+	supplier_id,
+    ing_id,
+    ROUND(
+		AVG(lead_time)
+	, 2) AS avg_lead_time,
+    ROUND(
+		STDDEV_SAMP(lead_time)
+	, 2) AS lead_time_volatility,
+    ROUND(
+		COALESCE(STDDEV_SAMP(lead_time) / AVG(lead_time), 0)
+	, 2) AS supplier_instability_score
+FROM v_lead_time
+GROUP BY
+	supplier_id,
+    ing_id
+),
+
+results AS (
+SELECT 
+	si.*,
+	(1 - supplier_instability_score)*100 AS sup_reliability_score
+FROM sup_instability si
+)
+
+SELECT
+	r.*,
+    ings.lead_time, -- Static Contract Lead Time
+    r.avg_lead_time - ings.lead_time AS contract_slippage
+FROM results r
+JOIN ingredients_supplier ings
+	ON r.supplier_id = ings.supplier_id
+    AND r.ing_id = ings.ing_id;
+
+
+
+
+
+-- 3. Purchase Order Burst Analysis:
+
+-- Are there sudden spikes in procurement activity?
+-- Procurement Burst is Reorder Cycle Velocity (Trigger Gaps).
+
+WITH receipt_lookback AS (
+SELECT 
+	t.*,
+    MAX(CASE WHEN transaction_type = "PURCHASE_RECEIPT" THEN transaction_date END)
+			OVER (
+				PARTITION BY ing_id
+                ORDER BY transaction_date ASC, transaction_type ASC
+                ROWS BETWEEN UNBOUNDED PRECEDING AND 1 PRECEDING  -- Looking in "reverse" !! e.g. Purchase Order --> Last Purchase Receipt
+			) AS previous_receipt_date
+FROM inventory_transactions t
+)
+SELECT 
+	rl.*,
+    DATEDIFF(transaction_date, previous_receipt_date) AS order_burst_days
+FROM receipt_lookback rl
+WHERE transaction_type = "PURCHASE_ORDER"
+	AND previous_receipt_date IS NOT NULL
+ORDER BY ing_id, transaction_date, transaction_id; 
+
+
+
+
+-- 4. Supplier Switching Frequency per Ingredient:
+
+-- How often do we switch suppliers for the same ingredient (i.e. Vendor Loyality)?
+
+--  LAG() first, and then FILTER in 2nd cte
+WITH ranked AS (
+    SELECT
+        ing_id,
+        supplier_id,
+        transaction_date,
+
+        LAG(supplier_id, 1, 0) OVER (
+            PARTITION BY ing_id
+            ORDER BY transaction_date
+        ) AS prev_supplier
+    FROM inventory_transactions
+    WHERE transaction_type = 'PURCHASE_ORDER'
+)
+SELECT
+    ing_id,
+	supplier_id,
+    COUNT(*) AS total_orders,
+    SUM(
+        CASE 
+            WHEN supplier_id != prev_supplier THEN 1 
+            ELSE 0 
+        END
+    ) AS supplier_switches
+FROM ranked
+WHERE transaction_date >= DATE_SUB(
+						DATE_FORMAT((SELECT MAX(transaction_date) FROM inventory_transactions), '%Y-%m-01'), 
+						INTERVAL 1 MONTH)
+GROUP BY 
+	ing_id,
+	supplier_id;
+
+
+
+
+-- 5. Procurement Spend Concentration (Financial Risk View)
+-- Which suppliers dominate procurement spend?
+
+
+-- Procurement Spend Concentration:
+WITH base AS (
+SELECT 
+	t.supplier_id,
+    t.ing_id,
+    SUM(t.change_qty) AS total_qty_purchased,  -- Purchase Volume
+    ing.ing_price * SUM(t.change_qty) AS spend  -- Financials
+FROM inventory_transactions t
+JOIN ingredients ing
+	ON t.ing_id = ing.ing_id
+WHERE t.transaction_type = "PURCHASE_ORDER"
+GROUP BY 
+	t.supplier_id, 
+    t.ing_id
+)
+SELECT
+	supplier_id,
+    SUM(spend) AS supplier_spend,
+    SUM(SUM(spend)) OVER() AS total_spend,
+    
+	ROUND(
+		(SUM(spend) /
+			SUM(SUM(spend)) OVER()) * 100
+	, 2) AS spend_percentage_share
+    
+FROM base b
+GROUP BY 
+	supplier_id
+ORDER BY spend_percentage_share DESC;
