@@ -527,3 +527,66 @@ CALL logging('recipe','stg_recipe TO recipe');
 
 COMMIT;
 
+-- rota
+
+START TRANSACTION;
+
+INSERT INTO rota
+SELECT *
+FROM stg_rota;
+
+CALL logging('rota','stg_rota TO rota');
+
+COMMIT;
+
+-- ingredients_supplier
+
+START TRANSACTION;
+
+INSERT INTO ingredients_supplier
+SELECT *
+FROM stg_ingredients_supplier;
+
+CALL logging('ingredients_supplier','stg_ingredients_supplier TO ingredients_supplier');
+
+COMMIT;
+
+-- inventory_transactions
+
+START TRANSACTION;
+
+INSERT INTO inventory_transactions
+SELECT *
+FROM stg_inventory_transactions;
+
+CALL logging('inventory_transactions','stg_inventory_transactions TO inventory_transactions');
+
+COMMIT;
+
+
+-- inventory_daily_snapshot 
+
+START TRANSACTION;
+
+INSERT INTO inventory_daily_snapshot
+SELECT *
+FROM stg_inventory_daily_snapshot;
+
+CALL logging('inventory_daily_snapshot','stg_inventory_daily_snapshot TO inventory_daily_snapshot');
+
+COMMIT;
+
+
+-- orders
+
+START TRANSACTION;
+
+INSERT INTO orders
+SELECT *
+FROM stg_orders;
+
+CALL logging('orders','stg_orders TO orders');
+
+COMMIT;
+
+
