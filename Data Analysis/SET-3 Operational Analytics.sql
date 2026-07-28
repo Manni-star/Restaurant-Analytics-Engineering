@@ -816,3 +816,140 @@ FROM base b
 GROUP BY 
 	supplier_id
 ORDER BY spend_percentage_share DESC;
+
+
+
+
+-- ================================================
+-- 	 MART 4 — Scenario Simulation Mart 
+-- ================================================
+
+
+-- 1. Demand Shock Simulation (Scenario Scaling): (What-if Demand Increase)
+
+-- What happens to ingredient demand if Orders increase by X%? (Volume Increase)
+-- Find MAX X% Growth Rate from across all years
+-- So, (New Demand) = (1 + X) * (Base Demand)
+
+
+-- Layer 1: Establish the atomic baseline consumption per year by exploding sales down to the recipe grain
+WITH demand_base AS (
+	SELECT
+		YEAR(created_at) AS _year,
+		r.ingredients,
+        SUM(o.quantity * r.quantity_value) AS consumption
+	FROM orders o
+	JOIN items it
+		ON o.item_id = it.item_id  -- 55163 Rows
+	JOIN recipe r
+		ON r.sku = it.sku  -- 170822 Rows (Non-Ambiguous Fan-Out)
+	GROUP BY YEAR(created_at), r.ingredients
+    ORDER BY ingredients, _year
+),
+
+-- Layer 2: Chronological lookback to pull the preceding year's volume for velocity comparison
+base2 AS (
+	SELECT
+		db.*,
+		LAG(consumption, 1) OVER (PARTITION BY ingredients ORDER BY _year) AS prev_consumption
+	FROM demand_base db
+),
+
+-- Layer 3: Calculate the dynamic Year-over-Year (YoY) growth percentages
+base3 AS (
+SELECT
+	b2.*,
+    (consumption - prev_consumption) / prev_consumption AS yoy_consumption_rate,
+    MAX((consumption - prev_consumption) / prev_consumption) OVER(PARTITION BY ingredients) AS optimal_yoy
+FROM base2 b2
+),
+
+-- Layer 4: Capture the absolute highest historical growth rate per ingredient
+optimal_yoy AS (
+SELECT
+	ingredients,
+    MAX(optimal_yoy) AS optimal_yoy    -- Taking the absolute highest historical growth rate
+FROM base3 b3
+GROUP BY ingredients
+),
+
+-- Isolate the absolute latest full calendar year of demand 
+latest_year AS (
+	SELECT
+		YEAR(created_at) AS _year,
+		r.ingredients,
+        SUM(o.quantity * r.quantity_value) AS consumption
+	FROM orders o
+	JOIN items it
+		ON o.item_id = it.item_id  -- 55163 Rows
+	JOIN recipe r
+		ON r.sku = it.sku  -- 170822 Rows (Non-Ambiguous Fan-Out)
+	WHERE YEAR(created_at) >= 
+					(SELECT MAX(YEAR(created_at)) FROM orders)
+	GROUP BY YEAR(created_at), r.ingredients
+    ORDER BY ingredients, _year
+)
+
+-- Forecasting
+SELECT
+	ly.*,
+    oy.optimal_yoy,
+    
+    ROUND(
+		consumption * (1+optimal_yoy) 
+	) AS predicted_consmption_annual,   -- The Predictive Forecasting
+    
+    ROUND(consumption * (1+optimal_yoy)) -
+		consumption AS emergency_buffer_units
+    
+FROM optimal_yoy oy
+JOIN latest_year ly
+	ON oy.ingredients = ly.ingredients;
+
+
+
+
+
+
+-- 2. Ingredient Price Inflation Impact Simulation:
+
+-- What is the cost impact if ingredient prices increase? (Cost Increase)
+
+-- Scenario: +15% price increase
+-- So, (New Price) = 1.15 * (Base Price)
+
+
+WITH cost_base AS (
+    SELECT
+        r.ingredients AS ing_id,
+        ing.ing_price,
+        ing.ing_weight,
+
+        SUM(o.quantity * r.quantity_value) AS total_consumption
+    FROM orders o
+    JOIN items i 
+		ON o.item_id = i.item_id
+    JOIN recipe r 
+		ON i.sku = r.sku
+    JOIN ingredients ing 
+		ON r.ingredients = ing.ing_id
+	WHERE YEAR(created_at) >= 
+				(SELECT MAX(YEAR(created_at)) FROM orders)
+    GROUP BY r.ingredients, ing.ing_price, ing.ing_weight
+)
+
+SELECT
+    ing_id,
+
+    (ing_price / ing_weight) AS unit_cost,
+
+    total_consumption,
+
+    (total_consumption * (ing_price / ing_weight)) AS base_cost,
+
+    (total_consumption * (ing_price * 1.15 / ing_weight)) AS inflated_cost, -- (New Price) = 1.15 * (Base Price)
+
+    ((total_consumption * (ing_price * 1.15 / ing_weight)) 
+     - (total_consumption * (ing_price / ing_weight))) AS cost_impact
+FROM cost_base
+ORDER BY cost_impact DESC;
