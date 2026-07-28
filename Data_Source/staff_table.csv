@@ -1,0 +1,35 @@
+﻿staff_id,first_name,last_name,position,hourly_rate,employment_type,max_hours_per_week
+st0001,Mindy,Sloan,Head Chef,27,Full-Time,40
+st0002,Luqman,Cantu,Head Chef,27,Full-Time,40
+st0003,Sana,Black,Head Chef,27,Full-Time,40
+st0004,Faraz,Peck,Head Chef,27,Full-Time,40
+st0005,Arran,Hodgson,Sous Chef,23,Full-Time,40
+st0006,Seren,Lindsey,Sous Chef,23,Full-Time,40
+st0007,Talha,Portillo,Sous Chef,23,Full-Time,40
+st0008,Zachery,Robins,Sous Chef,23,Full-Time,40
+st0009,Lily-Rose,Vaughn,Chef,20,Full-Time,40
+st0010,Desiree,Gardner,Chef,20,Full-Time,40
+st0011,Ivan,English,Chef,20,Full-Time,40
+st0012,Jonathan,Bradford,Chef,20,Full-Time,40
+st0013,Matilda,McCarty,Chef,20,Full-Time,40
+st0014,Areeb,Vasquez,Kitchen Assistant,17,Part-Time,24
+st0015,Amiyah,Lambert,Kitchen Assistant,17,Part-Time,24
+st0016,Amrit,Greaves,Kitchen Assistant,17,Part-Time,24
+st0017,Nadia,Khan,Kitchen Assistant,17,Part-Time,24
+st0018,Omar,Sheikh,Kitchen Assistant,17,Part-Time,24
+st0019,Ethan,Cole,Server,16.55,Part-Time,24
+st0020,Olivia,Reed,Server,16.55,Part-Time,24
+st0021,Liam,Turner,Server,16.55,Part-Time,24
+st0022,Ava,Brooks,Server,16.55,Part-Time,24
+st0023,Noah,Hayes,Server,16.55,Part-Time,24
+st0024,Sophia,Bennett,Server,16.55,Part-Time,24
+st0025,Ryan,Foster,Delivery Driver,17.5,Part-Time,24
+st0026,Zoe,Simmons,Delivery Driver,17.5,Part-Time,24
+st0027,Lucas,Price,Delivery Driver,17.5,Part-Time,24
+st0028,Maya,Griffin,Delivery Driver,17.5,Part-Time,24
+st0029,Jayden,Cruz,Delivery Driver,17.5,Part-Time,24
+st0030,Hannah,Ward,Delivery Driver,17.5,Part-Time,24
+st0031,Daniel,Morris,Manager,30,Full-Time,40
+st0032,Chloe,Kelly,Manager,30,Full-Time,40
+st0033,Isaac,Stone,Cleaner,16.55,Part-Time,16
+st0034,Leah,Perry,Cleaner,16.55,Part-Time,16

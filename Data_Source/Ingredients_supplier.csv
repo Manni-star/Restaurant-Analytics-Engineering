@@ -1,0 +1,90 @@
+ing_sup_id,ing_id,ing_name,supplier_id,lead_time
+ing_sup_001,ing001,Flatbread Dough (8-pack),sup001,5
+ing_sup_002,ing001,Flatbread Dough (8-pack),sup002,3
+ing_sup_003,ing001,Flatbread Dough (8-pack),sup005,2
+ing_sup_004,ing002,Roasted Red Peppers,sup002,4
+ing_sup_005,ing002,Roasted Red Peppers,sup004,3
+ing_sup_006,ing003,Goat Cheese,sup003,2
+ing_sup_007,ing004,Black Olives,sup002,3
+ing_sup_008,ing004,Black Olives,sup004,4
+ing_sup_009,ing005,Sun-Dried Tomatoes,sup002,5
+ing_sup_010,ing005,Sun-Dried Tomatoes,sup004,4
+ing_sup_011,ing006,Spicy Chicken,sup004,2
+ing_sup_012,ing007,Jalapenos,sup002,3
+ing_sup_013,ing007,Jalapenos,sup007,4
+ing_sup_014,ing008,Smoked Gouda,sup003,3
+ing_sup_015,ing009,Chipotle Sauce,sup006,3
+ing_sup_016,ing010,Wild Mushrooms,sup002,5
+ing_sup_017,ing010,Wild Mushrooms,sup007,7
+ing_sup_018,ing010,Wild Mushrooms,sup004,3
+ing_sup_019,ing011,Truffle Oil,sup006,2
+ing_sup_020,ing012,Mozzarella,sup003,3
+ing_sup_021,ing013,Fresh Spinach,sup002,2
+ing_sup_022,ing013,Fresh Spinach,sup007,3
+ing_sup_023,ing014,Italian Sausage,sup004,2
+ing_sup_024,ing015,Roasted Garlic,sup002,3
+ing_sup_025,ing015,Roasted Garlic,sup004,3
+ing_sup_026,ing016,Red Onion,sup002,4
+ing_sup_027,ing016,Red Onion,sup007,3
+ing_sup_028,ing017,Fresh Basil,sup002,2
+ing_sup_029,ing017,Fresh Basil,sup007,3
+ing_sup_030,ing018,Smoked Salmon,sup004,4
+ing_sup_031,ing019,Dill Cream Cheese,sup003,3
+ing_sup_032,ing020,Capers,sup002,3
+ing_sup_033,ing020,Capers,sup006,4
+ing_sup_034,ing021,Arugula,sup002,5
+ing_sup_035,ing021,Arugula,sup007,6
+ing_sup_036,ing022,BBQ Brisket,sup004,2
+ing_sup_037,ing023,Cheddar Cheese,sup003,3
+ing_sup_038,ing024,BBQ Sauce,sup006,3
+ing_sup_039,ing025,Tandoori Chicken,sup004,2
+ing_sup_040,ing026,Mint Yogurt,sup003,3
+ing_sup_041,ing027,Green Chilli,sup002,4
+ing_sup_042,ing027,Green Chilli,sup007,3
+ing_sup_043,ing028,Grilled Pineapple,sup002,3
+ing_sup_044,ing028,Grilled Pineapple,sup004,3
+ing_sup_045,ing029,Pulled Pork,sup004,3
+ing_sup_046,ing030,Truffle Fries,sup005,3
+ing_sup_047,ing030,Truffle Fries,sup008,4
+ing_sup_048,ing030,Truffle Fries,sup002,5
+ing_sup_049,ing031,Parmesan,sup003,3
+ing_sup_050,ing032,Cauliflower Florets,sup002,2
+ing_sup_051,ing032,Cauliflower Florets,sup007,2
+ing_sup_052,ing032,Cauliflower Florets,sup004,4
+ing_sup_053,ing033,Buffalo Sauce,sup006,3
+ing_sup_054,ing034,Ranch,sup006,3
+ing_sup_055,ing035,Garlic Knots,sup001,3
+ing_sup_056,ing035,Garlic Knots,sup005,3
+ing_sup_057,ing036,Kale,sup002,3
+ing_sup_058,ing036,Kale,sup007,4
+ing_sup_059,ing037,Spinach,sup002,3
+ing_sup_060,ing037,Spinach,sup007,2
+ing_sup_061,ing038,Avocado,sup002,2
+ing_sup_062,ing038,Avocado,sup007,3
+ing_sup_063,ing039,Mixed Seeds,sup001,5
+ing_sup_064,ing039,Mixed Seeds,sup006,3
+ing_sup_065,ing040,Caramel Filling,sup001,3
+ing_sup_066,ing040,Caramel Filling,sup003,3
+ing_sup_067,ing040,Caramel Filling,sup005,4
+ing_sup_068,ing041,Chocolate Syrup,sup001,2
+ing_sup_069,ing041,Chocolate Syrup,sup006,3
+ing_sup_070,ing042,Espresso Panna Base,sup003,3
+ing_sup_071,ing042,Espresso Panna Base,sup006,4
+ing_sup_072,ing043,Vanilla Syrup,sup001,3
+ing_sup_073,ing043,Vanilla Syrup,sup006,2
+ing_sup_074,ing044,Berry Mix,sup002,3
+ing_sup_075,ing044,Berry Mix,sup007,4
+ing_sup_076,ing045,Oat Crumble,sup001,3
+ing_sup_077,ing045,Oat Crumble,sup005,2
+ing_sup_078,ing046,Mango Sticky Rice Mix,sup004,3
+ing_sup_079,ing046,Mango Sticky Rice Mix,sup001,5
+ing_sup_080,ing047,Cold Brew Coffee,sup006,3
+ing_sup_081,ing047,Cold Brew Coffee,sup008,4
+ing_sup_082,ing048,Cold Brew Coffee 1.5L,sup006,2
+ing_sup_083,ing048,Cold Brew Coffee 1.5L,sup008,3
+ing_sup_084,ing049,Ginger Fizz 33cl,sup008,3
+ing_sup_085,ing050,Ginger Fizz 1.5L,sup008,3
+ing_sup_086,ing051,Lime Mint Sparkle 33cl,sup008,2
+ing_sup_087,ing052,Lime Mint Sparkle 1.5L,sup008,3
+ing_sup_088,ing053,Berry Kombucha 33cl,sup008,3
+ing_sup_089,ing054,Berry Kombucha 1.5L,sup008,3

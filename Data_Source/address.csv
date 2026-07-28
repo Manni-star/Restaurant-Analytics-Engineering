@@ -1,0 +1,114 @@
+add_id,delivery_address,delivery_city,delivery_zipcode,latitude,longitude
+2,"456 Martinez Highway Suite 883",Etobicoke,"M9W 5Z6",43.717597,-79.587212
+4,"480 Sanford Islands",Etobicoke,"M8Z 4T7",43.619231,-79.513741
+10,"789 Mack Corner Apt. 414",Toronto,"M5V 3M2",43.648678,-79.395587
+33,"39938 Anderson Circles",Brampton,"L6Y 4T3",43.666959,-79.745385
+43,"7159 Griffin Gateway Suite 100",Brampton,"L6Y 4T3",43.662362,-79.744018
+59,"4766 Williams Pines",Toronto,"M4L 2C4",43.670961,-79.316160
+71,"7163 Shannon Coves",Toronto,"M6H 2R1",43.656902,-79.433205
+73,"4052 Schroeder Ramp Apt. 300",Mississauga,"L4T 1A1",43.704107,-79.640676
+76,"994 James Cape Suite 035",Toronto,"M6H 2R1",43.661263,-79.430871
+88,"112 David Glens Suite 174",Toronto,"M4L 2C4",43.670707,-79.320325
+97,"35665 Gibson Well",Toronto,"M5V 3M2",43.645137,-79.395420
+100,"4451 Matthew Springs Apt. 719",Etobicoke,"M9W 5Z6",43.709427,-79.590883
+105,"0502 Le Mall Apt. 265",Mississauga,"L5B 2T5",43.597264,-79.644851
+111,"97353 Mark Ports",Mississauga,"L4T 1A1",43.704328,-79.641753
+115,"244 Lynch Island",Toronto,"M5V 3M2",43.644557,-79.391097
+137,"890 Perkins Loop Suite 160",Toronto,"M4L 2C4",43.663877,-79.324829
+155,"07082 Horton Shoals",Etobicoke,"M8Y 1A3",43.633923,-79.498471
+157,"5662 Maria Courts Suite 709",Etobicoke,"M8Y 1A3",43.635456,-79.501203
+183,"34636 Kara Divide Suite 104",Etobicoke,"M9W 5Z6",43.714086,-79.585861
+189,"099 Hogan Spurs",Etobicoke,"M8Y 1A3",43.631491,-79.496445
+197,"317 Christian Islands Suite 442",Brampton,"L6Y 4T3",43.667830,-79.744586
+215,"5983 Tyler Corner",Etobicoke,"M8Y 1A3",43.630856,-79.498479
+216,"5259 Linda Flat Apt. 486",Mississauga,"L4T 1A1",43.702819,-79.644465
+219,"06051 Mark Overpass",Mississauga,"L4T 1A1",43.705083,-79.645001
+220,"362 Kathryn Coves",Etobicoke,"M9W 5Z6",43.714213,-79.587576
+225,"9624 Jensen Light Apt. 480",Mississauga,"L5B 2T5",43.592807,-79.638554
+231,"8962 Martinez Extensions",Etobicoke,"M8Y 1A3",43.627869,-79.502565
+245,"375 Smith Estate Apt. 633",Scarborough,"M1W 3K4",43.802928,-79.317135
+247,"2379 Foster Mall",Brampton,"L6Y 4T3",43.668765,-79.744694
+251,"7581 Christina Mission Apt. 838",Toronto,"M6H 2R1",43.663206,-79.434933
+255,"7998 Robinson Freeway Apt. 459",Mississauga,"L4T 1A1",43.706486,-79.641001
+267,"015 Bates Lodge",Mississauga,"L5B 2T5",43.593524,-79.644455
+272,"842 Wheeler Parks",Mississauga,"L5B 2T5",43.588721,-79.644980
+286,"542 Emily Views Apt. 364",Etobicoke,"M8Z 4T7",43.626638,-79.518748
+287,"85468 Bridges Place Suite 453",Etobicoke,"M8Y 1A3",43.635179,-79.502336
+292,"4560 Larry Islands Suite 150",Toronto,"M6H 2R1",43.664581,-79.431571
+293,"65345 Caleb Terrace",Etobicoke,"M8Y 1A3",43.631838,-79.493219
+304,"35710 Kimberly Forges",Toronto,"M4L 2C4",43.663173,-79.318790
+313,"401 Sabrina Mountains Apt. 699",Etobicoke,"M8Y 1A3",43.635686,-79.498962
+314,"977 Smith Ramp",Toronto,"M6H 2R1",43.664952,-79.436450
+344,"36054 Justin Squares",Brampton,"L6Y 4T3",43.664625,-79.741615
+346,"64252 Crawford Extensions",Toronto,"M4L 2C4",43.670443,-79.316475
+347,"30137 Cheryl Mountain Suite 616",Etobicoke,"M8Z 4T7",43.623313,-79.510459
+354,"84821 Hartman Hills Apt. 262",Brampton,"L6Y 4T3",43.668253,-79.742118
+356,"3229 Jonathan Trail",Etobicoke,"M8Y 1A3",43.631786,-79.500385
+360,"8352 Yates Avenue",Etobicoke,"M8Y 1A3",43.635246,-79.494879
+390,"747 Gloria Burgs",Brampton,"L6Y 4T3",43.664041,-79.740110
+392,"90915 Matthew Greens",Toronto,"M6H 2R1",43.662097,-79.438726
+409,"051 Kimberly Square",Brampton,"L6Y 4T3",43.664992,-79.737596
+411,"72248 Teresa Parkways Suite 976",Toronto,"M6H 2R1",43.660081,-79.438142
+413,"84638 Linda Spurs Apt. 109",Mississauga,"L4T 1A1",43.709022,-79.638034
+425,"0370 Hunt Courts",Toronto,"M4L 2C4",43.666055,-79.325805
+430,"522 Smith Mission",Mississauga,"L4T 1A1",43.701280,-79.640001
+474,"8370 Johnson Brook Suite 499",Etobicoke,"M9W 5Z6",43.717117,-79.586808
+477,"753 Richard Divide",Toronto,"M4L 2C4",43.672379,-79.325226
+498,"62922 Kelli Island Apt. 640",Brampton,"L6Y 4T3",43.666418,-79.741692
+501,"208 Alicia Manor Apt. 886",Mississauga,"L5B 2T5",43.595947,-79.640581
+518,"207 Wilson Rapids",Toronto,"M6H 2R1",43.656435,-79.435608
+522,"836 Jarvis Spur Suite 719",Toronto,"M5V 3M2",43.640618,-79.394393
+541,"275 Sara Villages Suite 988",Etobicoke,"M8Y 1A3",43.632213,-79.494689
+547,"9916 Carl Glen",Etobicoke,"M8Z 4T7",43.624593,-79.518382
+550,"283 Patton Port",Etobicoke,"M9W 5Z6",43.717607,-79.587108
+559,"80719 Mark Glen Apt. 849",Toronto,"M6H 2R1",43.663219,-79.430709
+562,"730 Alicia Flat",Etobicoke,"M8Y 1A3",43.629569,-79.494311
+567,"301 Kimberly Vista",Etobicoke,"M8Z 4T7",43.622419,-79.513071
+575,"871 Katherine Street",Toronto,"M5V 3M2",43.642765,-79.398208
+607,"77769 Thomas Inlet Suite 983",Mississauga,"L4T 1A1",43.703605,-79.639021
+642,"6644 Kyle Points",Toronto,"M4L 2C4",43.664059,-79.319728
+650,"1793 Jaime Neck",Mississauga,"L5B 2T5",43.590388,-79.646122
+672,"987 Bennett Club",Scarborough,"M1W 3K4",43.803290,-79.322818
+675,"595 Barbara Way",Mississauga,"L4T 1A1",43.700703,-79.638075
+678,"0406 Cody Vista Apt. 017",Etobicoke,"M8Y 1A3",43.627053,-79.502205
+688,"3348 Glenn Path Apt. 110",Toronto,"M4L 2C4",43.668871,-79.316730
+714,"757 Steven Ports Suite 610",Toronto,"M5V 3M2",43.642691,-79.393403
+717,"8264 Aguilar Manor Suite 528",Etobicoke,"M8Y 1A3",43.626325,-79.493906
+720,"43997 Lowery Shore",Etobicoke,"M8Z 4T7",43.626308,-79.516882
+725,"856 Mills Dale Suite 562",Brampton,"L6Y 4T3",43.666398,-79.743097
+726,"223 Fowler Extension Suite 890",Scarborough,"M1W 3K4",43.804978,-79.319541
+738,"24419 Patricia Vista",Toronto,"M4L 2C4",43.672519,-79.317329
+739,"0597 Lisa Roads",Etobicoke,"M8Z 4T7",43.622643,-79.514915
+755,"4731 Judith Dam Apt. 109",Brampton,"L6Y 4T3",43.666738,-79.737365
+761,"3940 Robin Forges Apt. 334",Mississauga,"L5B 2T5",43.594219,-79.642365
+762,"294 Joseph Vista Suite 170",Brampton,"L6Y 4T3",43.663370,-79.744115
+763,"69427 Murray Burgs Suite 358",Etobicoke,"M8Z 4T7",43.618662,-79.516761
+768,"996 Vance Branch",Toronto,"M6H 2R1",43.658481,-79.435365
+772,"610 Carmen Drive",Etobicoke,"M8Z 4T7",43.618399,-79.518917
+773,"426 Hayden Junction",Mississauga,"L4T 1A1",43.707059,-79.637298
+778,"21165 John Spurs",Toronto,"M5V 3M2",43.643520,-79.393529
+788,"0983 Hart Ranch",Etobicoke,"M8Z 4T7",43.620218,-79.513448
+790,"613 Davis Stream Apt. 884",Toronto,"M5V 3M2",43.644108,-79.395056
+799,"9046 Maxwell Turnpike",Toronto,"M6H 2R1",43.656352,-79.439174
+812,"192 Anita Stream",Scarborough,"M1W 3K4",43.800784,-79.319395
+828,"99808 Keller Unions",Etobicoke,"M9W 5Z6",43.712903,-79.589681
+850,"69307 Michael Trail",Toronto,"M4L 2C4",43.663143,-79.316669
+862,"3166 Larson Forge",Mississauga,"L4T 1A1",43.705272,-79.645219
+864,"886 Nicole Grove",Scarborough,"M1W 3K4",43.805406,-79.323588
+870,"010 Thomas Prairie",Scarborough,"M1W 3K4",43.803895,-79.316124
+872,"49749 Cruz Crossing Apt. 576",Etobicoke,"M9W 5Z6",43.718748,-79.588423
+881,"712 Mitchell Ridge",Brampton,"L6Y 4T3",43.668138,-79.744937
+885,"15230 Diaz Forge Apt. 953",Etobicoke,"M8Y 1A3",43.629279,-79.495526
+894,"301 Christine Harbor",Scarborough,"M1W 3K4",43.797874,-79.315216
+922,"837 Brown Neck",Toronto,"M5V 3M2",43.649676,-79.396326
+925,"5808 Audrey Points",Mississauga,"L4T 1A1",43.703163,-79.639474
+927,"11755 Tammy Throughway Apt. 072",Mississauga,"L5B 2T5",43.594963,-79.644626
+942,"7794 Cox Station",Brampton,"L6Y 4T3",43.670060,-79.745831
+949,"454 Cohen Alley",Brampton,"L6Y 4T3",43.670229,-79.745002
+962,"8130 Leblanc Terrace",Etobicoke,"M8Z 4T7",43.622621,-79.515059
+963,"67244 Linda Radial Suite 728",Etobicoke,"M9W 5Z6",43.713697,-79.590362
+965,"97903 Johnson Corner",Brampton,"L6Y 4T3",43.670904,-79.744839
+981,"62020 David Ridges",Toronto,"M4L 2C4",43.664149,-79.317292
+992,"119 Sandra Drive Apt. 707",Brampton,"L6Y 4T3",43.665891,-79.743540
+995,"24889 David Avenue",Scarborough,"M1W 3K4",43.799220,-79.320688
+1000,"4581 Christina Dale Suite 907",Etobicoke,"M8Y 1A3",43.631683,-79.495935

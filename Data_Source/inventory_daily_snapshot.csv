@@ -1,0 +1,255 @@
+snap_id,snapshot_date,ing_id,ing_name,opening_stock,consumed_packages,closing_stock,pending_order
+snap00001,2023-02-16,ing001,"Flatbread Dough (8-pack)",38,4,34,N
+snap00002,2023-02-16,ing002,"Roasted Red Peppers",22,0,22,N
+snap00003,2023-02-16,ing003,"Goat Cheese",15,1,14,N
+snap00004,2023-02-16,ing004,"Black Olives",27,0,27,N
+snap00005,2023-02-16,ing005,"Sun-Dried Tomatoes",18,0,18,N
+snap00006,2023-02-16,ing006,"Spicy Chicken",12,1,11,N
+snap00007,2023-02-16,ing007,Jalapenos,25,2,23,N
+snap00008,2023-02-16,ing008,"Smoked Gouda",14,1,13,N
+snap00009,2023-02-16,ing009,"Chipotle Sauce",20,0,20,N
+snap00010,2023-02-16,ing010,"Wild Mushrooms",18,1,17,N
+snap00011,2023-02-16,ing011,"Truffle Oil",8,1,7,N
+snap00012,2023-02-16,ing012,Mozzarella,24,1,23,N
+snap00013,2023-02-16,ing013,"Fresh Spinach",17,0,17,N
+snap00014,2023-02-16,ing014,"Italian Sausage",13,1,12,N
+snap00015,2023-02-16,ing015,"Roasted Garlic",19,0,19,N
+snap00016,2023-02-16,ing016,"Red Onion",26,1,25,N
+snap00017,2023-02-16,ing017,"Fresh Basil",10,0,10,N
+snap00018,2023-02-16,ing018,"Smoked Salmon",9,4,5,N
+snap00019,2023-02-16,ing019,"Dill Cream Cheese",14,2,12,N
+snap00020,2023-02-16,ing020,Capers,11,1,10,N
+snap00021,2023-02-16,ing021,Arugula,17,1,16,N
+snap00022,2023-02-16,ing022,"BBQ Brisket",11,1,10,N
+snap00023,2023-02-16,ing023,"Cheddar Cheese",16,1,15,N
+snap00024,2023-02-16,ing024,"BBQ Sauce",18,0,18,N
+snap00025,2023-02-16,ing025,"Tandoori Chicken",12,0,12,N
+snap00026,2023-02-16,ing026,"Mint Yogurt",14,0,14,N
+snap00027,2023-02-16,ing027,"Green Chilli",9,0,9,N
+snap00028,2023-02-16,ing028,"Grilled Pineapple",13,2,11,N
+snap00029,2023-02-16,ing029,"Pulled Pork",10,3,7,N
+snap00030,2023-02-16,ing030,"Truffle Fries",26,1,25,N
+snap00031,2023-02-16,ing031,Parmesan,10,0,10,N
+snap00032,2023-02-16,ing032,"Cauliflower Florets",22,1,21,N
+snap00033,2023-02-16,ing033,"Buffalo Sauce",15,0,15,N
+snap00034,2023-02-16,ing034,Ranch,14,0,14,N
+snap00035,2023-02-16,ing035,"Garlic Knots",33,0,33,N
+snap00036,2023-02-16,ing036,Kale,20,0,20,N
+snap00037,2023-02-16,ing037,Spinach,19,1,18,N
+snap00038,2023-02-16,ing038,Avocado,15,0,15,N
+snap00039,2023-02-16,ing039,"Mixed Seeds",17,0,17,N
+snap00040,2023-02-16,ing040,"Caramel Filling",16,1,15,N
+snap00041,2023-02-16,ing041,"Chocolate Syrup",18,0,18,N
+snap00042,2023-02-16,ing042,"Espresso Panna Base",13,0,13,N
+snap00043,2023-02-16,ing043,"Vanilla Syrup",10,0,10,N
+snap00044,2023-02-16,ing044,"Berry Mix",22,0,22,N
+snap00045,2023-02-16,ing045,"Oat Crumble",18,0,18,N
+snap00046,2023-02-16,ing046,"Mango Sticky Rice Mix",20,1,19,N
+snap00047,2023-02-16,ing047,"Cold Brew Coffee",75,9,66,N
+snap00048,2023-02-16,ing048,"Cold Brew Coffee 1.5L",48,1,47,N
+snap00049,2023-02-16,ing050,"Ginger Fizz 1.5L",55,5,50,N
+snap00050,2023-02-16,ing051,"Lime Mint Sparkle 33cl",80,3,77,N
+snap00051,2023-02-16,ing052,"Lime Mint Sparkle 1.5L",54,8,46,N
+snap00052,2023-02-16,ing053,"Berry Kombucha 33cl",78,3,75,N
+snap00053,2023-02-17,ing001,"Flatbread Dough (8-pack)",34,5,29,N
+snap00054,2023-02-17,ing002,"Roasted Red Peppers",22,0,22,N
+snap00055,2023-02-17,ing003,"Goat Cheese",14,1,13,N
+snap00056,2023-02-17,ing004,"Black Olives",27,0,27,N
+snap00057,2023-02-17,ing005,"Sun-Dried Tomatoes",18,0,18,N
+snap00058,2023-02-17,ing006,"Spicy Chicken",11,1,10,N
+snap00059,2023-02-17,ing007,Jalapenos,23,2,21,N
+snap00060,2023-02-17,ing008,"Smoked Gouda",13,1,12,N
+snap00061,2023-02-17,ing009,"Chipotle Sauce",20,0,20,N
+snap00062,2023-02-17,ing010,"Wild Mushrooms",17,1,16,N
+snap00063,2023-02-17,ing011,"Truffle Oil",7,1,6,N
+snap00064,2023-02-17,ing012,Mozzarella,23,1,22,N
+snap00065,2023-02-17,ing013,"Fresh Spinach",17,1,16,N
+snap00066,2023-02-17,ing014,"Italian Sausage",12,1,11,N
+snap00067,2023-02-17,ing015,"Roasted Garlic",19,0,19,N
+snap00068,2023-02-17,ing016,"Red Onion",25,1,24,N
+snap00069,2023-02-17,ing017,"Fresh Basil",10,0,10,N
+snap00070,2023-02-17,ing018,"Smoked Salmon",5,1,4,Y
+snap00071,2023-02-17,ing019,"Dill Cream Cheese",12,0,12,N
+snap00072,2023-02-17,ing020,Capers,10,0,10,N
+snap00073,2023-02-17,ing021,Arugula,16,0,16,N
+snap00074,2023-02-17,ing022,"BBQ Brisket",10,0,10,N
+snap00075,2023-02-17,ing023,"Cheddar Cheese",15,0,15,N
+snap00076,2023-02-17,ing024,"BBQ Sauce",18,0,18,N
+snap00077,2023-02-17,ing025,"Tandoori Chicken",12,1,11,N
+snap00078,2023-02-17,ing026,"Mint Yogurt",14,0,14,N
+snap00079,2023-02-17,ing027,"Green Chilli",9,0,9,N
+snap00080,2023-02-17,ing028,"Grilled Pineapple",11,1,10,N
+snap00081,2023-02-17,ing029,"Pulled Pork",7,2,5,N
+snap00082,2023-02-17,ing030,"Truffle Fries",25,0,25,N
+snap00083,2023-02-17,ing031,Parmesan,10,0,10,N
+snap00084,2023-02-17,ing032,"Cauliflower Florets",21,1,20,N
+snap00085,2023-02-17,ing033,"Buffalo Sauce",15,0,15,N
+snap00086,2023-02-17,ing034,Ranch,14,0,14,N
+snap00087,2023-02-17,ing035,"Garlic Knots",33,0,33,N
+snap00088,2023-02-17,ing036,Kale,20,0,20,N
+snap00089,2023-02-17,ing037,Spinach,18,0,18,N
+snap00090,2023-02-17,ing038,Avocado,15,0,15,N
+snap00091,2023-02-17,ing039,"Mixed Seeds",17,0,17,N
+snap00092,2023-02-17,ing040,"Caramel Filling",15,1,14,N
+snap00093,2023-02-17,ing041,"Chocolate Syrup",18,0,18,N
+snap00094,2023-02-17,ing044,"Berry Mix",22,0,22,N
+snap00095,2023-02-17,ing045,"Oat Crumble",18,0,18,N
+snap00096,2023-02-17,ing047,"Cold Brew Coffee",66,3,63,N
+snap00097,2023-02-17,ing048,"Cold Brew Coffee 1.5L",47,6,41,N
+snap00098,2023-02-17,ing049,"Ginger Fizz 33cl",82,2,80,N
+snap00099,2023-02-17,ing050,"Ginger Fizz 1.5L",50,4,46,N
+snap00100,2023-02-17,ing051,"Lime Mint Sparkle 33cl",77,3,74,N
+snap00101,2023-02-17,ing052,"Lime Mint Sparkle 1.5L",46,6,40,N
+snap00102,2023-02-17,ing053,"Berry Kombucha 33cl",75,5,70,N
+snap00103,2023-02-17,ing054,"Berry Kombucha 1.5L",52,6,46,N
+snap00104,2023-02-18,ing001,"Flatbread Dough (8-pack)",29,5,24,N
+snap00105,2023-02-18,ing002,"Roasted Red Peppers",22,0,22,N
+snap00106,2023-02-18,ing003,"Goat Cheese",13,1,12,N
+snap00107,2023-02-18,ing004,"Black Olives",27,0,27,N
+snap00108,2023-02-18,ing005,"Sun-Dried Tomatoes",18,0,18,N
+snap00109,2023-02-18,ing006,"Spicy Chicken",10,0,10,N
+snap00110,2023-02-18,ing007,Jalapenos,21,1,20,N
+snap00111,2023-02-18,ing008,"Smoked Gouda",12,0,12,N
+snap00112,2023-02-18,ing009,"Chipotle Sauce",20,0,20,N
+snap00113,2023-02-18,ing010,"Wild Mushrooms",16,1,15,N
+snap00114,2023-02-18,ing011,"Truffle Oil",6,1,5,N
+snap00115,2023-02-18,ing012,Mozzarella,22,1,21,N
+snap00116,2023-02-18,ing013,"Fresh Spinach",16,0,16,N
+snap00117,2023-02-18,ing014,"Italian Sausage",11,2,9,N
+snap00118,2023-02-18,ing015,"Roasted Garlic",19,1,18,N
+snap00119,2023-02-18,ing016,"Red Onion",24,2,22,N
+snap00120,2023-02-18,ing017,"Fresh Basil",10,1,9,N
+snap00121,2023-02-18,ing018,"Smoked Salmon",4,2,2,Y
+snap00122,2023-02-18,ing019,"Dill Cream Cheese",12,1,11,N
+snap00123,2023-02-18,ing020,Capers,10,0,10,N
+snap00124,2023-02-18,ing021,Arugula,16,0,16,N
+snap00125,2023-02-18,ing022,"BBQ Brisket",10,1,9,N
+snap00126,2023-02-18,ing023,"Cheddar Cheese",15,1,14,N
+snap00127,2023-02-18,ing024,"BBQ Sauce",18,0,18,N
+snap00128,2023-02-18,ing025,"Tandoori Chicken",11,1,10,N
+snap00129,2023-02-18,ing026,"Mint Yogurt",14,1,13,N
+snap00130,2023-02-18,ing027,"Green Chilli",9,0,9,N
+snap00131,2023-02-18,ing028,"Grilled Pineapple",10,1,9,N
+snap00132,2023-02-18,ing029,"Pulled Pork",5,1,4,Y
+snap00133,2023-02-18,ing030,"Truffle Fries",25,1,24,N
+snap00134,2023-02-18,ing031,Parmesan,10,0,10,N
+snap00135,2023-02-18,ing032,"Cauliflower Florets",20,1,19,N
+snap00136,2023-02-18,ing033,"Buffalo Sauce",15,0,15,N
+snap00137,2023-02-18,ing034,Ranch,14,0,14,N
+snap00138,2023-02-18,ing036,Kale,20,0,20,N
+snap00139,2023-02-18,ing037,Spinach,18,1,17,N
+snap00140,2023-02-18,ing038,Avocado,15,0,15,N
+snap00141,2023-02-18,ing039,"Mixed Seeds",17,0,17,N
+snap00142,2023-02-18,ing040,"Caramel Filling",14,1,13,N
+snap00143,2023-02-18,ing041,"Chocolate Syrup",18,0,18,N
+snap00144,2023-02-18,ing042,"Espresso Panna Base",13,1,12,N
+snap00145,2023-02-18,ing043,"Vanilla Syrup",10,0,10,N
+snap00146,2023-02-18,ing044,"Berry Mix",22,1,21,N
+snap00147,2023-02-18,ing045,"Oat Crumble",18,1,17,N
+snap00148,2023-02-18,ing046,"Mango Sticky Rice Mix",19,0,19,N
+snap00149,2023-02-18,ing047,"Cold Brew Coffee",63,2,61,N
+snap00150,2023-02-18,ing048,"Cold Brew Coffee 1.5L",41,3,38,N
+snap00151,2023-02-18,ing049,"Ginger Fizz 33cl",80,3,77,N
+snap00152,2023-02-18,ing050,"Ginger Fizz 1.5L",46,11,35,N
+snap00153,2023-02-18,ing051,"Lime Mint Sparkle 33cl",74,3,71,N
+snap00154,2023-02-18,ing052,"Lime Mint Sparkle 1.5L",40,4,36,N
+snap00155,2023-02-19,ing001,"Flatbread Dough (8-pack)",24,6,18,N
+snap00156,2023-02-19,ing002,"Roasted Red Peppers",22,0,22,N
+snap00157,2023-02-19,ing003,"Goat Cheese",12,1,11,N
+snap00158,2023-02-19,ing004,"Black Olives",27,0,27,N
+snap00159,2023-02-19,ing005,"Sun-Dried Tomatoes",18,0,18,N
+snap00160,2023-02-19,ing006,"Spicy Chicken",10,1,9,N
+snap00161,2023-02-19,ing007,Jalapenos,20,2,18,N
+snap00162,2023-02-19,ing008,"Smoked Gouda",12,1,11,N
+snap00163,2023-02-19,ing009,"Chipotle Sauce",20,1,19,N
+snap00164,2023-02-19,ing010,"Wild Mushrooms",15,2,13,N
+snap00165,2023-02-19,ing011,"Truffle Oil",5,2,3,Y
+snap00166,2023-02-19,ing012,Mozzarella,21,1,20,N
+snap00167,2023-02-19,ing013,"Fresh Spinach",16,1,15,N
+snap00168,2023-02-19,ing014,"Italian Sausage",9,0,9,N
+snap00169,2023-02-19,ing015,"Roasted Garlic",18,0,18,N
+snap00170,2023-02-19,ing016,"Red Onion",22,1,21,N
+snap00171,2023-02-19,ing017,"Fresh Basil",9,0,9,N
+snap00172,2023-02-19,ing018,"Smoked Salmon",2,3,-1,Y
+snap00173,2023-02-19,ing019,"Dill Cream Cheese",11,1,10,N
+snap00174,2023-02-19,ing020,Capers,10,0,10,N
+snap00175,2023-02-19,ing021,Arugula,16,0,16,N
+snap00176,2023-02-19,ing022,"BBQ Brisket",9,2,7,N
+snap00177,2023-02-19,ing023,"Cheddar Cheese",14,1,13,N
+snap00178,2023-02-19,ing024,"BBQ Sauce",18,1,17,N
+snap00179,2023-02-19,ing025,"Tandoori Chicken",10,1,9,N
+snap00180,2023-02-19,ing026,"Mint Yogurt",13,1,12,N
+snap00181,2023-02-19,ing027,"Green Chilli",9,0,9,N
+snap00182,2023-02-19,ing028,"Grilled Pineapple",9,1,8,N
+snap00183,2023-02-19,ing029,"Pulled Pork",4,2,2,Y
+snap00184,2023-02-19,ing030,"Truffle Fries",24,1,23,N
+snap00185,2023-02-19,ing031,Parmesan,10,0,10,N
+snap00186,2023-02-19,ing032,"Cauliflower Florets",19,1,18,N
+snap00187,2023-02-19,ing033,"Buffalo Sauce",15,0,15,N
+snap00188,2023-02-19,ing034,Ranch,14,0,14,N
+snap00189,2023-02-19,ing035,"Garlic Knots",33,0,33,N
+snap00190,2023-02-19,ing036,Kale,20,0,20,N
+snap00191,2023-02-19,ing037,Spinach,17,1,16,N
+snap00192,2023-02-19,ing038,Avocado,15,0,15,N
+snap00193,2023-02-19,ing039,"Mixed Seeds",17,0,17,N
+snap00194,2023-02-19,ing040,"Caramel Filling",13,1,12,N
+snap00195,2023-02-19,ing041,"Chocolate Syrup",18,0,18,N
+snap00196,2023-02-19,ing044,"Berry Mix",21,0,21,N
+snap00197,2023-02-19,ing045,"Oat Crumble",17,0,17,N
+snap00198,2023-02-19,ing047,"Cold Brew Coffee",61,2,59,N
+snap00199,2023-02-19,ing048,"Cold Brew Coffee 1.5L",38,10,28,N
+snap00200,2023-02-19,ing049,"Ginger Fizz 33cl",77,4,73,N
+snap00201,2023-02-19,ing050,"Ginger Fizz 1.5L",35,9,26,N
+snap00202,2023-02-19,ing051,"Lime Mint Sparkle 33cl",71,2,69,N
+snap00203,2023-02-19,ing052,"Lime Mint Sparkle 1.5L",36,11,25,N
+snap00204,2023-02-19,ing053,"Berry Kombucha 33cl",70,8,62,N
+snap00205,2023-02-19,ing054,"Berry Kombucha 1.5L",46,8,38,N
+snap00206,2023-02-20,ing001,"Flatbread Dough (8-pack)",18,6,12,Y
+snap00207,2023-02-20,ing002,"Roasted Red Peppers",22,0,22,N
+snap00208,2023-02-20,ing003,"Goat Cheese",11,1,10,N
+snap00209,2023-02-20,ing004,"Black Olives",27,0,27,N
+snap00210,2023-02-20,ing005,"Sun-Dried Tomatoes",18,0,18,N
+snap00211,2023-02-20,ing006,"Spicy Chicken",9,0,9,N
+snap00212,2023-02-20,ing007,Jalapenos,18,1,17,N
+snap00213,2023-02-20,ing008,"Smoked Gouda",11,0,11,N
+snap00214,2023-02-20,ing009,"Chipotle Sauce",19,0,19,N
+snap00215,2023-02-20,ing010,"Wild Mushrooms",13,2,11,N
+snap00216,2023-02-20,ing011,"Truffle Oil",6,2,4,N
+snap00217,2023-02-20,ing012,Mozzarella,20,1,19,N
+snap00218,2023-02-20,ing013,"Fresh Spinach",15,1,14,N
+snap00219,2023-02-20,ing014,"Italian Sausage",9,2,7,N
+snap00220,2023-02-20,ing015,"Roasted Garlic",18,1,17,N
+snap00221,2023-02-20,ing016,"Red Onion",21,1,20,N
+snap00222,2023-02-20,ing017,"Fresh Basil",9,0,9,N
+snap00223,2023-02-20,ing022,"BBQ Brisket",7,1,6,Y
+snap00224,2023-02-20,ing023,"Cheddar Cheese",13,0,13,N
+snap00225,2023-02-20,ing024,"BBQ Sauce",17,0,17,N
+snap00226,2023-02-20,ing025,"Tandoori Chicken",9,1,8,N
+snap00227,2023-02-20,ing026,"Mint Yogurt",12,0,12,N
+snap00228,2023-02-20,ing027,"Green Chilli",9,0,9,N
+snap00229,2023-02-20,ing028,"Grilled Pineapple",8,1,7,Y
+snap00230,2023-02-20,ing029,"Pulled Pork",7,2,5,N
+snap00231,2023-02-20,ing030,"Truffle Fries",23,1,22,N
+snap00232,2023-02-20,ing031,Parmesan,10,0,10,N
+snap00233,2023-02-20,ing032,"Cauliflower Florets",18,1,17,N
+snap00234,2023-02-20,ing033,"Buffalo Sauce",15,0,15,N
+snap00235,2023-02-20,ing034,Ranch,14,0,14,N
+snap00236,2023-02-20,ing035,"Garlic Knots",33,0,33,N
+snap00237,2023-02-20,ing036,Kale,20,0,20,N
+snap00238,2023-02-20,ing037,Spinach,16,1,15,N
+snap00239,2023-02-20,ing038,Avocado,15,0,15,N
+snap00240,2023-02-20,ing039,"Mixed Seeds",17,0,17,N
+snap00241,2023-02-20,ing040,"Caramel Filling",12,0,12,N
+snap00242,2023-02-20,ing041,"Chocolate Syrup",18,0,18,N
+snap00243,2023-02-20,ing042,"Espresso Panna Base",12,1,11,N
+snap00244,2023-02-20,ing043,"Vanilla Syrup",10,0,10,N
+snap00245,2023-02-20,ing044,"Berry Mix",21,0,21,N
+snap00246,2023-02-20,ing045,"Oat Crumble",17,0,17,N
+snap00247,2023-02-20,ing046,"Mango Sticky Rice Mix",19,0,19,N
+snap00248,2023-02-20,ing047,"Cold Brew Coffee",59,2,57,N
+snap00249,2023-02-20,ing048,"Cold Brew Coffee 1.5L",28,6,22,Y
+snap00250,2023-02-20,ing050,"Ginger Fizz 1.5L",26,6,20,Y
+snap00251,2023-02-20,ing051,"Lime Mint Sparkle 33cl",69,6,63,N
+snap00252,2023-02-20,ing052,"Lime Mint Sparkle 1.5L",25,4,21,Y
+snap00253,2023-02-20,ing053,"Berry Kombucha 33cl",62,6,56,N
+snap00254,2023-02-20,ing054,"Berry Kombucha 1.5L",38,8,30,N
