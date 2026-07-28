@@ -376,3 +376,89 @@ LEFT JOIN stg_customers c
     ON s.cust_id = c.cust_id
 WHERE c.cust_id IS NULL;
 
+
+
+-------------------------------------------------------------------------------------------
+-- STEP 5 — Implement staging-to-production data migration transactions with audit logging
+-------------------------------------------------------------------------------------------
+SELECT * FROM pipeline_logs;
+
+-- CUSTOMERS TABLE:
+
+START TRANSACTION;
+
+INSERT INTO customers (
+	cust_id,
+	cust_firstname,		
+	cust_lastname
+)
+SELECT 
+	cust_id,
+	cust_firstname,		
+	cust_lastname			
+FROM stg_customers;
+
+CALL logging('customers','stg_customers TO customers');
+
+COMMIT;
+
+
+
+-- address
+
+START TRANSACTION;
+
+INSERT INTO address (
+	add_id,	
+	delivery_address,		
+	delivery_city,		
+	delivery_zipcode
+)
+SELECT 
+	add_id,	
+	delivery_address,		
+	delivery_city,		
+	delivery_zipcode
+FROM stg_address;
+
+CALL logging('address','stg_address TO address');
+
+COMMIT;
+
+
+-- items 
+
+START TRANSACTION;
+
+INSERT INTO items(
+	item_id,
+	sku,
+	item_name,		
+	item_cat,		
+	item_size
+)
+SELECT
+	item_id,
+	sku,
+	item_name,		
+	item_cat,		
+	item_size		
+FROM stg_items;
+
+CALL logging('items','stg_items TO items');
+
+COMMIT;
+
+
+-- inventory  
+
+START TRANSACTION;
+
+INSERT INTO inventory
+SELECT *
+FROM stg_inventory;
+
+CALL logging('inventory','stg_inventory TO inventory');
+
+COMMIT;
+
