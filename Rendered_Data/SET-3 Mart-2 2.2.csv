@@ -1,0 +1,3081 @@
+year-month,ing_id,ing_name,snapshot_date,closing_stock,peak_stock,max_drawdown
+2025-08,ing001,"Flatbread Dough (8-pack)",2025-08-25,21,26,5
+2025-08,ing001,"Flatbread Dough (8-pack)",2025-08-26,13,26,13
+2025-08,ing001,"Flatbread Dough (8-pack)",2025-08-27,24,26,2
+2025-08,ing001,"Flatbread Dough (8-pack)",2025-08-28,17,26,9
+2025-08,ing001,"Flatbread Dough (8-pack)",2025-08-29,13,26,13
+2025-08,ing001,"Flatbread Dough (8-pack)",2025-08-30,8,26,18
+2025-08,ing001,"Flatbread Dough (8-pack)",2025-08-31,26,26,0
+2025-08,ing002,"Roasted Red Peppers",2025-08-25,22,22,0
+2025-08,ing002,"Roasted Red Peppers",2025-08-26,22,22,0
+2025-08,ing002,"Roasted Red Peppers",2025-08-27,21,22,1
+2025-08,ing002,"Roasted Red Peppers",2025-08-28,20,22,2
+2025-08,ing002,"Roasted Red Peppers",2025-08-29,20,22,2
+2025-08,ing002,"Roasted Red Peppers",2025-08-30,19,22,3
+2025-08,ing002,"Roasted Red Peppers",2025-08-31,19,22,3
+2025-08,ing003,"Goat Cheese",2025-08-25,13,15,2
+2025-08,ing003,"Goat Cheese",2025-08-26,13,15,2
+2025-08,ing003,"Goat Cheese",2025-08-27,12,15,3
+2025-08,ing003,"Goat Cheese",2025-08-28,10,15,5
+2025-08,ing003,"Goat Cheese",2025-08-29,9,15,6
+2025-08,ing003,"Goat Cheese",2025-08-30,7,15,8
+2025-08,ing003,"Goat Cheese",2025-08-31,13,15,2
+2025-08,ing004,"Black Olives",2025-08-25,22,26,4
+2025-08,ing004,"Black Olives",2025-08-26,22,26,4
+2025-08,ing004,"Black Olives",2025-08-27,21,26,5
+2025-08,ing004,"Black Olives",2025-08-28,20,26,6
+2025-08,ing004,"Black Olives",2025-08-29,19,26,7
+2025-08,ing004,"Black Olives",2025-08-30,18,26,8
+2025-08,ing004,"Black Olives",2025-08-31,18,26,8
+2025-08,ing005,"Sun-Dried Tomatoes",2025-08-25,13,17,4
+2025-08,ing005,"Sun-Dried Tomatoes",2025-08-26,13,17,4
+2025-08,ing005,"Sun-Dried Tomatoes",2025-08-27,13,17,4
+2025-08,ing005,"Sun-Dried Tomatoes",2025-08-28,12,17,5
+2025-08,ing005,"Sun-Dried Tomatoes",2025-08-29,12,17,5
+2025-08,ing005,"Sun-Dried Tomatoes",2025-08-30,11,17,6
+2025-08,ing005,"Sun-Dried Tomatoes",2025-08-31,11,17,6
+2025-08,ing006,"Spicy Chicken",2025-08-25,8,12,4
+2025-08,ing006,"Spicy Chicken",2025-08-26,7,12,5
+2025-08,ing006,"Spicy Chicken",2025-08-27,6,12,6
+2025-08,ing006,"Spicy Chicken",2025-08-28,11,12,1
+2025-08,ing006,"Spicy Chicken",2025-08-29,10,12,2
+2025-08,ing006,"Spicy Chicken",2025-08-30,10,12,2
+2025-08,ing006,"Spicy Chicken",2025-08-31,10,12,2
+2025-08,ing007,Jalapenos,2025-08-25,19,22,3
+2025-08,ing007,Jalapenos,2025-08-26,17,22,5
+2025-08,ing007,Jalapenos,2025-08-27,15,22,7
+2025-08,ing007,Jalapenos,2025-08-28,14,22,8
+2025-08,ing007,Jalapenos,2025-08-29,13,22,9
+2025-08,ing007,Jalapenos,2025-08-30,22,22,0
+2025-08,ing007,Jalapenos,2025-08-31,21,22,1
+2025-08,ing008,"Smoked Gouda",2025-08-25,9,12,3
+2025-08,ing008,"Smoked Gouda",2025-08-26,8,12,4
+2025-08,ing008,"Smoked Gouda",2025-08-27,7,12,5
+2025-08,ing008,"Smoked Gouda",2025-08-28,7,12,5
+2025-08,ing008,"Smoked Gouda",2025-08-29,12,12,0
+2025-08,ing008,"Smoked Gouda",2025-08-30,12,12,0
+2025-08,ing008,"Smoked Gouda",2025-08-31,12,12,0
+2025-08,ing009,"Chipotle Sauce",2025-08-25,14,20,6
+2025-08,ing009,"Chipotle Sauce",2025-08-26,13,20,7
+2025-08,ing009,"Chipotle Sauce",2025-08-27,12,20,8
+2025-08,ing009,"Chipotle Sauce",2025-08-28,12,20,8
+2025-08,ing009,"Chipotle Sauce",2025-08-29,12,20,8
+2025-08,ing009,"Chipotle Sauce",2025-08-30,20,20,0
+2025-08,ing009,"Chipotle Sauce",2025-08-31,20,20,0
+2025-08,ing010,"Wild Mushrooms",2025-08-25,11,15,4
+2025-08,ing010,"Wild Mushrooms",2025-08-26,8,15,7
+2025-08,ing010,"Wild Mushrooms",2025-08-27,8,15,7
+2025-08,ing010,"Wild Mushrooms",2025-08-28,14,15,1
+2025-08,ing010,"Wild Mushrooms",2025-08-29,14,15,1
+2025-08,ing010,"Wild Mushrooms",2025-08-30,14,15,1
+2025-08,ing010,"Wild Mushrooms",2025-08-31,13,15,2
+2025-08,ing011,"Truffle Oil",2025-08-25,5,8,3
+2025-08,ing011,"Truffle Oil",2025-08-26,2,8,6
+2025-08,ing011,"Truffle Oil",2025-08-27,4,8,4
+2025-08,ing011,"Truffle Oil",2025-08-28,3,8,5
+2025-08,ing011,"Truffle Oil",2025-08-29,7,8,1
+2025-08,ing011,"Truffle Oil",2025-08-30,7,8,1
+2025-08,ing011,"Truffle Oil",2025-08-31,6,8,2
+2025-08,ing012,Mozzarella,2025-08-25,20,22,2
+2025-08,ing012,Mozzarella,2025-08-26,19,22,3
+2025-08,ing012,Mozzarella,2025-08-27,18,22,4
+2025-08,ing012,Mozzarella,2025-08-28,17,22,5
+2025-08,ing012,Mozzarella,2025-08-29,17,22,5
+2025-08,ing012,Mozzarella,2025-08-30,17,22,5
+2025-08,ing012,Mozzarella,2025-08-31,17,22,5
+2025-08,ing013,"Fresh Spinach",2025-08-25,13,16,3
+2025-08,ing013,"Fresh Spinach",2025-08-26,12,16,4
+2025-08,ing013,"Fresh Spinach",2025-08-27,12,16,4
+2025-08,ing013,"Fresh Spinach",2025-08-28,11,16,5
+2025-08,ing013,"Fresh Spinach",2025-08-29,11,16,5
+2025-08,ing013,"Fresh Spinach",2025-08-30,11,16,5
+2025-08,ing013,"Fresh Spinach",2025-08-31,11,16,5
+2025-08,ing014,"Italian Sausage",2025-08-25,11,12,1
+2025-08,ing014,"Italian Sausage",2025-08-26,9,12,3
+2025-08,ing014,"Italian Sausage",2025-08-27,8,12,4
+2025-08,ing014,"Italian Sausage",2025-08-28,6,12,6
+2025-08,ing014,"Italian Sausage",2025-08-29,10,12,2
+2025-08,ing014,"Italian Sausage",2025-08-30,9,12,3
+2025-08,ing014,"Italian Sausage",2025-08-31,8,12,4
+2025-08,ing015,"Roasted Garlic",2025-08-25,12,17,5
+2025-08,ing015,"Roasted Garlic",2025-08-26,11,17,6
+2025-08,ing015,"Roasted Garlic",2025-08-27,10,17,7
+2025-08,ing015,"Roasted Garlic",2025-08-28,9,17,8
+2025-08,ing015,"Roasted Garlic",2025-08-29,17,17,0
+2025-08,ing015,"Roasted Garlic",2025-08-30,17,17,0
+2025-08,ing015,"Roasted Garlic",2025-08-31,17,17,0
+2025-08,ing016,"Red Onion",2025-08-25,18,22,4
+2025-08,ing016,"Red Onion",2025-08-26,17,22,5
+2025-08,ing016,"Red Onion",2025-08-27,15,22,7
+2025-08,ing016,"Red Onion",2025-08-28,14,22,8
+2025-08,ing016,"Red Onion",2025-08-29,13,22,9
+2025-08,ing016,"Red Onion",2025-08-30,12,22,10
+2025-08,ing016,"Red Onion",2025-08-31,21,22,1
+2025-08,ing017,"Fresh Basil",2025-08-25,8,10,2
+2025-08,ing017,"Fresh Basil",2025-08-26,8,10,2
+2025-08,ing017,"Fresh Basil",2025-08-27,8,10,2
+2025-08,ing017,"Fresh Basil",2025-08-28,8,10,2
+2025-08,ing017,"Fresh Basil",2025-08-29,8,10,2
+2025-08,ing017,"Fresh Basil",2025-08-30,8,10,2
+2025-08,ing017,"Fresh Basil",2025-08-31,8,10,2
+2025-08,ing018,"Smoked Salmon",2025-08-25,0,2,2
+2025-08,ing018,"Smoked Salmon",2025-08-26,-5,2,7
+2025-08,ing018,"Smoked Salmon",2025-08-27,0,2,2
+2025-08,ing018,"Smoked Salmon",2025-08-28,-1,2,3
+2025-08,ing018,"Smoked Salmon",2025-08-29,-5,2,7
+2025-08,ing018,"Smoked Salmon",2025-08-30,-7,2,9
+2025-08,ing018,"Smoked Salmon",2025-08-31,0,2,2
+2025-08,ing019,"Dill Cream Cheese",2025-08-25,9,11,2
+2025-08,ing019,"Dill Cream Cheese",2025-08-26,7,11,4
+2025-08,ing019,"Dill Cream Cheese",2025-08-27,6,11,5
+2025-08,ing019,"Dill Cream Cheese",2025-08-28,5,11,6
+2025-08,ing019,"Dill Cream Cheese",2025-08-29,11,11,0
+2025-08,ing019,"Dill Cream Cheese",2025-08-30,10,11,1
+2025-08,ing019,"Dill Cream Cheese",2025-08-31,9,11,2
+2025-08,ing020,Capers,2025-08-25,10,10,0
+2025-08,ing020,Capers,2025-08-26,9,10,1
+2025-08,ing020,Capers,2025-08-27,9,10,1
+2025-08,ing020,Capers,2025-08-28,9,10,1
+2025-08,ing020,Capers,2025-08-29,9,10,1
+2025-08,ing020,Capers,2025-08-30,9,10,1
+2025-08,ing020,Capers,2025-08-31,9,10,1
+2025-08,ing021,Arugula,2025-08-25,17,17,0
+2025-08,ing021,Arugula,2025-08-26,16,17,1
+2025-08,ing021,Arugula,2025-08-27,16,17,1
+2025-08,ing021,Arugula,2025-08-28,16,17,1
+2025-08,ing021,Arugula,2025-08-29,16,17,1
+2025-08,ing021,Arugula,2025-08-30,16,17,1
+2025-08,ing021,Arugula,2025-08-31,16,17,1
+2025-08,ing022,"BBQ Brisket",2025-08-25,5,9,4
+2025-08,ing022,"BBQ Brisket",2025-08-26,8,9,1
+2025-08,ing022,"BBQ Brisket",2025-08-27,7,9,2
+2025-08,ing022,"BBQ Brisket",2025-08-28,7,9,2
+2025-08,ing022,"BBQ Brisket",2025-08-29,9,9,0
+2025-08,ing022,"BBQ Brisket",2025-08-30,8,9,1
+2025-08,ing022,"BBQ Brisket",2025-08-31,6,9,3
+2025-08,ing023,"Cheddar Cheese",2025-08-25,11,15,4
+2025-08,ing023,"Cheddar Cheese",2025-08-26,10,15,5
+2025-08,ing023,"Cheddar Cheese",2025-08-27,9,15,6
+2025-08,ing023,"Cheddar Cheese",2025-08-28,9,15,6
+2025-08,ing023,"Cheddar Cheese",2025-08-29,14,15,1
+2025-08,ing023,"Cheddar Cheese",2025-08-30,13,15,2
+2025-08,ing023,"Cheddar Cheese",2025-08-31,11,15,4
+2025-08,ing024,"BBQ Sauce",2025-08-25,14,16,2
+2025-08,ing024,"BBQ Sauce",2025-08-26,14,16,2
+2025-08,ing024,"BBQ Sauce",2025-08-27,14,16,2
+2025-08,ing024,"BBQ Sauce",2025-08-28,14,16,2
+2025-08,ing024,"BBQ Sauce",2025-08-29,13,16,3
+2025-08,ing024,"BBQ Sauce",2025-08-30,13,16,3
+2025-08,ing024,"BBQ Sauce",2025-08-31,12,16,4
+2025-08,ing025,"Tandoori Chicken",2025-08-25,9,12,3
+2025-08,ing025,"Tandoori Chicken",2025-08-26,9,12,3
+2025-08,ing025,"Tandoori Chicken",2025-08-27,6,12,6
+2025-08,ing025,"Tandoori Chicken",2025-08-28,5,12,7
+2025-08,ing025,"Tandoori Chicken",2025-08-29,10,12,2
+2025-08,ing025,"Tandoori Chicken",2025-08-30,9,12,3
+2025-08,ing025,"Tandoori Chicken",2025-08-31,8,12,4
+2025-08,ing026,"Mint Yogurt",2025-08-25,12,13,1
+2025-08,ing026,"Mint Yogurt",2025-08-26,12,13,1
+2025-08,ing026,"Mint Yogurt",2025-08-27,11,13,2
+2025-08,ing026,"Mint Yogurt",2025-08-28,11,13,2
+2025-08,ing026,"Mint Yogurt",2025-08-29,11,13,2
+2025-08,ing026,"Mint Yogurt",2025-08-30,10,13,3
+2025-08,ing026,"Mint Yogurt",2025-08-31,10,13,3
+2025-08,ing027,"Green Chilli",2025-08-25,7,8,1
+2025-08,ing027,"Green Chilli",2025-08-26,7,8,1
+2025-08,ing027,"Green Chilli",2025-08-27,6,8,2
+2025-08,ing027,"Green Chilli",2025-08-28,6,8,2
+2025-08,ing027,"Green Chilli",2025-08-29,6,8,2
+2025-08,ing027,"Green Chilli",2025-08-30,6,8,2
+2025-08,ing027,"Green Chilli",2025-08-31,6,8,2
+2025-08,ing028,"Grilled Pineapple",2025-08-26,10,12,2
+2025-08,ing028,"Grilled Pineapple",2025-08-27,9,12,3
+2025-08,ing028,"Grilled Pineapple",2025-08-28,8,12,4
+2025-08,ing028,"Grilled Pineapple",2025-08-29,8,12,4
+2025-08,ing028,"Grilled Pineapple",2025-08-30,7,12,5
+2025-08,ing028,"Grilled Pineapple",2025-08-31,12,12,0
+2025-08,ing029,"Pulled Pork",2025-08-26,8,8,0
+2025-08,ing029,"Pulled Pork",2025-08-27,6,8,2
+2025-08,ing029,"Pulled Pork",2025-08-28,5,8,3
+2025-08,ing029,"Pulled Pork",2025-08-29,4,8,4
+2025-08,ing029,"Pulled Pork",2025-08-30,7,8,1
+2025-08,ing029,"Pulled Pork",2025-08-31,6,8,2
+2025-08,ing030,"Truffle Fries",2025-08-25,24,24,0
+2025-08,ing030,"Truffle Fries",2025-08-26,23,24,1
+2025-08,ing030,"Truffle Fries",2025-08-27,21,24,3
+2025-08,ing030,"Truffle Fries",2025-08-28,20,24,4
+2025-08,ing030,"Truffle Fries",2025-08-29,19,24,5
+2025-08,ing030,"Truffle Fries",2025-08-31,18,24,6
+2025-08,ing031,Parmesan,2025-08-25,9,9,0
+2025-08,ing031,Parmesan,2025-08-26,9,9,0
+2025-08,ing031,Parmesan,2025-08-27,9,9,0
+2025-08,ing031,Parmesan,2025-08-28,9,9,0
+2025-08,ing031,Parmesan,2025-08-29,9,9,0
+2025-08,ing031,Parmesan,2025-08-31,9,9,0
+2025-08,ing032,"Cauliflower Florets",2025-08-25,13,20,7
+2025-08,ing032,"Cauliflower Florets",2025-08-26,12,20,8
+2025-08,ing032,"Cauliflower Florets",2025-08-27,11,20,9
+2025-08,ing032,"Cauliflower Florets",2025-08-28,11,20,9
+2025-08,ing032,"Cauliflower Florets",2025-08-29,20,20,0
+2025-08,ing032,"Cauliflower Florets",2025-08-30,20,20,0
+2025-08,ing032,"Cauliflower Florets",2025-08-31,19,20,1
+2025-08,ing033,"Buffalo Sauce",2025-08-25,13,13,0
+2025-08,ing033,"Buffalo Sauce",2025-08-26,13,13,0
+2025-08,ing033,"Buffalo Sauce",2025-08-27,13,13,0
+2025-08,ing033,"Buffalo Sauce",2025-08-28,13,13,0
+2025-08,ing033,"Buffalo Sauce",2025-08-29,13,13,0
+2025-08,ing033,"Buffalo Sauce",2025-08-30,13,13,0
+2025-08,ing033,"Buffalo Sauce",2025-08-31,13,13,0
+2025-08,ing034,Ranch,2025-08-25,13,13,0
+2025-08,ing034,Ranch,2025-08-26,13,13,0
+2025-08,ing034,Ranch,2025-08-27,13,13,0
+2025-08,ing034,Ranch,2025-08-28,13,13,0
+2025-08,ing034,Ranch,2025-08-29,13,13,0
+2025-08,ing034,Ranch,2025-08-30,13,13,0
+2025-08,ing034,Ranch,2025-08-31,13,13,0
+2025-08,ing035,"Garlic Knots",2025-08-25,24,31,7
+2025-08,ing035,"Garlic Knots",2025-08-26,22,31,9
+2025-08,ing035,"Garlic Knots",2025-08-27,21,31,10
+2025-08,ing035,"Garlic Knots",2025-08-28,19,31,12
+2025-08,ing035,"Garlic Knots",2025-08-29,18,31,13
+2025-08,ing035,"Garlic Knots",2025-08-30,17,31,14
+2025-08,ing035,"Garlic Knots",2025-08-31,30,31,1
+2025-08,ing036,Kale,2025-08-25,20,20,0
+2025-08,ing036,Kale,2025-08-26,19,20,1
+2025-08,ing036,Kale,2025-08-27,19,20,1
+2025-08,ing036,Kale,2025-08-28,19,20,1
+2025-08,ing036,Kale,2025-08-29,19,20,1
+2025-08,ing036,Kale,2025-08-30,19,20,1
+2025-08,ing036,Kale,2025-08-31,19,20,1
+2025-08,ing037,Spinach,2025-08-25,13,18,5
+2025-08,ing037,Spinach,2025-08-26,12,18,6
+2025-08,ing037,Spinach,2025-08-27,12,18,6
+2025-08,ing037,Spinach,2025-08-28,11,18,7
+2025-08,ing037,Spinach,2025-08-29,11,18,7
+2025-08,ing037,Spinach,2025-08-30,10,18,8
+2025-08,ing037,Spinach,2025-08-31,17,18,1
+2025-08,ing038,Avocado,2025-08-25,10,10,0
+2025-08,ing038,Avocado,2025-08-26,10,10,0
+2025-08,ing038,Avocado,2025-08-27,10,10,0
+2025-08,ing038,Avocado,2025-08-28,10,10,0
+2025-08,ing038,Avocado,2025-08-29,10,10,0
+2025-08,ing038,Avocado,2025-08-30,10,10,0
+2025-08,ing038,Avocado,2025-08-31,10,10,0
+2025-08,ing039,"Mixed Seeds",2025-08-25,15,15,0
+2025-08,ing039,"Mixed Seeds",2025-08-26,15,15,0
+2025-08,ing039,"Mixed Seeds",2025-08-27,15,15,0
+2025-08,ing039,"Mixed Seeds",2025-08-28,15,15,0
+2025-08,ing039,"Mixed Seeds",2025-08-29,15,15,0
+2025-08,ing039,"Mixed Seeds",2025-08-30,15,15,0
+2025-08,ing039,"Mixed Seeds",2025-08-31,15,15,0
+2025-08,ing040,"Caramel Filling",2025-08-25,16,16,0
+2025-08,ing040,"Caramel Filling",2025-08-26,16,16,0
+2025-08,ing040,"Caramel Filling",2025-08-28,15,16,1
+2025-08,ing040,"Caramel Filling",2025-08-29,14,16,2
+2025-08,ing040,"Caramel Filling",2025-08-30,14,16,2
+2025-08,ing040,"Caramel Filling",2025-08-31,14,16,2
+2025-08,ing041,"Chocolate Syrup",2025-08-25,17,17,0
+2025-08,ing041,"Chocolate Syrup",2025-08-26,17,17,0
+2025-08,ing041,"Chocolate Syrup",2025-08-28,17,17,0
+2025-08,ing041,"Chocolate Syrup",2025-08-29,17,17,0
+2025-08,ing041,"Chocolate Syrup",2025-08-30,17,17,0
+2025-08,ing041,"Chocolate Syrup",2025-08-31,17,17,0
+2025-08,ing042,"Espresso Panna Base",2025-08-25,10,12,2
+2025-08,ing042,"Espresso Panna Base",2025-08-26,10,12,2
+2025-08,ing042,"Espresso Panna Base",2025-08-27,10,12,2
+2025-08,ing042,"Espresso Panna Base",2025-08-28,10,12,2
+2025-08,ing042,"Espresso Panna Base",2025-08-29,9,12,3
+2025-08,ing042,"Espresso Panna Base",2025-08-30,9,12,3
+2025-08,ing043,"Vanilla Syrup",2025-08-25,10,10,0
+2025-08,ing043,"Vanilla Syrup",2025-08-26,10,10,0
+2025-08,ing043,"Vanilla Syrup",2025-08-27,10,10,0
+2025-08,ing043,"Vanilla Syrup",2025-08-28,10,10,0
+2025-08,ing043,"Vanilla Syrup",2025-08-29,10,10,0
+2025-08,ing043,"Vanilla Syrup",2025-08-30,10,10,0
+2025-08,ing044,"Berry Mix",2025-08-25,20,21,1
+2025-08,ing044,"Berry Mix",2025-08-26,20,21,1
+2025-08,ing044,"Berry Mix",2025-08-28,19,21,2
+2025-08,ing044,"Berry Mix",2025-08-29,19,21,2
+2025-08,ing044,"Berry Mix",2025-08-30,19,21,2
+2025-08,ing045,"Oat Crumble",2025-08-25,11,18,7
+2025-08,ing045,"Oat Crumble",2025-08-26,11,18,7
+2025-08,ing045,"Oat Crumble",2025-08-28,17,18,1
+2025-08,ing045,"Oat Crumble",2025-08-29,17,18,1
+2025-08,ing045,"Oat Crumble",2025-08-30,17,18,1
+2025-08,ing046,"Mango Sticky Rice Mix",2025-08-25,18,18,0
+2025-08,ing046,"Mango Sticky Rice Mix",2025-08-26,18,18,0
+2025-08,ing046,"Mango Sticky Rice Mix",2025-08-27,18,18,0
+2025-08,ing046,"Mango Sticky Rice Mix",2025-08-28,18,18,0
+2025-08,ing046,"Mango Sticky Rice Mix",2025-08-29,17,18,1
+2025-08,ing046,"Mango Sticky Rice Mix",2025-08-30,17,18,1
+2025-08,ing047,"Cold Brew Coffee",2025-08-27,63,72,9
+2025-08,ing047,"Cold Brew Coffee",2025-08-30,61,72,11
+2025-08,ing047,"Cold Brew Coffee",2025-08-31,57,72,15
+2025-08,ing048,"Cold Brew Coffee 1.5L",2025-08-25,30,42,12
+2025-08,ing048,"Cold Brew Coffee 1.5L",2025-08-26,29,42,13
+2025-08,ing048,"Cold Brew Coffee 1.5L",2025-08-27,26,42,16
+2025-08,ing048,"Cold Brew Coffee 1.5L",2025-08-28,20,42,22
+2025-08,ing048,"Cold Brew Coffee 1.5L",2025-08-29,26,42,16
+2025-08,ing048,"Cold Brew Coffee 1.5L",2025-08-31,22,42,20
+2025-08,ing049,"Ginger Fizz 33cl",2025-08-25,69,72,3
+2025-08,ing049,"Ginger Fizz 33cl",2025-08-26,63,72,9
+2025-08,ing049,"Ginger Fizz 33cl",2025-08-29,59,72,13
+2025-08,ing049,"Ginger Fizz 33cl",2025-08-30,54,72,18
+2025-08,ing049,"Ginger Fizz 33cl",2025-08-31,53,72,19
+2025-08,ing050,"Ginger Fizz 1.5L",2025-08-25,36,41,5
+2025-08,ing050,"Ginger Fizz 1.5L",2025-08-26,33,41,8
+2025-08,ing050,"Ginger Fizz 1.5L",2025-08-27,29,41,12
+2025-08,ing050,"Ginger Fizz 1.5L",2025-08-28,21,41,20
+2025-08,ing050,"Ginger Fizz 1.5L",2025-08-29,41,41,0
+2025-08,ing050,"Ginger Fizz 1.5L",2025-08-31,29,41,12
+2025-08,ing051,"Lime Mint Sparkle 33cl",2025-08-25,71,74,3
+2025-08,ing051,"Lime Mint Sparkle 33cl",2025-08-26,69,74,5
+2025-08,ing051,"Lime Mint Sparkle 33cl",2025-08-27,64,74,10
+2025-08,ing051,"Lime Mint Sparkle 33cl",2025-08-28,63,74,11
+2025-08,ing051,"Lime Mint Sparkle 33cl",2025-08-29,52,74,22
+2025-08,ing051,"Lime Mint Sparkle 33cl",2025-08-30,46,74,28
+2025-08,ing052,"Lime Mint Sparkle 1.5L",2025-08-26,25,47,22
+2025-08,ing052,"Lime Mint Sparkle 1.5L",2025-08-28,21,47,26
+2025-08,ing052,"Lime Mint Sparkle 1.5L",2025-08-29,46,47,1
+2025-08,ing052,"Lime Mint Sparkle 1.5L",2025-08-30,38,47,9
+2025-08,ing052,"Lime Mint Sparkle 1.5L",2025-08-31,31,47,16
+2025-08,ing053,"Berry Kombucha 33cl",2025-08-25,52,70,18
+2025-08,ing053,"Berry Kombucha 33cl",2025-08-26,48,70,22
+2025-08,ing053,"Berry Kombucha 33cl",2025-08-27,43,70,27
+2025-08,ing053,"Berry Kombucha 33cl",2025-08-28,31,70,39
+2025-08,ing053,"Berry Kombucha 33cl",2025-08-31,59,70,11
+2025-08,ing054,"Berry Kombucha 1.5L",2025-08-25,34,50,16
+2025-08,ing054,"Berry Kombucha 1.5L",2025-08-26,29,50,21
+2025-08,ing054,"Berry Kombucha 1.5L",2025-08-27,26,50,24
+2025-08,ing054,"Berry Kombucha 1.5L",2025-08-28,21,50,29
+2025-08,ing054,"Berry Kombucha 1.5L",2025-08-29,39,50,11
+2025-08,ing054,"Berry Kombucha 1.5L",2025-08-30,33,50,17
+2025-08,ing054,"Berry Kombucha 1.5L",2025-08-31,31,50,19
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-01,22,28,6
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-02,18,28,10
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-03,8,28,20
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-04,19,28,9
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-05,13,28,15
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-06,28,28,0
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-07,26,28,2
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-08,18,28,10
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-09,13,28,15
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-10,8,28,20
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-11,23,28,5
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-12,19,28,9
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-13,12,28,16
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-14,22,28,6
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-15,17,28,11
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-16,9,28,19
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-17,17,28,11
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-18,11,28,17
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-19,5,28,23
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-20,22,28,6
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-21,16,28,12
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-22,26,28,2
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-23,20,28,8
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-24,14,28,14
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-25,10,28,18
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-26,6,28,22
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-27,3,28,25
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-28,13,28,15
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-29,8,28,20
+2025-09,ing001,"Flatbread Dough (8-pack)",2025-09-30,28,28,0
+2025-09,ing002,"Roasted Red Peppers",2025-09-01,19,21,2
+2025-09,ing002,"Roasted Red Peppers",2025-09-02,19,21,2
+2025-09,ing002,"Roasted Red Peppers",2025-09-03,18,21,3
+2025-09,ing002,"Roasted Red Peppers",2025-09-04,18,21,3
+2025-09,ing002,"Roasted Red Peppers",2025-09-05,18,21,3
+2025-09,ing002,"Roasted Red Peppers",2025-09-06,18,21,3
+2025-09,ing002,"Roasted Red Peppers",2025-09-07,18,21,3
+2025-09,ing002,"Roasted Red Peppers",2025-09-08,18,21,3
+2025-09,ing002,"Roasted Red Peppers",2025-09-09,17,21,4
+2025-09,ing002,"Roasted Red Peppers",2025-09-10,17,21,4
+2025-09,ing002,"Roasted Red Peppers",2025-09-11,17,21,4
+2025-09,ing002,"Roasted Red Peppers",2025-09-12,17,21,4
+2025-09,ing002,"Roasted Red Peppers",2025-09-13,17,21,4
+2025-09,ing002,"Roasted Red Peppers",2025-09-14,17,21,4
+2025-09,ing002,"Roasted Red Peppers",2025-09-15,17,21,4
+2025-09,ing002,"Roasted Red Peppers",2025-09-16,17,21,4
+2025-09,ing002,"Roasted Red Peppers",2025-09-17,17,21,4
+2025-09,ing002,"Roasted Red Peppers",2025-09-18,16,21,5
+2025-09,ing002,"Roasted Red Peppers",2025-09-19,15,21,6
+2025-09,ing002,"Roasted Red Peppers",2025-09-20,14,21,7
+2025-09,ing002,"Roasted Red Peppers",2025-09-21,13,21,8
+2025-09,ing002,"Roasted Red Peppers",2025-09-22,13,21,8
+2025-09,ing002,"Roasted Red Peppers",2025-09-23,12,21,9
+2025-09,ing002,"Roasted Red Peppers",2025-09-24,21,21,0
+2025-09,ing002,"Roasted Red Peppers",2025-09-25,21,21,0
+2025-09,ing002,"Roasted Red Peppers",2025-09-26,21,21,0
+2025-09,ing002,"Roasted Red Peppers",2025-09-27,21,21,0
+2025-09,ing002,"Roasted Red Peppers",2025-09-28,21,21,0
+2025-09,ing002,"Roasted Red Peppers",2025-09-29,21,21,0
+2025-09,ing002,"Roasted Red Peppers",2025-09-30,21,21,0
+2025-09,ing003,"Goat Cheese",2025-09-01,12,15,3
+2025-09,ing003,"Goat Cheese",2025-09-02,11,15,4
+2025-09,ing003,"Goat Cheese",2025-09-03,9,15,6
+2025-09,ing003,"Goat Cheese",2025-09-04,8,15,7
+2025-09,ing003,"Goat Cheese",2025-09-05,13,15,2
+2025-09,ing003,"Goat Cheese",2025-09-06,13,15,2
+2025-09,ing003,"Goat Cheese",2025-09-07,13,15,2
+2025-09,ing003,"Goat Cheese",2025-09-08,13,15,2
+2025-09,ing003,"Goat Cheese",2025-09-09,12,15,3
+2025-09,ing003,"Goat Cheese",2025-09-10,11,15,4
+2025-09,ing003,"Goat Cheese",2025-09-11,10,15,5
+2025-09,ing003,"Goat Cheese",2025-09-12,9,15,6
+2025-09,ing003,"Goat Cheese",2025-09-13,8,15,7
+2025-09,ing003,"Goat Cheese",2025-09-14,14,15,1
+2025-09,ing003,"Goat Cheese",2025-09-15,14,15,1
+2025-09,ing003,"Goat Cheese",2025-09-16,13,15,2
+2025-09,ing003,"Goat Cheese",2025-09-17,12,15,3
+2025-09,ing003,"Goat Cheese",2025-09-18,10,15,5
+2025-09,ing003,"Goat Cheese",2025-09-19,9,15,6
+2025-09,ing003,"Goat Cheese",2025-09-20,8,15,7
+2025-09,ing003,"Goat Cheese",2025-09-21,12,15,3
+2025-09,ing003,"Goat Cheese",2025-09-22,11,15,4
+2025-09,ing003,"Goat Cheese",2025-09-23,9,15,6
+2025-09,ing003,"Goat Cheese",2025-09-24,9,15,6
+2025-09,ing003,"Goat Cheese",2025-09-25,15,15,0
+2025-09,ing003,"Goat Cheese",2025-09-26,14,15,1
+2025-09,ing003,"Goat Cheese",2025-09-27,13,15,2
+2025-09,ing003,"Goat Cheese",2025-09-28,12,15,3
+2025-09,ing003,"Goat Cheese",2025-09-29,11,15,4
+2025-09,ing003,"Goat Cheese",2025-09-30,11,15,4
+2025-09,ing004,"Black Olives",2025-09-01,17,26,9
+2025-09,ing004,"Black Olives",2025-09-02,17,26,9
+2025-09,ing004,"Black Olives",2025-09-03,16,26,10
+2025-09,ing004,"Black Olives",2025-09-04,16,26,10
+2025-09,ing004,"Black Olives",2025-09-05,15,26,11
+2025-09,ing004,"Black Olives",2025-09-06,26,26,0
+2025-09,ing004,"Black Olives",2025-09-07,26,26,0
+2025-09,ing004,"Black Olives",2025-09-08,26,26,0
+2025-09,ing004,"Black Olives",2025-09-09,25,26,1
+2025-09,ing004,"Black Olives",2025-09-10,25,26,1
+2025-09,ing004,"Black Olives",2025-09-11,25,26,1
+2025-09,ing004,"Black Olives",2025-09-12,25,26,1
+2025-09,ing004,"Black Olives",2025-09-13,24,26,2
+2025-09,ing004,"Black Olives",2025-09-14,24,26,2
+2025-09,ing004,"Black Olives",2025-09-15,24,26,2
+2025-09,ing004,"Black Olives",2025-09-16,24,26,2
+2025-09,ing004,"Black Olives",2025-09-17,23,26,3
+2025-09,ing004,"Black Olives",2025-09-18,22,26,4
+2025-09,ing004,"Black Olives",2025-09-19,21,26,5
+2025-09,ing004,"Black Olives",2025-09-20,20,26,6
+2025-09,ing004,"Black Olives",2025-09-21,19,26,7
+2025-09,ing004,"Black Olives",2025-09-22,18,26,8
+2025-09,ing004,"Black Olives",2025-09-23,17,26,9
+2025-09,ing004,"Black Olives",2025-09-24,17,26,9
+2025-09,ing004,"Black Olives",2025-09-25,17,26,9
+2025-09,ing004,"Black Olives",2025-09-26,16,26,10
+2025-09,ing004,"Black Olives",2025-09-27,16,26,10
+2025-09,ing004,"Black Olives",2025-09-28,16,26,10
+2025-09,ing004,"Black Olives",2025-09-29,15,26,11
+2025-09,ing004,"Black Olives",2025-09-30,26,26,0
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-01,11,17,6
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-02,11,17,6
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-03,17,17,0
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-04,17,17,0
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-05,17,17,0
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-06,17,17,0
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-07,17,17,0
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-08,17,17,0
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-09,17,17,0
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-10,17,17,0
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-11,17,17,0
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-12,17,17,0
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-13,17,17,0
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-14,17,17,0
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-15,17,17,0
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-16,17,17,0
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-17,17,17,0
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-18,16,17,1
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-19,15,17,2
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-20,14,17,3
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-21,13,17,4
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-22,13,17,4
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-23,12,17,5
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-24,12,17,5
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-25,12,17,5
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-26,12,17,5
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-27,12,17,5
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-28,12,17,5
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-29,12,17,5
+2025-09,ing005,"Sun-Dried Tomatoes",2025-09-30,12,17,5
+2025-09,ing006,"Spicy Chicken",2025-09-01,10,11,1
+2025-09,ing006,"Spicy Chicken",2025-09-02,9,11,2
+2025-09,ing006,"Spicy Chicken",2025-09-03,8,11,3
+2025-09,ing006,"Spicy Chicken",2025-09-04,8,11,3
+2025-09,ing006,"Spicy Chicken",2025-09-05,8,11,3
+2025-09,ing006,"Spicy Chicken",2025-09-06,7,11,4
+2025-09,ing006,"Spicy Chicken",2025-09-07,7,11,4
+2025-09,ing006,"Spicy Chicken",2025-09-08,10,11,1
+2025-09,ing006,"Spicy Chicken",2025-09-09,10,11,1
+2025-09,ing006,"Spicy Chicken",2025-09-10,9,11,2
+2025-09,ing006,"Spicy Chicken",2025-09-11,9,11,2
+2025-09,ing006,"Spicy Chicken",2025-09-12,9,11,2
+2025-09,ing006,"Spicy Chicken",2025-09-13,8,11,3
+2025-09,ing006,"Spicy Chicken",2025-09-14,8,11,3
+2025-09,ing006,"Spicy Chicken",2025-09-15,8,11,3
+2025-09,ing006,"Spicy Chicken",2025-09-16,7,11,4
+2025-09,ing006,"Spicy Chicken",2025-09-17,6,11,5
+2025-09,ing006,"Spicy Chicken",2025-09-18,10,11,1
+2025-09,ing006,"Spicy Chicken",2025-09-19,9,11,2
+2025-09,ing006,"Spicy Chicken",2025-09-20,8,11,3
+2025-09,ing006,"Spicy Chicken",2025-09-22,7,11,4
+2025-09,ing006,"Spicy Chicken",2025-09-23,6,11,5
+2025-09,ing006,"Spicy Chicken",2025-09-24,11,11,0
+2025-09,ing006,"Spicy Chicken",2025-09-25,10,11,1
+2025-09,ing006,"Spicy Chicken",2025-09-26,10,11,1
+2025-09,ing006,"Spicy Chicken",2025-09-27,10,11,1
+2025-09,ing006,"Spicy Chicken",2025-09-28,9,11,2
+2025-09,ing006,"Spicy Chicken",2025-09-29,8,11,3
+2025-09,ing006,"Spicy Chicken",2025-09-30,7,11,4
+2025-09,ing007,Jalapenos,2025-09-01,20,21,1
+2025-09,ing007,Jalapenos,2025-09-02,19,21,2
+2025-09,ing007,Jalapenos,2025-09-03,18,21,3
+2025-09,ing007,Jalapenos,2025-09-04,17,21,4
+2025-09,ing007,Jalapenos,2025-09-05,17,21,4
+2025-09,ing007,Jalapenos,2025-09-06,15,21,6
+2025-09,ing007,Jalapenos,2025-09-07,14,21,7
+2025-09,ing007,Jalapenos,2025-09-08,12,21,9
+2025-09,ing007,Jalapenos,2025-09-09,21,21,0
+2025-09,ing007,Jalapenos,2025-09-10,20,21,1
+2025-09,ing007,Jalapenos,2025-09-11,19,21,2
+2025-09,ing007,Jalapenos,2025-09-12,18,21,3
+2025-09,ing007,Jalapenos,2025-09-13,17,21,4
+2025-09,ing007,Jalapenos,2025-09-14,16,21,5
+2025-09,ing007,Jalapenos,2025-09-15,15,21,6
+2025-09,ing007,Jalapenos,2025-09-16,13,21,8
+2025-09,ing007,Jalapenos,2025-09-17,12,21,9
+2025-09,ing007,Jalapenos,2025-09-18,11,21,10
+2025-09,ing007,Jalapenos,2025-09-19,20,21,1
+2025-09,ing007,Jalapenos,2025-09-20,19,21,2
+2025-09,ing007,Jalapenos,2025-09-21,18,21,3
+2025-09,ing007,Jalapenos,2025-09-22,17,21,4
+2025-09,ing007,Jalapenos,2025-09-23,16,21,5
+2025-09,ing007,Jalapenos,2025-09-24,15,21,6
+2025-09,ing007,Jalapenos,2025-09-25,14,21,7
+2025-09,ing007,Jalapenos,2025-09-26,13,21,8
+2025-09,ing007,Jalapenos,2025-09-27,21,21,0
+2025-09,ing007,Jalapenos,2025-09-28,20,21,1
+2025-09,ing007,Jalapenos,2025-09-29,18,21,3
+2025-09,ing007,Jalapenos,2025-09-30,17,21,4
+2025-09,ing008,"Smoked Gouda",2025-09-01,12,13,1
+2025-09,ing008,"Smoked Gouda",2025-09-02,11,13,2
+2025-09,ing008,"Smoked Gouda",2025-09-03,10,13,3
+2025-09,ing008,"Smoked Gouda",2025-09-04,10,13,3
+2025-09,ing008,"Smoked Gouda",2025-09-05,10,13,3
+2025-09,ing008,"Smoked Gouda",2025-09-06,9,13,4
+2025-09,ing008,"Smoked Gouda",2025-09-07,9,13,4
+2025-09,ing008,"Smoked Gouda",2025-09-08,7,13,6
+2025-09,ing008,"Smoked Gouda",2025-09-09,7,13,6
+2025-09,ing008,"Smoked Gouda",2025-09-10,6,13,7
+2025-09,ing008,"Smoked Gouda",2025-09-11,13,13,0
+2025-09,ing008,"Smoked Gouda",2025-09-12,13,13,0
+2025-09,ing008,"Smoked Gouda",2025-09-13,12,13,1
+2025-09,ing008,"Smoked Gouda",2025-09-14,12,13,1
+2025-09,ing008,"Smoked Gouda",2025-09-15,12,13,1
+2025-09,ing008,"Smoked Gouda",2025-09-16,11,13,2
+2025-09,ing008,"Smoked Gouda",2025-09-17,10,13,3
+2025-09,ing008,"Smoked Gouda",2025-09-18,9,13,4
+2025-09,ing008,"Smoked Gouda",2025-09-19,8,13,5
+2025-09,ing008,"Smoked Gouda",2025-09-20,7,13,6
+2025-09,ing008,"Smoked Gouda",2025-09-22,12,13,1
+2025-09,ing008,"Smoked Gouda",2025-09-23,11,13,2
+2025-09,ing008,"Smoked Gouda",2025-09-24,11,13,2
+2025-09,ing008,"Smoked Gouda",2025-09-25,10,13,3
+2025-09,ing008,"Smoked Gouda",2025-09-26,10,13,3
+2025-09,ing008,"Smoked Gouda",2025-09-27,10,13,3
+2025-09,ing008,"Smoked Gouda",2025-09-28,9,13,4
+2025-09,ing008,"Smoked Gouda",2025-09-29,8,13,5
+2025-09,ing008,"Smoked Gouda",2025-09-30,7,13,6
+2025-09,ing009,"Chipotle Sauce",2025-09-01,20,20,0
+2025-09,ing009,"Chipotle Sauce",2025-09-02,20,20,0
+2025-09,ing009,"Chipotle Sauce",2025-09-03,19,20,1
+2025-09,ing009,"Chipotle Sauce",2025-09-04,19,20,1
+2025-09,ing009,"Chipotle Sauce",2025-09-05,19,20,1
+2025-09,ing009,"Chipotle Sauce",2025-09-06,19,20,1
+2025-09,ing009,"Chipotle Sauce",2025-09-07,19,20,1
+2025-09,ing009,"Chipotle Sauce",2025-09-08,18,20,2
+2025-09,ing009,"Chipotle Sauce",2025-09-09,18,20,2
+2025-09,ing009,"Chipotle Sauce",2025-09-10,17,20,3
+2025-09,ing009,"Chipotle Sauce",2025-09-11,17,20,3
+2025-09,ing009,"Chipotle Sauce",2025-09-12,17,20,3
+2025-09,ing009,"Chipotle Sauce",2025-09-13,16,20,4
+2025-09,ing009,"Chipotle Sauce",2025-09-14,16,20,4
+2025-09,ing009,"Chipotle Sauce",2025-09-15,16,20,4
+2025-09,ing009,"Chipotle Sauce",2025-09-16,15,20,5
+2025-09,ing009,"Chipotle Sauce",2025-09-17,15,20,5
+2025-09,ing009,"Chipotle Sauce",2025-09-18,15,20,5
+2025-09,ing009,"Chipotle Sauce",2025-09-19,14,20,6
+2025-09,ing009,"Chipotle Sauce",2025-09-20,14,20,6
+2025-09,ing009,"Chipotle Sauce",2025-09-22,14,20,6
+2025-09,ing009,"Chipotle Sauce",2025-09-23,14,20,6
+2025-09,ing009,"Chipotle Sauce",2025-09-24,14,20,6
+2025-09,ing009,"Chipotle Sauce",2025-09-25,14,20,6
+2025-09,ing009,"Chipotle Sauce",2025-09-26,14,20,6
+2025-09,ing009,"Chipotle Sauce",2025-09-27,14,20,6
+2025-09,ing009,"Chipotle Sauce",2025-09-28,14,20,6
+2025-09,ing009,"Chipotle Sauce",2025-09-29,14,20,6
+2025-09,ing009,"Chipotle Sauce",2025-09-30,13,20,7
+2025-09,ing010,"Wild Mushrooms",2025-09-01,12,16,4
+2025-09,ing010,"Wild Mushrooms",2025-09-02,11,16,5
+2025-09,ing010,"Wild Mushrooms",2025-09-03,9,16,7
+2025-09,ing010,"Wild Mushrooms",2025-09-04,8,16,8
+2025-09,ing010,"Wild Mushrooms",2025-09-05,13,16,3
+2025-09,ing010,"Wild Mushrooms",2025-09-06,13,16,3
+2025-09,ing010,"Wild Mushrooms",2025-09-07,12,16,4
+2025-09,ing010,"Wild Mushrooms",2025-09-08,12,16,4
+2025-09,ing010,"Wild Mushrooms",2025-09-09,11,16,5
+2025-09,ing010,"Wild Mushrooms",2025-09-10,11,16,5
+2025-09,ing010,"Wild Mushrooms",2025-09-11,10,16,6
+2025-09,ing010,"Wild Mushrooms",2025-09-12,16,16,0
+2025-09,ing010,"Wild Mushrooms",2025-09-13,14,16,2
+2025-09,ing010,"Wild Mushrooms",2025-09-14,11,16,5
+2025-09,ing010,"Wild Mushrooms",2025-09-15,9,16,7
+2025-09,ing010,"Wild Mushrooms",2025-09-16,7,16,9
+2025-09,ing010,"Wild Mushrooms",2025-09-17,6,16,10
+2025-09,ing010,"Wild Mushrooms",2025-09-18,5,16,11
+2025-09,ing010,"Wild Mushrooms",2025-09-19,10,16,6
+2025-09,ing010,"Wild Mushrooms",2025-09-20,10,16,6
+2025-09,ing010,"Wild Mushrooms",2025-09-21,8,16,8
+2025-09,ing010,"Wild Mushrooms",2025-09-22,15,16,1
+2025-09,ing010,"Wild Mushrooms",2025-09-23,15,16,1
+2025-09,ing010,"Wild Mushrooms",2025-09-24,13,16,3
+2025-09,ing010,"Wild Mushrooms",2025-09-25,11,16,5
+2025-09,ing010,"Wild Mushrooms",2025-09-26,10,16,6
+2025-09,ing010,"Wild Mushrooms",2025-09-27,9,16,7
+2025-09,ing010,"Wild Mushrooms",2025-09-28,14,16,2
+2025-09,ing010,"Wild Mushrooms",2025-09-29,13,16,3
+2025-09,ing010,"Wild Mushrooms",2025-09-30,12,16,4
+2025-09,ing011,"Truffle Oil",2025-09-01,5,7,2
+2025-09,ing011,"Truffle Oil",2025-09-02,4,7,3
+2025-09,ing011,"Truffle Oil",2025-09-03,4,7,3
+2025-09,ing011,"Truffle Oil",2025-09-04,3,7,4
+2025-09,ing011,"Truffle Oil",2025-09-05,5,7,2
+2025-09,ing011,"Truffle Oil",2025-09-06,4,7,3
+2025-09,ing011,"Truffle Oil",2025-09-07,6,7,1
+2025-09,ing011,"Truffle Oil",2025-09-08,5,7,2
+2025-09,ing011,"Truffle Oil",2025-09-09,4,7,3
+2025-09,ing011,"Truffle Oil",2025-09-10,7,7,0
+2025-09,ing011,"Truffle Oil",2025-09-11,6,7,1
+2025-09,ing011,"Truffle Oil",2025-09-12,5,7,2
+2025-09,ing011,"Truffle Oil",2025-09-13,3,7,4
+2025-09,ing011,"Truffle Oil",2025-09-14,4,7,3
+2025-09,ing011,"Truffle Oil",2025-09-15,2,7,5
+2025-09,ing011,"Truffle Oil",2025-09-16,5,7,2
+2025-09,ing011,"Truffle Oil",2025-09-17,4,7,3
+2025-09,ing011,"Truffle Oil",2025-09-18,6,7,1
+2025-09,ing011,"Truffle Oil",2025-09-19,4,7,3
+2025-09,ing011,"Truffle Oil",2025-09-20,4,7,3
+2025-09,ing011,"Truffle Oil",2025-09-21,6,7,1
+2025-09,ing011,"Truffle Oil",2025-09-22,4,7,3
+2025-09,ing011,"Truffle Oil",2025-09-23,4,7,3
+2025-09,ing011,"Truffle Oil",2025-09-24,6,7,1
+2025-09,ing011,"Truffle Oil",2025-09-25,4,7,3
+2025-09,ing011,"Truffle Oil",2025-09-26,3,7,4
+2025-09,ing011,"Truffle Oil",2025-09-27,6,7,1
+2025-09,ing011,"Truffle Oil",2025-09-28,4,7,3
+2025-09,ing011,"Truffle Oil",2025-09-29,3,7,4
+2025-09,ing011,"Truffle Oil",2025-09-30,6,7,1
+2025-09,ing012,Mozzarella,2025-09-01,17,21,4
+2025-09,ing012,Mozzarella,2025-09-02,16,21,5
+2025-09,ing012,Mozzarella,2025-09-03,15,21,6
+2025-09,ing012,Mozzarella,2025-09-04,14,21,7
+2025-09,ing012,Mozzarella,2025-09-05,13,21,8
+2025-09,ing012,Mozzarella,2025-09-06,12,21,9
+2025-09,ing012,Mozzarella,2025-09-07,21,21,0
+2025-09,ing012,Mozzarella,2025-09-08,21,21,0
+2025-09,ing012,Mozzarella,2025-09-09,20,21,1
+2025-09,ing012,Mozzarella,2025-09-10,20,21,1
+2025-09,ing012,Mozzarella,2025-09-11,19,21,2
+2025-09,ing012,Mozzarella,2025-09-12,18,21,3
+2025-09,ing012,Mozzarella,2025-09-13,17,21,4
+2025-09,ing012,Mozzarella,2025-09-14,16,21,5
+2025-09,ing012,Mozzarella,2025-09-15,15,21,6
+2025-09,ing012,Mozzarella,2025-09-16,14,21,7
+2025-09,ing012,Mozzarella,2025-09-17,13,21,8
+2025-09,ing012,Mozzarella,2025-09-18,12,21,9
+2025-09,ing012,Mozzarella,2025-09-19,21,21,0
+2025-09,ing012,Mozzarella,2025-09-20,21,21,0
+2025-09,ing012,Mozzarella,2025-09-21,20,21,1
+2025-09,ing012,Mozzarella,2025-09-22,19,21,2
+2025-09,ing012,Mozzarella,2025-09-23,19,21,2
+2025-09,ing012,Mozzarella,2025-09-24,18,21,3
+2025-09,ing012,Mozzarella,2025-09-25,17,21,4
+2025-09,ing012,Mozzarella,2025-09-26,16,21,5
+2025-09,ing012,Mozzarella,2025-09-27,15,21,6
+2025-09,ing012,Mozzarella,2025-09-28,14,21,7
+2025-09,ing012,Mozzarella,2025-09-29,13,21,8
+2025-09,ing012,Mozzarella,2025-09-30,12,21,9
+2025-09,ing013,"Fresh Spinach",2025-09-01,11,16,5
+2025-09,ing013,"Fresh Spinach",2025-09-02,11,16,5
+2025-09,ing013,"Fresh Spinach",2025-09-03,10,16,6
+2025-09,ing013,"Fresh Spinach",2025-09-04,10,16,6
+2025-09,ing013,"Fresh Spinach",2025-09-05,9,16,7
+2025-09,ing013,"Fresh Spinach",2025-09-06,16,16,0
+2025-09,ing013,"Fresh Spinach",2025-09-07,16,16,0
+2025-09,ing013,"Fresh Spinach",2025-09-08,16,16,0
+2025-09,ing013,"Fresh Spinach",2025-09-09,16,16,0
+2025-09,ing013,"Fresh Spinach",2025-09-10,16,16,0
+2025-09,ing013,"Fresh Spinach",2025-09-11,16,16,0
+2025-09,ing013,"Fresh Spinach",2025-09-12,15,16,1
+2025-09,ing013,"Fresh Spinach",2025-09-13,14,16,2
+2025-09,ing013,"Fresh Spinach",2025-09-14,13,16,3
+2025-09,ing013,"Fresh Spinach",2025-09-15,12,16,4
+2025-09,ing013,"Fresh Spinach",2025-09-16,11,16,5
+2025-09,ing013,"Fresh Spinach",2025-09-17,11,16,5
+2025-09,ing013,"Fresh Spinach",2025-09-18,11,16,5
+2025-09,ing013,"Fresh Spinach",2025-09-19,10,16,6
+2025-09,ing013,"Fresh Spinach",2025-09-20,10,16,6
+2025-09,ing013,"Fresh Spinach",2025-09-21,16,16,0
+2025-09,ing013,"Fresh Spinach",2025-09-22,16,16,0
+2025-09,ing013,"Fresh Spinach",2025-09-23,16,16,0
+2025-09,ing013,"Fresh Spinach",2025-09-24,15,16,1
+2025-09,ing013,"Fresh Spinach",2025-09-25,14,16,2
+2025-09,ing013,"Fresh Spinach",2025-09-26,14,16,2
+2025-09,ing013,"Fresh Spinach",2025-09-27,14,16,2
+2025-09,ing013,"Fresh Spinach",2025-09-28,13,16,3
+2025-09,ing013,"Fresh Spinach",2025-09-29,13,16,3
+2025-09,ing013,"Fresh Spinach",2025-09-30,13,16,3
+2025-09,ing014,"Italian Sausage",2025-09-01,8,13,5
+2025-09,ing014,"Italian Sausage",2025-09-02,13,13,0
+2025-09,ing014,"Italian Sausage",2025-09-03,12,13,1
+2025-09,ing014,"Italian Sausage",2025-09-04,11,13,2
+2025-09,ing014,"Italian Sausage",2025-09-05,10,13,3
+2025-09,ing014,"Italian Sausage",2025-09-06,9,13,4
+2025-09,ing014,"Italian Sausage",2025-09-07,9,13,4
+2025-09,ing014,"Italian Sausage",2025-09-08,7,13,6
+2025-09,ing014,"Italian Sausage",2025-09-09,6,13,7
+2025-09,ing014,"Italian Sausage",2025-09-10,11,13,2
+2025-09,ing014,"Italian Sausage",2025-09-11,10,13,3
+2025-09,ing014,"Italian Sausage",2025-09-12,10,13,3
+2025-09,ing014,"Italian Sausage",2025-09-13,9,13,4
+2025-09,ing014,"Italian Sausage",2025-09-14,8,13,5
+2025-09,ing014,"Italian Sausage",2025-09-15,6,13,7
+2025-09,ing014,"Italian Sausage",2025-09-16,9,13,4
+2025-09,ing014,"Italian Sausage",2025-09-17,6,13,7
+2025-09,ing014,"Italian Sausage",2025-09-18,5,13,8
+2025-09,ing014,"Italian Sausage",2025-09-19,12,13,1
+2025-09,ing014,"Italian Sausage",2025-09-20,11,13,2
+2025-09,ing014,"Italian Sausage",2025-09-21,10,13,3
+2025-09,ing014,"Italian Sausage",2025-09-22,9,13,4
+2025-09,ing014,"Italian Sausage",2025-09-23,7,13,6
+2025-09,ing014,"Italian Sausage",2025-09-24,6,13,7
+2025-09,ing014,"Italian Sausage",2025-09-25,11,13,2
+2025-09,ing014,"Italian Sausage",2025-09-26,11,13,2
+2025-09,ing014,"Italian Sausage",2025-09-27,10,13,3
+2025-09,ing014,"Italian Sausage",2025-09-28,8,13,5
+2025-09,ing014,"Italian Sausage",2025-09-29,8,13,5
+2025-09,ing014,"Italian Sausage",2025-09-30,12,13,1
+2025-09,ing015,"Roasted Garlic",2025-09-01,17,19,2
+2025-09,ing015,"Roasted Garlic",2025-09-02,17,19,2
+2025-09,ing015,"Roasted Garlic",2025-09-03,17,19,2
+2025-09,ing015,"Roasted Garlic",2025-09-04,17,19,2
+2025-09,ing015,"Roasted Garlic",2025-09-05,17,19,2
+2025-09,ing015,"Roasted Garlic",2025-09-06,16,19,3
+2025-09,ing015,"Roasted Garlic",2025-09-07,16,19,3
+2025-09,ing015,"Roasted Garlic",2025-09-08,15,19,4
+2025-09,ing015,"Roasted Garlic",2025-09-09,15,19,4
+2025-09,ing015,"Roasted Garlic",2025-09-10,15,19,4
+2025-09,ing015,"Roasted Garlic",2025-09-11,14,19,5
+2025-09,ing015,"Roasted Garlic",2025-09-12,14,19,5
+2025-09,ing015,"Roasted Garlic",2025-09-13,14,19,5
+2025-09,ing015,"Roasted Garlic",2025-09-14,14,19,5
+2025-09,ing015,"Roasted Garlic",2025-09-15,13,19,6
+2025-09,ing015,"Roasted Garlic",2025-09-16,12,19,7
+2025-09,ing015,"Roasted Garlic",2025-09-17,11,19,8
+2025-09,ing015,"Roasted Garlic",2025-09-18,11,19,8
+2025-09,ing015,"Roasted Garlic",2025-09-19,11,19,8
+2025-09,ing015,"Roasted Garlic",2025-09-20,19,19,0
+2025-09,ing015,"Roasted Garlic",2025-09-21,19,19,0
+2025-09,ing015,"Roasted Garlic",2025-09-22,19,19,0
+2025-09,ing015,"Roasted Garlic",2025-09-23,18,19,1
+2025-09,ing015,"Roasted Garlic",2025-09-24,18,19,1
+2025-09,ing015,"Roasted Garlic",2025-09-25,18,19,1
+2025-09,ing015,"Roasted Garlic",2025-09-26,18,19,1
+2025-09,ing015,"Roasted Garlic",2025-09-27,18,19,1
+2025-09,ing015,"Roasted Garlic",2025-09-28,17,19,2
+2025-09,ing015,"Roasted Garlic",2025-09-29,17,19,2
+2025-09,ing015,"Roasted Garlic",2025-09-30,17,19,2
+2025-09,ing016,"Red Onion",2025-09-01,21,22,1
+2025-09,ing016,"Red Onion",2025-09-02,20,22,2
+2025-09,ing016,"Red Onion",2025-09-03,18,22,4
+2025-09,ing016,"Red Onion",2025-09-04,17,22,5
+2025-09,ing016,"Red Onion",2025-09-05,16,22,6
+2025-09,ing016,"Red Onion",2025-09-06,15,22,7
+2025-09,ing016,"Red Onion",2025-09-07,14,22,8
+2025-09,ing016,"Red Onion",2025-09-08,22,22,0
+2025-09,ing016,"Red Onion",2025-09-09,21,22,1
+2025-09,ing016,"Red Onion",2025-09-10,20,22,2
+2025-09,ing016,"Red Onion",2025-09-11,19,22,3
+2025-09,ing016,"Red Onion",2025-09-12,18,22,4
+2025-09,ing016,"Red Onion",2025-09-13,17,22,5
+2025-09,ing016,"Red Onion",2025-09-14,16,22,6
+2025-09,ing016,"Red Onion",2025-09-15,15,22,7
+2025-09,ing016,"Red Onion",2025-09-16,13,22,9
+2025-09,ing016,"Red Onion",2025-09-17,21,22,1
+2025-09,ing016,"Red Onion",2025-09-18,20,22,2
+2025-09,ing016,"Red Onion",2025-09-19,19,22,3
+2025-09,ing016,"Red Onion",2025-09-20,17,22,5
+2025-09,ing016,"Red Onion",2025-09-21,16,22,6
+2025-09,ing016,"Red Onion",2025-09-22,15,22,7
+2025-09,ing016,"Red Onion",2025-09-23,14,22,8
+2025-09,ing016,"Red Onion",2025-09-24,22,22,0
+2025-09,ing016,"Red Onion",2025-09-25,20,22,2
+2025-09,ing016,"Red Onion",2025-09-26,19,22,3
+2025-09,ing016,"Red Onion",2025-09-27,18,22,4
+2025-09,ing016,"Red Onion",2025-09-28,16,22,6
+2025-09,ing016,"Red Onion",2025-09-29,15,22,7
+2025-09,ing016,"Red Onion",2025-09-30,14,22,8
+2025-09,ing017,"Fresh Basil",2025-09-01,8,10,2
+2025-09,ing017,"Fresh Basil",2025-09-02,8,10,2
+2025-09,ing017,"Fresh Basil",2025-09-03,8,10,2
+2025-09,ing017,"Fresh Basil",2025-09-04,8,10,2
+2025-09,ing017,"Fresh Basil",2025-09-05,8,10,2
+2025-09,ing017,"Fresh Basil",2025-09-06,8,10,2
+2025-09,ing017,"Fresh Basil",2025-09-07,8,10,2
+2025-09,ing017,"Fresh Basil",2025-09-08,7,10,3
+2025-09,ing017,"Fresh Basil",2025-09-09,7,10,3
+2025-09,ing017,"Fresh Basil",2025-09-10,7,10,3
+2025-09,ing017,"Fresh Basil",2025-09-11,7,10,3
+2025-09,ing017,"Fresh Basil",2025-09-12,7,10,3
+2025-09,ing017,"Fresh Basil",2025-09-13,7,10,3
+2025-09,ing017,"Fresh Basil",2025-09-14,7,10,3
+2025-09,ing017,"Fresh Basil",2025-09-15,7,10,3
+2025-09,ing017,"Fresh Basil",2025-09-16,7,10,3
+2025-09,ing017,"Fresh Basil",2025-09-17,6,10,4
+2025-09,ing017,"Fresh Basil",2025-09-18,6,10,4
+2025-09,ing017,"Fresh Basil",2025-09-19,6,10,4
+2025-09,ing017,"Fresh Basil",2025-09-20,10,10,0
+2025-09,ing017,"Fresh Basil",2025-09-21,10,10,0
+2025-09,ing017,"Fresh Basil",2025-09-22,10,10,0
+2025-09,ing017,"Fresh Basil",2025-09-23,10,10,0
+2025-09,ing017,"Fresh Basil",2025-09-24,10,10,0
+2025-09,ing017,"Fresh Basil",2025-09-25,10,10,0
+2025-09,ing017,"Fresh Basil",2025-09-26,10,10,0
+2025-09,ing017,"Fresh Basil",2025-09-27,10,10,0
+2025-09,ing017,"Fresh Basil",2025-09-28,10,10,0
+2025-09,ing017,"Fresh Basil",2025-09-29,10,10,0
+2025-09,ing017,"Fresh Basil",2025-09-30,10,10,0
+2025-09,ing018,"Smoked Salmon",2025-09-01,-2,7,9
+2025-09,ing018,"Smoked Salmon",2025-09-02,-4,7,11
+2025-09,ing018,"Smoked Salmon",2025-09-03,-6,7,13
+2025-09,ing018,"Smoked Salmon",2025-09-04,-2,7,9
+2025-09,ing018,"Smoked Salmon",2025-09-05,-4,7,11
+2025-09,ing018,"Smoked Salmon",2025-09-06,-7,7,14
+2025-09,ing018,"Smoked Salmon",2025-09-07,-10,7,17
+2025-09,ing018,"Smoked Salmon",2025-09-09,-1,7,8
+2025-09,ing018,"Smoked Salmon",2025-09-10,-1,7,8
+2025-09,ing018,"Smoked Salmon",2025-09-11,-1,7,8
+2025-09,ing018,"Smoked Salmon",2025-09-12,-4,7,11
+2025-09,ing018,"Smoked Salmon",2025-09-13,5,7,2
+2025-09,ing018,"Smoked Salmon",2025-09-14,3,7,4
+2025-09,ing018,"Smoked Salmon",2025-09-15,3,7,4
+2025-09,ing018,"Smoked Salmon",2025-09-16,0,7,7
+2025-09,ing018,"Smoked Salmon",2025-09-17,1,7,6
+2025-09,ing018,"Smoked Salmon",2025-09-18,1,7,6
+2025-09,ing018,"Smoked Salmon",2025-09-19,1,7,6
+2025-09,ing018,"Smoked Salmon",2025-09-20,0,7,7
+2025-09,ing018,"Smoked Salmon",2025-09-21,7,7,0
+2025-09,ing018,"Smoked Salmon",2025-09-22,5,7,2
+2025-09,ing018,"Smoked Salmon",2025-09-23,2,7,5
+2025-09,ing018,"Smoked Salmon",2025-09-24,1,7,6
+2025-09,ing018,"Smoked Salmon",2025-09-26,2,7,5
+2025-09,ing018,"Smoked Salmon",2025-09-27,0,7,7
+2025-09,ing018,"Smoked Salmon",2025-09-28,-2,7,9
+2025-09,ing018,"Smoked Salmon",2025-09-29,-4,7,11
+2025-09,ing018,"Smoked Salmon",2025-09-30,2,7,5
+2025-09,ing019,"Dill Cream Cheese",2025-09-01,8,14,6
+2025-09,ing019,"Dill Cream Cheese",2025-09-02,7,14,7
+2025-09,ing019,"Dill Cream Cheese",2025-09-03,6,14,8
+2025-09,ing019,"Dill Cream Cheese",2025-09-04,10,14,4
+2025-09,ing019,"Dill Cream Cheese",2025-09-05,9,14,5
+2025-09,ing019,"Dill Cream Cheese",2025-09-06,8,14,6
+2025-09,ing019,"Dill Cream Cheese",2025-09-07,7,14,7
+2025-09,ing019,"Dill Cream Cheese",2025-09-09,12,14,2
+2025-09,ing019,"Dill Cream Cheese",2025-09-10,12,14,2
+2025-09,ing019,"Dill Cream Cheese",2025-09-11,12,14,2
+2025-09,ing019,"Dill Cream Cheese",2025-09-12,11,14,3
+2025-09,ing019,"Dill Cream Cheese",2025-09-13,11,14,3
+2025-09,ing019,"Dill Cream Cheese",2025-09-14,10,14,4
+2025-09,ing019,"Dill Cream Cheese",2025-09-15,10,14,4
+2025-09,ing019,"Dill Cream Cheese",2025-09-16,9,14,5
+2025-09,ing019,"Dill Cream Cheese",2025-09-17,8,14,6
+2025-09,ing019,"Dill Cream Cheese",2025-09-18,8,14,6
+2025-09,ing019,"Dill Cream Cheese",2025-09-19,8,14,6
+2025-09,ing019,"Dill Cream Cheese",2025-09-20,14,14,0
+2025-09,ing019,"Dill Cream Cheese",2025-09-21,14,14,0
+2025-09,ing019,"Dill Cream Cheese",2025-09-22,13,14,1
+2025-09,ing019,"Dill Cream Cheese",2025-09-23,12,14,2
+2025-09,ing019,"Dill Cream Cheese",2025-09-24,12,14,2
+2025-09,ing019,"Dill Cream Cheese",2025-09-26,11,14,3
+2025-09,ing019,"Dill Cream Cheese",2025-09-27,10,14,4
+2025-09,ing019,"Dill Cream Cheese",2025-09-28,9,14,5
+2025-09,ing019,"Dill Cream Cheese",2025-09-29,8,14,6
+2025-09,ing019,"Dill Cream Cheese",2025-09-30,7,14,7
+2025-09,ing020,Capers,2025-09-01,9,9,0
+2025-09,ing020,Capers,2025-09-02,9,9,0
+2025-09,ing020,Capers,2025-09-03,9,9,0
+2025-09,ing020,Capers,2025-09-04,8,9,1
+2025-09,ing020,Capers,2025-09-05,8,9,1
+2025-09,ing020,Capers,2025-09-06,8,9,1
+2025-09,ing020,Capers,2025-09-07,8,9,1
+2025-09,ing020,Capers,2025-09-09,8,9,1
+2025-09,ing020,Capers,2025-09-10,8,9,1
+2025-09,ing020,Capers,2025-09-11,8,9,1
+2025-09,ing020,Capers,2025-09-12,8,9,1
+2025-09,ing020,Capers,2025-09-13,8,9,1
+2025-09,ing020,Capers,2025-09-14,8,9,1
+2025-09,ing020,Capers,2025-09-15,8,9,1
+2025-09,ing020,Capers,2025-09-16,8,9,1
+2025-09,ing020,Capers,2025-09-17,8,9,1
+2025-09,ing020,Capers,2025-09-18,8,9,1
+2025-09,ing020,Capers,2025-09-19,8,9,1
+2025-09,ing020,Capers,2025-09-20,8,9,1
+2025-09,ing020,Capers,2025-09-21,8,9,1
+2025-09,ing020,Capers,2025-09-22,8,9,1
+2025-09,ing020,Capers,2025-09-23,8,9,1
+2025-09,ing020,Capers,2025-09-24,8,9,1
+2025-09,ing020,Capers,2025-09-26,8,9,1
+2025-09,ing020,Capers,2025-09-27,8,9,1
+2025-09,ing020,Capers,2025-09-28,8,9,1
+2025-09,ing020,Capers,2025-09-29,8,9,1
+2025-09,ing020,Capers,2025-09-30,8,9,1
+2025-09,ing021,Arugula,2025-09-01,16,16,0
+2025-09,ing021,Arugula,2025-09-02,16,16,0
+2025-09,ing021,Arugula,2025-09-03,16,16,0
+2025-09,ing021,Arugula,2025-09-04,15,16,1
+2025-09,ing021,Arugula,2025-09-05,15,16,1
+2025-09,ing021,Arugula,2025-09-06,15,16,1
+2025-09,ing021,Arugula,2025-09-07,15,16,1
+2025-09,ing021,Arugula,2025-09-09,15,16,1
+2025-09,ing021,Arugula,2025-09-10,15,16,1
+2025-09,ing021,Arugula,2025-09-11,15,16,1
+2025-09,ing021,Arugula,2025-09-12,15,16,1
+2025-09,ing021,Arugula,2025-09-13,15,16,1
+2025-09,ing021,Arugula,2025-09-14,15,16,1
+2025-09,ing021,Arugula,2025-09-15,15,16,1
+2025-09,ing021,Arugula,2025-09-16,15,16,1
+2025-09,ing021,Arugula,2025-09-17,15,16,1
+2025-09,ing021,Arugula,2025-09-18,15,16,1
+2025-09,ing021,Arugula,2025-09-19,15,16,1
+2025-09,ing021,Arugula,2025-09-20,15,16,1
+2025-09,ing021,Arugula,2025-09-21,15,16,1
+2025-09,ing021,Arugula,2025-09-22,15,16,1
+2025-09,ing021,Arugula,2025-09-23,15,16,1
+2025-09,ing021,Arugula,2025-09-24,15,16,1
+2025-09,ing021,Arugula,2025-09-26,15,16,1
+2025-09,ing021,Arugula,2025-09-27,15,16,1
+2025-09,ing021,Arugula,2025-09-28,15,16,1
+2025-09,ing021,Arugula,2025-09-29,15,16,1
+2025-09,ing021,Arugula,2025-09-30,15,16,1
+2025-09,ing022,"BBQ Brisket",2025-09-01,6,10,4
+2025-09,ing022,"BBQ Brisket",2025-09-02,10,10,0
+2025-09,ing022,"BBQ Brisket",2025-09-03,8,10,2
+2025-09,ing022,"BBQ Brisket",2025-09-04,7,10,3
+2025-09,ing022,"BBQ Brisket",2025-09-05,5,10,5
+2025-09,ing022,"BBQ Brisket",2025-09-06,8,10,2
+2025-09,ing022,"BBQ Brisket",2025-09-07,6,10,4
+2025-09,ing022,"BBQ Brisket",2025-09-08,4,10,6
+2025-09,ing022,"BBQ Brisket",2025-09-09,8,10,2
+2025-09,ing022,"BBQ Brisket",2025-09-10,8,10,2
+2025-09,ing022,"BBQ Brisket",2025-09-11,8,10,2
+2025-09,ing022,"BBQ Brisket",2025-09-12,6,10,4
+2025-09,ing022,"BBQ Brisket",2025-09-13,5,10,5
+2025-09,ing022,"BBQ Brisket",2025-09-14,8,10,2
+2025-09,ing022,"BBQ Brisket",2025-09-15,8,10,2
+2025-09,ing022,"BBQ Brisket",2025-09-16,8,10,2
+2025-09,ing022,"BBQ Brisket",2025-09-17,7,10,3
+2025-09,ing022,"BBQ Brisket",2025-09-18,7,10,3
+2025-09,ing022,"BBQ Brisket",2025-09-19,10,10,0
+2025-09,ing022,"BBQ Brisket",2025-09-20,8,10,2
+2025-09,ing022,"BBQ Brisket",2025-09-21,7,10,3
+2025-09,ing022,"BBQ Brisket",2025-09-22,6,10,4
+2025-09,ing022,"BBQ Brisket",2025-09-23,10,10,0
+2025-09,ing022,"BBQ Brisket",2025-09-24,8,10,2
+2025-09,ing022,"BBQ Brisket",2025-09-25,7,10,3
+2025-09,ing022,"BBQ Brisket",2025-09-26,6,10,4
+2025-09,ing022,"BBQ Brisket",2025-09-27,9,10,1
+2025-09,ing022,"BBQ Brisket",2025-09-28,8,10,2
+2025-09,ing022,"BBQ Brisket",2025-09-29,7,10,3
+2025-09,ing022,"BBQ Brisket",2025-09-30,7,10,3
+2025-09,ing023,"Cheddar Cheese",2025-09-01,11,15,4
+2025-09,ing023,"Cheddar Cheese",2025-09-02,10,15,5
+2025-09,ing023,"Cheddar Cheese",2025-09-03,9,15,6
+2025-09,ing023,"Cheddar Cheese",2025-09-04,8,15,7
+2025-09,ing023,"Cheddar Cheese",2025-09-05,13,15,2
+2025-09,ing023,"Cheddar Cheese",2025-09-06,12,15,3
+2025-09,ing023,"Cheddar Cheese",2025-09-07,11,15,4
+2025-09,ing023,"Cheddar Cheese",2025-09-08,10,15,5
+2025-09,ing023,"Cheddar Cheese",2025-09-09,9,15,6
+2025-09,ing023,"Cheddar Cheese",2025-09-10,9,15,6
+2025-09,ing023,"Cheddar Cheese",2025-09-11,15,15,0
+2025-09,ing023,"Cheddar Cheese",2025-09-12,14,15,1
+2025-09,ing023,"Cheddar Cheese",2025-09-13,13,15,2
+2025-09,ing023,"Cheddar Cheese",2025-09-14,12,15,3
+2025-09,ing023,"Cheddar Cheese",2025-09-15,12,15,3
+2025-09,ing023,"Cheddar Cheese",2025-09-16,12,15,3
+2025-09,ing023,"Cheddar Cheese",2025-09-17,11,15,4
+2025-09,ing023,"Cheddar Cheese",2025-09-18,11,15,4
+2025-09,ing023,"Cheddar Cheese",2025-09-19,10,15,5
+2025-09,ing023,"Cheddar Cheese",2025-09-20,9,15,6
+2025-09,ing023,"Cheddar Cheese",2025-09-21,9,15,6
+2025-09,ing023,"Cheddar Cheese",2025-09-22,14,15,1
+2025-09,ing023,"Cheddar Cheese",2025-09-23,14,15,1
+2025-09,ing023,"Cheddar Cheese",2025-09-24,12,15,3
+2025-09,ing023,"Cheddar Cheese",2025-09-25,11,15,4
+2025-09,ing023,"Cheddar Cheese",2025-09-26,10,15,5
+2025-09,ing023,"Cheddar Cheese",2025-09-27,9,15,6
+2025-09,ing023,"Cheddar Cheese",2025-09-28,9,15,6
+2025-09,ing023,"Cheddar Cheese",2025-09-29,14,15,1
+2025-09,ing023,"Cheddar Cheese",2025-09-30,14,15,1
+2025-09,ing024,"BBQ Sauce",2025-09-01,12,17,5
+2025-09,ing024,"BBQ Sauce",2025-09-02,12,17,5
+2025-09,ing024,"BBQ Sauce",2025-09-03,11,17,6
+2025-09,ing024,"BBQ Sauce",2025-09-04,11,17,6
+2025-09,ing024,"BBQ Sauce",2025-09-05,10,17,7
+2025-09,ing024,"BBQ Sauce",2025-09-06,17,17,0
+2025-09,ing024,"BBQ Sauce",2025-09-07,16,17,1
+2025-09,ing024,"BBQ Sauce",2025-09-08,15,17,2
+2025-09,ing024,"BBQ Sauce",2025-09-09,15,17,2
+2025-09,ing024,"BBQ Sauce",2025-09-10,15,17,2
+2025-09,ing024,"BBQ Sauce",2025-09-11,15,17,2
+2025-09,ing024,"BBQ Sauce",2025-09-12,14,17,3
+2025-09,ing024,"BBQ Sauce",2025-09-13,14,17,3
+2025-09,ing024,"BBQ Sauce",2025-09-14,13,17,4
+2025-09,ing024,"BBQ Sauce",2025-09-15,13,17,4
+2025-09,ing024,"BBQ Sauce",2025-09-16,13,17,4
+2025-09,ing024,"BBQ Sauce",2025-09-17,13,17,4
+2025-09,ing024,"BBQ Sauce",2025-09-18,13,17,4
+2025-09,ing024,"BBQ Sauce",2025-09-19,12,17,5
+2025-09,ing024,"BBQ Sauce",2025-09-20,11,17,6
+2025-09,ing024,"BBQ Sauce",2025-09-21,11,17,6
+2025-09,ing024,"BBQ Sauce",2025-09-22,10,17,7
+2025-09,ing024,"BBQ Sauce",2025-09-23,17,17,0
+2025-09,ing024,"BBQ Sauce",2025-09-24,16,17,1
+2025-09,ing024,"BBQ Sauce",2025-09-25,16,17,1
+2025-09,ing024,"BBQ Sauce",2025-09-26,15,17,2
+2025-09,ing024,"BBQ Sauce",2025-09-27,15,17,2
+2025-09,ing024,"BBQ Sauce",2025-09-28,15,17,2
+2025-09,ing024,"BBQ Sauce",2025-09-29,15,17,2
+2025-09,ing024,"BBQ Sauce",2025-09-30,15,17,2
+2025-09,ing025,"Tandoori Chicken",2025-09-01,8,11,3
+2025-09,ing025,"Tandoori Chicken",2025-09-02,7,11,4
+2025-09,ing025,"Tandoori Chicken",2025-09-03,6,11,5
+2025-09,ing025,"Tandoori Chicken",2025-09-04,10,11,1
+2025-09,ing025,"Tandoori Chicken",2025-09-05,9,11,2
+2025-09,ing025,"Tandoori Chicken",2025-09-06,9,11,2
+2025-09,ing025,"Tandoori Chicken",2025-09-07,8,11,3
+2025-09,ing025,"Tandoori Chicken",2025-09-08,8,11,3
+2025-09,ing025,"Tandoori Chicken",2025-09-09,8,11,3
+2025-09,ing025,"Tandoori Chicken",2025-09-10,7,11,4
+2025-09,ing025,"Tandoori Chicken",2025-09-11,6,11,5
+2025-09,ing025,"Tandoori Chicken",2025-09-12,10,11,1
+2025-09,ing025,"Tandoori Chicken",2025-09-13,9,11,2
+2025-09,ing025,"Tandoori Chicken",2025-09-14,9,11,2
+2025-09,ing025,"Tandoori Chicken",2025-09-15,8,11,3
+2025-09,ing025,"Tandoori Chicken",2025-09-16,6,11,5
+2025-09,ing025,"Tandoori Chicken",2025-09-17,5,11,6
+2025-09,ing025,"Tandoori Chicken",2025-09-18,11,11,0
+2025-09,ing025,"Tandoori Chicken",2025-09-19,10,11,1
+2025-09,ing025,"Tandoori Chicken",2025-09-20,8,11,3
+2025-09,ing025,"Tandoori Chicken",2025-09-21,8,11,3
+2025-09,ing025,"Tandoori Chicken",2025-09-22,8,11,3
+2025-09,ing025,"Tandoori Chicken",2025-09-23,7,11,4
+2025-09,ing025,"Tandoori Chicken",2025-09-24,6,11,5
+2025-09,ing025,"Tandoori Chicken",2025-09-25,9,11,2
+2025-09,ing025,"Tandoori Chicken",2025-09-27,8,11,3
+2025-09,ing025,"Tandoori Chicken",2025-09-28,6,11,5
+2025-09,ing025,"Tandoori Chicken",2025-09-29,5,11,6
+2025-09,ing025,"Tandoori Chicken",2025-09-30,10,11,1
+2025-09,ing026,"Mint Yogurt",2025-09-01,10,14,4
+2025-09,ing026,"Mint Yogurt",2025-09-02,10,14,4
+2025-09,ing026,"Mint Yogurt",2025-09-03,9,14,5
+2025-09,ing026,"Mint Yogurt",2025-09-04,9,14,5
+2025-09,ing026,"Mint Yogurt",2025-09-05,9,14,5
+2025-09,ing026,"Mint Yogurt",2025-09-06,9,14,5
+2025-09,ing026,"Mint Yogurt",2025-09-07,8,14,6
+2025-09,ing026,"Mint Yogurt",2025-09-08,8,14,6
+2025-09,ing026,"Mint Yogurt",2025-09-09,8,14,6
+2025-09,ing026,"Mint Yogurt",2025-09-10,14,14,0
+2025-09,ing026,"Mint Yogurt",2025-09-11,14,14,0
+2025-09,ing026,"Mint Yogurt",2025-09-12,14,14,0
+2025-09,ing026,"Mint Yogurt",2025-09-13,14,14,0
+2025-09,ing026,"Mint Yogurt",2025-09-14,14,14,0
+2025-09,ing026,"Mint Yogurt",2025-09-15,13,14,1
+2025-09,ing026,"Mint Yogurt",2025-09-16,12,14,2
+2025-09,ing026,"Mint Yogurt",2025-09-17,12,14,2
+2025-09,ing026,"Mint Yogurt",2025-09-18,12,14,2
+2025-09,ing026,"Mint Yogurt",2025-09-19,12,14,2
+2025-09,ing026,"Mint Yogurt",2025-09-20,11,14,3
+2025-09,ing026,"Mint Yogurt",2025-09-21,11,14,3
+2025-09,ing026,"Mint Yogurt",2025-09-22,11,14,3
+2025-09,ing026,"Mint Yogurt",2025-09-23,11,14,3
+2025-09,ing026,"Mint Yogurt",2025-09-24,11,14,3
+2025-09,ing026,"Mint Yogurt",2025-09-25,10,14,4
+2025-09,ing026,"Mint Yogurt",2025-09-27,9,14,5
+2025-09,ing026,"Mint Yogurt",2025-09-28,8,14,6
+2025-09,ing026,"Mint Yogurt",2025-09-29,8,14,6
+2025-09,ing026,"Mint Yogurt",2025-09-30,8,14,6
+2025-09,ing027,"Green Chilli",2025-09-01,6,9,3
+2025-09,ing027,"Green Chilli",2025-09-02,6,9,3
+2025-09,ing027,"Green Chilli",2025-09-03,5,9,4
+2025-09,ing027,"Green Chilli",2025-09-04,5,9,4
+2025-09,ing027,"Green Chilli",2025-09-05,5,9,4
+2025-09,ing027,"Green Chilli",2025-09-06,5,9,4
+2025-09,ing027,"Green Chilli",2025-09-07,9,9,0
+2025-09,ing027,"Green Chilli",2025-09-08,9,9,0
+2025-09,ing027,"Green Chilli",2025-09-09,9,9,0
+2025-09,ing027,"Green Chilli",2025-09-10,9,9,0
+2025-09,ing027,"Green Chilli",2025-09-11,9,9,0
+2025-09,ing027,"Green Chilli",2025-09-12,9,9,0
+2025-09,ing027,"Green Chilli",2025-09-13,9,9,0
+2025-09,ing027,"Green Chilli",2025-09-14,9,9,0
+2025-09,ing027,"Green Chilli",2025-09-15,8,9,1
+2025-09,ing027,"Green Chilli",2025-09-16,7,9,2
+2025-09,ing027,"Green Chilli",2025-09-17,7,9,2
+2025-09,ing027,"Green Chilli",2025-09-18,7,9,2
+2025-09,ing027,"Green Chilli",2025-09-19,7,9,2
+2025-09,ing027,"Green Chilli",2025-09-20,6,9,3
+2025-09,ing027,"Green Chilli",2025-09-21,6,9,3
+2025-09,ing027,"Green Chilli",2025-09-22,6,9,3
+2025-09,ing027,"Green Chilli",2025-09-23,6,9,3
+2025-09,ing027,"Green Chilli",2025-09-24,6,9,3
+2025-09,ing027,"Green Chilli",2025-09-25,5,9,4
+2025-09,ing027,"Green Chilli",2025-09-27,5,9,4
+2025-09,ing027,"Green Chilli",2025-09-28,8,9,1
+2025-09,ing027,"Green Chilli",2025-09-29,8,9,1
+2025-09,ing027,"Green Chilli",2025-09-30,8,9,1
+2025-09,ing028,"Grilled Pineapple",2025-09-01,12,12,0
+2025-09,ing028,"Grilled Pineapple",2025-09-02,11,12,1
+2025-09,ing028,"Grilled Pineapple",2025-09-03,11,12,1
+2025-09,ing028,"Grilled Pineapple",2025-09-04,11,12,1
+2025-09,ing028,"Grilled Pineapple",2025-09-05,11,12,1
+2025-09,ing028,"Grilled Pineapple",2025-09-06,9,12,3
+2025-09,ing028,"Grilled Pineapple",2025-09-07,8,12,4
+2025-09,ing028,"Grilled Pineapple",2025-09-08,7,12,5
+2025-09,ing028,"Grilled Pineapple",2025-09-09,6,12,6
+2025-09,ing028,"Grilled Pineapple",2025-09-10,10,12,2
+2025-09,ing028,"Grilled Pineapple",2025-09-11,9,12,3
+2025-09,ing028,"Grilled Pineapple",2025-09-12,8,12,4
+2025-09,ing028,"Grilled Pineapple",2025-09-13,8,12,4
+2025-09,ing028,"Grilled Pineapple",2025-09-14,7,12,5
+2025-09,ing028,"Grilled Pineapple",2025-09-15,11,12,1
+2025-09,ing028,"Grilled Pineapple",2025-09-16,10,12,2
+2025-09,ing028,"Grilled Pineapple",2025-09-17,9,12,3
+2025-09,ing028,"Grilled Pineapple",2025-09-18,8,12,4
+2025-09,ing028,"Grilled Pineapple",2025-09-19,8,12,4
+2025-09,ing028,"Grilled Pineapple",2025-09-20,8,12,4
+2025-09,ing028,"Grilled Pineapple",2025-09-21,12,12,0
+2025-09,ing028,"Grilled Pineapple",2025-09-22,11,12,1
+2025-09,ing028,"Grilled Pineapple",2025-09-23,10,12,2
+2025-09,ing028,"Grilled Pineapple",2025-09-24,9,12,3
+2025-09,ing028,"Grilled Pineapple",2025-09-26,8,12,4
+2025-09,ing028,"Grilled Pineapple",2025-09-27,6,12,6
+2025-09,ing028,"Grilled Pineapple",2025-09-28,6,12,6
+2025-09,ing028,"Grilled Pineapple",2025-09-29,10,12,2
+2025-09,ing028,"Grilled Pineapple",2025-09-30,10,12,2
+2025-09,ing029,"Pulled Pork",2025-09-01,6,9,3
+2025-09,ing029,"Pulled Pork",2025-09-02,5,9,4
+2025-09,ing029,"Pulled Pork",2025-09-03,9,9,0
+2025-09,ing029,"Pulled Pork",2025-09-04,8,9,1
+2025-09,ing029,"Pulled Pork",2025-09-05,8,9,1
+2025-09,ing029,"Pulled Pork",2025-09-06,5,9,4
+2025-09,ing029,"Pulled Pork",2025-09-07,3,9,6
+2025-09,ing029,"Pulled Pork",2025-09-08,2,9,7
+2025-09,ing029,"Pulled Pork",2025-09-09,5,9,4
+2025-09,ing029,"Pulled Pork",2025-09-10,4,9,5
+2025-09,ing029,"Pulled Pork",2025-09-11,2,9,7
+2025-09,ing029,"Pulled Pork",2025-09-12,6,9,3
+2025-09,ing029,"Pulled Pork",2025-09-13,6,9,3
+2025-09,ing029,"Pulled Pork",2025-09-14,4,9,5
+2025-09,ing029,"Pulled Pork",2025-09-15,6,9,3
+2025-09,ing029,"Pulled Pork",2025-09-16,5,9,4
+2025-09,ing029,"Pulled Pork",2025-09-17,3,9,6
+2025-09,ing029,"Pulled Pork",2025-09-18,6,9,3
+2025-09,ing029,"Pulled Pork",2025-09-19,6,9,3
+2025-09,ing029,"Pulled Pork",2025-09-20,5,9,4
+2025-09,ing029,"Pulled Pork",2025-09-21,8,9,1
+2025-09,ing029,"Pulled Pork",2025-09-22,7,9,2
+2025-09,ing029,"Pulled Pork",2025-09-23,6,9,3
+2025-09,ing029,"Pulled Pork",2025-09-24,5,9,4
+2025-09,ing029,"Pulled Pork",2025-09-26,8,9,1
+2025-09,ing029,"Pulled Pork",2025-09-27,5,9,4
+2025-09,ing029,"Pulled Pork",2025-09-28,5,9,4
+2025-09,ing029,"Pulled Pork",2025-09-29,3,9,6
+2025-09,ing029,"Pulled Pork",2025-09-30,7,9,2
+2025-09,ing030,"Truffle Fries",2025-09-01,16,24,8
+2025-09,ing030,"Truffle Fries",2025-09-02,15,24,9
+2025-09,ing030,"Truffle Fries",2025-09-03,13,24,11
+2025-09,ing030,"Truffle Fries",2025-09-04,13,24,11
+2025-09,ing030,"Truffle Fries",2025-09-05,12,24,12
+2025-09,ing030,"Truffle Fries",2025-09-06,21,24,3
+2025-09,ing030,"Truffle Fries",2025-09-07,21,24,3
+2025-09,ing030,"Truffle Fries",2025-09-08,20,24,4
+2025-09,ing030,"Truffle Fries",2025-09-09,19,24,5
+2025-09,ing030,"Truffle Fries",2025-09-11,18,24,6
+2025-09,ing030,"Truffle Fries",2025-09-12,17,24,7
+2025-09,ing030,"Truffle Fries",2025-09-15,16,24,8
+2025-09,ing030,"Truffle Fries",2025-09-16,16,24,8
+2025-09,ing030,"Truffle Fries",2025-09-17,15,24,9
+2025-09,ing030,"Truffle Fries",2025-09-19,15,24,9
+2025-09,ing030,"Truffle Fries",2025-09-20,24,24,0
+2025-09,ing030,"Truffle Fries",2025-09-21,23,24,1
+2025-09,ing030,"Truffle Fries",2025-09-22,20,24,4
+2025-09,ing030,"Truffle Fries",2025-09-23,20,24,4
+2025-09,ing030,"Truffle Fries",2025-09-24,18,24,6
+2025-09,ing030,"Truffle Fries",2025-09-25,18,24,6
+2025-09,ing030,"Truffle Fries",2025-09-26,17,24,7
+2025-09,ing030,"Truffle Fries",2025-09-27,16,24,8
+2025-09,ing030,"Truffle Fries",2025-09-28,15,24,9
+2025-09,ing030,"Truffle Fries",2025-09-29,14,24,10
+2025-09,ing031,Parmesan,2025-09-01,9,9,0
+2025-09,ing031,Parmesan,2025-09-02,9,9,0
+2025-09,ing031,Parmesan,2025-09-03,8,9,1
+2025-09,ing031,Parmesan,2025-09-04,8,9,1
+2025-09,ing031,Parmesan,2025-09-05,8,9,1
+2025-09,ing031,Parmesan,2025-09-06,8,9,1
+2025-09,ing031,Parmesan,2025-09-07,8,9,1
+2025-09,ing031,Parmesan,2025-09-08,8,9,1
+2025-09,ing031,Parmesan,2025-09-09,8,9,1
+2025-09,ing031,Parmesan,2025-09-11,8,9,1
+2025-09,ing031,Parmesan,2025-09-12,8,9,1
+2025-09,ing031,Parmesan,2025-09-15,8,9,1
+2025-09,ing031,Parmesan,2025-09-16,8,9,1
+2025-09,ing031,Parmesan,2025-09-17,8,9,1
+2025-09,ing031,Parmesan,2025-09-19,8,9,1
+2025-09,ing031,Parmesan,2025-09-20,8,9,1
+2025-09,ing031,Parmesan,2025-09-21,8,9,1
+2025-09,ing031,Parmesan,2025-09-22,7,9,2
+2025-09,ing031,Parmesan,2025-09-23,7,9,2
+2025-09,ing031,Parmesan,2025-09-24,7,9,2
+2025-09,ing031,Parmesan,2025-09-25,7,9,2
+2025-09,ing031,Parmesan,2025-09-26,7,9,2
+2025-09,ing031,Parmesan,2025-09-27,7,9,2
+2025-09,ing031,Parmesan,2025-09-28,7,9,2
+2025-09,ing031,Parmesan,2025-09-29,7,9,2
+2025-09,ing032,"Cauliflower Florets",2025-09-01,19,21,2
+2025-09,ing032,"Cauliflower Florets",2025-09-02,19,21,2
+2025-09,ing032,"Cauliflower Florets",2025-09-04,19,21,2
+2025-09,ing032,"Cauliflower Florets",2025-09-05,18,21,3
+2025-09,ing032,"Cauliflower Florets",2025-09-07,17,21,4
+2025-09,ing032,"Cauliflower Florets",2025-09-08,16,21,5
+2025-09,ing032,"Cauliflower Florets",2025-09-09,15,21,6
+2025-09,ing032,"Cauliflower Florets",2025-09-10,15,21,6
+2025-09,ing032,"Cauliflower Florets",2025-09-11,15,21,6
+2025-09,ing032,"Cauliflower Florets",2025-09-13,14,21,7
+2025-09,ing032,"Cauliflower Florets",2025-09-14,13,21,8
+2025-09,ing032,"Cauliflower Florets",2025-09-15,12,21,9
+2025-09,ing032,"Cauliflower Florets",2025-09-16,21,21,0
+2025-09,ing032,"Cauliflower Florets",2025-09-17,20,21,1
+2025-09,ing032,"Cauliflower Florets",2025-09-18,20,21,1
+2025-09,ing032,"Cauliflower Florets",2025-09-19,20,21,1
+2025-09,ing032,"Cauliflower Florets",2025-09-20,19,21,2
+2025-09,ing032,"Cauliflower Florets",2025-09-21,17,21,4
+2025-09,ing032,"Cauliflower Florets",2025-09-22,17,21,4
+2025-09,ing032,"Cauliflower Florets",2025-09-25,16,21,5
+2025-09,ing032,"Cauliflower Florets",2025-09-26,15,21,6
+2025-09,ing032,"Cauliflower Florets",2025-09-27,15,21,6
+2025-09,ing032,"Cauliflower Florets",2025-09-29,14,21,7
+2025-09,ing032,"Cauliflower Florets",2025-09-30,14,21,7
+2025-09,ing033,"Buffalo Sauce",2025-09-01,13,13,0
+2025-09,ing033,"Buffalo Sauce",2025-09-02,13,13,0
+2025-09,ing033,"Buffalo Sauce",2025-09-04,13,13,0
+2025-09,ing033,"Buffalo Sauce",2025-09-05,12,13,1
+2025-09,ing033,"Buffalo Sauce",2025-09-07,12,13,1
+2025-09,ing033,"Buffalo Sauce",2025-09-08,12,13,1
+2025-09,ing033,"Buffalo Sauce",2025-09-09,12,13,1
+2025-09,ing033,"Buffalo Sauce",2025-09-10,12,13,1
+2025-09,ing033,"Buffalo Sauce",2025-09-11,12,13,1
+2025-09,ing033,"Buffalo Sauce",2025-09-13,12,13,1
+2025-09,ing033,"Buffalo Sauce",2025-09-14,12,13,1
+2025-09,ing033,"Buffalo Sauce",2025-09-15,12,13,1
+2025-09,ing033,"Buffalo Sauce",2025-09-16,12,13,1
+2025-09,ing033,"Buffalo Sauce",2025-09-17,12,13,1
+2025-09,ing033,"Buffalo Sauce",2025-09-18,12,13,1
+2025-09,ing033,"Buffalo Sauce",2025-09-19,12,13,1
+2025-09,ing033,"Buffalo Sauce",2025-09-20,12,13,1
+2025-09,ing033,"Buffalo Sauce",2025-09-21,11,13,2
+2025-09,ing033,"Buffalo Sauce",2025-09-22,11,13,2
+2025-09,ing033,"Buffalo Sauce",2025-09-25,11,13,2
+2025-09,ing033,"Buffalo Sauce",2025-09-26,11,13,2
+2025-09,ing033,"Buffalo Sauce",2025-09-27,11,13,2
+2025-09,ing033,"Buffalo Sauce",2025-09-29,11,13,2
+2025-09,ing033,"Buffalo Sauce",2025-09-30,11,13,2
+2025-09,ing034,Ranch,2025-09-01,13,13,0
+2025-09,ing034,Ranch,2025-09-02,13,13,0
+2025-09,ing034,Ranch,2025-09-04,13,13,0
+2025-09,ing034,Ranch,2025-09-05,13,13,0
+2025-09,ing034,Ranch,2025-09-07,13,13,0
+2025-09,ing034,Ranch,2025-09-08,13,13,0
+2025-09,ing034,Ranch,2025-09-09,13,13,0
+2025-09,ing034,Ranch,2025-09-10,13,13,0
+2025-09,ing034,Ranch,2025-09-11,13,13,0
+2025-09,ing034,Ranch,2025-09-13,13,13,0
+2025-09,ing034,Ranch,2025-09-14,13,13,0
+2025-09,ing034,Ranch,2025-09-15,13,13,0
+2025-09,ing034,Ranch,2025-09-16,13,13,0
+2025-09,ing034,Ranch,2025-09-17,13,13,0
+2025-09,ing034,Ranch,2025-09-18,13,13,0
+2025-09,ing034,Ranch,2025-09-19,13,13,0
+2025-09,ing034,Ranch,2025-09-20,13,13,0
+2025-09,ing034,Ranch,2025-09-21,13,13,0
+2025-09,ing034,Ranch,2025-09-22,13,13,0
+2025-09,ing034,Ranch,2025-09-25,13,13,0
+2025-09,ing034,Ranch,2025-09-26,13,13,0
+2025-09,ing034,Ranch,2025-09-27,13,13,0
+2025-09,ing034,Ranch,2025-09-29,13,13,0
+2025-09,ing034,Ranch,2025-09-30,13,13,0
+2025-09,ing035,"Garlic Knots",2025-09-01,29,30,1
+2025-09,ing035,"Garlic Knots",2025-09-02,28,30,2
+2025-09,ing035,"Garlic Knots",2025-09-03,27,30,3
+2025-09,ing035,"Garlic Knots",2025-09-04,26,30,4
+2025-09,ing035,"Garlic Knots",2025-09-05,25,30,5
+2025-09,ing035,"Garlic Knots",2025-09-06,24,30,6
+2025-09,ing035,"Garlic Knots",2025-09-09,23,30,7
+2025-09,ing035,"Garlic Knots",2025-09-11,22,30,8
+2025-09,ing035,"Garlic Knots",2025-09-12,21,30,9
+2025-09,ing035,"Garlic Knots",2025-09-13,19,30,11
+2025-09,ing035,"Garlic Knots",2025-09-14,18,30,12
+2025-09,ing035,"Garlic Knots",2025-09-15,17,30,13
+2025-09,ing035,"Garlic Knots",2025-09-16,30,30,0
+2025-09,ing035,"Garlic Knots",2025-09-17,29,30,1
+2025-09,ing035,"Garlic Knots",2025-09-19,29,30,1
+2025-09,ing035,"Garlic Knots",2025-09-20,28,30,2
+2025-09,ing035,"Garlic Knots",2025-09-23,27,30,3
+2025-09,ing035,"Garlic Knots",2025-09-24,27,30,3
+2025-09,ing035,"Garlic Knots",2025-09-25,27,30,3
+2025-09,ing035,"Garlic Knots",2025-09-26,27,30,3
+2025-09,ing035,"Garlic Knots",2025-09-27,27,30,3
+2025-09,ing035,"Garlic Knots",2025-09-29,26,30,4
+2025-09,ing035,"Garlic Knots",2025-09-30,25,30,5
+2025-09,ing036,Kale,2025-09-01,19,19,0
+2025-09,ing036,Kale,2025-09-02,19,19,0
+2025-09,ing036,Kale,2025-09-04,19,19,0
+2025-09,ing036,Kale,2025-09-05,19,19,0
+2025-09,ing036,Kale,2025-09-06,19,19,0
+2025-09,ing036,Kale,2025-09-07,19,19,0
+2025-09,ing036,Kale,2025-09-08,19,19,0
+2025-09,ing036,Kale,2025-09-09,19,19,0
+2025-09,ing036,Kale,2025-09-10,18,19,1
+2025-09,ing036,Kale,2025-09-11,18,19,1
+2025-09,ing036,Kale,2025-09-12,18,19,1
+2025-09,ing036,Kale,2025-09-13,17,19,2
+2025-09,ing036,Kale,2025-09-14,17,19,2
+2025-09,ing036,Kale,2025-09-15,17,19,2
+2025-09,ing036,Kale,2025-09-16,17,19,2
+2025-09,ing036,Kale,2025-09-17,16,19,3
+2025-09,ing036,Kale,2025-09-18,16,19,3
+2025-09,ing036,Kale,2025-09-19,16,19,3
+2025-09,ing036,Kale,2025-09-20,16,19,3
+2025-09,ing036,Kale,2025-09-22,16,19,3
+2025-09,ing036,Kale,2025-09-23,16,19,3
+2025-09,ing036,Kale,2025-09-24,16,19,3
+2025-09,ing036,Kale,2025-09-25,16,19,3
+2025-09,ing036,Kale,2025-09-26,16,19,3
+2025-09,ing036,Kale,2025-09-27,16,19,3
+2025-09,ing036,Kale,2025-09-28,16,19,3
+2025-09,ing036,Kale,2025-09-30,16,19,3
+2025-09,ing037,Spinach,2025-09-01,16,17,1
+2025-09,ing037,Spinach,2025-09-02,15,17,2
+2025-09,ing037,Spinach,2025-09-04,15,17,2
+2025-09,ing037,Spinach,2025-09-05,14,17,3
+2025-09,ing037,Spinach,2025-09-06,13,17,4
+2025-09,ing037,Spinach,2025-09-07,13,17,4
+2025-09,ing037,Spinach,2025-09-08,12,17,5
+2025-09,ing037,Spinach,2025-09-09,12,17,5
+2025-09,ing037,Spinach,2025-09-10,11,17,6
+2025-09,ing037,Spinach,2025-09-11,10,17,7
+2025-09,ing037,Spinach,2025-09-12,17,17,0
+2025-09,ing037,Spinach,2025-09-13,16,17,1
+2025-09,ing037,Spinach,2025-09-14,16,17,1
+2025-09,ing037,Spinach,2025-09-15,15,17,2
+2025-09,ing037,Spinach,2025-09-16,15,17,2
+2025-09,ing037,Spinach,2025-09-17,14,17,3
+2025-09,ing037,Spinach,2025-09-18,14,17,3
+2025-09,ing037,Spinach,2025-09-19,13,17,4
+2025-09,ing037,Spinach,2025-09-20,13,17,4
+2025-09,ing037,Spinach,2025-09-22,12,17,5
+2025-09,ing037,Spinach,2025-09-23,11,17,6
+2025-09,ing037,Spinach,2025-09-24,10,17,7
+2025-09,ing037,Spinach,2025-09-25,17,17,0
+2025-09,ing037,Spinach,2025-09-26,17,17,0
+2025-09,ing037,Spinach,2025-09-27,16,17,1
+2025-09,ing037,Spinach,2025-09-28,15,17,2
+2025-09,ing037,Spinach,2025-09-30,14,17,3
+2025-09,ing038,Avocado,2025-09-01,10,10,0
+2025-09,ing038,Avocado,2025-09-02,10,10,0
+2025-09,ing038,Avocado,2025-09-04,10,10,0
+2025-09,ing038,Avocado,2025-09-05,10,10,0
+2025-09,ing038,Avocado,2025-09-06,10,10,0
+2025-09,ing038,Avocado,2025-09-07,10,10,0
+2025-09,ing038,Avocado,2025-09-08,10,10,0
+2025-09,ing038,Avocado,2025-09-09,10,10,0
+2025-09,ing038,Avocado,2025-09-10,10,10,0
+2025-09,ing038,Avocado,2025-09-11,10,10,0
+2025-09,ing038,Avocado,2025-09-12,10,10,0
+2025-09,ing038,Avocado,2025-09-13,10,10,0
+2025-09,ing038,Avocado,2025-09-14,10,10,0
+2025-09,ing038,Avocado,2025-09-15,10,10,0
+2025-09,ing038,Avocado,2025-09-16,10,10,0
+2025-09,ing038,Avocado,2025-09-17,10,10,0
+2025-09,ing038,Avocado,2025-09-18,10,10,0
+2025-09,ing038,Avocado,2025-09-19,10,10,0
+2025-09,ing038,Avocado,2025-09-20,10,10,0
+2025-09,ing038,Avocado,2025-09-22,10,10,0
+2025-09,ing038,Avocado,2025-09-23,10,10,0
+2025-09,ing038,Avocado,2025-09-24,10,10,0
+2025-09,ing038,Avocado,2025-09-25,10,10,0
+2025-09,ing038,Avocado,2025-09-26,10,10,0
+2025-09,ing038,Avocado,2025-09-27,10,10,0
+2025-09,ing038,Avocado,2025-09-28,10,10,0
+2025-09,ing038,Avocado,2025-09-30,10,10,0
+2025-09,ing039,"Mixed Seeds",2025-09-01,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-02,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-04,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-05,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-06,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-07,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-08,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-09,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-10,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-11,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-12,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-13,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-14,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-15,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-16,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-17,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-18,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-19,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-20,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-22,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-23,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-24,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-25,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-26,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-27,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-28,15,15,0
+2025-09,ing039,"Mixed Seeds",2025-09-30,15,15,0
+2025-09,ing040,"Caramel Filling",2025-09-01,14,16,2
+2025-09,ing040,"Caramel Filling",2025-09-02,14,16,2
+2025-09,ing040,"Caramel Filling",2025-09-03,14,16,2
+2025-09,ing040,"Caramel Filling",2025-09-04,13,16,3
+2025-09,ing040,"Caramel Filling",2025-09-05,12,16,4
+2025-09,ing040,"Caramel Filling",2025-09-06,11,16,5
+2025-09,ing040,"Caramel Filling",2025-09-07,10,16,6
+2025-09,ing040,"Caramel Filling",2025-09-08,10,16,6
+2025-09,ing040,"Caramel Filling",2025-09-09,10,16,6
+2025-09,ing040,"Caramel Filling",2025-09-10,16,16,0
+2025-09,ing040,"Caramel Filling",2025-09-11,16,16,0
+2025-09,ing040,"Caramel Filling",2025-09-12,15,16,1
+2025-09,ing040,"Caramel Filling",2025-09-13,14,16,2
+2025-09,ing040,"Caramel Filling",2025-09-14,13,16,3
+2025-09,ing040,"Caramel Filling",2025-09-15,13,16,3
+2025-09,ing040,"Caramel Filling",2025-09-16,13,16,3
+2025-09,ing040,"Caramel Filling",2025-09-17,12,16,4
+2025-09,ing040,"Caramel Filling",2025-09-18,11,16,5
+2025-09,ing040,"Caramel Filling",2025-09-19,10,16,6
+2025-09,ing040,"Caramel Filling",2025-09-20,10,16,6
+2025-09,ing040,"Caramel Filling",2025-09-21,9,16,7
+2025-09,ing040,"Caramel Filling",2025-09-22,15,16,1
+2025-09,ing040,"Caramel Filling",2025-09-23,14,16,2
+2025-09,ing040,"Caramel Filling",2025-09-24,14,16,2
+2025-09,ing040,"Caramel Filling",2025-09-25,14,16,2
+2025-09,ing040,"Caramel Filling",2025-09-26,14,16,2
+2025-09,ing040,"Caramel Filling",2025-09-27,14,16,2
+2025-09,ing040,"Caramel Filling",2025-09-28,14,16,2
+2025-09,ing040,"Caramel Filling",2025-09-29,14,16,2
+2025-09,ing040,"Caramel Filling",2025-09-30,14,16,2
+2025-09,ing041,"Chocolate Syrup",2025-09-01,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-02,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-03,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-04,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-05,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-06,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-07,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-08,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-09,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-10,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-11,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-12,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-13,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-14,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-15,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-16,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-17,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-18,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-19,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-20,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-21,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-22,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-23,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-24,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-25,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-26,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-27,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-28,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-29,17,17,0
+2025-09,ing041,"Chocolate Syrup",2025-09-30,17,17,0
+2025-09,ing042,"Espresso Panna Base",2025-09-01,9,12,3
+2025-09,ing042,"Espresso Panna Base",2025-09-02,8,12,4
+2025-09,ing042,"Espresso Panna Base",2025-09-03,8,12,4
+2025-09,ing042,"Espresso Panna Base",2025-09-05,7,12,5
+2025-09,ing042,"Espresso Panna Base",2025-09-06,12,12,0
+2025-09,ing042,"Espresso Panna Base",2025-09-07,12,12,0
+2025-09,ing042,"Espresso Panna Base",2025-09-08,11,12,1
+2025-09,ing042,"Espresso Panna Base",2025-09-09,11,12,1
+2025-09,ing042,"Espresso Panna Base",2025-09-11,10,12,2
+2025-09,ing042,"Espresso Panna Base",2025-09-13,10,12,2
+2025-09,ing042,"Espresso Panna Base",2025-09-14,9,12,3
+2025-09,ing042,"Espresso Panna Base",2025-09-15,9,12,3
+2025-09,ing042,"Espresso Panna Base",2025-09-16,8,12,4
+2025-09,ing042,"Espresso Panna Base",2025-09-17,8,12,4
+2025-09,ing042,"Espresso Panna Base",2025-09-18,8,12,4
+2025-09,ing042,"Espresso Panna Base",2025-09-19,12,12,0
+2025-09,ing042,"Espresso Panna Base",2025-09-21,12,12,0
+2025-09,ing042,"Espresso Panna Base",2025-09-22,11,12,1
+2025-09,ing042,"Espresso Panna Base",2025-09-23,11,12,1
+2025-09,ing042,"Espresso Panna Base",2025-09-24,11,12,1
+2025-09,ing042,"Espresso Panna Base",2025-09-25,10,12,2
+2025-09,ing042,"Espresso Panna Base",2025-09-26,10,12,2
+2025-09,ing042,"Espresso Panna Base",2025-09-27,10,12,2
+2025-09,ing042,"Espresso Panna Base",2025-09-28,10,12,2
+2025-09,ing042,"Espresso Panna Base",2025-09-29,9,12,3
+2025-09,ing042,"Espresso Panna Base",2025-09-30,8,12,4
+2025-09,ing043,"Vanilla Syrup",2025-09-01,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-02,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-03,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-05,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-06,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-07,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-08,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-09,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-11,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-13,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-14,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-15,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-16,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-17,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-18,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-19,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-21,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-22,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-23,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-24,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-25,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-26,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-27,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-28,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-29,10,10,0
+2025-09,ing043,"Vanilla Syrup",2025-09-30,10,10,0
+2025-09,ing044,"Berry Mix",2025-09-01,18,21,3
+2025-09,ing044,"Berry Mix",2025-09-02,18,21,3
+2025-09,ing044,"Berry Mix",2025-09-03,18,21,3
+2025-09,ing044,"Berry Mix",2025-09-04,18,21,3
+2025-09,ing044,"Berry Mix",2025-09-05,17,21,4
+2025-09,ing044,"Berry Mix",2025-09-06,17,21,4
+2025-09,ing044,"Berry Mix",2025-09-07,17,21,4
+2025-09,ing044,"Berry Mix",2025-09-08,17,21,4
+2025-09,ing044,"Berry Mix",2025-09-10,17,21,4
+2025-09,ing044,"Berry Mix",2025-09-11,17,21,4
+2025-09,ing044,"Berry Mix",2025-09-12,17,21,4
+2025-09,ing044,"Berry Mix",2025-09-13,16,21,5
+2025-09,ing044,"Berry Mix",2025-09-14,16,21,5
+2025-09,ing044,"Berry Mix",2025-09-15,16,21,5
+2025-09,ing044,"Berry Mix",2025-09-16,16,21,5
+2025-09,ing044,"Berry Mix",2025-09-17,15,21,6
+2025-09,ing044,"Berry Mix",2025-09-18,14,21,7
+2025-09,ing044,"Berry Mix",2025-09-19,13,21,8
+2025-09,ing044,"Berry Mix",2025-09-20,12,21,9
+2025-09,ing044,"Berry Mix",2025-09-23,21,21,0
+2025-09,ing044,"Berry Mix",2025-09-24,21,21,0
+2025-09,ing044,"Berry Mix",2025-09-26,20,21,1
+2025-09,ing044,"Berry Mix",2025-09-27,20,21,1
+2025-09,ing044,"Berry Mix",2025-09-28,19,21,2
+2025-09,ing044,"Berry Mix",2025-09-29,19,21,2
+2025-09,ing044,"Berry Mix",2025-09-30,19,21,2
+2025-09,ing045,"Oat Crumble",2025-09-01,17,17,0
+2025-09,ing045,"Oat Crumble",2025-09-02,17,17,0
+2025-09,ing045,"Oat Crumble",2025-09-03,17,17,0
+2025-09,ing045,"Oat Crumble",2025-09-04,17,17,0
+2025-09,ing045,"Oat Crumble",2025-09-05,16,17,1
+2025-09,ing045,"Oat Crumble",2025-09-06,16,17,1
+2025-09,ing045,"Oat Crumble",2025-09-07,16,17,1
+2025-09,ing045,"Oat Crumble",2025-09-08,16,17,1
+2025-09,ing045,"Oat Crumble",2025-09-10,16,17,1
+2025-09,ing045,"Oat Crumble",2025-09-11,16,17,1
+2025-09,ing045,"Oat Crumble",2025-09-12,16,17,1
+2025-09,ing045,"Oat Crumble",2025-09-13,16,17,1
+2025-09,ing045,"Oat Crumble",2025-09-14,16,17,1
+2025-09,ing045,"Oat Crumble",2025-09-15,16,17,1
+2025-09,ing045,"Oat Crumble",2025-09-16,16,17,1
+2025-09,ing045,"Oat Crumble",2025-09-17,16,17,1
+2025-09,ing045,"Oat Crumble",2025-09-18,16,17,1
+2025-09,ing045,"Oat Crumble",2025-09-19,15,17,2
+2025-09,ing045,"Oat Crumble",2025-09-20,14,17,3
+2025-09,ing045,"Oat Crumble",2025-09-23,14,17,3
+2025-09,ing045,"Oat Crumble",2025-09-24,14,17,3
+2025-09,ing045,"Oat Crumble",2025-09-26,13,17,4
+2025-09,ing045,"Oat Crumble",2025-09-27,13,17,4
+2025-09,ing045,"Oat Crumble",2025-09-28,12,17,5
+2025-09,ing045,"Oat Crumble",2025-09-29,12,17,5
+2025-09,ing045,"Oat Crumble",2025-09-30,12,17,5
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-01,16,19,3
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-02,16,19,3
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-04,16,19,3
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-05,15,19,4
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-06,14,19,5
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-08,14,19,5
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-10,13,19,6
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-11,13,19,6
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-13,12,19,7
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-14,12,19,7
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-15,12,19,7
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-16,19,19,0
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-17,18,19,1
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-18,17,19,2
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-19,16,19,3
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-20,16,19,3
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-21,15,19,4
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-22,15,19,4
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-23,14,19,5
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-24,13,19,6
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-25,13,19,6
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-26,13,19,6
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-27,13,19,6
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-29,12,19,7
+2025-09,ing046,"Mango Sticky Rice Mix",2025-09-30,12,19,7
+2025-09,ing047,"Cold Brew Coffee",2025-09-01,51,69,18
+2025-09,ing047,"Cold Brew Coffee",2025-09-02,44,69,25
+2025-09,ing047,"Cold Brew Coffee",2025-09-03,33,69,36
+2025-09,ing047,"Cold Brew Coffee",2025-09-04,25,69,44
+2025-09,ing047,"Cold Brew Coffee",2025-09-05,54,69,15
+2025-09,ing047,"Cold Brew Coffee",2025-09-06,45,69,24
+2025-09,ing047,"Cold Brew Coffee",2025-09-07,43,69,26
+2025-09,ing047,"Cold Brew Coffee",2025-09-08,40,69,29
+2025-09,ing047,"Cold Brew Coffee",2025-09-10,69,69,0
+2025-09,ing047,"Cold Brew Coffee",2025-09-11,62,69,7
+2025-09,ing047,"Cold Brew Coffee",2025-09-12,59,69,10
+2025-09,ing047,"Cold Brew Coffee",2025-09-13,55,69,14
+2025-09,ing047,"Cold Brew Coffee",2025-09-14,48,69,21
+2025-09,ing047,"Cold Brew Coffee",2025-09-15,44,69,25
+2025-09,ing047,"Cold Brew Coffee",2025-09-16,43,69,26
+2025-09,ing047,"Cold Brew Coffee",2025-09-17,42,69,27
+2025-09,ing047,"Cold Brew Coffee",2025-09-18,41,69,28
+2025-09,ing047,"Cold Brew Coffee",2025-09-19,66,69,3
+2025-09,ing047,"Cold Brew Coffee",2025-09-20,65,69,4
+2025-09,ing047,"Cold Brew Coffee",2025-09-21,59,69,10
+2025-09,ing047,"Cold Brew Coffee",2025-09-22,50,69,19
+2025-09,ing047,"Cold Brew Coffee",2025-09-24,47,69,22
+2025-09,ing047,"Cold Brew Coffee",2025-09-25,42,69,27
+2025-09,ing047,"Cold Brew Coffee",2025-09-26,36,69,33
+2025-09,ing047,"Cold Brew Coffee",2025-09-27,35,69,34
+2025-09,ing047,"Cold Brew Coffee",2025-09-28,63,69,6
+2025-09,ing047,"Cold Brew Coffee",2025-09-29,60,69,9
+2025-09,ing048,"Cold Brew Coffee 1.5L",2025-09-01,40,45,5
+2025-09,ing048,"Cold Brew Coffee 1.5L",2025-09-02,31,45,14
+2025-09,ing048,"Cold Brew Coffee 1.5L",2025-09-03,29,45,16
+2025-09,ing048,"Cold Brew Coffee 1.5L",2025-09-04,23,45,22
+2025-09,ing048,"Cold Brew Coffee 1.5L",2025-09-06,32,45,13
+2025-09,ing048,"Cold Brew Coffee 1.5L",2025-09-08,26,45,19
+2025-09,ing048,"Cold Brew Coffee 1.5L",2025-09-09,22,45,23
+2025-09,ing048,"Cold Brew Coffee 1.5L",2025-09-10,16,45,29
+2025-09,ing048,"Cold Brew Coffee 1.5L",2025-09-11,30,45,15
+2025-09,ing048,"Cold Brew Coffee 1.5L",2025-09-12,29,45,16
+2025-09,ing048,"Cold Brew Coffee 1.5L",2025-09-13,25,45,20
+2025-09,ing048,"Cold Brew Coffee 1.5L",2025-09-14,41,45,4
+2025-09,ing048,"Cold Brew Coffee 1.5L",2025-09-16,29,45,16
+2025-09,ing048,"Cold Brew Coffee 1.5L",2025-09-18,19,45,26
+2025-09,ing048,"Cold Brew Coffee 1.5L",2025-09-19,34,45,11
+2025-09,ing048,"Cold Brew Coffee 1.5L",2025-09-20,33,45,12
+2025-09,ing048,"Cold Brew Coffee 1.5L",2025-09-21,28,45,17
+2025-09,ing048,"Cold Brew Coffee 1.5L",2025-09-26,45,45,0
+2025-09,ing048,"Cold Brew Coffee 1.5L",2025-09-27,43,45,2
+2025-09,ing048,"Cold Brew Coffee 1.5L",2025-09-28,40,45,5
+2025-09,ing048,"Cold Brew Coffee 1.5L",2025-09-29,35,45,10
+2025-09,ing048,"Cold Brew Coffee 1.5L",2025-09-30,32,45,13
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-01,46,73,27
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-02,45,73,28
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-03,38,73,35
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-05,70,73,3
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-06,66,73,7
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-07,58,73,15
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-09,50,73,23
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-10,47,73,26
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-11,46,73,27
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-12,38,73,35
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-13,68,73,5
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-14,64,73,9
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-15,51,73,22
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-17,45,73,28
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-18,39,73,34
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-19,27,73,46
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-20,63,73,10
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-21,52,73,21
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-22,46,73,27
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-23,43,73,30
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-24,40,73,33
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-25,73,73,0
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-26,61,73,12
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-27,57,73,16
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-28,52,73,21
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-29,48,73,25
+2025-09,ing049,"Ginger Fizz 33cl",2025-09-30,38,73,35
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-01,27,50,23
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-02,24,50,26
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-04,49,50,1
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-05,47,50,3
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-06,44,50,6
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-07,40,50,10
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-08,32,50,18
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-09,27,50,23
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-10,24,50,26
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-11,46,50,4
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-12,42,50,8
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-13,40,50,10
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-14,37,50,13
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-15,30,50,20
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-16,29,50,21
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-18,50,50,0
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-19,46,50,4
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-20,32,50,18
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-21,29,50,21
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-24,44,50,6
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-25,40,50,10
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-26,36,50,14
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-27,33,50,17
+2025-09,ing050,"Ginger Fizz 1.5L",2025-09-28,30,50,20
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-01,72,77,5
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-02,69,77,8
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-03,63,77,14
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-04,62,77,15
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-05,58,77,19
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-06,49,77,28
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-07,36,77,41
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-09,77,77,0
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-10,73,77,4
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-11,65,77,12
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-13,61,77,16
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-14,57,77,20
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-15,50,77,27
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-16,45,77,32
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-17,39,77,38
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-18,65,77,12
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-19,59,77,18
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-20,49,77,28
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-22,44,77,33
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-23,39,77,38
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-24,73,77,4
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-25,67,77,10
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-26,54,77,23
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-27,45,77,32
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-28,36,77,41
+2025-09,ing051,"Lime Mint Sparkle 33cl",2025-09-29,67,77,10
+2025-09,ing052,"Lime Mint Sparkle 1.5L",2025-09-01,25,53,28
+2025-09,ing052,"Lime Mint Sparkle 1.5L",2025-09-02,21,53,32
+2025-09,ing052,"Lime Mint Sparkle 1.5L",2025-09-03,37,53,16
+2025-09,ing052,"Lime Mint Sparkle 1.5L",2025-09-04,25,53,28
+2025-09,ing052,"Lime Mint Sparkle 1.5L",2025-09-05,24,53,29
+2025-09,ing052,"Lime Mint Sparkle 1.5L",2025-09-06,17,53,36
+2025-09,ing052,"Lime Mint Sparkle 1.5L",2025-09-07,42,53,11
+2025-09,ing052,"Lime Mint Sparkle 1.5L",2025-09-08,41,53,12
+2025-09,ing052,"Lime Mint Sparkle 1.5L",2025-09-10,37,53,16
+2025-09,ing052,"Lime Mint Sparkle 1.5L",2025-09-13,33,53,20
+2025-09,ing052,"Lime Mint Sparkle 1.5L",2025-09-14,30,53,23
+2025-09,ing052,"Lime Mint Sparkle 1.5L",2025-09-17,53,53,0
+2025-09,ing052,"Lime Mint Sparkle 1.5L",2025-09-18,49,53,4
+2025-09,ing052,"Lime Mint Sparkle 1.5L",2025-09-19,38,53,15
+2025-09,ing052,"Lime Mint Sparkle 1.5L",2025-09-20,35,53,18
+2025-09,ing052,"Lime Mint Sparkle 1.5L",2025-09-21,31,53,22
+2025-09,ing052,"Lime Mint Sparkle 1.5L",2025-09-22,18,53,35
+2025-09,ing052,"Lime Mint Sparkle 1.5L",2025-09-23,17,53,36
+2025-09,ing052,"Lime Mint Sparkle 1.5L",2025-09-24,38,53,15
+2025-09,ing052,"Lime Mint Sparkle 1.5L",2025-09-25,23,53,30
+2025-09,ing052,"Lime Mint Sparkle 1.5L",2025-09-26,17,53,36
+2025-09,ing052,"Lime Mint Sparkle 1.5L",2025-09-28,46,53,7
+2025-09,ing052,"Lime Mint Sparkle 1.5L",2025-09-29,45,53,8
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-01,56,70,14
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-02,51,70,19
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-03,35,70,35
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-04,30,70,40
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-06,70,70,0
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-07,64,70,6
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-08,57,70,13
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-09,45,70,25
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-10,38,70,32
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-11,34,70,36
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-12,64,70,6
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-14,60,70,10
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-15,50,70,20
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-16,39,70,31
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-17,29,70,41
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-18,26,70,44
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-19,63,70,7
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-20,53,70,17
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-22,52,70,18
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-23,50,70,20
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-24,46,70,24
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-25,41,70,29
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-27,68,70,2
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-28,67,70,3
+2025-09,ing053,"Berry Kombucha 33cl",2025-09-30,63,70,7
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-01,28,47,19
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-02,26,47,21
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-03,36,47,11
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-04,32,47,15
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-05,29,47,18
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-06,26,47,21
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-07,16,47,31
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-08,31,47,16
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-09,26,47,21
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-10,24,47,23
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-11,37,47,10
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-12,30,47,17
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-13,27,47,20
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-14,12,47,35
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-15,30,47,17
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-16,24,47,23
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-17,17,47,30
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-18,35,47,12
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-19,29,47,18
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-20,22,47,25
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-21,11,47,36
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-22,25,47,22
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-25,47,47,0
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-26,38,47,9
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-28,24,47,23
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-29,18,47,29
+2025-09,ing054,"Berry Kombucha 1.5L",2025-09-30,13,47,34
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-01,20,25,5
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-02,14,25,11
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-03,8,25,17
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-04,2,25,23
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-05,-3,25,28
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-06,11,25,14
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-07,5,25,20
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-08,3,25,22
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-09,25,25,0
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-10,20,25,5
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-11,14,25,11
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-12,25,25,0
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-13,20,25,5
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-14,16,25,9
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-15,10,25,15
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-16,21,25,4
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-17,13,25,12
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-18,23,25,2
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-19,20,25,5
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-20,17,25,8
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-21,13,25,12
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-22,7,25,18
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-23,19,25,6
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-24,13,25,12
+2025-10,ing001,"Flatbread Dough (8-pack)",2025-10-25,9,25,16
+2025-10,ing002,"Roasted Red Peppers",2025-10-01,20,20,0
+2025-10,ing002,"Roasted Red Peppers",2025-10-02,20,20,0
+2025-10,ing002,"Roasted Red Peppers",2025-10-03,20,20,0
+2025-10,ing002,"Roasted Red Peppers",2025-10-04,20,20,0
+2025-10,ing002,"Roasted Red Peppers",2025-10-05,20,20,0
+2025-10,ing002,"Roasted Red Peppers",2025-10-06,20,20,0
+2025-10,ing002,"Roasted Red Peppers",2025-10-07,20,20,0
+2025-10,ing002,"Roasted Red Peppers",2025-10-08,20,20,0
+2025-10,ing002,"Roasted Red Peppers",2025-10-09,20,20,0
+2025-10,ing002,"Roasted Red Peppers",2025-10-10,20,20,0
+2025-10,ing002,"Roasted Red Peppers",2025-10-12,20,20,0
+2025-10,ing002,"Roasted Red Peppers",2025-10-13,19,20,1
+2025-10,ing002,"Roasted Red Peppers",2025-10-14,19,20,1
+2025-10,ing002,"Roasted Red Peppers",2025-10-15,19,20,1
+2025-10,ing002,"Roasted Red Peppers",2025-10-16,19,20,1
+2025-10,ing002,"Roasted Red Peppers",2025-10-17,18,20,2
+2025-10,ing002,"Roasted Red Peppers",2025-10-18,18,20,2
+2025-10,ing002,"Roasted Red Peppers",2025-10-19,18,20,2
+2025-10,ing002,"Roasted Red Peppers",2025-10-20,18,20,2
+2025-10,ing002,"Roasted Red Peppers",2025-10-21,18,20,2
+2025-10,ing002,"Roasted Red Peppers",2025-10-22,17,20,3
+2025-10,ing002,"Roasted Red Peppers",2025-10-23,17,20,3
+2025-10,ing002,"Roasted Red Peppers",2025-10-24,17,20,3
+2025-10,ing002,"Roasted Red Peppers",2025-10-25,17,20,3
+2025-10,ing003,"Goat Cheese",2025-10-01,9,14,5
+2025-10,ing003,"Goat Cheese",2025-10-02,8,14,6
+2025-10,ing003,"Goat Cheese",2025-10-03,13,14,1
+2025-10,ing003,"Goat Cheese",2025-10-04,12,14,2
+2025-10,ing003,"Goat Cheese",2025-10-05,11,14,3
+2025-10,ing003,"Goat Cheese",2025-10-06,10,14,4
+2025-10,ing003,"Goat Cheese",2025-10-07,9,14,5
+2025-10,ing003,"Goat Cheese",2025-10-08,9,14,5
+2025-10,ing003,"Goat Cheese",2025-10-09,14,14,0
+2025-10,ing003,"Goat Cheese",2025-10-10,14,14,0
+2025-10,ing003,"Goat Cheese",2025-10-12,13,14,1
+2025-10,ing003,"Goat Cheese",2025-10-13,12,14,2
+2025-10,ing003,"Goat Cheese",2025-10-14,12,14,2
+2025-10,ing003,"Goat Cheese",2025-10-15,11,14,3
+2025-10,ing003,"Goat Cheese",2025-10-16,10,14,4
+2025-10,ing003,"Goat Cheese",2025-10-17,9,14,5
+2025-10,ing003,"Goat Cheese",2025-10-18,8,14,6
+2025-10,ing003,"Goat Cheese",2025-10-19,14,14,0
+2025-10,ing003,"Goat Cheese",2025-10-20,13,14,1
+2025-10,ing003,"Goat Cheese",2025-10-21,12,14,2
+2025-10,ing003,"Goat Cheese",2025-10-22,10,14,4
+2025-10,ing003,"Goat Cheese",2025-10-23,10,14,4
+2025-10,ing003,"Goat Cheese",2025-10-24,9,14,5
+2025-10,ing003,"Goat Cheese",2025-10-25,8,14,6
+2025-10,ing004,"Black Olives",2025-10-01,25,25,0
+2025-10,ing004,"Black Olives",2025-10-02,25,25,0
+2025-10,ing004,"Black Olives",2025-10-03,24,25,1
+2025-10,ing004,"Black Olives",2025-10-04,24,25,1
+2025-10,ing004,"Black Olives",2025-10-05,24,25,1
+2025-10,ing004,"Black Olives",2025-10-06,24,25,1
+2025-10,ing004,"Black Olives",2025-10-07,24,25,1
+2025-10,ing004,"Black Olives",2025-10-08,24,25,1
+2025-10,ing004,"Black Olives",2025-10-09,24,25,1
+2025-10,ing004,"Black Olives",2025-10-10,24,25,1
+2025-10,ing004,"Black Olives",2025-10-12,24,25,1
+2025-10,ing004,"Black Olives",2025-10-13,23,25,2
+2025-10,ing004,"Black Olives",2025-10-14,23,25,2
+2025-10,ing004,"Black Olives",2025-10-15,22,25,3
+2025-10,ing004,"Black Olives",2025-10-16,22,25,3
+2025-10,ing004,"Black Olives",2025-10-17,21,25,4
+2025-10,ing004,"Black Olives",2025-10-18,20,25,5
+2025-10,ing004,"Black Olives",2025-10-19,20,25,5
+2025-10,ing004,"Black Olives",2025-10-20,20,25,5
+2025-10,ing004,"Black Olives",2025-10-21,20,25,5
+2025-10,ing004,"Black Olives",2025-10-22,19,25,6
+2025-10,ing004,"Black Olives",2025-10-23,19,25,6
+2025-10,ing004,"Black Olives",2025-10-24,19,25,6
+2025-10,ing004,"Black Olives",2025-10-25,19,25,6
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-01,11,18,7
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-02,11,18,7
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-03,11,18,7
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-04,11,18,7
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-05,18,18,0
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-06,18,18,0
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-07,18,18,0
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-08,18,18,0
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-09,18,18,0
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-10,18,18,0
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-12,18,18,0
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-13,18,18,0
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-14,18,18,0
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-15,18,18,0
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-16,18,18,0
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-17,17,18,1
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-18,17,18,1
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-19,17,18,1
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-20,17,18,1
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-21,17,18,1
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-22,16,18,2
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-23,16,18,2
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-24,16,18,2
+2025-10,ing005,"Sun-Dried Tomatoes",2025-10-25,16,18,2
+2025-10,ing006,"Spicy Chicken",2025-10-01,6,11,5
+2025-10,ing006,"Spicy Chicken",2025-10-02,10,11,1
+2025-10,ing006,"Spicy Chicken",2025-10-03,8,11,3
+2025-10,ing006,"Spicy Chicken",2025-10-04,7,11,4
+2025-10,ing006,"Spicy Chicken",2025-10-05,7,11,4
+2025-10,ing006,"Spicy Chicken",2025-10-06,11,11,0
+2025-10,ing006,"Spicy Chicken",2025-10-07,10,11,1
+2025-10,ing006,"Spicy Chicken",2025-10-08,10,11,1
+2025-10,ing006,"Spicy Chicken",2025-10-09,9,11,2
+2025-10,ing006,"Spicy Chicken",2025-10-10,8,11,3
+2025-10,ing006,"Spicy Chicken",2025-10-11,7,11,4
+2025-10,ing006,"Spicy Chicken",2025-10-12,6,11,5
+2025-10,ing006,"Spicy Chicken",2025-10-13,10,11,1
+2025-10,ing006,"Spicy Chicken",2025-10-14,10,11,1
+2025-10,ing006,"Spicy Chicken",2025-10-15,9,11,2
+2025-10,ing006,"Spicy Chicken",2025-10-16,8,11,3
+2025-10,ing006,"Spicy Chicken",2025-10-17,7,11,4
+2025-10,ing006,"Spicy Chicken",2025-10-18,6,11,5
+2025-10,ing006,"Spicy Chicken",2025-10-19,10,11,1
+2025-10,ing006,"Spicy Chicken",2025-10-20,10,11,1
+2025-10,ing006,"Spicy Chicken",2025-10-22,10,11,1
+2025-10,ing006,"Spicy Chicken",2025-10-23,10,11,1
+2025-10,ing006,"Spicy Chicken",2025-10-24,10,11,1
+2025-10,ing006,"Spicy Chicken",2025-10-25,10,11,1
+2025-10,ing007,Jalapenos,2025-10-01,15,20,5
+2025-10,ing007,Jalapenos,2025-10-02,13,20,7
+2025-10,ing007,Jalapenos,2025-10-03,11,20,9
+2025-10,ing007,Jalapenos,2025-10-04,10,20,10
+2025-10,ing007,Jalapenos,2025-10-05,19,20,1
+2025-10,ing007,Jalapenos,2025-10-06,18,20,2
+2025-10,ing007,Jalapenos,2025-10-07,17,20,3
+2025-10,ing007,Jalapenos,2025-10-08,16,20,4
+2025-10,ing007,Jalapenos,2025-10-09,14,20,6
+2025-10,ing007,Jalapenos,2025-10-10,13,20,7
+2025-10,ing007,Jalapenos,2025-10-11,11,20,9
+2025-10,ing007,Jalapenos,2025-10-12,20,20,0
+2025-10,ing007,Jalapenos,2025-10-13,19,20,1
+2025-10,ing007,Jalapenos,2025-10-14,18,20,2
+2025-10,ing007,Jalapenos,2025-10-15,17,20,3
+2025-10,ing007,Jalapenos,2025-10-16,16,20,4
+2025-10,ing007,Jalapenos,2025-10-17,14,20,6
+2025-10,ing007,Jalapenos,2025-10-18,12,20,8
+2025-10,ing007,Jalapenos,2025-10-19,10,20,10
+2025-10,ing007,Jalapenos,2025-10-20,10,20,10
+2025-10,ing007,Jalapenos,2025-10-21,19,20,1
+2025-10,ing007,Jalapenos,2025-10-22,18,20,2
+2025-10,ing007,Jalapenos,2025-10-23,18,20,2
+2025-10,ing007,Jalapenos,2025-10-24,18,20,2
+2025-10,ing007,Jalapenos,2025-10-25,17,20,3
+2025-10,ing008,"Smoked Gouda",2025-10-01,6,14,8
+2025-10,ing008,"Smoked Gouda",2025-10-02,11,14,3
+2025-10,ing008,"Smoked Gouda",2025-10-03,9,14,5
+2025-10,ing008,"Smoked Gouda",2025-10-04,8,14,6
+2025-10,ing008,"Smoked Gouda",2025-10-05,8,14,6
+2025-10,ing008,"Smoked Gouda",2025-10-06,7,14,7
+2025-10,ing008,"Smoked Gouda",2025-10-07,12,14,2
+2025-10,ing008,"Smoked Gouda",2025-10-08,12,14,2
+2025-10,ing008,"Smoked Gouda",2025-10-09,11,14,3
+2025-10,ing008,"Smoked Gouda",2025-10-10,10,14,4
+2025-10,ing008,"Smoked Gouda",2025-10-11,9,14,5
+2025-10,ing008,"Smoked Gouda",2025-10-12,8,14,6
+2025-10,ing008,"Smoked Gouda",2025-10-13,7,14,7
+2025-10,ing008,"Smoked Gouda",2025-10-14,7,14,7
+2025-10,ing008,"Smoked Gouda",2025-10-15,12,14,2
+2025-10,ing008,"Smoked Gouda",2025-10-16,11,14,3
+2025-10,ing008,"Smoked Gouda",2025-10-17,10,14,4
+2025-10,ing008,"Smoked Gouda",2025-10-18,9,14,5
+2025-10,ing008,"Smoked Gouda",2025-10-19,8,14,6
+2025-10,ing008,"Smoked Gouda",2025-10-20,8,14,6
+2025-10,ing008,"Smoked Gouda",2025-10-22,14,14,0
+2025-10,ing008,"Smoked Gouda",2025-10-23,14,14,0
+2025-10,ing008,"Smoked Gouda",2025-10-24,14,14,0
+2025-10,ing008,"Smoked Gouda",2025-10-25,14,14,0
+2025-10,ing009,"Chipotle Sauce",2025-10-01,12,18,6
+2025-10,ing009,"Chipotle Sauce",2025-10-02,12,18,6
+2025-10,ing009,"Chipotle Sauce",2025-10-03,11,18,7
+2025-10,ing009,"Chipotle Sauce",2025-10-04,18,18,0
+2025-10,ing009,"Chipotle Sauce",2025-10-05,18,18,0
+2025-10,ing009,"Chipotle Sauce",2025-10-06,18,18,0
+2025-10,ing009,"Chipotle Sauce",2025-10-07,18,18,0
+2025-10,ing009,"Chipotle Sauce",2025-10-08,18,18,0
+2025-10,ing009,"Chipotle Sauce",2025-10-09,18,18,0
+2025-10,ing009,"Chipotle Sauce",2025-10-10,18,18,0
+2025-10,ing009,"Chipotle Sauce",2025-10-11,17,18,1
+2025-10,ing009,"Chipotle Sauce",2025-10-12,16,18,2
+2025-10,ing009,"Chipotle Sauce",2025-10-13,16,18,2
+2025-10,ing009,"Chipotle Sauce",2025-10-14,16,18,2
+2025-10,ing009,"Chipotle Sauce",2025-10-15,15,18,3
+2025-10,ing009,"Chipotle Sauce",2025-10-16,14,18,4
+2025-10,ing009,"Chipotle Sauce",2025-10-17,14,18,4
+2025-10,ing009,"Chipotle Sauce",2025-10-18,13,18,5
+2025-10,ing009,"Chipotle Sauce",2025-10-19,13,18,5
+2025-10,ing009,"Chipotle Sauce",2025-10-20,13,18,5
+2025-10,ing009,"Chipotle Sauce",2025-10-22,13,18,5
+2025-10,ing009,"Chipotle Sauce",2025-10-23,13,18,5
+2025-10,ing009,"Chipotle Sauce",2025-10-24,13,18,5
+2025-10,ing009,"Chipotle Sauce",2025-10-25,13,18,5
+2025-10,ing010,"Wild Mushrooms",2025-10-01,12,14,2
+2025-10,ing010,"Wild Mushrooms",2025-10-02,11,14,3
+2025-10,ing010,"Wild Mushrooms",2025-10-03,10,14,4
+2025-10,ing010,"Wild Mushrooms",2025-10-04,9,14,5
+2025-10,ing010,"Wild Mushrooms",2025-10-05,8,14,6
+2025-10,ing010,"Wild Mushrooms",2025-10-06,7,14,7
+2025-10,ing010,"Wild Mushrooms",2025-10-07,12,14,2
+2025-10,ing010,"Wild Mushrooms",2025-10-08,12,14,2
+2025-10,ing010,"Wild Mushrooms",2025-10-09,11,14,3
+2025-10,ing010,"Wild Mushrooms",2025-10-10,10,14,4
+2025-10,ing010,"Wild Mushrooms",2025-10-11,10,14,4
+2025-10,ing010,"Wild Mushrooms",2025-10-12,8,14,6
+2025-10,ing010,"Wild Mushrooms",2025-10-13,8,14,6
+2025-10,ing010,"Wild Mushrooms",2025-10-14,14,14,0
+2025-10,ing010,"Wild Mushrooms",2025-10-15,12,14,2
+2025-10,ing010,"Wild Mushrooms",2025-10-16,10,14,4
+2025-10,ing010,"Wild Mushrooms",2025-10-17,8,14,6
+2025-10,ing010,"Wild Mushrooms",2025-10-18,6,14,8
+2025-10,ing010,"Wild Mushrooms",2025-10-19,5,14,9
+2025-10,ing010,"Wild Mushrooms",2025-10-20,4,14,10
+2025-10,ing010,"Wild Mushrooms",2025-10-21,3,14,11
+2025-10,ing010,"Wild Mushrooms",2025-10-22,2,14,12
+2025-10,ing010,"Wild Mushrooms",2025-10-23,9,14,5
+2025-10,ing010,"Wild Mushrooms",2025-10-24,7,14,7
+2025-10,ing010,"Wild Mushrooms",2025-10-25,6,14,8
+2025-10,ing011,"Truffle Oil",2025-10-01,5,6,1
+2025-10,ing011,"Truffle Oil",2025-10-02,4,6,2
+2025-10,ing011,"Truffle Oil",2025-10-03,6,6,0
+2025-10,ing011,"Truffle Oil",2025-10-04,5,6,1
+2025-10,ing011,"Truffle Oil",2025-10-05,4,6,2
+2025-10,ing011,"Truffle Oil",2025-10-06,6,6,0
+2025-10,ing011,"Truffle Oil",2025-10-07,4,6,2
+2025-10,ing011,"Truffle Oil",2025-10-08,3,6,3
+2025-10,ing011,"Truffle Oil",2025-10-09,6,6,0
+2025-10,ing011,"Truffle Oil",2025-10-10,5,6,1
+2025-10,ing011,"Truffle Oil",2025-10-11,4,6,2
+2025-10,ing011,"Truffle Oil",2025-10-12,5,6,1
+2025-10,ing011,"Truffle Oil",2025-10-13,4,6,2
+2025-10,ing011,"Truffle Oil",2025-10-14,6,6,0
+2025-10,ing011,"Truffle Oil",2025-10-15,5,6,1
+2025-10,ing011,"Truffle Oil",2025-10-16,3,6,3
+2025-10,ing011,"Truffle Oil",2025-10-17,4,6,2
+2025-10,ing011,"Truffle Oil",2025-10-18,2,6,4
+2025-10,ing011,"Truffle Oil",2025-10-19,5,6,1
+2025-10,ing011,"Truffle Oil",2025-10-20,4,6,2
+2025-10,ing011,"Truffle Oil",2025-10-21,5,6,1
+2025-10,ing011,"Truffle Oil",2025-10-22,4,6,2
+2025-10,ing011,"Truffle Oil",2025-10-23,6,6,0
+2025-10,ing011,"Truffle Oil",2025-10-24,4,6,2
+2025-10,ing011,"Truffle Oil",2025-10-25,3,6,3
+2025-10,ing012,Mozzarella,2025-10-01,21,22,1
+2025-10,ing012,Mozzarella,2025-10-02,20,22,2
+2025-10,ing012,Mozzarella,2025-10-03,20,22,2
+2025-10,ing012,Mozzarella,2025-10-04,19,22,3
+2025-10,ing012,Mozzarella,2025-10-05,18,22,4
+2025-10,ing012,Mozzarella,2025-10-06,18,22,4
+2025-10,ing012,Mozzarella,2025-10-07,17,22,5
+2025-10,ing012,Mozzarella,2025-10-08,16,22,6
+2025-10,ing012,Mozzarella,2025-10-09,15,22,7
+2025-10,ing012,Mozzarella,2025-10-10,14,22,8
+2025-10,ing012,Mozzarella,2025-10-11,13,22,9
+2025-10,ing012,Mozzarella,2025-10-12,12,22,10
+2025-10,ing012,Mozzarella,2025-10-13,22,22,0
+2025-10,ing012,Mozzarella,2025-10-14,21,22,1
+2025-10,ing012,Mozzarella,2025-10-15,20,22,2
+2025-10,ing012,Mozzarella,2025-10-16,19,22,3
+2025-10,ing012,Mozzarella,2025-10-17,18,22,4
+2025-10,ing012,Mozzarella,2025-10-18,17,22,5
+2025-10,ing012,Mozzarella,2025-10-19,16,22,6
+2025-10,ing012,Mozzarella,2025-10-20,15,22,7
+2025-10,ing012,Mozzarella,2025-10-21,13,22,9
+2025-10,ing012,Mozzarella,2025-10-22,12,22,10
+2025-10,ing012,Mozzarella,2025-10-23,12,22,10
+2025-10,ing012,Mozzarella,2025-10-24,22,22,0
+2025-10,ing012,Mozzarella,2025-10-25,21,22,1
+2025-10,ing013,"Fresh Spinach",2025-10-01,13,15,2
+2025-10,ing013,"Fresh Spinach",2025-10-02,13,15,2
+2025-10,ing013,"Fresh Spinach",2025-10-03,13,15,2
+2025-10,ing013,"Fresh Spinach",2025-10-04,13,15,2
+2025-10,ing013,"Fresh Spinach",2025-10-05,13,15,2
+2025-10,ing013,"Fresh Spinach",2025-10-06,13,15,2
+2025-10,ing013,"Fresh Spinach",2025-10-07,12,15,3
+2025-10,ing013,"Fresh Spinach",2025-10-08,12,15,3
+2025-10,ing013,"Fresh Spinach",2025-10-09,12,15,3
+2025-10,ing013,"Fresh Spinach",2025-10-10,12,15,3
+2025-10,ing013,"Fresh Spinach",2025-10-11,12,15,3
+2025-10,ing013,"Fresh Spinach",2025-10-12,11,15,4
+2025-10,ing013,"Fresh Spinach",2025-10-13,11,15,4
+2025-10,ing013,"Fresh Spinach",2025-10-14,10,15,5
+2025-10,ing013,"Fresh Spinach",2025-10-15,9,15,6
+2025-10,ing013,"Fresh Spinach",2025-10-16,15,15,0
+2025-10,ing013,"Fresh Spinach",2025-10-17,14,15,1
+2025-10,ing013,"Fresh Spinach",2025-10-18,13,15,2
+2025-10,ing013,"Fresh Spinach",2025-10-19,13,15,2
+2025-10,ing013,"Fresh Spinach",2025-10-20,13,15,2
+2025-10,ing013,"Fresh Spinach",2025-10-21,12,15,3
+2025-10,ing013,"Fresh Spinach",2025-10-22,12,15,3
+2025-10,ing013,"Fresh Spinach",2025-10-23,12,15,3
+2025-10,ing013,"Fresh Spinach",2025-10-24,11,15,4
+2025-10,ing013,"Fresh Spinach",2025-10-25,11,15,4
+2025-10,ing014,"Italian Sausage",2025-10-01,11,12,1
+2025-10,ing014,"Italian Sausage",2025-10-02,10,12,2
+2025-10,ing014,"Italian Sausage",2025-10-03,10,12,2
+2025-10,ing014,"Italian Sausage",2025-10-04,9,12,3
+2025-10,ing014,"Italian Sausage",2025-10-05,8,12,4
+2025-10,ing014,"Italian Sausage",2025-10-06,7,12,5
+2025-10,ing014,"Italian Sausage",2025-10-07,11,12,1
+2025-10,ing014,"Italian Sausage",2025-10-08,11,12,1
+2025-10,ing014,"Italian Sausage",2025-10-09,10,12,2
+2025-10,ing014,"Italian Sausage",2025-10-10,9,12,3
+2025-10,ing014,"Italian Sausage",2025-10-11,7,12,5
+2025-10,ing014,"Italian Sausage",2025-10-12,6,12,6
+2025-10,ing014,"Italian Sausage",2025-10-13,11,12,1
+2025-10,ing014,"Italian Sausage",2025-10-14,10,12,2
+2025-10,ing014,"Italian Sausage",2025-10-15,10,12,2
+2025-10,ing014,"Italian Sausage",2025-10-16,8,12,4
+2025-10,ing014,"Italian Sausage",2025-10-17,7,12,5
+2025-10,ing014,"Italian Sausage",2025-10-18,12,12,0
+2025-10,ing014,"Italian Sausage",2025-10-19,12,12,0
+2025-10,ing014,"Italian Sausage",2025-10-20,11,12,1
+2025-10,ing014,"Italian Sausage",2025-10-21,10,12,2
+2025-10,ing014,"Italian Sausage",2025-10-22,9,12,3
+2025-10,ing014,"Italian Sausage",2025-10-23,8,12,4
+2025-10,ing014,"Italian Sausage",2025-10-24,7,12,5
+2025-10,ing014,"Italian Sausage",2025-10-25,11,12,1
+2025-10,ing015,"Roasted Garlic",2025-10-01,17,18,1
+2025-10,ing015,"Roasted Garlic",2025-10-02,17,18,1
+2025-10,ing015,"Roasted Garlic",2025-10-03,17,18,1
+2025-10,ing015,"Roasted Garlic",2025-10-04,17,18,1
+2025-10,ing015,"Roasted Garlic",2025-10-05,17,18,1
+2025-10,ing015,"Roasted Garlic",2025-10-06,17,18,1
+2025-10,ing015,"Roasted Garlic",2025-10-07,16,18,2
+2025-10,ing015,"Roasted Garlic",2025-10-08,16,18,2
+2025-10,ing015,"Roasted Garlic",2025-10-09,16,18,2
+2025-10,ing015,"Roasted Garlic",2025-10-10,15,18,3
+2025-10,ing015,"Roasted Garlic",2025-10-11,14,18,4
+2025-10,ing015,"Roasted Garlic",2025-10-12,13,18,5
+2025-10,ing015,"Roasted Garlic",2025-10-13,13,18,5
+2025-10,ing015,"Roasted Garlic",2025-10-14,12,18,6
+2025-10,ing015,"Roasted Garlic",2025-10-15,12,18,6
+2025-10,ing015,"Roasted Garlic",2025-10-16,11,18,7
+2025-10,ing015,"Roasted Garlic",2025-10-17,10,18,8
+2025-10,ing015,"Roasted Garlic",2025-10-18,10,18,8
+2025-10,ing015,"Roasted Garlic",2025-10-19,18,18,0
+2025-10,ing015,"Roasted Garlic",2025-10-20,18,18,0
+2025-10,ing015,"Roasted Garlic",2025-10-21,18,18,0
+2025-10,ing015,"Roasted Garlic",2025-10-22,18,18,0
+2025-10,ing015,"Roasted Garlic",2025-10-23,18,18,0
+2025-10,ing015,"Roasted Garlic",2025-10-24,18,18,0
+2025-10,ing015,"Roasted Garlic",2025-10-25,18,18,0
+2025-10,ing016,"Red Onion",2025-10-01,13,22,9
+2025-10,ing016,"Red Onion",2025-10-02,21,22,1
+2025-10,ing016,"Red Onion",2025-10-03,20,22,2
+2025-10,ing016,"Red Onion",2025-10-04,19,22,3
+2025-10,ing016,"Red Onion",2025-10-05,18,22,4
+2025-10,ing016,"Red Onion",2025-10-06,16,22,6
+2025-10,ing016,"Red Onion",2025-10-07,14,22,8
+2025-10,ing016,"Red Onion",2025-10-08,13,22,9
+2025-10,ing016,"Red Onion",2025-10-09,22,22,0
+2025-10,ing016,"Red Onion",2025-10-10,21,22,1
+2025-10,ing016,"Red Onion",2025-10-11,19,22,3
+2025-10,ing016,"Red Onion",2025-10-12,17,22,5
+2025-10,ing016,"Red Onion",2025-10-13,16,22,6
+2025-10,ing016,"Red Onion",2025-10-14,15,22,7
+2025-10,ing016,"Red Onion",2025-10-15,14,22,8
+2025-10,ing016,"Red Onion",2025-10-16,13,22,9
+2025-10,ing016,"Red Onion",2025-10-17,21,22,1
+2025-10,ing016,"Red Onion",2025-10-18,20,22,2
+2025-10,ing016,"Red Onion",2025-10-19,20,22,2
+2025-10,ing016,"Red Onion",2025-10-20,19,22,3
+2025-10,ing016,"Red Onion",2025-10-21,18,22,4
+2025-10,ing016,"Red Onion",2025-10-22,17,22,5
+2025-10,ing016,"Red Onion",2025-10-23,15,22,7
+2025-10,ing016,"Red Onion",2025-10-24,14,22,8
+2025-10,ing016,"Red Onion",2025-10-25,12,22,10
+2025-10,ing017,"Fresh Basil",2025-10-01,10,10,0
+2025-10,ing017,"Fresh Basil",2025-10-02,10,10,0
+2025-10,ing017,"Fresh Basil",2025-10-03,10,10,0
+2025-10,ing017,"Fresh Basil",2025-10-04,10,10,0
+2025-10,ing017,"Fresh Basil",2025-10-05,10,10,0
+2025-10,ing017,"Fresh Basil",2025-10-06,10,10,0
+2025-10,ing017,"Fresh Basil",2025-10-07,10,10,0
+2025-10,ing017,"Fresh Basil",2025-10-08,10,10,0
+2025-10,ing017,"Fresh Basil",2025-10-09,10,10,0
+2025-10,ing017,"Fresh Basil",2025-10-10,10,10,0
+2025-10,ing017,"Fresh Basil",2025-10-11,9,10,1
+2025-10,ing017,"Fresh Basil",2025-10-12,9,10,1
+2025-10,ing017,"Fresh Basil",2025-10-13,9,10,1
+2025-10,ing017,"Fresh Basil",2025-10-14,9,10,1
+2025-10,ing017,"Fresh Basil",2025-10-15,9,10,1
+2025-10,ing017,"Fresh Basil",2025-10-16,9,10,1
+2025-10,ing017,"Fresh Basil",2025-10-17,9,10,1
+2025-10,ing017,"Fresh Basil",2025-10-18,9,10,1
+2025-10,ing017,"Fresh Basil",2025-10-19,9,10,1
+2025-10,ing017,"Fresh Basil",2025-10-20,9,10,1
+2025-10,ing017,"Fresh Basil",2025-10-21,9,10,1
+2025-10,ing017,"Fresh Basil",2025-10-22,9,10,1
+2025-10,ing017,"Fresh Basil",2025-10-23,9,10,1
+2025-10,ing017,"Fresh Basil",2025-10-24,9,10,1
+2025-10,ing017,"Fresh Basil",2025-10-25,9,10,1
+2025-10,ing018,"Smoked Salmon",2025-10-01,0,3,3
+2025-10,ing018,"Smoked Salmon",2025-10-02,-3,3,6
+2025-10,ing018,"Smoked Salmon",2025-10-03,-6,3,9
+2025-10,ing018,"Smoked Salmon",2025-10-04,0,3,3
+2025-10,ing018,"Smoked Salmon",2025-10-05,-3,3,6
+2025-10,ing018,"Smoked Salmon",2025-10-06,-5,3,8
+2025-10,ing018,"Smoked Salmon",2025-10-07,-10,3,13
+2025-10,ing018,"Smoked Salmon",2025-10-08,-3,3,6
+2025-10,ing018,"Smoked Salmon",2025-10-09,-4,3,7
+2025-10,ing018,"Smoked Salmon",2025-10-10,-8,3,11
+2025-10,ing018,"Smoked Salmon",2025-10-11,-9,3,12
+2025-10,ing018,"Smoked Salmon",2025-10-12,2,3,1
+2025-10,ing018,"Smoked Salmon",2025-10-13,-2,3,5
+2025-10,ing018,"Smoked Salmon",2025-10-14,-6,3,9
+2025-10,ing018,"Smoked Salmon",2025-10-15,-8,3,11
+2025-10,ing018,"Smoked Salmon",2025-10-16,-3,3,6
+2025-10,ing018,"Smoked Salmon",2025-10-17,-5,3,8
+2025-10,ing018,"Smoked Salmon",2025-10-18,-7,3,10
+2025-10,ing018,"Smoked Salmon",2025-10-19,-9,3,12
+2025-10,ing018,"Smoked Salmon",2025-10-20,2,3,1
+2025-10,ing018,"Smoked Salmon",2025-10-21,1,3,2
+2025-10,ing018,"Smoked Salmon",2025-10-22,0,3,3
+2025-10,ing018,"Smoked Salmon",2025-10-23,-2,3,5
+2025-10,ing018,"Smoked Salmon",2025-10-24,3,3,0
+2025-10,ing018,"Smoked Salmon",2025-10-25,-2,3,5
+2025-10,ing019,"Dill Cream Cheese",2025-10-01,6,14,8
+2025-10,ing019,"Dill Cream Cheese",2025-10-02,11,14,3
+2025-10,ing019,"Dill Cream Cheese",2025-10-03,10,14,4
+2025-10,ing019,"Dill Cream Cheese",2025-10-04,10,14,4
+2025-10,ing019,"Dill Cream Cheese",2025-10-05,9,14,5
+2025-10,ing019,"Dill Cream Cheese",2025-10-06,8,14,6
+2025-10,ing019,"Dill Cream Cheese",2025-10-07,6,14,8
+2025-10,ing019,"Dill Cream Cheese",2025-10-08,5,14,9
+2025-10,ing019,"Dill Cream Cheese",2025-10-09,11,14,3
+2025-10,ing019,"Dill Cream Cheese",2025-10-10,9,14,5
+2025-10,ing019,"Dill Cream Cheese",2025-10-11,9,14,5
+2025-10,ing019,"Dill Cream Cheese",2025-10-12,9,14,5
+2025-10,ing019,"Dill Cream Cheese",2025-10-13,8,14,6
+2025-10,ing019,"Dill Cream Cheese",2025-10-14,7,14,7
+2025-10,ing019,"Dill Cream Cheese",2025-10-15,6,14,8
+2025-10,ing019,"Dill Cream Cheese",2025-10-16,11,14,3
+2025-10,ing019,"Dill Cream Cheese",2025-10-17,10,14,4
+2025-10,ing019,"Dill Cream Cheese",2025-10-18,9,14,5
+2025-10,ing019,"Dill Cream Cheese",2025-10-19,8,14,6
+2025-10,ing019,"Dill Cream Cheese",2025-10-20,8,14,6
+2025-10,ing019,"Dill Cream Cheese",2025-10-21,8,14,6
+2025-10,ing019,"Dill Cream Cheese",2025-10-22,14,14,0
+2025-10,ing019,"Dill Cream Cheese",2025-10-23,13,14,1
+2025-10,ing019,"Dill Cream Cheese",2025-10-24,12,14,2
+2025-10,ing019,"Dill Cream Cheese",2025-10-25,10,14,4
+2025-10,ing020,Capers,2025-10-01,8,11,3
+2025-10,ing020,Capers,2025-10-02,8,11,3
+2025-10,ing020,Capers,2025-10-03,8,11,3
+2025-10,ing020,Capers,2025-10-04,8,11,3
+2025-10,ing020,Capers,2025-10-05,8,11,3
+2025-10,ing020,Capers,2025-10-06,8,11,3
+2025-10,ing020,Capers,2025-10-07,7,11,4
+2025-10,ing020,Capers,2025-10-08,7,11,4
+2025-10,ing020,Capers,2025-10-09,7,11,4
+2025-10,ing020,Capers,2025-10-10,7,11,4
+2025-10,ing020,Capers,2025-10-11,11,11,0
+2025-10,ing020,Capers,2025-10-12,11,11,0
+2025-10,ing020,Capers,2025-10-13,11,11,0
+2025-10,ing020,Capers,2025-10-14,11,11,0
+2025-10,ing020,Capers,2025-10-15,11,11,0
+2025-10,ing020,Capers,2025-10-16,11,11,0
+2025-10,ing020,Capers,2025-10-17,11,11,0
+2025-10,ing020,Capers,2025-10-18,11,11,0
+2025-10,ing020,Capers,2025-10-19,11,11,0
+2025-10,ing020,Capers,2025-10-20,11,11,0
+2025-10,ing020,Capers,2025-10-21,11,11,0
+2025-10,ing020,Capers,2025-10-22,11,11,0
+2025-10,ing020,Capers,2025-10-23,11,11,0
+2025-10,ing020,Capers,2025-10-24,11,11,0
+2025-10,ing020,Capers,2025-10-25,10,11,1
+2025-10,ing021,Arugula,2025-10-01,15,15,0
+2025-10,ing021,Arugula,2025-10-02,15,15,0
+2025-10,ing021,Arugula,2025-10-03,15,15,0
+2025-10,ing021,Arugula,2025-10-04,15,15,0
+2025-10,ing021,Arugula,2025-10-05,15,15,0
+2025-10,ing021,Arugula,2025-10-06,15,15,0
+2025-10,ing021,Arugula,2025-10-07,14,15,1
+2025-10,ing021,Arugula,2025-10-08,14,15,1
+2025-10,ing021,Arugula,2025-10-09,14,15,1
+2025-10,ing021,Arugula,2025-10-10,13,15,2
+2025-10,ing021,Arugula,2025-10-11,13,15,2
+2025-10,ing021,Arugula,2025-10-12,13,15,2
+2025-10,ing021,Arugula,2025-10-13,12,15,3
+2025-10,ing021,Arugula,2025-10-14,12,15,3
+2025-10,ing021,Arugula,2025-10-15,12,15,3
+2025-10,ing021,Arugula,2025-10-16,12,15,3
+2025-10,ing021,Arugula,2025-10-17,12,15,3
+2025-10,ing021,Arugula,2025-10-18,12,15,3
+2025-10,ing021,Arugula,2025-10-19,12,15,3
+2025-10,ing021,Arugula,2025-10-20,12,15,3
+2025-10,ing021,Arugula,2025-10-21,12,15,3
+2025-10,ing021,Arugula,2025-10-22,12,15,3
+2025-10,ing021,Arugula,2025-10-23,12,15,3
+2025-10,ing021,Arugula,2025-10-24,12,15,3
+2025-10,ing021,Arugula,2025-10-25,11,15,4
+2025-10,ing022,"BBQ Brisket",2025-10-01,10,10,0
+2025-10,ing022,"BBQ Brisket",2025-10-02,8,10,2
+2025-10,ing022,"BBQ Brisket",2025-10-03,8,10,2
+2025-10,ing022,"BBQ Brisket",2025-10-04,7,10,3
+2025-10,ing022,"BBQ Brisket",2025-10-05,6,10,4
+2025-10,ing022,"BBQ Brisket",2025-10-06,9,10,1
+2025-10,ing022,"BBQ Brisket",2025-10-07,7,10,3
+2025-10,ing022,"BBQ Brisket",2025-10-08,6,10,4
+2025-10,ing022,"BBQ Brisket",2025-10-09,9,10,1
+2025-10,ing022,"BBQ Brisket",2025-10-10,7,10,3
+2025-10,ing022,"BBQ Brisket",2025-10-11,6,10,4
+2025-10,ing022,"BBQ Brisket",2025-10-12,8,10,2
+2025-10,ing022,"BBQ Brisket",2025-10-13,8,10,2
+2025-10,ing022,"BBQ Brisket",2025-10-14,7,10,3
+2025-10,ing022,"BBQ Brisket",2025-10-15,6,10,4
+2025-10,ing022,"BBQ Brisket",2025-10-16,9,10,1
+2025-10,ing022,"BBQ Brisket",2025-10-17,8,10,2
+2025-10,ing022,"BBQ Brisket",2025-10-18,6,10,4
+2025-10,ing022,"BBQ Brisket",2025-10-20,10,10,0
+2025-10,ing022,"BBQ Brisket",2025-10-21,9,10,1
+2025-10,ing022,"BBQ Brisket",2025-10-22,8,10,2
+2025-10,ing022,"BBQ Brisket",2025-10-23,6,10,4
+2025-10,ing022,"BBQ Brisket",2025-10-24,5,10,5
+2025-10,ing022,"BBQ Brisket",2025-10-25,7,10,3
+2025-10,ing023,"Cheddar Cheese",2025-10-01,13,13,0
+2025-10,ing023,"Cheddar Cheese",2025-10-02,11,13,2
+2025-10,ing023,"Cheddar Cheese",2025-10-03,11,13,2
+2025-10,ing023,"Cheddar Cheese",2025-10-04,10,13,3
+2025-10,ing023,"Cheddar Cheese",2025-10-05,9,13,4
+2025-10,ing023,"Cheddar Cheese",2025-10-06,8,13,5
+2025-10,ing023,"Cheddar Cheese",2025-10-07,13,13,0
+2025-10,ing023,"Cheddar Cheese",2025-10-08,12,13,1
+2025-10,ing023,"Cheddar Cheese",2025-10-09,11,13,2
+2025-10,ing023,"Cheddar Cheese",2025-10-10,10,13,3
+2025-10,ing023,"Cheddar Cheese",2025-10-11,9,13,4
+2025-10,ing023,"Cheddar Cheese",2025-10-12,7,13,6
+2025-10,ing023,"Cheddar Cheese",2025-10-13,13,13,0
+2025-10,ing023,"Cheddar Cheese",2025-10-14,12,13,1
+2025-10,ing023,"Cheddar Cheese",2025-10-15,11,13,2
+2025-10,ing023,"Cheddar Cheese",2025-10-16,11,13,2
+2025-10,ing023,"Cheddar Cheese",2025-10-17,10,13,3
+2025-10,ing023,"Cheddar Cheese",2025-10-18,8,13,5
+2025-10,ing023,"Cheddar Cheese",2025-10-19,8,13,5
+2025-10,ing023,"Cheddar Cheese",2025-10-20,13,13,0
+2025-10,ing023,"Cheddar Cheese",2025-10-21,12,13,1
+2025-10,ing023,"Cheddar Cheese",2025-10-22,11,13,2
+2025-10,ing023,"Cheddar Cheese",2025-10-23,10,13,3
+2025-10,ing023,"Cheddar Cheese",2025-10-24,10,13,3
+2025-10,ing023,"Cheddar Cheese",2025-10-25,8,13,5
+2025-10,ing024,"BBQ Sauce",2025-10-01,15,17,2
+2025-10,ing024,"BBQ Sauce",2025-10-02,14,17,3
+2025-10,ing024,"BBQ Sauce",2025-10-03,14,17,3
+2025-10,ing024,"BBQ Sauce",2025-10-04,14,17,3
+2025-10,ing024,"BBQ Sauce",2025-10-05,14,17,3
+2025-10,ing024,"BBQ Sauce",2025-10-06,14,17,3
+2025-10,ing024,"BBQ Sauce",2025-10-07,13,17,4
+2025-10,ing024,"BBQ Sauce",2025-10-08,12,17,5
+2025-10,ing024,"BBQ Sauce",2025-10-09,12,17,5
+2025-10,ing024,"BBQ Sauce",2025-10-10,11,17,6
+2025-10,ing024,"BBQ Sauce",2025-10-11,11,17,6
+2025-10,ing024,"BBQ Sauce",2025-10-12,10,17,7
+2025-10,ing024,"BBQ Sauce",2025-10-13,17,17,0
+2025-10,ing024,"BBQ Sauce",2025-10-14,17,17,0
+2025-10,ing024,"BBQ Sauce",2025-10-15,16,17,1
+2025-10,ing024,"BBQ Sauce",2025-10-16,16,17,1
+2025-10,ing024,"BBQ Sauce",2025-10-17,16,17,1
+2025-10,ing024,"BBQ Sauce",2025-10-18,15,17,2
+2025-10,ing024,"BBQ Sauce",2025-10-20,15,17,2
+2025-10,ing024,"BBQ Sauce",2025-10-21,14,17,3
+2025-10,ing024,"BBQ Sauce",2025-10-22,14,17,3
+2025-10,ing024,"BBQ Sauce",2025-10-23,13,17,4
+2025-10,ing024,"BBQ Sauce",2025-10-24,13,17,4
+2025-10,ing024,"BBQ Sauce",2025-10-25,12,17,5
+2025-10,ing025,"Tandoori Chicken",2025-10-01,9,11,2
+2025-10,ing025,"Tandoori Chicken",2025-10-02,8,11,3
+2025-10,ing025,"Tandoori Chicken",2025-10-03,7,11,4
+2025-10,ing025,"Tandoori Chicken",2025-10-04,6,11,5
+2025-10,ing025,"Tandoori Chicken",2025-10-05,11,11,0
+2025-10,ing025,"Tandoori Chicken",2025-10-06,9,11,2
+2025-10,ing025,"Tandoori Chicken",2025-10-07,8,11,3
+2025-10,ing025,"Tandoori Chicken",2025-10-08,8,11,3
+2025-10,ing025,"Tandoori Chicken",2025-10-09,7,11,4
+2025-10,ing025,"Tandoori Chicken",2025-10-10,7,11,4
+2025-10,ing025,"Tandoori Chicken",2025-10-11,10,11,1
+2025-10,ing025,"Tandoori Chicken",2025-10-12,9,11,2
+2025-10,ing025,"Tandoori Chicken",2025-10-13,8,11,3
+2025-10,ing025,"Tandoori Chicken",2025-10-14,8,11,3
+2025-10,ing025,"Tandoori Chicken",2025-10-15,7,11,4
+2025-10,ing025,"Tandoori Chicken",2025-10-16,6,11,5
+2025-10,ing025,"Tandoori Chicken",2025-10-17,10,11,1
+2025-10,ing025,"Tandoori Chicken",2025-10-18,9,11,2
+2025-10,ing025,"Tandoori Chicken",2025-10-19,9,11,2
+2025-10,ing025,"Tandoori Chicken",2025-10-21,8,11,3
+2025-10,ing025,"Tandoori Chicken",2025-10-22,7,11,4
+2025-10,ing025,"Tandoori Chicken",2025-10-23,6,11,5
+2025-10,ing025,"Tandoori Chicken",2025-10-24,9,11,2
+2025-10,ing025,"Tandoori Chicken",2025-10-25,7,11,4
+2025-10,ing026,"Mint Yogurt",2025-10-01,13,14,1
+2025-10,ing026,"Mint Yogurt",2025-10-02,13,14,1
+2025-10,ing026,"Mint Yogurt",2025-10-03,13,14,1
+2025-10,ing026,"Mint Yogurt",2025-10-04,13,14,1
+2025-10,ing026,"Mint Yogurt",2025-10-05,13,14,1
+2025-10,ing026,"Mint Yogurt",2025-10-06,12,14,2
+2025-10,ing026,"Mint Yogurt",2025-10-07,12,14,2
+2025-10,ing026,"Mint Yogurt",2025-10-08,12,14,2
+2025-10,ing026,"Mint Yogurt",2025-10-09,11,14,3
+2025-10,ing026,"Mint Yogurt",2025-10-10,11,14,3
+2025-10,ing026,"Mint Yogurt",2025-10-11,10,14,4
+2025-10,ing026,"Mint Yogurt",2025-10-12,10,14,4
+2025-10,ing026,"Mint Yogurt",2025-10-13,9,14,5
+2025-10,ing026,"Mint Yogurt",2025-10-14,9,14,5
+2025-10,ing026,"Mint Yogurt",2025-10-15,9,14,5
+2025-10,ing026,"Mint Yogurt",2025-10-16,9,14,5
+2025-10,ing026,"Mint Yogurt",2025-10-17,8,14,6
+2025-10,ing026,"Mint Yogurt",2025-10-18,8,14,6
+2025-10,ing026,"Mint Yogurt",2025-10-19,8,14,6
+2025-10,ing026,"Mint Yogurt",2025-10-21,14,14,0
+2025-10,ing026,"Mint Yogurt",2025-10-22,14,14,0
+2025-10,ing026,"Mint Yogurt",2025-10-23,13,14,1
+2025-10,ing026,"Mint Yogurt",2025-10-24,12,14,2
+2025-10,ing026,"Mint Yogurt",2025-10-25,11,14,3
+2025-10,ing027,"Green Chilli",2025-10-01,8,9,1
+2025-10,ing027,"Green Chilli",2025-10-02,8,9,1
+2025-10,ing027,"Green Chilli",2025-10-03,8,9,1
+2025-10,ing027,"Green Chilli",2025-10-04,8,9,1
+2025-10,ing027,"Green Chilli",2025-10-05,8,9,1
+2025-10,ing027,"Green Chilli",2025-10-06,7,9,2
+2025-10,ing027,"Green Chilli",2025-10-07,7,9,2
+2025-10,ing027,"Green Chilli",2025-10-08,7,9,2
+2025-10,ing027,"Green Chilli",2025-10-09,7,9,2
+2025-10,ing027,"Green Chilli",2025-10-10,7,9,2
+2025-10,ing027,"Green Chilli",2025-10-11,6,9,3
+2025-10,ing027,"Green Chilli",2025-10-12,6,9,3
+2025-10,ing027,"Green Chilli",2025-10-13,6,9,3
+2025-10,ing027,"Green Chilli",2025-10-14,6,9,3
+2025-10,ing027,"Green Chilli",2025-10-15,6,9,3
+2025-10,ing027,"Green Chilli",2025-10-16,6,9,3
+2025-10,ing027,"Green Chilli",2025-10-17,5,9,4
+2025-10,ing027,"Green Chilli",2025-10-18,5,9,4
+2025-10,ing027,"Green Chilli",2025-10-19,5,9,4
+2025-10,ing027,"Green Chilli",2025-10-21,9,9,0
+2025-10,ing027,"Green Chilli",2025-10-22,9,9,0
+2025-10,ing027,"Green Chilli",2025-10-23,8,9,1
+2025-10,ing027,"Green Chilli",2025-10-24,7,9,2
+2025-10,ing027,"Green Chilli",2025-10-25,6,9,3
+2025-10,ing028,"Grilled Pineapple",2025-10-01,9,12,3
+2025-10,ing028,"Grilled Pineapple",2025-10-02,8,12,4
+2025-10,ing028,"Grilled Pineapple",2025-10-04,7,12,5
+2025-10,ing028,"Grilled Pineapple",2025-10-05,11,12,1
+2025-10,ing028,"Grilled Pineapple",2025-10-06,10,12,2
+2025-10,ing028,"Grilled Pineapple",2025-10-07,10,12,2
+2025-10,ing028,"Grilled Pineapple",2025-10-08,9,12,3
+2025-10,ing028,"Grilled Pineapple",2025-10-09,8,12,4
+2025-10,ing028,"Grilled Pineapple",2025-10-10,7,12,5
+2025-10,ing028,"Grilled Pineapple",2025-10-11,6,12,6
+2025-10,ing028,"Grilled Pineapple",2025-10-12,10,12,2
+2025-10,ing028,"Grilled Pineapple",2025-10-13,10,12,2
+2025-10,ing028,"Grilled Pineapple",2025-10-14,9,12,3
+2025-10,ing028,"Grilled Pineapple",2025-10-15,9,12,3
+2025-10,ing028,"Grilled Pineapple",2025-10-16,9,12,3
+2025-10,ing028,"Grilled Pineapple",2025-10-17,8,12,4
+2025-10,ing028,"Grilled Pineapple",2025-10-18,7,12,5
+2025-10,ing028,"Grilled Pineapple",2025-10-19,6,12,6
+2025-10,ing028,"Grilled Pineapple",2025-10-20,11,12,1
+2025-10,ing028,"Grilled Pineapple",2025-10-21,9,12,3
+2025-10,ing028,"Grilled Pineapple",2025-10-22,8,12,4
+2025-10,ing028,"Grilled Pineapple",2025-10-23,8,12,4
+2025-10,ing028,"Grilled Pineapple",2025-10-24,8,12,4
+2025-10,ing028,"Grilled Pineapple",2025-10-25,12,12,0
+2025-10,ing029,"Pulled Pork",2025-10-01,6,7,1
+2025-10,ing029,"Pulled Pork",2025-10-02,4,7,3
+2025-10,ing029,"Pulled Pork",2025-10-04,7,7,0
+2025-10,ing029,"Pulled Pork",2025-10-05,6,7,1
+2025-10,ing029,"Pulled Pork",2025-10-06,5,7,2
+2025-10,ing029,"Pulled Pork",2025-10-07,5,7,2
+2025-10,ing029,"Pulled Pork",2025-10-08,7,7,0
+2025-10,ing029,"Pulled Pork",2025-10-09,5,7,2
+2025-10,ing029,"Pulled Pork",2025-10-10,4,7,3
+2025-10,ing029,"Pulled Pork",2025-10-11,3,7,4
+2025-10,ing029,"Pulled Pork",2025-10-12,6,7,1
+2025-10,ing029,"Pulled Pork",2025-10-13,6,7,1
+2025-10,ing029,"Pulled Pork",2025-10-14,4,7,3
+2025-10,ing029,"Pulled Pork",2025-10-15,7,7,0
+2025-10,ing029,"Pulled Pork",2025-10-16,7,7,0
+2025-10,ing029,"Pulled Pork",2025-10-17,5,7,2
+2025-10,ing029,"Pulled Pork",2025-10-18,3,7,4
+2025-10,ing029,"Pulled Pork",2025-10-19,1,7,6
+2025-10,ing029,"Pulled Pork",2025-10-20,5,7,2
+2025-10,ing029,"Pulled Pork",2025-10-21,2,7,5
+2025-10,ing029,"Pulled Pork",2025-10-22,1,7,6
+2025-10,ing029,"Pulled Pork",2025-10-23,6,7,1
+2025-10,ing029,"Pulled Pork",2025-10-24,6,7,1
+2025-10,ing029,"Pulled Pork",2025-10-25,5,7,2
+2025-10,ing030,"Truffle Fries",2025-10-01,23,23,0
+2025-10,ing030,"Truffle Fries",2025-10-02,21,23,2
+2025-10,ing030,"Truffle Fries",2025-10-04,20,23,3
+2025-10,ing030,"Truffle Fries",2025-10-06,20,23,3
+2025-10,ing030,"Truffle Fries",2025-10-07,20,23,3
+2025-10,ing030,"Truffle Fries",2025-10-08,18,23,5
+2025-10,ing030,"Truffle Fries",2025-10-11,17,23,6
+2025-10,ing030,"Truffle Fries",2025-10-12,16,23,7
+2025-10,ing030,"Truffle Fries",2025-10-13,14,23,9
+2025-10,ing030,"Truffle Fries",2025-10-14,13,23,10
+2025-10,ing030,"Truffle Fries",2025-10-16,22,23,1
+2025-10,ing030,"Truffle Fries",2025-10-17,22,23,1
+2025-10,ing030,"Truffle Fries",2025-10-18,21,23,2
+2025-10,ing030,"Truffle Fries",2025-10-19,21,23,2
+2025-10,ing030,"Truffle Fries",2025-10-20,21,23,2
+2025-10,ing030,"Truffle Fries",2025-10-21,19,23,4
+2025-10,ing030,"Truffle Fries",2025-10-22,18,23,5
+2025-10,ing030,"Truffle Fries",2025-10-23,18,23,5
+2025-10,ing030,"Truffle Fries",2025-10-24,17,23,6
+2025-10,ing030,"Truffle Fries",2025-10-25,16,23,7
+2025-10,ing031,Parmesan,2025-10-01,7,7,0
+2025-10,ing031,Parmesan,2025-10-02,7,7,0
+2025-10,ing031,Parmesan,2025-10-04,7,7,0
+2025-10,ing031,Parmesan,2025-10-06,7,7,0
+2025-10,ing031,Parmesan,2025-10-07,7,7,0
+2025-10,ing031,Parmesan,2025-10-08,7,7,0
+2025-10,ing031,Parmesan,2025-10-11,7,7,0
+2025-10,ing031,Parmesan,2025-10-12,7,7,0
+2025-10,ing031,Parmesan,2025-10-13,7,7,0
+2025-10,ing031,Parmesan,2025-10-14,7,7,0
+2025-10,ing031,Parmesan,2025-10-16,7,7,0
+2025-10,ing031,Parmesan,2025-10-17,7,7,0
+2025-10,ing031,Parmesan,2025-10-18,7,7,0
+2025-10,ing031,Parmesan,2025-10-19,7,7,0
+2025-10,ing031,Parmesan,2025-10-20,7,7,0
+2025-10,ing031,Parmesan,2025-10-21,7,7,0
+2025-10,ing031,Parmesan,2025-10-22,7,7,0
+2025-10,ing031,Parmesan,2025-10-23,7,7,0
+2025-10,ing031,Parmesan,2025-10-24,7,7,0
+2025-10,ing031,Parmesan,2025-10-25,7,7,0
+2025-10,ing032,"Cauliflower Florets",2025-10-01,13,21,8
+2025-10,ing032,"Cauliflower Florets",2025-10-03,21,21,0
+2025-10,ing032,"Cauliflower Florets",2025-10-04,20,21,1
+2025-10,ing032,"Cauliflower Florets",2025-10-05,20,21,1
+2025-10,ing032,"Cauliflower Florets",2025-10-06,19,21,2
+2025-10,ing032,"Cauliflower Florets",2025-10-07,18,21,3
+2025-10,ing032,"Cauliflower Florets",2025-10-08,18,21,3
+2025-10,ing032,"Cauliflower Florets",2025-10-09,16,21,5
+2025-10,ing032,"Cauliflower Florets",2025-10-10,16,21,5
+2025-10,ing032,"Cauliflower Florets",2025-10-11,15,21,6
+2025-10,ing032,"Cauliflower Florets",2025-10-12,15,21,6
+2025-10,ing032,"Cauliflower Florets",2025-10-13,15,21,6
+2025-10,ing032,"Cauliflower Florets",2025-10-14,14,21,7
+2025-10,ing032,"Cauliflower Florets",2025-10-15,14,21,7
+2025-10,ing032,"Cauliflower Florets",2025-10-16,13,21,8
+2025-10,ing032,"Cauliflower Florets",2025-10-17,12,21,9
+2025-10,ing032,"Cauliflower Florets",2025-10-18,12,21,9
+2025-10,ing032,"Cauliflower Florets",2025-10-20,21,21,0
+2025-10,ing032,"Cauliflower Florets",2025-10-21,21,21,0
+2025-10,ing032,"Cauliflower Florets",2025-10-22,20,21,1
+2025-10,ing032,"Cauliflower Florets",2025-10-23,19,21,2
+2025-10,ing032,"Cauliflower Florets",2025-10-25,18,21,3
+2025-10,ing033,"Buffalo Sauce",2025-10-01,11,11,0
+2025-10,ing033,"Buffalo Sauce",2025-10-03,11,11,0
+2025-10,ing033,"Buffalo Sauce",2025-10-04,11,11,0
+2025-10,ing033,"Buffalo Sauce",2025-10-05,11,11,0
+2025-10,ing033,"Buffalo Sauce",2025-10-06,11,11,0
+2025-10,ing033,"Buffalo Sauce",2025-10-07,11,11,0
+2025-10,ing033,"Buffalo Sauce",2025-10-08,11,11,0
+2025-10,ing033,"Buffalo Sauce",2025-10-09,10,11,1
+2025-10,ing033,"Buffalo Sauce",2025-10-10,10,11,1
+2025-10,ing033,"Buffalo Sauce",2025-10-11,10,11,1
+2025-10,ing033,"Buffalo Sauce",2025-10-12,10,11,1
+2025-10,ing033,"Buffalo Sauce",2025-10-13,10,11,1
+2025-10,ing033,"Buffalo Sauce",2025-10-14,10,11,1
+2025-10,ing033,"Buffalo Sauce",2025-10-15,10,11,1
+2025-10,ing033,"Buffalo Sauce",2025-10-16,10,11,1
+2025-10,ing033,"Buffalo Sauce",2025-10-17,10,11,1
+2025-10,ing033,"Buffalo Sauce",2025-10-18,10,11,1
+2025-10,ing033,"Buffalo Sauce",2025-10-20,10,11,1
+2025-10,ing033,"Buffalo Sauce",2025-10-21,10,11,1
+2025-10,ing033,"Buffalo Sauce",2025-10-22,10,11,1
+2025-10,ing033,"Buffalo Sauce",2025-10-23,10,11,1
+2025-10,ing033,"Buffalo Sauce",2025-10-25,10,11,1
+2025-10,ing034,Ranch,2025-10-01,13,13,0
+2025-10,ing034,Ranch,2025-10-03,13,13,0
+2025-10,ing034,Ranch,2025-10-04,13,13,0
+2025-10,ing034,Ranch,2025-10-05,13,13,0
+2025-10,ing034,Ranch,2025-10-06,13,13,0
+2025-10,ing034,Ranch,2025-10-07,13,13,0
+2025-10,ing034,Ranch,2025-10-08,13,13,0
+2025-10,ing034,Ranch,2025-10-09,13,13,0
+2025-10,ing034,Ranch,2025-10-10,13,13,0
+2025-10,ing034,Ranch,2025-10-11,13,13,0
+2025-10,ing034,Ranch,2025-10-12,13,13,0
+2025-10,ing034,Ranch,2025-10-13,13,13,0
+2025-10,ing034,Ranch,2025-10-14,13,13,0
+2025-10,ing034,Ranch,2025-10-15,13,13,0
+2025-10,ing034,Ranch,2025-10-16,13,13,0
+2025-10,ing034,Ranch,2025-10-17,13,13,0
+2025-10,ing034,Ranch,2025-10-18,13,13,0
+2025-10,ing034,Ranch,2025-10-20,13,13,0
+2025-10,ing034,Ranch,2025-10-21,13,13,0
+2025-10,ing034,Ranch,2025-10-22,13,13,0
+2025-10,ing034,Ranch,2025-10-23,13,13,0
+2025-10,ing034,Ranch,2025-10-25,13,13,0
+2025-10,ing035,"Garlic Knots",2025-10-01,24,30,6
+2025-10,ing035,"Garlic Knots",2025-10-02,23,30,7
+2025-10,ing035,"Garlic Knots",2025-10-03,23,30,7
+2025-10,ing035,"Garlic Knots",2025-10-04,23,30,7
+2025-10,ing035,"Garlic Knots",2025-10-05,22,30,8
+2025-10,ing035,"Garlic Knots",2025-10-06,21,30,9
+2025-10,ing035,"Garlic Knots",2025-10-08,20,30,10
+2025-10,ing035,"Garlic Knots",2025-10-09,19,30,11
+2025-10,ing035,"Garlic Knots",2025-10-10,18,30,12
+2025-10,ing035,"Garlic Knots",2025-10-11,30,30,0
+2025-10,ing035,"Garlic Knots",2025-10-12,30,30,0
+2025-10,ing035,"Garlic Knots",2025-10-13,29,30,1
+2025-10,ing035,"Garlic Knots",2025-10-14,28,30,2
+2025-10,ing035,"Garlic Knots",2025-10-15,28,30,2
+2025-10,ing035,"Garlic Knots",2025-10-18,27,30,3
+2025-10,ing035,"Garlic Knots",2025-10-19,26,30,4
+2025-10,ing035,"Garlic Knots",2025-10-21,25,30,5
+2025-10,ing035,"Garlic Knots",2025-10-22,25,30,5
+2025-10,ing035,"Garlic Knots",2025-10-23,24,30,6
+2025-10,ing035,"Garlic Knots",2025-10-24,24,30,6
+2025-10,ing036,Kale,2025-10-01,16,16,0
+2025-10,ing036,Kale,2025-10-03,16,16,0
+2025-10,ing036,Kale,2025-10-04,16,16,0
+2025-10,ing036,Kale,2025-10-05,16,16,0
+2025-10,ing036,Kale,2025-10-06,16,16,0
+2025-10,ing036,Kale,2025-10-07,16,16,0
+2025-10,ing036,Kale,2025-10-08,16,16,0
+2025-10,ing036,Kale,2025-10-09,16,16,0
+2025-10,ing036,Kale,2025-10-10,15,16,1
+2025-10,ing036,Kale,2025-10-12,15,16,1
+2025-10,ing036,Kale,2025-10-15,14,16,2
+2025-10,ing036,Kale,2025-10-16,14,16,2
+2025-10,ing036,Kale,2025-10-18,14,16,2
+2025-10,ing036,Kale,2025-10-19,14,16,2
+2025-10,ing036,Kale,2025-10-20,14,16,2
+2025-10,ing036,Kale,2025-10-21,14,16,2
+2025-10,ing036,Kale,2025-10-22,14,16,2
+2025-10,ing036,Kale,2025-10-23,14,16,2
+2025-10,ing036,Kale,2025-10-24,14,16,2
+2025-10,ing036,Kale,2025-10-25,14,16,2
+2025-10,ing037,Spinach,2025-10-01,13,19,6
+2025-10,ing037,Spinach,2025-10-03,12,19,7
+2025-10,ing037,Spinach,2025-10-04,11,19,8
+2025-10,ing037,Spinach,2025-10-05,10,19,9
+2025-10,ing037,Spinach,2025-10-06,17,19,2
+2025-10,ing037,Spinach,2025-10-07,16,19,3
+2025-10,ing037,Spinach,2025-10-08,16,19,3
+2025-10,ing037,Spinach,2025-10-09,15,19,4
+2025-10,ing037,Spinach,2025-10-10,13,19,6
+2025-10,ing037,Spinach,2025-10-12,12,19,7
+2025-10,ing037,Spinach,2025-10-15,11,19,8
+2025-10,ing037,Spinach,2025-10-16,11,19,8
+2025-10,ing037,Spinach,2025-10-18,19,19,0
+2025-10,ing037,Spinach,2025-10-19,19,19,0
+2025-10,ing037,Spinach,2025-10-20,18,19,1
+2025-10,ing037,Spinach,2025-10-21,18,19,1
+2025-10,ing037,Spinach,2025-10-22,18,19,1
+2025-10,ing037,Spinach,2025-10-23,17,19,2
+2025-10,ing037,Spinach,2025-10-24,16,19,3
+2025-10,ing037,Spinach,2025-10-25,16,19,3
+2025-10,ing038,Avocado,2025-10-01,10,15,5
+2025-10,ing038,Avocado,2025-10-03,10,15,5
+2025-10,ing038,Avocado,2025-10-04,10,15,5
+2025-10,ing038,Avocado,2025-10-05,10,15,5
+2025-10,ing038,Avocado,2025-10-06,10,15,5
+2025-10,ing038,Avocado,2025-10-07,10,15,5
+2025-10,ing038,Avocado,2025-10-08,10,15,5
+2025-10,ing038,Avocado,2025-10-09,10,15,5
+2025-10,ing038,Avocado,2025-10-10,9,15,6
+2025-10,ing038,Avocado,2025-10-12,9,15,6
+2025-10,ing038,Avocado,2025-10-15,15,15,0
+2025-10,ing038,Avocado,2025-10-16,15,15,0
+2025-10,ing038,Avocado,2025-10-18,15,15,0
+2025-10,ing038,Avocado,2025-10-19,15,15,0
+2025-10,ing038,Avocado,2025-10-20,15,15,0
+2025-10,ing038,Avocado,2025-10-21,15,15,0
+2025-10,ing038,Avocado,2025-10-22,15,15,0
+2025-10,ing038,Avocado,2025-10-23,15,15,0
+2025-10,ing038,Avocado,2025-10-24,15,15,0
+2025-10,ing038,Avocado,2025-10-25,15,15,0
+2025-10,ing039,"Mixed Seeds",2025-10-01,15,15,0
+2025-10,ing039,"Mixed Seeds",2025-10-03,15,15,0
+2025-10,ing039,"Mixed Seeds",2025-10-04,15,15,0
+2025-10,ing039,"Mixed Seeds",2025-10-05,15,15,0
+2025-10,ing039,"Mixed Seeds",2025-10-06,15,15,0
+2025-10,ing039,"Mixed Seeds",2025-10-07,15,15,0
+2025-10,ing039,"Mixed Seeds",2025-10-08,15,15,0
+2025-10,ing039,"Mixed Seeds",2025-10-09,15,15,0
+2025-10,ing039,"Mixed Seeds",2025-10-10,15,15,0
+2025-10,ing039,"Mixed Seeds",2025-10-12,15,15,0
+2025-10,ing039,"Mixed Seeds",2025-10-15,15,15,0
+2025-10,ing039,"Mixed Seeds",2025-10-16,15,15,0
+2025-10,ing039,"Mixed Seeds",2025-10-18,15,15,0
+2025-10,ing039,"Mixed Seeds",2025-10-19,15,15,0
+2025-10,ing039,"Mixed Seeds",2025-10-20,15,15,0
+2025-10,ing039,"Mixed Seeds",2025-10-21,15,15,0
+2025-10,ing039,"Mixed Seeds",2025-10-22,15,15,0
+2025-10,ing039,"Mixed Seeds",2025-10-23,15,15,0
+2025-10,ing039,"Mixed Seeds",2025-10-24,15,15,0
+2025-10,ing039,"Mixed Seeds",2025-10-25,15,15,0
+2025-10,ing040,"Caramel Filling",2025-10-01,11,16,5
+2025-10,ing040,"Caramel Filling",2025-10-02,11,16,5
+2025-10,ing040,"Caramel Filling",2025-10-03,9,16,7
+2025-10,ing040,"Caramel Filling",2025-10-05,9,16,7
+2025-10,ing040,"Caramel Filling",2025-10-06,15,16,1
+2025-10,ing040,"Caramel Filling",2025-10-08,15,16,1
+2025-10,ing040,"Caramel Filling",2025-10-09,14,16,2
+2025-10,ing040,"Caramel Filling",2025-10-10,13,16,3
+2025-10,ing040,"Caramel Filling",2025-10-11,12,16,4
+2025-10,ing040,"Caramel Filling",2025-10-12,11,16,5
+2025-10,ing040,"Caramel Filling",2025-10-13,10,16,6
+2025-10,ing040,"Caramel Filling",2025-10-14,10,16,6
+2025-10,ing040,"Caramel Filling",2025-10-15,10,16,6
+2025-10,ing040,"Caramel Filling",2025-10-17,16,16,0
+2025-10,ing040,"Caramel Filling",2025-10-19,16,16,0
+2025-10,ing040,"Caramel Filling",2025-10-20,16,16,0
+2025-10,ing040,"Caramel Filling",2025-10-21,15,16,1
+2025-10,ing040,"Caramel Filling",2025-10-22,15,16,1
+2025-10,ing040,"Caramel Filling",2025-10-24,15,16,1
+2025-10,ing040,"Caramel Filling",2025-10-25,14,16,2
+2025-10,ing041,"Chocolate Syrup",2025-10-01,16,16,0
+2025-10,ing041,"Chocolate Syrup",2025-10-02,16,16,0
+2025-10,ing041,"Chocolate Syrup",2025-10-03,16,16,0
+2025-10,ing041,"Chocolate Syrup",2025-10-05,16,16,0
+2025-10,ing041,"Chocolate Syrup",2025-10-06,16,16,0
+2025-10,ing041,"Chocolate Syrup",2025-10-08,16,16,0
+2025-10,ing041,"Chocolate Syrup",2025-10-09,16,16,0
+2025-10,ing041,"Chocolate Syrup",2025-10-10,16,16,0
+2025-10,ing041,"Chocolate Syrup",2025-10-11,16,16,0
+2025-10,ing041,"Chocolate Syrup",2025-10-12,16,16,0
+2025-10,ing041,"Chocolate Syrup",2025-10-13,16,16,0
+2025-10,ing041,"Chocolate Syrup",2025-10-14,16,16,0
+2025-10,ing041,"Chocolate Syrup",2025-10-15,16,16,0
+2025-10,ing041,"Chocolate Syrup",2025-10-17,16,16,0
+2025-10,ing041,"Chocolate Syrup",2025-10-19,16,16,0
+2025-10,ing041,"Chocolate Syrup",2025-10-20,16,16,0
+2025-10,ing041,"Chocolate Syrup",2025-10-21,16,16,0
+2025-10,ing041,"Chocolate Syrup",2025-10-22,16,16,0
+2025-10,ing041,"Chocolate Syrup",2025-10-24,16,16,0
+2025-10,ing041,"Chocolate Syrup",2025-10-25,16,16,0
+2025-10,ing042,"Espresso Panna Base",2025-10-01,8,12,4
+2025-10,ing042,"Espresso Panna Base",2025-10-03,8,12,4
+2025-10,ing042,"Espresso Panna Base",2025-10-04,12,12,0
+2025-10,ing042,"Espresso Panna Base",2025-10-05,12,12,0
+2025-10,ing042,"Espresso Panna Base",2025-10-06,12,12,0
+2025-10,ing042,"Espresso Panna Base",2025-10-08,12,12,0
+2025-10,ing042,"Espresso Panna Base",2025-10-10,12,12,0
+2025-10,ing042,"Espresso Panna Base",2025-10-11,11,12,1
+2025-10,ing042,"Espresso Panna Base",2025-10-12,11,12,1
+2025-10,ing042,"Espresso Panna Base",2025-10-13,10,12,2
+2025-10,ing042,"Espresso Panna Base",2025-10-14,10,12,2
+2025-10,ing042,"Espresso Panna Base",2025-10-15,10,12,2
+2025-10,ing042,"Espresso Panna Base",2025-10-16,10,12,2
+2025-10,ing042,"Espresso Panna Base",2025-10-17,9,12,3
+2025-10,ing042,"Espresso Panna Base",2025-10-18,9,12,3
+2025-10,ing042,"Espresso Panna Base",2025-10-19,8,12,4
+2025-10,ing042,"Espresso Panna Base",2025-10-20,8,12,4
+2025-10,ing042,"Espresso Panna Base",2025-10-21,7,12,5
+2025-10,ing042,"Espresso Panna Base",2025-10-24,11,12,1
+2025-10,ing042,"Espresso Panna Base",2025-10-25,11,12,1
+2025-10,ing043,"Vanilla Syrup",2025-10-01,10,10,0
+2025-10,ing043,"Vanilla Syrup",2025-10-03,10,10,0
+2025-10,ing043,"Vanilla Syrup",2025-10-04,10,10,0
+2025-10,ing043,"Vanilla Syrup",2025-10-05,10,10,0
+2025-10,ing043,"Vanilla Syrup",2025-10-06,10,10,0
+2025-10,ing043,"Vanilla Syrup",2025-10-08,10,10,0
+2025-10,ing043,"Vanilla Syrup",2025-10-10,10,10,0
+2025-10,ing043,"Vanilla Syrup",2025-10-11,10,10,0
+2025-10,ing043,"Vanilla Syrup",2025-10-12,10,10,0
+2025-10,ing043,"Vanilla Syrup",2025-10-13,10,10,0
+2025-10,ing043,"Vanilla Syrup",2025-10-14,10,10,0
+2025-10,ing043,"Vanilla Syrup",2025-10-15,10,10,0
+2025-10,ing043,"Vanilla Syrup",2025-10-16,10,10,0
+2025-10,ing043,"Vanilla Syrup",2025-10-17,10,10,0
+2025-10,ing043,"Vanilla Syrup",2025-10-18,10,10,0
+2025-10,ing043,"Vanilla Syrup",2025-10-19,10,10,0
+2025-10,ing043,"Vanilla Syrup",2025-10-20,10,10,0
+2025-10,ing043,"Vanilla Syrup",2025-10-21,10,10,0
+2025-10,ing043,"Vanilla Syrup",2025-10-24,10,10,0
+2025-10,ing043,"Vanilla Syrup",2025-10-25,10,10,0
+2025-10,ing044,"Berry Mix",2025-10-01,19,21,2
+2025-10,ing044,"Berry Mix",2025-10-02,19,21,2
+2025-10,ing044,"Berry Mix",2025-10-03,18,21,3
+2025-10,ing044,"Berry Mix",2025-10-04,18,21,3
+2025-10,ing044,"Berry Mix",2025-10-05,18,21,3
+2025-10,ing044,"Berry Mix",2025-10-06,18,21,3
+2025-10,ing044,"Berry Mix",2025-10-07,18,21,3
+2025-10,ing044,"Berry Mix",2025-10-08,17,21,4
+2025-10,ing044,"Berry Mix",2025-10-10,17,21,4
+2025-10,ing044,"Berry Mix",2025-10-11,17,21,4
+2025-10,ing044,"Berry Mix",2025-10-12,16,21,5
+2025-10,ing044,"Berry Mix",2025-10-13,15,21,6
+2025-10,ing044,"Berry Mix",2025-10-14,15,21,6
+2025-10,ing044,"Berry Mix",2025-10-16,14,21,7
+2025-10,ing044,"Berry Mix",2025-10-17,13,21,8
+2025-10,ing044,"Berry Mix",2025-10-18,12,21,9
+2025-10,ing044,"Berry Mix",2025-10-19,12,21,9
+2025-10,ing044,"Berry Mix",2025-10-20,12,21,9
+2025-10,ing044,"Berry Mix",2025-10-22,21,21,0
+2025-10,ing044,"Berry Mix",2025-10-23,20,21,1
+2025-10,ing044,"Berry Mix",2025-10-24,19,21,2
+2025-10,ing045,"Oat Crumble",2025-10-01,12,18,6
+2025-10,ing045,"Oat Crumble",2025-10-02,12,18,6
+2025-10,ing045,"Oat Crumble",2025-10-03,11,18,7
+2025-10,ing045,"Oat Crumble",2025-10-04,11,18,7
+2025-10,ing045,"Oat Crumble",2025-10-05,11,18,7
+2025-10,ing045,"Oat Crumble",2025-10-06,18,18,0
+2025-10,ing045,"Oat Crumble",2025-10-07,18,18,0
+2025-10,ing045,"Oat Crumble",2025-10-08,18,18,0
+2025-10,ing045,"Oat Crumble",2025-10-10,18,18,0
+2025-10,ing045,"Oat Crumble",2025-10-11,18,18,0
+2025-10,ing045,"Oat Crumble",2025-10-12,17,18,1
+2025-10,ing045,"Oat Crumble",2025-10-13,17,18,1
+2025-10,ing045,"Oat Crumble",2025-10-14,17,18,1
+2025-10,ing045,"Oat Crumble",2025-10-16,16,18,2
+2025-10,ing045,"Oat Crumble",2025-10-17,15,18,3
+2025-10,ing045,"Oat Crumble",2025-10-18,15,18,3
+2025-10,ing045,"Oat Crumble",2025-10-19,15,18,3
+2025-10,ing045,"Oat Crumble",2025-10-20,15,18,3
+2025-10,ing045,"Oat Crumble",2025-10-22,15,18,3
+2025-10,ing045,"Oat Crumble",2025-10-23,14,18,4
+2025-10,ing045,"Oat Crumble",2025-10-24,13,18,5
+2025-10,ing046,"Mango Sticky Rice Mix",2025-10-01,12,20,8
+2025-10,ing046,"Mango Sticky Rice Mix",2025-10-02,20,20,0
+2025-10,ing046,"Mango Sticky Rice Mix",2025-10-03,20,20,0
+2025-10,ing046,"Mango Sticky Rice Mix",2025-10-07,20,20,0
+2025-10,ing046,"Mango Sticky Rice Mix",2025-10-08,20,20,0
+2025-10,ing046,"Mango Sticky Rice Mix",2025-10-09,19,20,1
+2025-10,ing046,"Mango Sticky Rice Mix",2025-10-10,18,20,2
+2025-10,ing046,"Mango Sticky Rice Mix",2025-10-11,18,20,2
+2025-10,ing046,"Mango Sticky Rice Mix",2025-10-12,18,20,2
+2025-10,ing046,"Mango Sticky Rice Mix",2025-10-13,17,20,3
+2025-10,ing046,"Mango Sticky Rice Mix",2025-10-14,16,20,4
+2025-10,ing046,"Mango Sticky Rice Mix",2025-10-15,15,20,5
+2025-10,ing046,"Mango Sticky Rice Mix",2025-10-16,15,20,5
+2025-10,ing046,"Mango Sticky Rice Mix",2025-10-17,14,20,6
+2025-10,ing046,"Mango Sticky Rice Mix",2025-10-18,13,20,7
+2025-10,ing046,"Mango Sticky Rice Mix",2025-10-19,12,20,8
+2025-10,ing046,"Mango Sticky Rice Mix",2025-10-20,11,20,9
+2025-10,ing046,"Mango Sticky Rice Mix",2025-10-21,10,20,10
+2025-10,ing046,"Mango Sticky Rice Mix",2025-10-22,17,20,3
+2025-10,ing046,"Mango Sticky Rice Mix",2025-10-23,17,20,3
+2025-10,ing046,"Mango Sticky Rice Mix",2025-10-24,16,20,4
+2025-10,ing046,"Mango Sticky Rice Mix",2025-10-25,15,20,5
+2025-10,ing047,"Cold Brew Coffee",2025-10-01,54,67,13
+2025-10,ing047,"Cold Brew Coffee",2025-10-02,48,67,19
+2025-10,ing047,"Cold Brew Coffee",2025-10-03,47,67,20
+2025-10,ing047,"Cold Brew Coffee",2025-10-04,46,67,21
+2025-10,ing047,"Cold Brew Coffee",2025-10-05,42,67,25
+2025-10,ing047,"Cold Brew Coffee",2025-10-06,38,67,29
+2025-10,ing047,"Cold Brew Coffee",2025-10-07,34,67,33
+2025-10,ing047,"Cold Brew Coffee",2025-10-08,30,67,37
+2025-10,ing047,"Cold Brew Coffee",2025-10-09,59,67,8
+2025-10,ing047,"Cold Brew Coffee",2025-10-10,50,67,17
+2025-10,ing047,"Cold Brew Coffee",2025-10-11,48,67,19
+2025-10,ing047,"Cold Brew Coffee",2025-10-12,34,67,33
+2025-10,ing047,"Cold Brew Coffee",2025-10-13,26,67,41
+2025-10,ing047,"Cold Brew Coffee",2025-10-14,25,67,42
+2025-10,ing047,"Cold Brew Coffee",2025-10-15,65,67,2
+2025-10,ing047,"Cold Brew Coffee",2025-10-16,52,67,15
+2025-10,ing047,"Cold Brew Coffee",2025-10-17,49,67,18
+2025-10,ing047,"Cold Brew Coffee",2025-10-19,43,67,24
+2025-10,ing047,"Cold Brew Coffee",2025-10-20,39,67,28
+2025-10,ing047,"Cold Brew Coffee",2025-10-21,38,67,29
+2025-10,ing047,"Cold Brew Coffee",2025-10-22,67,67,0
+2025-10,ing047,"Cold Brew Coffee",2025-10-23,64,67,3
+2025-10,ing047,"Cold Brew Coffee",2025-10-24,54,67,13
+2025-10,ing047,"Cold Brew Coffee",2025-10-25,46,67,21
+2025-10,ing048,"Cold Brew Coffee 1.5L",2025-10-01,27,45,18
+2025-10,ing048,"Cold Brew Coffee 1.5L",2025-10-02,25,45,20
+2025-10,ing048,"Cold Brew Coffee 1.5L",2025-10-03,17,45,28
+2025-10,ing048,"Cold Brew Coffee 1.5L",2025-10-04,33,45,12
+2025-10,ing048,"Cold Brew Coffee 1.5L",2025-10-05,29,45,16
+2025-10,ing048,"Cold Brew Coffee 1.5L",2025-10-08,45,45,0
+2025-10,ing048,"Cold Brew Coffee 1.5L",2025-10-11,42,45,3
+2025-10,ing048,"Cold Brew Coffee 1.5L",2025-10-12,30,45,15
+2025-10,ing048,"Cold Brew Coffee 1.5L",2025-10-13,24,45,21
+2025-10,ing048,"Cold Brew Coffee 1.5L",2025-10-14,17,45,28
+2025-10,ing048,"Cold Brew Coffee 1.5L",2025-10-15,24,45,21
+2025-10,ing048,"Cold Brew Coffee 1.5L",2025-10-16,19,45,26
+2025-10,ing048,"Cold Brew Coffee 1.5L",2025-10-17,33,45,12
+2025-10,ing048,"Cold Brew Coffee 1.5L",2025-10-19,27,45,18
+2025-10,ing048,"Cold Brew Coffee 1.5L",2025-10-20,24,45,21
+2025-10,ing048,"Cold Brew Coffee 1.5L",2025-10-22,39,45,6
+2025-10,ing048,"Cold Brew Coffee 1.5L",2025-10-23,34,45,11
+2025-10,ing048,"Cold Brew Coffee 1.5L",2025-10-25,22,45,23
+2025-10,ing049,"Ginger Fizz 33cl",2025-10-01,27,80,53
+2025-10,ing049,"Ginger Fizz 33cl",2025-10-02,58,80,22
+2025-10,ing049,"Ginger Fizz 33cl",2025-10-03,55,80,25
+2025-10,ing049,"Ginger Fizz 33cl",2025-10-04,52,80,28
+2025-10,ing049,"Ginger Fizz 33cl",2025-10-05,45,80,35
+2025-10,ing049,"Ginger Fizz 33cl",2025-10-06,40,80,40
+2025-10,ing049,"Ginger Fizz 33cl",2025-10-07,33,80,47
+2025-10,ing049,"Ginger Fizz 33cl",2025-10-08,60,80,20
+2025-10,ing049,"Ginger Fizz 33cl",2025-10-09,57,80,23
+2025-10,ing049,"Ginger Fizz 33cl",2025-10-10,54,80,26
+2025-10,ing049,"Ginger Fizz 33cl",2025-10-11,51,80,29
+2025-10,ing049,"Ginger Fizz 33cl",2025-10-12,45,80,35
+2025-10,ing049,"Ginger Fizz 33cl",2025-10-14,44,80,36
+2025-10,ing049,"Ginger Fizz 33cl",2025-10-15,80,80,0
+2025-10,ing049,"Ginger Fizz 33cl",2025-10-16,75,80,5
+2025-10,ing049,"Ginger Fizz 33cl",2025-10-17,64,80,16
+2025-10,ing049,"Ginger Fizz 33cl",2025-10-18,63,80,17
+2025-10,ing049,"Ginger Fizz 33cl",2025-10-19,62,80,18
+2025-10,ing049,"Ginger Fizz 33cl",2025-10-20,57,80,23
+2025-10,ing049,"Ginger Fizz 33cl",2025-10-21,49,80,31
+2025-10,ing049,"Ginger Fizz 33cl",2025-10-23,44,80,36
+2025-10,ing049,"Ginger Fizz 33cl",2025-10-24,75,80,5
+2025-10,ing050,"Ginger Fizz 1.5L",2025-10-01,48,48,0
+2025-10,ing050,"Ginger Fizz 1.5L",2025-10-02,42,48,6
+2025-10,ing050,"Ginger Fizz 1.5L",2025-10-03,41,48,7
+2025-10,ing050,"Ginger Fizz 1.5L",2025-10-05,37,48,11
+2025-10,ing050,"Ginger Fizz 1.5L",2025-10-07,33,48,15
+2025-10,ing050,"Ginger Fizz 1.5L",2025-10-08,20,48,28
+2025-10,ing050,"Ginger Fizz 1.5L",2025-10-09,16,48,32
+2025-10,ing050,"Ginger Fizz 1.5L",2025-10-10,34,48,14
+2025-10,ing050,"Ginger Fizz 1.5L",2025-10-11,30,48,18
+2025-10,ing050,"Ginger Fizz 1.5L",2025-10-13,21,48,27
+2025-10,ing050,"Ginger Fizz 1.5L",2025-10-14,44,48,4
+2025-10,ing050,"Ginger Fizz 1.5L",2025-10-15,34,48,14
+2025-10,ing050,"Ginger Fizz 1.5L",2025-10-16,29,48,19
+2025-10,ing050,"Ginger Fizz 1.5L",2025-10-17,25,48,23
+2025-10,ing050,"Ginger Fizz 1.5L",2025-10-18,7,48,41
+2025-10,ing050,"Ginger Fizz 1.5L",2025-10-19,29,48,19
+2025-10,ing050,"Ginger Fizz 1.5L",2025-10-20,22,48,26
+2025-10,ing050,"Ginger Fizz 1.5L",2025-10-21,19,48,29
+2025-10,ing050,"Ginger Fizz 1.5L",2025-10-22,40,48,8
+2025-10,ing050,"Ginger Fizz 1.5L",2025-10-23,31,48,17
+2025-10,ing050,"Ginger Fizz 1.5L",2025-10-25,26,48,22
+2025-10,ing051,"Lime Mint Sparkle 33cl",2025-10-01,62,76,14
+2025-10,ing051,"Lime Mint Sparkle 33cl",2025-10-02,60,76,16
+2025-10,ing051,"Lime Mint Sparkle 33cl",2025-10-03,53,76,23
+2025-10,ing051,"Lime Mint Sparkle 33cl",2025-10-04,40,76,36
+2025-10,ing051,"Lime Mint Sparkle 33cl",2025-10-05,34,76,42
+2025-10,ing051,"Lime Mint Sparkle 33cl",2025-10-06,69,76,7
+2025-10,ing051,"Lime Mint Sparkle 33cl",2025-10-07,65,76,11
+2025-10,ing051,"Lime Mint Sparkle 33cl",2025-10-08,63,76,13
+2025-10,ing051,"Lime Mint Sparkle 33cl",2025-10-10,62,76,14
+2025-10,ing051,"Lime Mint Sparkle 33cl",2025-10-11,59,76,17
+2025-10,ing051,"Lime Mint Sparkle 33cl",2025-10-12,54,76,22
+2025-10,ing051,"Lime Mint Sparkle 33cl",2025-10-13,52,76,24
+2025-10,ing051,"Lime Mint Sparkle 33cl",2025-10-15,44,76,32
+2025-10,ing051,"Lime Mint Sparkle 33cl",2025-10-16,39,76,37
+2025-10,ing051,"Lime Mint Sparkle 33cl",2025-10-17,65,76,11
+2025-10,ing051,"Lime Mint Sparkle 33cl",2025-10-19,56,76,20
+2025-10,ing051,"Lime Mint Sparkle 33cl",2025-10-20,48,76,28
+2025-10,ing051,"Lime Mint Sparkle 33cl",2025-10-22,76,76,0
+2025-10,ing051,"Lime Mint Sparkle 33cl",2025-10-23,72,76,4
+2025-10,ing051,"Lime Mint Sparkle 33cl",2025-10-24,71,76,5
+2025-10,ing051,"Lime Mint Sparkle 33cl",2025-10-25,60,76,16
+2025-10,ing052,"Lime Mint Sparkle 1.5L",2025-10-02,41,46,5
+2025-10,ing052,"Lime Mint Sparkle 1.5L",2025-10-04,27,46,19
+2025-10,ing052,"Lime Mint Sparkle 1.5L",2025-10-05,17,46,29
+2025-10,ing052,"Lime Mint Sparkle 1.5L",2025-10-07,43,46,3
+2025-10,ing052,"Lime Mint Sparkle 1.5L",2025-10-09,33,46,13
+2025-10,ing052,"Lime Mint Sparkle 1.5L",2025-10-10,32,46,14
+2025-10,ing052,"Lime Mint Sparkle 1.5L",2025-10-11,21,46,25
+2025-10,ing052,"Lime Mint Sparkle 1.5L",2025-10-13,31,46,15
+2025-10,ing052,"Lime Mint Sparkle 1.5L",2025-10-14,30,46,16
+2025-10,ing052,"Lime Mint Sparkle 1.5L",2025-10-15,17,46,29
+2025-10,ing052,"Lime Mint Sparkle 1.5L",2025-10-16,35,46,11
+2025-10,ing052,"Lime Mint Sparkle 1.5L",2025-10-17,34,46,12
+2025-10,ing052,"Lime Mint Sparkle 1.5L",2025-10-18,27,46,19
+2025-10,ing052,"Lime Mint Sparkle 1.5L",2025-10-20,23,46,23
+2025-10,ing052,"Lime Mint Sparkle 1.5L",2025-10-21,46,46,0
+2025-10,ing052,"Lime Mint Sparkle 1.5L",2025-10-22,41,46,5
+2025-10,ing052,"Lime Mint Sparkle 1.5L",2025-10-23,37,46,9
+2025-10,ing052,"Lime Mint Sparkle 1.5L",2025-10-24,32,46,14
+2025-10,ing052,"Lime Mint Sparkle 1.5L",2025-10-25,22,46,24
+2025-10,ing053,"Berry Kombucha 33cl",2025-10-01,57,65,8
+2025-10,ing053,"Berry Kombucha 33cl",2025-10-02,51,65,14
+2025-10,ing053,"Berry Kombucha 33cl",2025-10-03,47,65,18
+2025-10,ing053,"Berry Kombucha 33cl",2025-10-04,46,65,19
+2025-10,ing053,"Berry Kombucha 33cl",2025-10-05,36,65,29
+2025-10,ing053,"Berry Kombucha 33cl",2025-10-07,60,65,5
+2025-10,ing053,"Berry Kombucha 33cl",2025-10-08,59,65,6
+2025-10,ing053,"Berry Kombucha 33cl",2025-10-09,50,65,15
+2025-10,ing053,"Berry Kombucha 33cl",2025-10-10,40,65,25
+2025-10,ing053,"Berry Kombucha 33cl",2025-10-11,37,65,28
+2025-10,ing053,"Berry Kombucha 33cl",2025-10-12,33,65,32
+2025-10,ing053,"Berry Kombucha 33cl",2025-10-13,63,65,2
+2025-10,ing053,"Berry Kombucha 33cl",2025-10-14,59,65,6
+2025-10,ing053,"Berry Kombucha 33cl",2025-10-15,55,65,10
+2025-10,ing053,"Berry Kombucha 33cl",2025-10-16,52,65,13
+2025-10,ing053,"Berry Kombucha 33cl",2025-10-17,47,65,18
+2025-10,ing053,"Berry Kombucha 33cl",2025-10-18,43,65,22
+2025-10,ing053,"Berry Kombucha 33cl",2025-10-19,37,65,28
+2025-10,ing053,"Berry Kombucha 33cl",2025-10-20,65,65,0
+2025-10,ing053,"Berry Kombucha 33cl",2025-10-21,62,65,3
+2025-10,ing053,"Berry Kombucha 33cl",2025-10-23,60,65,5
+2025-10,ing053,"Berry Kombucha 33cl",2025-10-24,56,65,9
+2025-10,ing053,"Berry Kombucha 33cl",2025-10-25,42,65,23
+2025-10,ing054,"Berry Kombucha 1.5L",2025-10-01,31,46,15
+2025-10,ing054,"Berry Kombucha 1.5L",2025-10-02,27,46,19
+2025-10,ing054,"Berry Kombucha 1.5L",2025-10-03,20,46,26
+2025-10,ing054,"Berry Kombucha 1.5L",2025-10-04,37,46,9
+2025-10,ing054,"Berry Kombucha 1.5L",2025-10-05,27,46,19
+2025-10,ing054,"Berry Kombucha 1.5L",2025-10-06,25,46,21
+2025-10,ing054,"Berry Kombucha 1.5L",2025-10-07,19,46,27
+2025-10,ing054,"Berry Kombucha 1.5L",2025-10-08,37,46,9
+2025-10,ing054,"Berry Kombucha 1.5L",2025-10-09,18,46,28
+2025-10,ing054,"Berry Kombucha 1.5L",2025-10-10,14,46,32
+2025-10,ing054,"Berry Kombucha 1.5L",2025-10-11,9,46,37
+2025-10,ing054,"Berry Kombucha 1.5L",2025-10-12,41,46,5
+2025-10,ing054,"Berry Kombucha 1.5L",2025-10-15,37,46,9
+2025-10,ing054,"Berry Kombucha 1.5L",2025-10-16,32,46,14
+2025-10,ing054,"Berry Kombucha 1.5L",2025-10-17,8,46,38
+2025-10,ing054,"Berry Kombucha 1.5L",2025-10-18,4,46,42
+2025-10,ing054,"Berry Kombucha 1.5L",2025-10-19,-3,46,49
+2025-10,ing054,"Berry Kombucha 1.5L",2025-10-20,38,46,8
+2025-10,ing054,"Berry Kombucha 1.5L",2025-10-21,30,46,16
+2025-10,ing054,"Berry Kombucha 1.5L",2025-10-23,28,46,18
+2025-10,ing054,"Berry Kombucha 1.5L",2025-10-24,46,46,0
+2025-10,ing054,"Berry Kombucha 1.5L",2025-10-25,45,46,1

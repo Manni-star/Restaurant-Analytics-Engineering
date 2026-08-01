@@ -1,0 +1,10 @@
+ing_id,ing_name,out_of_stock_count,emergency_order_count,low_stock_warning_count,total_breach_count,cumulative_risk_score
+ing018,"Smoked Salmon",195,10,13,218,618
+ing001,"Flatbread Dough (8-pack)",28,44,85,157,257
+ing029,"Pulled Pork",0,2,54,56,58
+ing011,"Truffle Oil",0,2,40,42,44
+ing010,"Wild Mushrooms",0,1,22,23,24
+ing054,"Berry Kombucha 1.5L",1,3,11,15,20
+ing050,"Ginger Fizz 1.5L",0,3,3,6,9
+ing052,"Lime Mint Sparkle 1.5L",0,2,2,4,6
+ing048,"Cold Brew Coffee 1.5L",0,0,3,3,3

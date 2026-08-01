@@ -1,0 +1,100 @@
+item_id,sku,item_cat,ing_id,row_fract_cost
+it001,FLA-MED-REG,"Flatbread Pizza",ing001,0.6250
+it001,FLA-MED-REG,"Flatbread Pizza",ing002,0.1667
+it001,FLA-MED-REG,"Flatbread Pizza",ing003,0.8000
+it001,FLA-MED-REG,"Flatbread Pizza",ing004,0.1200
+it001,FLA-MED-REG,"Flatbread Pizza",ing005,0.1500
+it002,FLA-MED-LAR,"Flatbread Pizza",ing001,0.9375
+it002,FLA-MED-LAR,"Flatbread Pizza",ing002,0.2500
+it002,FLA-MED-LAR,"Flatbread Pizza",ing003,1.2000
+it002,FLA-MED-LAR,"Flatbread Pizza",ing004,0.1800
+it002,FLA-MED-LAR,"Flatbread Pizza",ing005,0.2250
+it003,FLA-SPI-REG,"Flatbread Pizza",ing001,0.6250
+it003,FLA-SPI-REG,"Flatbread Pizza",ing006,0.8000
+it003,FLA-SPI-REG,"Flatbread Pizza",ing007,0.1800
+it003,FLA-SPI-REG,"Flatbread Pizza",ing008,0.6667
+it003,FLA-SPI-REG,"Flatbread Pizza",ing009,0.1600
+it004,FLA-SPI-LAR,"Flatbread Pizza",ing001,0.9375
+it004,FLA-SPI-LAR,"Flatbread Pizza",ing006,1.2000
+it004,FLA-SPI-LAR,"Flatbread Pizza",ing007,0.2700
+it004,FLA-SPI-LAR,"Flatbread Pizza",ing008,1.0000
+it004,FLA-SPI-LAR,"Flatbread Pizza",ing009,0.2400
+it005,FLA-FOR-REG,"Flatbread Pizza",ing001,0.6250
+it005,FLA-FOR-REG,"Flatbread Pizza",ing010,0.7000
+it005,FLA-FOR-REG,"Flatbread Pizza",ing011,0.6750
+it005,FLA-FOR-REG,"Flatbread Pizza",ing012,0.4480
+it005,FLA-FOR-REG,"Flatbread Pizza",ing013,0.1600
+it006,FLA-FOR-LAR,"Flatbread Pizza",ing001,0.9375
+it006,FLA-FOR-LAR,"Flatbread Pizza",ing010,1.0500
+it006,FLA-FOR-LAR,"Flatbread Pizza",ing011,1.1250
+it006,FLA-FOR-LAR,"Flatbread Pizza",ing012,0.6720
+it006,FLA-FOR-LAR,"Flatbread Pizza",ing013,0.2400
+it007,FLA-BRO-REG,"Flatbread Pizza",ing001,0.6250
+it007,FLA-BRO-REG,"Flatbread Pizza",ing014,1.2000
+it007,FLA-BRO-REG,"Flatbread Pizza",ing015,0.1600
+it007,FLA-BRO-REG,"Flatbread Pizza",ing016,0.1200
+it007,FLA-BRO-REG,"Flatbread Pizza",ing017,0.0750
+it008,FLA-BRO-LAR,"Flatbread Pizza",ing001,0.9375
+it008,FLA-BRO-LAR,"Flatbread Pizza",ing014,1.8000
+it008,FLA-BRO-LAR,"Flatbread Pizza",ing015,0.2400
+it008,FLA-BRO-LAR,"Flatbread Pizza",ing016,0.1800
+it008,FLA-BRO-LAR,"Flatbread Pizza",ing017,0.1200
+it009,SIG-NOR-REG,"Signature Pizza",ing018,3.2000
+it009,SIG-NOR-REG,"Signature Pizza",ing019,0.5250
+it009,SIG-NOR-REG,"Signature Pizza",ing020,0.1000
+it009,SIG-NOR-REG,"Signature Pizza",ing021,0.1000
+it010,SIG-NOR-LAR,"Signature Pizza",ing018,4.8000
+it010,SIG-NOR-LAR,"Signature Pizza",ing019,0.7875
+it010,SIG-NOR-LAR,"Signature Pizza",ing020,0.1500
+it010,SIG-NOR-LAR,"Signature Pizza",ing021,0.1600
+it011,SIG-TEX-REG,"Signature Pizza",ing022,1.4000
+it011,SIG-TEX-REG,"Signature Pizza",ing016,0.1200
+it011,SIG-TEX-REG,"Signature Pizza",ing023,0.5333
+it011,SIG-TEX-REG,"Signature Pizza",ing024,0.8000
+it012,SIG-TEX-LAR,"Signature Pizza",ing022,2.1000
+it012,SIG-TEX-LAR,"Signature Pizza",ing016,0.1800
+it012,SIG-TEX-LAR,"Signature Pizza",ing023,0.8000
+it012,SIG-TEX-LAR,"Signature Pizza",ing024,1.2000
+it013,SIG-TAN-REG,"Signature Pizza",ing025,0.9167
+it013,SIG-TAN-REG,"Signature Pizza",ing016,0.1200
+it013,SIG-TAN-REG,"Signature Pizza",ing026,0.1600
+it013,SIG-TAN-REG,"Signature Pizza",ing027,0.0667
+it014,SIG-TAN-LAR,"Signature Pizza",ing025,1.3750
+it014,SIG-TAN-LAR,"Signature Pizza",ing016,0.1800
+it014,SIG-TAN-LAR,"Signature Pizza",ing026,0.2400
+it014,SIG-TAN-LAR,"Signature Pizza",ing027,0.1000
+it015,SIG-TRO-REG,"Signature Pizza",ing028,0.4200
+it015,SIG-TRO-REG,"Signature Pizza",ing029,1.0000
+it015,SIG-TRO-REG,"Signature Pizza",ing012,0.4480
+it015,SIG-TRO-REG,"Signature Pizza",ing007,0.1500
+it016,SIG-TRO-LAR,"Signature Pizza",ing028,0.6300
+it016,SIG-TRO-LAR,"Signature Pizza",ing029,1.5000
+it016,SIG-TRO-LAR,"Signature Pizza",ing012,0.6720
+it016,SIG-TRO-LAR,"Signature Pizza",ing007,0.2400
+it017,SID-TRU-REG,Side,ing030,1.1667
+it017,SID-TRU-REG,Side,ing011,0.4500
+it017,SID-TRU-REG,Side,ing031,0.4400
+it018,SID-CAU-REG,Side,ing032,0.6667
+it018,SID-CAU-REG,Side,ing033,0.1500
+it018,SID-CAU-REG,Side,ing034,0.1765
+it019,SID-GAR-REG,Side,ing035,0.7500
+it019,SID-GAR-REG,Side,ing023,0.1333
+it020,SID-SUP-REG,Side,ing036,0.2500
+it020,SID-SUP-REG,Side,ing037,0.3965
+it020,SID-SUP-REG,Side,ing038,0.3200
+it020,SID-SUP-REG,Side,ing039,0.1333
+it021,DES-SAL-REG,Dessert,ing040,0.6000
+it021,DES-SAL-REG,Dessert,ing041,0.1429
+it022,DES-ESP-REG,Dessert,ing042,0.6000
+it022,DES-ESP-REG,Dessert,ing043,0.2400
+it023,DES-BER-REG,Dessert,ing044,0.4000
+it023,DES-BER-REG,Dessert,ing045,0.2667
+it024,DES-MAN-REG,Dessert,ing046,0.4800
+it025,BEV-COL-33,Beverage,ing047,2.0000
+it026,BEV-COL-1500,Beverage,ing048,4.0000
+it027,BEV-GIN-33,Beverage,ing049,2.0000
+it028,BEV-GIN-1500,Beverage,ing050,4.0000
+it029,BEV-LIM-33,Beverage,ing051,2.0000
+it030,BEV-LIM-1500,Beverage,ing052,4.0000
+it031,BEV-BER-33,Beverage,ing053,2.0000
+it032,BEV-BER-1500,Beverage,ing054,5.0000

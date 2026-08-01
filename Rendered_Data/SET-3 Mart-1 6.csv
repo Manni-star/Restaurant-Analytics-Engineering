@@ -1,0 +1,1471 @@
+year-month,ing_id,ing_name,days_below_threshold
+2023-02,ing001,"Flatbread Dough (8-pack)",9
+2023-03,ing001,"Flatbread Dough (8-pack)",29
+2023-04,ing001,"Flatbread Dough (8-pack)",29
+2023-05,ing001,"Flatbread Dough (8-pack)",26
+2023-06,ing001,"Flatbread Dough (8-pack)",29
+2023-07,ing001,"Flatbread Dough (8-pack)",29
+2023-08,ing001,"Flatbread Dough (8-pack)",28
+2023-09,ing001,"Flatbread Dough (8-pack)",25
+2023-10,ing001,"Flatbread Dough (8-pack)",24
+2023-11,ing001,"Flatbread Dough (8-pack)",21
+2023-12,ing001,"Flatbread Dough (8-pack)",30
+2024-01,ing001,"Flatbread Dough (8-pack)",26
+2024-02,ing001,"Flatbread Dough (8-pack)",28
+2024-03,ing001,"Flatbread Dough (8-pack)",29
+2024-04,ing001,"Flatbread Dough (8-pack)",24
+2024-05,ing001,"Flatbread Dough (8-pack)",29
+2024-06,ing001,"Flatbread Dough (8-pack)",27
+2024-07,ing001,"Flatbread Dough (8-pack)",30
+2024-08,ing001,"Flatbread Dough (8-pack)",27
+2024-09,ing001,"Flatbread Dough (8-pack)",23
+2024-10,ing001,"Flatbread Dough (8-pack)",27
+2024-11,ing001,"Flatbread Dough (8-pack)",25
+2024-12,ing001,"Flatbread Dough (8-pack)",30
+2025-01,ing001,"Flatbread Dough (8-pack)",31
+2025-02,ing001,"Flatbread Dough (8-pack)",25
+2025-03,ing001,"Flatbread Dough (8-pack)",26
+2025-04,ing001,"Flatbread Dough (8-pack)",29
+2025-05,ing001,"Flatbread Dough (8-pack)",26
+2025-06,ing001,"Flatbread Dough (8-pack)",29
+2025-07,ing001,"Flatbread Dough (8-pack)",25
+2025-08,ing001,"Flatbread Dough (8-pack)",26
+2025-09,ing001,"Flatbread Dough (8-pack)",26
+2025-10,ing001,"Flatbread Dough (8-pack)",23
+2023-04,ing002,"Roasted Red Peppers",4
+2023-06,ing002,"Roasted Red Peppers",4
+2023-07,ing002,"Roasted Red Peppers",8
+2023-08,ing002,"Roasted Red Peppers",4
+2023-10,ing002,"Roasted Red Peppers",6
+2023-12,ing002,"Roasted Red Peppers",4
+2024-01,ing002,"Roasted Red Peppers",4
+2024-02,ing002,"Roasted Red Peppers",3
+2024-03,ing002,"Roasted Red Peppers",2
+2024-04,ing002,"Roasted Red Peppers",2
+2024-05,ing002,"Roasted Red Peppers",3
+2024-06,ing002,"Roasted Red Peppers",3
+2024-07,ing002,"Roasted Red Peppers",3
+2024-08,ing002,"Roasted Red Peppers",3
+2024-10,ing002,"Roasted Red Peppers",3
+2024-12,ing002,"Roasted Red Peppers",4
+2025-01,ing002,"Roasted Red Peppers",4
+2025-02,ing002,"Roasted Red Peppers",1
+2025-03,ing002,"Roasted Red Peppers",3
+2025-04,ing002,"Roasted Red Peppers",3
+2025-06,ing002,"Roasted Red Peppers",4
+2025-07,ing002,"Roasted Red Peppers",3
+2025-08,ing002,"Roasted Red Peppers",3
+2025-09,ing002,"Roasted Red Peppers",3
+2023-02,ing003,"Goat Cheese",2
+2023-03,ing003,"Goat Cheese",8
+2023-04,ing003,"Goat Cheese",10
+2023-05,ing003,"Goat Cheese",9
+2023-06,ing003,"Goat Cheese",9
+2023-07,ing003,"Goat Cheese",10
+2023-08,ing003,"Goat Cheese",10
+2023-09,ing003,"Goat Cheese",9
+2023-10,ing003,"Goat Cheese",9
+2023-11,ing003,"Goat Cheese",8
+2023-12,ing003,"Goat Cheese",10
+2024-01,ing003,"Goat Cheese",10
+2024-02,ing003,"Goat Cheese",7
+2024-03,ing003,"Goat Cheese",10
+2024-04,ing003,"Goat Cheese",9
+2024-05,ing003,"Goat Cheese",9
+2024-06,ing003,"Goat Cheese",11
+2024-07,ing003,"Goat Cheese",9
+2024-08,ing003,"Goat Cheese",8
+2024-09,ing003,"Goat Cheese",9
+2024-10,ing003,"Goat Cheese",7
+2024-11,ing003,"Goat Cheese",6
+2024-12,ing003,"Goat Cheese",12
+2025-01,ing003,"Goat Cheese",8
+2025-02,ing003,"Goat Cheese",8
+2025-03,ing003,"Goat Cheese",9
+2025-04,ing003,"Goat Cheese",9
+2025-05,ing003,"Goat Cheese",6
+2025-06,ing003,"Goat Cheese",8
+2025-07,ing003,"Goat Cheese",8
+2025-08,ing003,"Goat Cheese",8
+2025-09,ing003,"Goat Cheese",8
+2025-10,ing003,"Goat Cheese",8
+2023-03,ing004,"Black Olives",4
+2023-04,ing004,"Black Olives",3
+2023-06,ing004,"Black Olives",3
+2023-07,ing004,"Black Olives",6
+2023-08,ing004,"Black Olives",4
+2023-09,ing004,"Black Olives",2
+2023-10,ing004,"Black Olives",5
+2023-11,ing004,"Black Olives",3
+2023-12,ing004,"Black Olives",4
+2024-01,ing004,"Black Olives",3
+2024-02,ing004,"Black Olives",3
+2024-03,ing004,"Black Olives",4
+2024-04,ing004,"Black Olives",3
+2024-05,ing004,"Black Olives",3
+2024-06,ing004,"Black Olives",4
+2024-07,ing004,"Black Olives",4
+2024-08,ing004,"Black Olives",3
+2024-09,ing004,"Black Olives",3
+2024-10,ing004,"Black Olives",4
+2024-11,ing004,"Black Olives",4
+2024-12,ing004,"Black Olives",4
+2025-01,ing004,"Black Olives",3
+2025-02,ing004,"Black Olives",1
+2025-03,ing004,"Black Olives",6
+2025-05,ing004,"Black Olives",3
+2025-06,ing004,"Black Olives",5
+2025-07,ing004,"Black Olives",2
+2025-08,ing004,"Black Olives",4
+2025-09,ing004,"Black Olives",7
+2023-04,ing005,"Sun-Dried Tomatoes",5
+2023-05,ing005,"Sun-Dried Tomatoes",1
+2023-06,ing005,"Sun-Dried Tomatoes",4
+2023-07,ing005,"Sun-Dried Tomatoes",10
+2023-09,ing005,"Sun-Dried Tomatoes",4
+2023-10,ing005,"Sun-Dried Tomatoes",4
+2023-11,ing005,"Sun-Dried Tomatoes",2
+2023-12,ing005,"Sun-Dried Tomatoes",7
+2024-01,ing005,"Sun-Dried Tomatoes",5
+2024-03,ing005,"Sun-Dried Tomatoes",4
+2024-04,ing005,"Sun-Dried Tomatoes",5
+2024-05,ing005,"Sun-Dried Tomatoes",5
+2024-06,ing005,"Sun-Dried Tomatoes",4
+2024-07,ing005,"Sun-Dried Tomatoes",3
+2024-08,ing005,"Sun-Dried Tomatoes",4
+2024-11,ing005,"Sun-Dried Tomatoes",4
+2024-12,ing005,"Sun-Dried Tomatoes",5
+2025-01,ing005,"Sun-Dried Tomatoes",3
+2025-02,ing005,"Sun-Dried Tomatoes",1
+2025-03,ing005,"Sun-Dried Tomatoes",3
+2025-04,ing005,"Sun-Dried Tomatoes",1
+2025-05,ing005,"Sun-Dried Tomatoes",5
+2025-07,ing005,"Sun-Dried Tomatoes",5
+2025-08,ing005,"Sun-Dried Tomatoes",2
+2025-09,ing005,"Sun-Dried Tomatoes",2
+2025-10,ing005,"Sun-Dried Tomatoes",4
+2023-02,ing006,"Spicy Chicken",2
+2023-03,ing006,"Spicy Chicken",10
+2023-04,ing006,"Spicy Chicken",8
+2023-05,ing006,"Spicy Chicken",6
+2023-06,ing006,"Spicy Chicken",10
+2023-07,ing006,"Spicy Chicken",9
+2023-08,ing006,"Spicy Chicken",8
+2023-09,ing006,"Spicy Chicken",8
+2023-10,ing006,"Spicy Chicken",6
+2023-11,ing006,"Spicy Chicken",8
+2023-12,ing006,"Spicy Chicken",10
+2024-01,ing006,"Spicy Chicken",12
+2024-02,ing006,"Spicy Chicken",9
+2024-03,ing006,"Spicy Chicken",9
+2024-04,ing006,"Spicy Chicken",5
+2024-05,ing006,"Spicy Chicken",8
+2024-06,ing006,"Spicy Chicken",10
+2024-07,ing006,"Spicy Chicken",8
+2024-08,ing006,"Spicy Chicken",7
+2024-09,ing006,"Spicy Chicken",8
+2024-10,ing006,"Spicy Chicken",8
+2024-11,ing006,"Spicy Chicken",10
+2024-12,ing006,"Spicy Chicken",6
+2025-01,ing006,"Spicy Chicken",10
+2025-02,ing006,"Spicy Chicken",8
+2025-03,ing006,"Spicy Chicken",8
+2025-04,ing006,"Spicy Chicken",7
+2025-05,ing006,"Spicy Chicken",8
+2025-06,ing006,"Spicy Chicken",8
+2025-07,ing006,"Spicy Chicken",10
+2025-08,ing006,"Spicy Chicken",8
+2025-09,ing006,"Spicy Chicken",7
+2025-10,ing006,"Spicy Chicken",7
+2023-02,ing007,Jalapenos,4
+2023-03,ing007,Jalapenos,15
+2023-04,ing007,Jalapenos,11
+2023-05,ing007,Jalapenos,12
+2023-06,ing007,Jalapenos,9
+2023-07,ing007,Jalapenos,13
+2023-08,ing007,Jalapenos,14
+2023-09,ing007,Jalapenos,12
+2023-10,ing007,Jalapenos,12
+2023-11,ing007,Jalapenos,13
+2023-12,ing007,Jalapenos,14
+2024-01,ing007,Jalapenos,16
+2024-02,ing007,Jalapenos,11
+2024-03,ing007,Jalapenos,14
+2024-04,ing007,Jalapenos,12
+2024-05,ing007,Jalapenos,10
+2024-06,ing007,Jalapenos,12
+2024-07,ing007,Jalapenos,12
+2024-08,ing007,Jalapenos,14
+2024-09,ing007,Jalapenos,10
+2024-10,ing007,Jalapenos,14
+2024-11,ing007,Jalapenos,10
+2024-12,ing007,Jalapenos,13
+2025-01,ing007,Jalapenos,14
+2025-02,ing007,Jalapenos,9
+2025-03,ing007,Jalapenos,14
+2025-04,ing007,Jalapenos,13
+2025-05,ing007,Jalapenos,13
+2025-06,ing007,Jalapenos,13
+2025-07,ing007,Jalapenos,15
+2025-08,ing007,Jalapenos,14
+2025-09,ing007,Jalapenos,10
+2025-10,ing007,Jalapenos,11
+2023-02,ing008,"Smoked Gouda",3
+2023-03,ing008,"Smoked Gouda",11
+2023-04,ing008,"Smoked Gouda",9
+2023-05,ing008,"Smoked Gouda",9
+2023-06,ing008,"Smoked Gouda",11
+2023-07,ing008,"Smoked Gouda",12
+2023-08,ing008,"Smoked Gouda",9
+2023-09,ing008,"Smoked Gouda",12
+2023-10,ing008,"Smoked Gouda",9
+2023-11,ing008,"Smoked Gouda",6
+2023-12,ing008,"Smoked Gouda",14
+2024-01,ing008,"Smoked Gouda",15
+2024-02,ing008,"Smoked Gouda",11
+2024-03,ing008,"Smoked Gouda",10
+2024-04,ing008,"Smoked Gouda",8
+2024-05,ing008,"Smoked Gouda",12
+2024-06,ing008,"Smoked Gouda",9
+2024-07,ing008,"Smoked Gouda",10
+2024-08,ing008,"Smoked Gouda",9
+2024-09,ing008,"Smoked Gouda",9
+2024-10,ing008,"Smoked Gouda",12
+2024-11,ing008,"Smoked Gouda",9
+2024-12,ing008,"Smoked Gouda",11
+2025-01,ing008,"Smoked Gouda",11
+2025-02,ing008,"Smoked Gouda",11
+2025-03,ing008,"Smoked Gouda",10
+2025-04,ing008,"Smoked Gouda",9
+2025-05,ing008,"Smoked Gouda",9
+2025-06,ing008,"Smoked Gouda",9
+2025-07,ing008,"Smoked Gouda",15
+2025-08,ing008,"Smoked Gouda",9
+2025-09,ing008,"Smoked Gouda",7
+2025-10,ing008,"Smoked Gouda",9
+2023-03,ing009,"Chipotle Sauce",3
+2023-04,ing009,"Chipotle Sauce",3
+2023-05,ing009,"Chipotle Sauce",5
+2023-06,ing009,"Chipotle Sauce",3
+2023-07,ing009,"Chipotle Sauce",2
+2023-08,ing009,"Chipotle Sauce",5
+2023-09,ing009,"Chipotle Sauce",4
+2023-10,ing009,"Chipotle Sauce",3
+2023-11,ing009,"Chipotle Sauce",3
+2023-12,ing009,"Chipotle Sauce",6
+2024-01,ing009,"Chipotle Sauce",6
+2024-02,ing009,"Chipotle Sauce",3
+2024-03,ing009,"Chipotle Sauce",3
+2024-04,ing009,"Chipotle Sauce",3
+2024-05,ing009,"Chipotle Sauce",6
+2024-06,ing009,"Chipotle Sauce",5
+2024-07,ing009,"Chipotle Sauce",4
+2024-08,ing009,"Chipotle Sauce",3
+2024-09,ing009,"Chipotle Sauce",5
+2024-10,ing009,"Chipotle Sauce",4
+2024-11,ing009,"Chipotle Sauce",3
+2024-12,ing009,"Chipotle Sauce",3
+2025-01,ing009,"Chipotle Sauce",3
+2025-02,ing009,"Chipotle Sauce",6
+2025-03,ing009,"Chipotle Sauce",2
+2025-04,ing009,"Chipotle Sauce",3
+2025-05,ing009,"Chipotle Sauce",3
+2025-06,ing009,"Chipotle Sauce",3
+2025-07,ing009,"Chipotle Sauce",3
+2025-08,ing009,"Chipotle Sauce",6
+2025-10,ing009,"Chipotle Sauce",3
+2023-02,ing010,"Wild Mushrooms",9
+2023-03,ing010,"Wild Mushrooms",23
+2023-04,ing010,"Wild Mushrooms",26
+2023-05,ing010,"Wild Mushrooms",24
+2023-06,ing010,"Wild Mushrooms",21
+2023-07,ing010,"Wild Mushrooms",24
+2023-08,ing010,"Wild Mushrooms",18
+2023-09,ing010,"Wild Mushrooms",23
+2023-10,ing010,"Wild Mushrooms",22
+2023-11,ing010,"Wild Mushrooms",16
+2023-12,ing010,"Wild Mushrooms",21
+2024-01,ing010,"Wild Mushrooms",19
+2024-02,ing010,"Wild Mushrooms",18
+2024-03,ing010,"Wild Mushrooms",22
+2024-04,ing010,"Wild Mushrooms",21
+2024-05,ing010,"Wild Mushrooms",26
+2024-06,ing010,"Wild Mushrooms",27
+2024-07,ing010,"Wild Mushrooms",16
+2024-08,ing010,"Wild Mushrooms",21
+2024-09,ing010,"Wild Mushrooms",20
+2024-10,ing010,"Wild Mushrooms",17
+2024-11,ing010,"Wild Mushrooms",14
+2024-12,ing010,"Wild Mushrooms",17
+2025-01,ing010,"Wild Mushrooms",21
+2025-02,ing010,"Wild Mushrooms",22
+2025-03,ing010,"Wild Mushrooms",26
+2025-04,ing010,"Wild Mushrooms",22
+2025-05,ing010,"Wild Mushrooms",25
+2025-06,ing010,"Wild Mushrooms",24
+2025-07,ing010,"Wild Mushrooms",22
+2025-08,ing010,"Wild Mushrooms",17
+2025-09,ing010,"Wild Mushrooms",17
+2025-10,ing010,"Wild Mushrooms",20
+2023-02,ing011,"Truffle Oil",10
+2023-03,ing011,"Truffle Oil",22
+2023-04,ing011,"Truffle Oil",22
+2023-05,ing011,"Truffle Oil",22
+2023-06,ing011,"Truffle Oil",22
+2023-07,ing011,"Truffle Oil",24
+2023-08,ing011,"Truffle Oil",21
+2023-09,ing011,"Truffle Oil",22
+2023-10,ing011,"Truffle Oil",19
+2023-11,ing011,"Truffle Oil",20
+2023-12,ing011,"Truffle Oil",21
+2024-01,ing011,"Truffle Oil",23
+2024-02,ing011,"Truffle Oil",18
+2024-03,ing011,"Truffle Oil",23
+2024-04,ing011,"Truffle Oil",20
+2024-05,ing011,"Truffle Oil",25
+2024-06,ing011,"Truffle Oil",19
+2024-07,ing011,"Truffle Oil",21
+2024-08,ing011,"Truffle Oil",20
+2024-09,ing011,"Truffle Oil",18
+2024-10,ing011,"Truffle Oil",20
+2024-11,ing011,"Truffle Oil",18
+2024-12,ing011,"Truffle Oil",21
+2025-01,ing011,"Truffle Oil",21
+2025-02,ing011,"Truffle Oil",20
+2025-03,ing011,"Truffle Oil",24
+2025-04,ing011,"Truffle Oil",20
+2025-05,ing011,"Truffle Oil",18
+2025-06,ing011,"Truffle Oil",19
+2025-07,ing011,"Truffle Oil",23
+2025-08,ing011,"Truffle Oil",22
+2025-09,ing011,"Truffle Oil",22
+2025-10,ing011,"Truffle Oil",20
+2023-02,ing012,Mozzarella,2
+2023-03,ing012,Mozzarella,7
+2023-04,ing012,Mozzarella,6
+2023-05,ing012,Mozzarella,6
+2023-06,ing012,Mozzarella,9
+2023-07,ing012,Mozzarella,8
+2023-08,ing012,Mozzarella,7
+2023-09,ing012,Mozzarella,8
+2023-10,ing012,Mozzarella,6
+2023-11,ing012,Mozzarella,7
+2023-12,ing012,Mozzarella,7
+2024-01,ing012,Mozzarella,8
+2024-02,ing012,Mozzarella,6
+2024-03,ing012,Mozzarella,9
+2024-04,ing012,Mozzarella,6
+2024-05,ing012,Mozzarella,6
+2024-06,ing012,Mozzarella,6
+2024-07,ing012,Mozzarella,6
+2024-08,ing012,Mozzarella,7
+2024-09,ing012,Mozzarella,5
+2024-10,ing012,Mozzarella,7
+2024-11,ing012,Mozzarella,7
+2024-12,ing012,Mozzarella,7
+2025-01,ing012,Mozzarella,6
+2025-02,ing012,Mozzarella,6
+2025-03,ing012,Mozzarella,9
+2025-04,ing012,Mozzarella,6
+2025-05,ing012,Mozzarella,8
+2025-06,ing012,Mozzarella,7
+2025-07,ing012,Mozzarella,6
+2025-08,ing012,Mozzarella,6
+2025-09,ing012,Mozzarella,9
+2025-10,ing012,Mozzarella,6
+2023-02,ing013,"Fresh Spinach",2
+2023-03,ing013,"Fresh Spinach",5
+2023-04,ing013,"Fresh Spinach",6
+2023-05,ing013,"Fresh Spinach",3
+2023-06,ing013,"Fresh Spinach",3
+2023-07,ing013,"Fresh Spinach",5
+2023-08,ing013,"Fresh Spinach",5
+2023-09,ing013,"Fresh Spinach",3
+2023-10,ing013,"Fresh Spinach",6
+2023-11,ing013,"Fresh Spinach",3
+2023-12,ing013,"Fresh Spinach",2
+2024-01,ing013,"Fresh Spinach",4
+2024-02,ing013,"Fresh Spinach",6
+2024-03,ing013,"Fresh Spinach",6
+2024-04,ing013,"Fresh Spinach",5
+2024-05,ing013,"Fresh Spinach",5
+2024-06,ing013,"Fresh Spinach",3
+2024-07,ing013,"Fresh Spinach",3
+2024-08,ing013,"Fresh Spinach",5
+2024-09,ing013,"Fresh Spinach",6
+2024-10,ing013,"Fresh Spinach",3
+2024-11,ing013,"Fresh Spinach",4
+2024-12,ing013,"Fresh Spinach",3
+2025-01,ing013,"Fresh Spinach",3
+2025-02,ing013,"Fresh Spinach",4
+2025-03,ing013,"Fresh Spinach",4
+2025-04,ing013,"Fresh Spinach",4
+2025-05,ing013,"Fresh Spinach",3
+2025-06,ing013,"Fresh Spinach",5
+2025-07,ing013,"Fresh Spinach",5
+2025-08,ing013,"Fresh Spinach",3
+2025-09,ing013,"Fresh Spinach",5
+2025-10,ing013,"Fresh Spinach",2
+2023-02,ing014,"Italian Sausage",6
+2023-03,ing014,"Italian Sausage",14
+2023-04,ing014,"Italian Sausage",12
+2023-05,ing014,"Italian Sausage",14
+2023-06,ing014,"Italian Sausage",12
+2023-07,ing014,"Italian Sausage",12
+2023-08,ing014,"Italian Sausage",14
+2023-09,ing014,"Italian Sausage",12
+2023-10,ing014,"Italian Sausage",13
+2023-11,ing014,"Italian Sausage",13
+2023-12,ing014,"Italian Sausage",14
+2024-01,ing014,"Italian Sausage",12
+2024-02,ing014,"Italian Sausage",13
+2024-03,ing014,"Italian Sausage",13
+2024-04,ing014,"Italian Sausage",13
+2024-05,ing014,"Italian Sausage",12
+2024-06,ing014,"Italian Sausage",14
+2024-07,ing014,"Italian Sausage",12
+2024-08,ing014,"Italian Sausage",14
+2024-09,ing014,"Italian Sausage",12
+2024-10,ing014,"Italian Sausage",14
+2024-11,ing014,"Italian Sausage",11
+2024-12,ing014,"Italian Sausage",13
+2025-01,ing014,"Italian Sausage",13
+2025-02,ing014,"Italian Sausage",11
+2025-03,ing014,"Italian Sausage",16
+2025-04,ing014,"Italian Sausage",10
+2025-05,ing014,"Italian Sausage",11
+2025-06,ing014,"Italian Sausage",13
+2025-07,ing014,"Italian Sausage",12
+2025-08,ing014,"Italian Sausage",13
+2025-09,ing014,"Italian Sausage",11
+2025-10,ing014,"Italian Sausage",8
+2023-03,ing015,"Roasted Garlic",6
+2023-04,ing015,"Roasted Garlic",6
+2023-06,ing015,"Roasted Garlic",6
+2023-07,ing015,"Roasted Garlic",3
+2023-08,ing015,"Roasted Garlic",3
+2023-09,ing015,"Roasted Garlic",4
+2023-10,ing015,"Roasted Garlic",4
+2023-11,ing015,"Roasted Garlic",2
+2023-12,ing015,"Roasted Garlic",7
+2024-01,ing015,"Roasted Garlic",3
+2024-02,ing015,"Roasted Garlic",4
+2024-03,ing015,"Roasted Garlic",6
+2024-04,ing015,"Roasted Garlic",5
+2024-05,ing015,"Roasted Garlic",3
+2024-06,ing015,"Roasted Garlic",3
+2024-07,ing015,"Roasted Garlic",6
+2024-08,ing015,"Roasted Garlic",6
+2024-09,ing015,"Roasted Garlic",3
+2024-10,ing015,"Roasted Garlic",3
+2024-11,ing015,"Roasted Garlic",5
+2024-12,ing015,"Roasted Garlic",3
+2025-01,ing015,"Roasted Garlic",4
+2025-02,ing015,"Roasted Garlic",5
+2025-03,ing015,"Roasted Garlic",6
+2025-04,ing015,"Roasted Garlic",3
+2025-05,ing015,"Roasted Garlic",3
+2025-06,ing015,"Roasted Garlic",6
+2025-07,ing015,"Roasted Garlic",3
+2025-08,ing015,"Roasted Garlic",6
+2025-09,ing015,"Roasted Garlic",3
+2025-10,ing015,"Roasted Garlic",3
+2023-02,ing016,"Red Onion",4
+2023-03,ing016,"Red Onion",14
+2023-04,ing016,"Red Onion",14
+2023-05,ing016,"Red Onion",13
+2023-06,ing016,"Red Onion",14
+2023-07,ing016,"Red Onion",16
+2023-08,ing016,"Red Onion",13
+2023-09,ing016,"Red Onion",12
+2023-10,ing016,"Red Onion",14
+2023-11,ing016,"Red Onion",13
+2023-12,ing016,"Red Onion",14
+2024-01,ing016,"Red Onion",15
+2024-02,ing016,"Red Onion",13
+2024-03,ing016,"Red Onion",17
+2024-04,ing016,"Red Onion",12
+2024-05,ing016,"Red Onion",13
+2024-06,ing016,"Red Onion",14
+2024-07,ing016,"Red Onion",16
+2024-08,ing016,"Red Onion",16
+2024-09,ing016,"Red Onion",11
+2024-10,ing016,"Red Onion",14
+2024-11,ing016,"Red Onion",15
+2024-12,ing016,"Red Onion",14
+2025-01,ing016,"Red Onion",13
+2025-02,ing016,"Red Onion",13
+2025-03,ing016,"Red Onion",15
+2025-04,ing016,"Red Onion",11
+2025-05,ing016,"Red Onion",13
+2025-06,ing016,"Red Onion",14
+2025-07,ing016,"Red Onion",14
+2025-08,ing016,"Red Onion",15
+2025-09,ing016,"Red Onion",12
+2025-10,ing016,"Red Onion",11
+2023-03,ing017,"Fresh Basil",3
+2023-04,ing017,"Fresh Basil",2
+2023-06,ing017,"Fresh Basil",2
+2023-07,ing017,"Fresh Basil",2
+2023-08,ing017,"Fresh Basil",3
+2023-10,ing017,"Fresh Basil",3
+2023-12,ing017,"Fresh Basil",2
+2024-01,ing017,"Fresh Basil",3
+2024-02,ing017,"Fresh Basil",2
+2024-03,ing017,"Fresh Basil",5
+2024-04,ing017,"Fresh Basil",2
+2024-06,ing017,"Fresh Basil",2
+2024-07,ing017,"Fresh Basil",2
+2024-08,ing017,"Fresh Basil",2
+2024-10,ing017,"Fresh Basil",3
+2024-11,ing017,"Fresh Basil",3
+2024-12,ing017,"Fresh Basil",2
+2025-01,ing017,"Fresh Basil",2
+2025-02,ing017,"Fresh Basil",3
+2025-03,ing017,"Fresh Basil",2
+2025-04,ing017,"Fresh Basil",3
+2025-05,ing017,"Fresh Basil",3
+2025-06,ing017,"Fresh Basil",2
+2025-07,ing017,"Fresh Basil",1
+2025-08,ing017,"Fresh Basil",3
+2025-09,ing017,"Fresh Basil",3
+2023-02,ing018,"Smoked Salmon",12
+2023-03,ing018,"Smoked Salmon",31
+2023-04,ing018,"Smoked Salmon",29
+2023-05,ing018,"Smoked Salmon",31
+2023-06,ing018,"Smoked Salmon",30
+2023-07,ing018,"Smoked Salmon",30
+2023-08,ing018,"Smoked Salmon",30
+2023-09,ing018,"Smoked Salmon",29
+2023-10,ing018,"Smoked Salmon",30
+2023-11,ing018,"Smoked Salmon",28
+2023-12,ing018,"Smoked Salmon",31
+2024-01,ing018,"Smoked Salmon",31
+2024-02,ing018,"Smoked Salmon",29
+2024-03,ing018,"Smoked Salmon",30
+2024-04,ing018,"Smoked Salmon",30
+2024-05,ing018,"Smoked Salmon",30
+2024-06,ing018,"Smoked Salmon",28
+2024-07,ing018,"Smoked Salmon",30
+2024-08,ing018,"Smoked Salmon",30
+2024-09,ing018,"Smoked Salmon",30
+2024-10,ing018,"Smoked Salmon",31
+2024-11,ing018,"Smoked Salmon",27
+2024-12,ing018,"Smoked Salmon",30
+2025-01,ing018,"Smoked Salmon",31
+2025-02,ing018,"Smoked Salmon",28
+2025-03,ing018,"Smoked Salmon",31
+2025-04,ing018,"Smoked Salmon",28
+2025-05,ing018,"Smoked Salmon",30
+2025-06,ing018,"Smoked Salmon",28
+2025-07,ing018,"Smoked Salmon",30
+2025-08,ing018,"Smoked Salmon",30
+2025-09,ing018,"Smoked Salmon",27
+2025-10,ing018,"Smoked Salmon",25
+2023-02,ing019,"Dill Cream Cheese",6
+2023-03,ing019,"Dill Cream Cheese",15
+2023-04,ing019,"Dill Cream Cheese",10
+2023-05,ing019,"Dill Cream Cheese",14
+2023-06,ing019,"Dill Cream Cheese",12
+2023-07,ing019,"Dill Cream Cheese",14
+2023-08,ing019,"Dill Cream Cheese",13
+2023-09,ing019,"Dill Cream Cheese",12
+2023-10,ing019,"Dill Cream Cheese",11
+2023-11,ing019,"Dill Cream Cheese",8
+2023-12,ing019,"Dill Cream Cheese",12
+2024-01,ing019,"Dill Cream Cheese",12
+2024-02,ing019,"Dill Cream Cheese",9
+2024-03,ing019,"Dill Cream Cheese",12
+2024-04,ing019,"Dill Cream Cheese",15
+2024-05,ing019,"Dill Cream Cheese",11
+2024-06,ing019,"Dill Cream Cheese",12
+2024-07,ing019,"Dill Cream Cheese",11
+2024-08,ing019,"Dill Cream Cheese",10
+2024-09,ing019,"Dill Cream Cheese",15
+2024-10,ing019,"Dill Cream Cheese",14
+2024-11,ing019,"Dill Cream Cheese",9
+2024-12,ing019,"Dill Cream Cheese",10
+2025-01,ing019,"Dill Cream Cheese",14
+2025-02,ing019,"Dill Cream Cheese",11
+2025-03,ing019,"Dill Cream Cheese",13
+2025-04,ing019,"Dill Cream Cheese",8
+2025-05,ing019,"Dill Cream Cheese",11
+2025-06,ing019,"Dill Cream Cheese",11
+2025-07,ing019,"Dill Cream Cheese",11
+2025-08,ing019,"Dill Cream Cheese",12
+2025-09,ing019,"Dill Cream Cheese",10
+2025-10,ing019,"Dill Cream Cheese",10
+2023-03,ing020,Capers,4
+2023-05,ing020,Capers,3
+2023-06,ing020,Capers,4
+2023-07,ing020,Capers,3
+2023-08,ing020,Capers,3
+2023-09,ing020,Capers,2
+2023-10,ing020,Capers,2
+2023-11,ing020,Capers,1
+2024-01,ing020,Capers,4
+2024-03,ing020,Capers,4
+2024-04,ing020,Capers,4
+2024-05,ing020,Capers,3
+2024-07,ing020,Capers,3
+2024-09,ing020,Capers,4
+2024-10,ing020,Capers,3
+2025-01,ing020,Capers,3
+2025-02,ing020,Capers,3
+2025-03,ing020,Capers,3
+2025-04,ing020,Capers,4
+2025-07,ing020,Capers,3
+2025-08,ing020,Capers,3
+2025-10,ing020,Capers,4
+2023-03,ing021,Arugula,5
+2023-06,ing021,Arugula,5
+2023-07,ing021,Arugula,6
+2023-08,ing021,Arugula,2
+2023-09,ing021,Arugula,2
+2023-12,ing021,Arugula,5
+2024-03,ing021,Arugula,5
+2024-04,ing021,Arugula,5
+2024-07,ing021,Arugula,5
+2024-09,ing021,Arugula,5
+2024-12,ing021,Arugula,5
+2025-02,ing021,Arugula,5
+2025-04,ing021,Arugula,5
+2025-07,ing021,Arugula,6
+2025-08,ing021,Arugula,5
+2023-02,ing022,"BBQ Brisket",6
+2023-03,ing022,"BBQ Brisket",19
+2023-04,ing022,"BBQ Brisket",16
+2023-05,ing022,"BBQ Brisket",17
+2023-06,ing022,"BBQ Brisket",19
+2023-07,ing022,"BBQ Brisket",12
+2023-08,ing022,"BBQ Brisket",13
+2023-09,ing022,"BBQ Brisket",15
+2023-10,ing022,"BBQ Brisket",16
+2023-11,ing022,"BBQ Brisket",18
+2023-12,ing022,"BBQ Brisket",17
+2024-01,ing022,"BBQ Brisket",17
+2024-02,ing022,"BBQ Brisket",15
+2024-03,ing022,"BBQ Brisket",20
+2024-04,ing022,"BBQ Brisket",14
+2024-05,ing022,"BBQ Brisket",14
+2024-06,ing022,"BBQ Brisket",13
+2024-07,ing022,"BBQ Brisket",14
+2024-08,ing022,"BBQ Brisket",15
+2024-09,ing022,"BBQ Brisket",15
+2024-10,ing022,"BBQ Brisket",16
+2024-11,ing022,"BBQ Brisket",13
+2024-12,ing022,"BBQ Brisket",14
+2025-01,ing022,"BBQ Brisket",18
+2025-02,ing022,"BBQ Brisket",14
+2025-03,ing022,"BBQ Brisket",16
+2025-04,ing022,"BBQ Brisket",12
+2025-05,ing022,"BBQ Brisket",15
+2025-06,ing022,"BBQ Brisket",15
+2025-07,ing022,"BBQ Brisket",14
+2025-08,ing022,"BBQ Brisket",17
+2025-09,ing022,"BBQ Brisket",15
+2025-10,ing022,"BBQ Brisket",12
+2023-02,ing023,"Cheddar Cheese",3
+2023-03,ing023,"Cheddar Cheese",12
+2023-04,ing023,"Cheddar Cheese",12
+2023-05,ing023,"Cheddar Cheese",12
+2023-06,ing023,"Cheddar Cheese",13
+2023-07,ing023,"Cheddar Cheese",11
+2023-08,ing023,"Cheddar Cheese",12
+2023-09,ing023,"Cheddar Cheese",12
+2023-10,ing023,"Cheddar Cheese",13
+2023-11,ing023,"Cheddar Cheese",13
+2023-12,ing023,"Cheddar Cheese",15
+2024-01,ing023,"Cheddar Cheese",12
+2024-02,ing023,"Cheddar Cheese",10
+2024-03,ing023,"Cheddar Cheese",14
+2024-04,ing023,"Cheddar Cheese",11
+2024-05,ing023,"Cheddar Cheese",14
+2024-06,ing023,"Cheddar Cheese",11
+2024-07,ing023,"Cheddar Cheese",10
+2024-08,ing023,"Cheddar Cheese",12
+2024-09,ing023,"Cheddar Cheese",9
+2024-10,ing023,"Cheddar Cheese",12
+2024-11,ing023,"Cheddar Cheese",12
+2024-12,ing023,"Cheddar Cheese",11
+2025-01,ing023,"Cheddar Cheese",16
+2025-02,ing023,"Cheddar Cheese",10
+2025-03,ing023,"Cheddar Cheese",11
+2025-04,ing023,"Cheddar Cheese",12
+2025-05,ing023,"Cheddar Cheese",11
+2025-06,ing023,"Cheddar Cheese",12
+2025-07,ing023,"Cheddar Cheese",13
+2025-08,ing023,"Cheddar Cheese",12
+2025-09,ing023,"Cheddar Cheese",12
+2025-10,ing023,"Cheddar Cheese",12
+2023-03,ing024,"BBQ Sauce",6
+2023-04,ing024,"BBQ Sauce",6
+2023-05,ing024,"BBQ Sauce",3
+2023-06,ing024,"BBQ Sauce",6
+2023-07,ing024,"BBQ Sauce",2
+2023-08,ing024,"BBQ Sauce",6
+2023-09,ing024,"BBQ Sauce",3
+2023-10,ing024,"BBQ Sauce",6
+2023-11,ing024,"BBQ Sauce",6
+2023-12,ing024,"BBQ Sauce",3
+2024-01,ing024,"BBQ Sauce",6
+2024-02,ing024,"BBQ Sauce",5
+2024-03,ing024,"BBQ Sauce",7
+2024-04,ing024,"BBQ Sauce",3
+2024-05,ing024,"BBQ Sauce",3
+2024-06,ing024,"BBQ Sauce",3
+2024-07,ing024,"BBQ Sauce",5
+2024-08,ing024,"BBQ Sauce",6
+2024-09,ing024,"BBQ Sauce",3
+2024-10,ing024,"BBQ Sauce",6
+2024-11,ing024,"BBQ Sauce",2
+2024-12,ing024,"BBQ Sauce",3
+2025-01,ing024,"BBQ Sauce",6
+2025-02,ing024,"BBQ Sauce",3
+2025-03,ing024,"BBQ Sauce",5
+2025-04,ing024,"BBQ Sauce",4
+2025-05,ing024,"BBQ Sauce",3
+2025-06,ing024,"BBQ Sauce",6
+2025-07,ing024,"BBQ Sauce",3
+2025-08,ing024,"BBQ Sauce",3
+2025-09,ing024,"BBQ Sauce",6
+2025-10,ing024,"BBQ Sauce",3
+2023-02,ing025,"Tandoori Chicken",2
+2023-03,ing025,"Tandoori Chicken",8
+2023-04,ing025,"Tandoori Chicken",13
+2023-05,ing025,"Tandoori Chicken",10
+2023-06,ing025,"Tandoori Chicken",9
+2023-07,ing025,"Tandoori Chicken",12
+2023-08,ing025,"Tandoori Chicken",10
+2023-09,ing025,"Tandoori Chicken",9
+2023-10,ing025,"Tandoori Chicken",14
+2023-11,ing025,"Tandoori Chicken",8
+2023-12,ing025,"Tandoori Chicken",12
+2024-01,ing025,"Tandoori Chicken",9
+2024-02,ing025,"Tandoori Chicken",12
+2024-03,ing025,"Tandoori Chicken",10
+2024-04,ing025,"Tandoori Chicken",11
+2024-05,ing025,"Tandoori Chicken",11
+2024-06,ing025,"Tandoori Chicken",11
+2024-07,ing025,"Tandoori Chicken",11
+2024-08,ing025,"Tandoori Chicken",10
+2024-09,ing025,"Tandoori Chicken",9
+2024-10,ing025,"Tandoori Chicken",11
+2024-11,ing025,"Tandoori Chicken",9
+2024-12,ing025,"Tandoori Chicken",8
+2025-01,ing025,"Tandoori Chicken",10
+2025-02,ing025,"Tandoori Chicken",10
+2025-03,ing025,"Tandoori Chicken",12
+2025-04,ing025,"Tandoori Chicken",11
+2025-05,ing025,"Tandoori Chicken",11
+2025-06,ing025,"Tandoori Chicken",12
+2025-07,ing025,"Tandoori Chicken",9
+2025-08,ing025,"Tandoori Chicken",12
+2025-09,ing025,"Tandoori Chicken",10
+2025-10,ing025,"Tandoori Chicken",9
+2023-03,ing026,"Mint Yogurt",1
+2023-04,ing026,"Mint Yogurt",7
+2023-05,ing026,"Mint Yogurt",6
+2023-06,ing026,"Mint Yogurt",6
+2023-07,ing026,"Mint Yogurt",7
+2023-08,ing026,"Mint Yogurt",5
+2023-09,ing026,"Mint Yogurt",3
+2023-10,ing026,"Mint Yogurt",7
+2023-11,ing026,"Mint Yogurt",5
+2023-12,ing026,"Mint Yogurt",6
+2024-01,ing026,"Mint Yogurt",3
+2024-02,ing026,"Mint Yogurt",7
+2024-03,ing026,"Mint Yogurt",8
+2024-04,ing026,"Mint Yogurt",3
+2024-05,ing026,"Mint Yogurt",5
+2024-06,ing026,"Mint Yogurt",8
+2024-07,ing026,"Mint Yogurt",3
+2024-08,ing026,"Mint Yogurt",6
+2024-09,ing026,"Mint Yogurt",3
+2024-10,ing026,"Mint Yogurt",6
+2024-11,ing026,"Mint Yogurt",6
+2024-12,ing026,"Mint Yogurt",3
+2025-01,ing026,"Mint Yogurt",3
+2025-02,ing026,"Mint Yogurt",6
+2025-03,ing026,"Mint Yogurt",8
+2025-04,ing026,"Mint Yogurt",3
+2025-05,ing026,"Mint Yogurt",6
+2025-06,ing026,"Mint Yogurt",6
+2025-07,ing026,"Mint Yogurt",3
+2025-08,ing026,"Mint Yogurt",6
+2025-09,ing026,"Mint Yogurt",6
+2025-10,ing026,"Mint Yogurt",3
+2023-04,ing027,"Green Chilli",11
+2023-05,ing027,"Green Chilli",8
+2023-06,ing027,"Green Chilli",6
+2023-07,ing027,"Green Chilli",10
+2023-08,ing027,"Green Chilli",3
+2023-09,ing027,"Green Chilli",5
+2023-10,ing027,"Green Chilli",9
+2023-11,ing027,"Green Chilli",5
+2023-12,ing027,"Green Chilli",6
+2024-01,ing027,"Green Chilli",10
+2024-02,ing027,"Green Chilli",6
+2024-03,ing027,"Green Chilli",8
+2024-04,ing027,"Green Chilli",10
+2024-05,ing027,"Green Chilli",6
+2024-06,ing027,"Green Chilli",6
+2024-07,ing027,"Green Chilli",6
+2024-08,ing027,"Green Chilli",4
+2024-09,ing027,"Green Chilli",6
+2024-10,ing027,"Green Chilli",7
+2024-12,ing027,"Green Chilli",3
+2025-01,ing027,"Green Chilli",3
+2025-02,ing027,"Green Chilli",3
+2025-03,ing027,"Green Chilli",7
+2025-04,ing027,"Green Chilli",5
+2025-05,ing027,"Green Chilli",8
+2025-06,ing027,"Green Chilli",4
+2025-07,ing027,"Green Chilli",8
+2025-08,ing027,"Green Chilli",8
+2025-09,ing027,"Green Chilli",6
+2025-10,ing027,"Green Chilli",3
+2023-02,ing028,"Grilled Pineapple",4
+2023-03,ing028,"Grilled Pineapple",11
+2023-04,ing028,"Grilled Pineapple",9
+2023-05,ing028,"Grilled Pineapple",11
+2023-06,ing028,"Grilled Pineapple",11
+2023-07,ing028,"Grilled Pineapple",15
+2023-08,ing028,"Grilled Pineapple",13
+2023-09,ing028,"Grilled Pineapple",15
+2023-10,ing028,"Grilled Pineapple",12
+2023-11,ing028,"Grilled Pineapple",14
+2023-12,ing028,"Grilled Pineapple",13
+2024-01,ing028,"Grilled Pineapple",12
+2024-02,ing028,"Grilled Pineapple",12
+2024-03,ing028,"Grilled Pineapple",10
+2024-04,ing028,"Grilled Pineapple",10
+2024-05,ing028,"Grilled Pineapple",9
+2024-06,ing028,"Grilled Pineapple",11
+2024-07,ing028,"Grilled Pineapple",14
+2024-08,ing028,"Grilled Pineapple",14
+2024-09,ing028,"Grilled Pineapple",11
+2024-10,ing028,"Grilled Pineapple",9
+2024-11,ing028,"Grilled Pineapple",11
+2024-12,ing028,"Grilled Pineapple",12
+2025-01,ing028,"Grilled Pineapple",13
+2025-02,ing028,"Grilled Pineapple",12
+2025-03,ing028,"Grilled Pineapple",13
+2025-04,ing028,"Grilled Pineapple",11
+2025-05,ing028,"Grilled Pineapple",13
+2025-06,ing028,"Grilled Pineapple",9
+2025-07,ing028,"Grilled Pineapple",12
+2025-08,ing028,"Grilled Pineapple",12
+2025-09,ing028,"Grilled Pineapple",12
+2025-10,ing028,"Grilled Pineapple",11
+2023-02,ing029,"Pulled Pork",9
+2023-03,ing029,"Pulled Pork",20
+2023-04,ing029,"Pulled Pork",18
+2023-05,ing029,"Pulled Pork",20
+2023-06,ing029,"Pulled Pork",23
+2023-07,ing029,"Pulled Pork",25
+2023-08,ing029,"Pulled Pork",21
+2023-09,ing029,"Pulled Pork",23
+2023-10,ing029,"Pulled Pork",22
+2023-11,ing029,"Pulled Pork",24
+2023-12,ing029,"Pulled Pork",23
+2024-01,ing029,"Pulled Pork",23
+2024-02,ing029,"Pulled Pork",25
+2024-03,ing029,"Pulled Pork",19
+2024-04,ing029,"Pulled Pork",23
+2024-05,ing029,"Pulled Pork",20
+2024-06,ing029,"Pulled Pork",22
+2024-07,ing029,"Pulled Pork",25
+2024-08,ing029,"Pulled Pork",24
+2024-09,ing029,"Pulled Pork",18
+2024-10,ing029,"Pulled Pork",19
+2024-11,ing029,"Pulled Pork",21
+2024-12,ing029,"Pulled Pork",23
+2025-01,ing029,"Pulled Pork",25
+2025-02,ing029,"Pulled Pork",21
+2025-03,ing029,"Pulled Pork",26
+2025-04,ing029,"Pulled Pork",22
+2025-05,ing029,"Pulled Pork",22
+2025-06,ing029,"Pulled Pork",21
+2025-07,ing029,"Pulled Pork",26
+2025-08,ing029,"Pulled Pork",23
+2025-09,ing029,"Pulled Pork",22
+2025-10,ing029,"Pulled Pork",20
+2023-02,ing030,"Truffle Fries",1
+2023-03,ing030,"Truffle Fries",7
+2023-04,ing030,"Truffle Fries",6
+2023-05,ing030,"Truffle Fries",5
+2023-06,ing030,"Truffle Fries",7
+2023-07,ing030,"Truffle Fries",10
+2023-08,ing030,"Truffle Fries",6
+2023-09,ing030,"Truffle Fries",9
+2023-10,ing030,"Truffle Fries",6
+2023-11,ing030,"Truffle Fries",10
+2023-12,ing030,"Truffle Fries",8
+2024-01,ing030,"Truffle Fries",9
+2024-02,ing030,"Truffle Fries",6
+2024-03,ing030,"Truffle Fries",7
+2024-04,ing030,"Truffle Fries",7
+2024-05,ing030,"Truffle Fries",9
+2024-06,ing030,"Truffle Fries",9
+2024-07,ing030,"Truffle Fries",4
+2024-08,ing030,"Truffle Fries",8
+2024-09,ing030,"Truffle Fries",8
+2024-10,ing030,"Truffle Fries",4
+2024-11,ing030,"Truffle Fries",4
+2024-12,ing030,"Truffle Fries",13
+2025-01,ing030,"Truffle Fries",8
+2025-02,ing030,"Truffle Fries",8
+2025-03,ing030,"Truffle Fries",6
+2025-04,ing030,"Truffle Fries",10
+2025-05,ing030,"Truffle Fries",6
+2025-06,ing030,"Truffle Fries",6
+2025-07,ing030,"Truffle Fries",9
+2025-08,ing030,"Truffle Fries",7
+2025-09,ing030,"Truffle Fries",12
+2025-10,ing030,"Truffle Fries",4
+2023-08,ing031,Parmesan,1
+2023-09,ing031,Parmesan,2
+2024-01,ing031,Parmesan,1
+2024-04,ing031,Parmesan,3
+2024-08,ing031,Parmesan,3
+2025-01,ing031,Parmesan,2
+2025-06,ing031,Parmesan,2
+2023-02,ing032,"Cauliflower Florets",2
+2023-03,ing032,"Cauliflower Florets",5
+2023-04,ing032,"Cauliflower Florets",6
+2023-05,ing032,"Cauliflower Florets",5
+2023-06,ing032,"Cauliflower Florets",8
+2023-07,ing032,"Cauliflower Florets",3
+2023-08,ing032,"Cauliflower Florets",5
+2023-09,ing032,"Cauliflower Florets",3
+2023-10,ing032,"Cauliflower Florets",7
+2023-11,ing032,"Cauliflower Florets",7
+2023-12,ing032,"Cauliflower Florets",4
+2024-01,ing032,"Cauliflower Florets",6
+2024-02,ing032,"Cauliflower Florets",5
+2024-03,ing032,"Cauliflower Florets",7
+2024-04,ing032,"Cauliflower Florets",4
+2024-05,ing032,"Cauliflower Florets",5
+2024-06,ing032,"Cauliflower Florets",3
+2024-07,ing032,"Cauliflower Florets",4
+2024-08,ing032,"Cauliflower Florets",4
+2024-09,ing032,"Cauliflower Florets",2
+2024-10,ing032,"Cauliflower Florets",4
+2024-11,ing032,"Cauliflower Florets",6
+2024-12,ing032,"Cauliflower Florets",9
+2025-01,ing032,"Cauliflower Florets",4
+2025-02,ing032,"Cauliflower Florets",5
+2025-03,ing032,"Cauliflower Florets",2
+2025-04,ing032,"Cauliflower Florets",2
+2025-05,ing032,"Cauliflower Florets",6
+2025-06,ing032,"Cauliflower Florets",3
+2025-07,ing032,"Cauliflower Florets",4
+2025-08,ing032,"Cauliflower Florets",8
+2025-09,ing032,"Cauliflower Florets",2
+2025-10,ing032,"Cauliflower Florets",4
+2023-05,ing033,"Buffalo Sauce",2
+2023-06,ing033,"Buffalo Sauce",1
+2023-07,ing033,"Buffalo Sauce",1
+2023-08,ing033,"Buffalo Sauce",2
+2023-11,ing033,"Buffalo Sauce",3
+2024-03,ing033,"Buffalo Sauce",3
+2024-06,ing033,"Buffalo Sauce",3
+2024-11,ing033,"Buffalo Sauce",3
+2025-01,ing033,"Buffalo Sauce",1
+2025-02,ing033,"Buffalo Sauce",1
+2025-05,ing033,"Buffalo Sauce",2
+2025-08,ing033,"Buffalo Sauce",3
+2024-04,ing034,Ranch,1
+2024-05,ing034,Ranch,2
+2025-08,ing034,Ranch,3
+2023-03,ing035,"Garlic Knots",6
+2023-04,ing035,"Garlic Knots",3
+2023-05,ing035,"Garlic Knots",4
+2023-06,ing035,"Garlic Knots",6
+2023-07,ing035,"Garlic Knots",3
+2023-08,ing035,"Garlic Knots",5
+2023-09,ing035,"Garlic Knots",2
+2023-10,ing035,"Garlic Knots",4
+2023-11,ing035,"Garlic Knots",3
+2023-12,ing035,"Garlic Knots",4
+2024-01,ing035,"Garlic Knots",5
+2024-02,ing035,"Garlic Knots",3
+2024-03,ing035,"Garlic Knots",2
+2024-04,ing035,"Garlic Knots",3
+2024-05,ing035,"Garlic Knots",6
+2024-06,ing035,"Garlic Knots",2
+2024-07,ing035,"Garlic Knots",3
+2024-08,ing035,"Garlic Knots",6
+2024-09,ing035,"Garlic Knots",2
+2024-10,ing035,"Garlic Knots",3
+2024-11,ing035,"Garlic Knots",5
+2024-12,ing035,"Garlic Knots",5
+2025-01,ing035,"Garlic Knots",6
+2025-02,ing035,"Garlic Knots",2
+2025-03,ing035,"Garlic Knots",5
+2025-04,ing035,"Garlic Knots",6
+2025-05,ing035,"Garlic Knots",3
+2025-06,ing035,"Garlic Knots",4
+2025-07,ing035,"Garlic Knots",5
+2025-08,ing035,"Garlic Knots",6
+2025-09,ing035,"Garlic Knots",3
+2025-10,ing035,"Garlic Knots",3
+2023-05,ing036,Kale,2
+2023-08,ing036,Kale,3
+2023-09,ing036,Kale,1
+2023-10,ing036,Kale,2
+2023-11,ing036,Kale,3
+2024-03,ing036,Kale,2
+2024-04,ing036,Kale,4
+2024-07,ing036,Kale,6
+2025-01,ing036,Kale,4
+2025-03,ing036,Kale,3
+2025-05,ing036,Kale,4
+2025-07,ing036,Kale,4
+2025-08,ing036,Kale,4
+2023-03,ing037,Spinach,5
+2023-04,ing037,Spinach,5
+2023-05,ing037,Spinach,6
+2023-06,ing037,Spinach,7
+2023-07,ing037,Spinach,5
+2023-08,ing037,Spinach,5
+2023-09,ing037,Spinach,5
+2023-10,ing037,Spinach,5
+2023-11,ing037,Spinach,5
+2023-12,ing037,Spinach,6
+2024-01,ing037,Spinach,7
+2024-02,ing037,Spinach,2
+2024-03,ing037,Spinach,6
+2024-04,ing037,Spinach,7
+2024-05,ing037,Spinach,3
+2024-06,ing037,Spinach,2
+2024-07,ing037,Spinach,7
+2024-08,ing037,Spinach,6
+2024-09,ing037,Spinach,4
+2024-10,ing037,Spinach,5
+2024-11,ing037,Spinach,4
+2024-12,ing037,Spinach,2
+2025-01,ing037,Spinach,5
+2025-02,ing037,Spinach,6
+2025-03,ing037,Spinach,5
+2025-04,ing037,Spinach,3
+2025-05,ing037,Spinach,4
+2025-06,ing037,Spinach,6
+2025-07,ing037,Spinach,5
+2025-08,ing037,Spinach,8
+2025-09,ing037,Spinach,4
+2025-10,ing037,Spinach,4
+2024-01,ing038,Avocado,2
+2024-04,ing038,Avocado,3
+2024-12,ing038,Avocado,3
+2025-10,ing038,Avocado,2
+2023-02,ing040,"Caramel Filling",3
+2023-03,ing040,"Caramel Filling",8
+2023-04,ing040,"Caramel Filling",7
+2023-05,ing040,"Caramel Filling",11
+2023-06,ing040,"Caramel Filling",5
+2023-07,ing040,"Caramel Filling",7
+2023-08,ing040,"Caramel Filling",7
+2023-09,ing040,"Caramel Filling",11
+2023-10,ing040,"Caramel Filling",2
+2023-11,ing040,"Caramel Filling",12
+2023-12,ing040,"Caramel Filling",5
+2024-01,ing040,"Caramel Filling",5
+2024-02,ing040,"Caramel Filling",6
+2024-03,ing040,"Caramel Filling",6
+2024-04,ing040,"Caramel Filling",4
+2024-05,ing040,"Caramel Filling",8
+2024-06,ing040,"Caramel Filling",4
+2024-07,ing040,"Caramel Filling",6
+2024-08,ing040,"Caramel Filling",10
+2024-09,ing040,"Caramel Filling",5
+2024-10,ing040,"Caramel Filling",7
+2024-11,ing040,"Caramel Filling",7
+2024-12,ing040,"Caramel Filling",6
+2025-01,ing040,"Caramel Filling",7
+2025-02,ing040,"Caramel Filling",5
+2025-03,ing040,"Caramel Filling",4
+2025-04,ing040,"Caramel Filling",8
+2025-05,ing040,"Caramel Filling",4
+2025-06,ing040,"Caramel Filling",6
+2025-07,ing040,"Caramel Filling",6
+2025-08,ing040,"Caramel Filling",6
+2025-09,ing040,"Caramel Filling",6
+2025-10,ing040,"Caramel Filling",5
+2023-03,ing042,"Espresso Panna Base",10
+2023-04,ing042,"Espresso Panna Base",6
+2023-05,ing042,"Espresso Panna Base",7
+2023-06,ing042,"Espresso Panna Base",6
+2023-07,ing042,"Espresso Panna Base",5
+2023-08,ing042,"Espresso Panna Base",4
+2023-09,ing042,"Espresso Panna Base",9
+2023-10,ing042,"Espresso Panna Base",9
+2023-11,ing042,"Espresso Panna Base",8
+2023-12,ing042,"Espresso Panna Base",4
+2024-01,ing042,"Espresso Panna Base",7
+2024-02,ing042,"Espresso Panna Base",7
+2024-03,ing042,"Espresso Panna Base",2
+2024-04,ing042,"Espresso Panna Base",7
+2024-05,ing042,"Espresso Panna Base",5
+2024-06,ing042,"Espresso Panna Base",6
+2024-07,ing042,"Espresso Panna Base",5
+2024-08,ing042,"Espresso Panna Base",5
+2024-09,ing042,"Espresso Panna Base",9
+2024-10,ing042,"Espresso Panna Base",4
+2024-11,ing042,"Espresso Panna Base",7
+2024-12,ing042,"Espresso Panna Base",7
+2025-01,ing042,"Espresso Panna Base",8
+2025-02,ing042,"Espresso Panna Base",3
+2025-03,ing042,"Espresso Panna Base",6
+2025-04,ing042,"Espresso Panna Base",6
+2025-05,ing042,"Espresso Panna Base",4
+2025-06,ing042,"Espresso Panna Base",4
+2025-07,ing042,"Espresso Panna Base",7
+2025-08,ing042,"Espresso Panna Base",4
+2025-09,ing042,"Espresso Panna Base",7
+2025-10,ing042,"Espresso Panna Base",5
+2023-03,ing044,"Berry Mix",3
+2023-04,ing044,"Berry Mix",1
+2023-05,ing044,"Berry Mix",2
+2023-06,ing044,"Berry Mix",3
+2023-07,ing044,"Berry Mix",2
+2023-09,ing044,"Berry Mix",3
+2023-10,ing044,"Berry Mix",3
+2023-11,ing044,"Berry Mix",1
+2023-12,ing044,"Berry Mix",1
+2024-02,ing044,"Berry Mix",4
+2024-03,ing044,"Berry Mix",4
+2024-04,ing044,"Berry Mix",3
+2024-05,ing044,"Berry Mix",4
+2024-07,ing044,"Berry Mix",4
+2024-08,ing044,"Berry Mix",2
+2024-10,ing044,"Berry Mix",3
+2024-11,ing044,"Berry Mix",3
+2024-12,ing044,"Berry Mix",3
+2025-02,ing044,"Berry Mix",4
+2025-03,ing044,"Berry Mix",2
+2025-04,ing044,"Berry Mix",3
+2025-05,ing044,"Berry Mix",2
+2025-06,ing044,"Berry Mix",1
+2025-07,ing044,"Berry Mix",3
+2025-08,ing044,"Berry Mix",3
+2025-09,ing044,"Berry Mix",2
+2025-10,ing044,"Berry Mix",4
+2023-04,ing045,"Oat Crumble",3
+2023-06,ing045,"Oat Crumble",1
+2023-07,ing045,"Oat Crumble",1
+2023-09,ing045,"Oat Crumble",2
+2023-10,ing045,"Oat Crumble",3
+2023-12,ing045,"Oat Crumble",2
+2024-02,ing045,"Oat Crumble",2
+2024-03,ing045,"Oat Crumble",1
+2024-05,ing045,"Oat Crumble",1
+2024-07,ing045,"Oat Crumble",1
+2024-08,ing045,"Oat Crumble",1
+2024-10,ing045,"Oat Crumble",3
+2024-12,ing045,"Oat Crumble",2
+2025-01,ing045,"Oat Crumble",2
+2025-02,ing045,"Oat Crumble",1
+2025-03,ing045,"Oat Crumble",2
+2025-05,ing045,"Oat Crumble",2
+2025-07,ing045,"Oat Crumble",2
+2025-08,ing045,"Oat Crumble",2
+2025-10,ing045,"Oat Crumble",3
+2023-02,ing046,"Mango Sticky Rice Mix",2
+2023-03,ing046,"Mango Sticky Rice Mix",4
+2023-04,ing046,"Mango Sticky Rice Mix",6
+2023-05,ing046,"Mango Sticky Rice Mix",9
+2023-06,ing046,"Mango Sticky Rice Mix",4
+2023-07,ing046,"Mango Sticky Rice Mix",5
+2023-08,ing046,"Mango Sticky Rice Mix",2
+2023-09,ing046,"Mango Sticky Rice Mix",7
+2023-10,ing046,"Mango Sticky Rice Mix",8
+2023-11,ing046,"Mango Sticky Rice Mix",3
+2023-12,ing046,"Mango Sticky Rice Mix",5
+2024-01,ing046,"Mango Sticky Rice Mix",7
+2024-02,ing046,"Mango Sticky Rice Mix",8
+2024-03,ing046,"Mango Sticky Rice Mix",3
+2024-04,ing046,"Mango Sticky Rice Mix",5
+2024-05,ing046,"Mango Sticky Rice Mix",9
+2024-06,ing046,"Mango Sticky Rice Mix",3
+2024-07,ing046,"Mango Sticky Rice Mix",6
+2024-08,ing046,"Mango Sticky Rice Mix",5
+2024-09,ing046,"Mango Sticky Rice Mix",6
+2024-10,ing046,"Mango Sticky Rice Mix",4
+2024-11,ing046,"Mango Sticky Rice Mix",7
+2024-12,ing046,"Mango Sticky Rice Mix",7
+2025-01,ing046,"Mango Sticky Rice Mix",3
+2025-02,ing046,"Mango Sticky Rice Mix",3
+2025-03,ing046,"Mango Sticky Rice Mix",7
+2025-04,ing046,"Mango Sticky Rice Mix",3
+2025-05,ing046,"Mango Sticky Rice Mix",3
+2025-06,ing046,"Mango Sticky Rice Mix",3
+2025-07,ing046,"Mango Sticky Rice Mix",8
+2025-08,ing046,"Mango Sticky Rice Mix",6
+2025-09,ing046,"Mango Sticky Rice Mix",5
+2025-10,ing046,"Mango Sticky Rice Mix",4
+2023-02,ing047,"Cold Brew Coffee",4
+2023-03,ing047,"Cold Brew Coffee",16
+2023-04,ing047,"Cold Brew Coffee",13
+2023-05,ing047,"Cold Brew Coffee",8
+2023-06,ing047,"Cold Brew Coffee",8
+2023-07,ing047,"Cold Brew Coffee",12
+2023-08,ing047,"Cold Brew Coffee",14
+2023-09,ing047,"Cold Brew Coffee",10
+2023-10,ing047,"Cold Brew Coffee",13
+2023-11,ing047,"Cold Brew Coffee",10
+2023-12,ing047,"Cold Brew Coffee",12
+2024-01,ing047,"Cold Brew Coffee",10
+2024-02,ing047,"Cold Brew Coffee",13
+2024-03,ing047,"Cold Brew Coffee",13
+2024-04,ing047,"Cold Brew Coffee",15
+2024-05,ing047,"Cold Brew Coffee",15
+2024-06,ing047,"Cold Brew Coffee",9
+2024-07,ing047,"Cold Brew Coffee",15
+2024-08,ing047,"Cold Brew Coffee",8
+2024-09,ing047,"Cold Brew Coffee",12
+2024-10,ing047,"Cold Brew Coffee",12
+2024-11,ing047,"Cold Brew Coffee",11
+2024-12,ing047,"Cold Brew Coffee",10
+2025-01,ing047,"Cold Brew Coffee",14
+2025-02,ing047,"Cold Brew Coffee",12
+2025-03,ing047,"Cold Brew Coffee",13
+2025-04,ing047,"Cold Brew Coffee",9
+2025-05,ing047,"Cold Brew Coffee",13
+2025-06,ing047,"Cold Brew Coffee",8
+2025-07,ing047,"Cold Brew Coffee",12
+2025-08,ing047,"Cold Brew Coffee",13
+2025-09,ing047,"Cold Brew Coffee",13
+2025-10,ing047,"Cold Brew Coffee",10
+2023-02,ing048,"Cold Brew Coffee 1.5L",4
+2023-03,ing048,"Cold Brew Coffee 1.5L",13
+2023-04,ing048,"Cold Brew Coffee 1.5L",10
+2023-05,ing048,"Cold Brew Coffee 1.5L",13
+2023-06,ing048,"Cold Brew Coffee 1.5L",18
+2023-07,ing048,"Cold Brew Coffee 1.5L",20
+2023-08,ing048,"Cold Brew Coffee 1.5L",11
+2023-09,ing048,"Cold Brew Coffee 1.5L",19
+2023-10,ing048,"Cold Brew Coffee 1.5L",14
+2023-11,ing048,"Cold Brew Coffee 1.5L",13
+2023-12,ing048,"Cold Brew Coffee 1.5L",15
+2024-01,ing048,"Cold Brew Coffee 1.5L",17
+2024-02,ing048,"Cold Brew Coffee 1.5L",11
+2024-03,ing048,"Cold Brew Coffee 1.5L",15
+2024-04,ing048,"Cold Brew Coffee 1.5L",13
+2024-05,ing048,"Cold Brew Coffee 1.5L",10
+2024-06,ing048,"Cold Brew Coffee 1.5L",8
+2024-07,ing048,"Cold Brew Coffee 1.5L",12
+2024-08,ing048,"Cold Brew Coffee 1.5L",14
+2024-09,ing048,"Cold Brew Coffee 1.5L",12
+2024-10,ing048,"Cold Brew Coffee 1.5L",18
+2024-11,ing048,"Cold Brew Coffee 1.5L",12
+2024-12,ing048,"Cold Brew Coffee 1.5L",13
+2025-01,ing048,"Cold Brew Coffee 1.5L",17
+2025-02,ing048,"Cold Brew Coffee 1.5L",10
+2025-03,ing048,"Cold Brew Coffee 1.5L",15
+2025-04,ing048,"Cold Brew Coffee 1.5L",14
+2025-05,ing048,"Cold Brew Coffee 1.5L",15
+2025-06,ing048,"Cold Brew Coffee 1.5L",14
+2025-07,ing048,"Cold Brew Coffee 1.5L",15
+2025-08,ing048,"Cold Brew Coffee 1.5L",15
+2025-09,ing048,"Cold Brew Coffee 1.5L",10
+2025-10,ing048,"Cold Brew Coffee 1.5L",11
+2023-02,ing049,"Ginger Fizz 33cl",2
+2023-03,ing049,"Ginger Fizz 33cl",10
+2023-04,ing049,"Ginger Fizz 33cl",11
+2023-05,ing049,"Ginger Fizz 33cl",8
+2023-06,ing049,"Ginger Fizz 33cl",10
+2023-07,ing049,"Ginger Fizz 33cl",8
+2023-08,ing049,"Ginger Fizz 33cl",15
+2023-09,ing049,"Ginger Fizz 33cl",11
+2023-10,ing049,"Ginger Fizz 33cl",11
+2023-11,ing049,"Ginger Fizz 33cl",10
+2023-12,ing049,"Ginger Fizz 33cl",8
+2024-01,ing049,"Ginger Fizz 33cl",10
+2024-02,ing049,"Ginger Fizz 33cl",11
+2024-03,ing049,"Ginger Fizz 33cl",8
+2024-04,ing049,"Ginger Fizz 33cl",11
+2024-05,ing049,"Ginger Fizz 33cl",9
+2024-06,ing049,"Ginger Fizz 33cl",11
+2024-07,ing049,"Ginger Fizz 33cl",7
+2024-08,ing049,"Ginger Fizz 33cl",12
+2024-09,ing049,"Ginger Fizz 33cl",10
+2024-10,ing049,"Ginger Fizz 33cl",8
+2024-11,ing049,"Ginger Fizz 33cl",8
+2024-12,ing049,"Ginger Fizz 33cl",9
+2025-01,ing049,"Ginger Fizz 33cl",11
+2025-02,ing049,"Ginger Fizz 33cl",9
+2025-03,ing049,"Ginger Fizz 33cl",10
+2025-04,ing049,"Ginger Fizz 33cl",10
+2025-05,ing049,"Ginger Fizz 33cl",7
+2025-06,ing049,"Ginger Fizz 33cl",12
+2025-07,ing049,"Ginger Fizz 33cl",8
+2025-08,ing049,"Ginger Fizz 33cl",6
+2025-09,ing049,"Ginger Fizz 33cl",14
+2025-10,ing049,"Ginger Fizz 33cl",8
+2023-02,ing050,"Ginger Fizz 1.5L",7
+2023-03,ing050,"Ginger Fizz 1.5L",13
+2023-04,ing050,"Ginger Fizz 1.5L",16
+2023-05,ing050,"Ginger Fizz 1.5L",16
+2023-06,ing050,"Ginger Fizz 1.5L",14
+2023-07,ing050,"Ginger Fizz 1.5L",17
+2023-08,ing050,"Ginger Fizz 1.5L",20
+2023-09,ing050,"Ginger Fizz 1.5L",14
+2023-10,ing050,"Ginger Fizz 1.5L",22
+2023-11,ing050,"Ginger Fizz 1.5L",16
+2023-12,ing050,"Ginger Fizz 1.5L",19
+2024-01,ing050,"Ginger Fizz 1.5L",8
+2024-02,ing050,"Ginger Fizz 1.5L",15
+2024-03,ing050,"Ginger Fizz 1.5L",14
+2024-04,ing050,"Ginger Fizz 1.5L",16
+2024-05,ing050,"Ginger Fizz 1.5L",19
+2024-06,ing050,"Ginger Fizz 1.5L",16
+2024-07,ing050,"Ginger Fizz 1.5L",17
+2024-08,ing050,"Ginger Fizz 1.5L",14
+2024-09,ing050,"Ginger Fizz 1.5L",12
+2024-10,ing050,"Ginger Fizz 1.5L",15
+2024-11,ing050,"Ginger Fizz 1.5L",14
+2024-12,ing050,"Ginger Fizz 1.5L",17
+2025-01,ing050,"Ginger Fizz 1.5L",19
+2025-02,ing050,"Ginger Fizz 1.5L",10
+2025-03,ing050,"Ginger Fizz 1.5L",15
+2025-04,ing050,"Ginger Fizz 1.5L",17
+2025-05,ing050,"Ginger Fizz 1.5L",10
+2025-06,ing050,"Ginger Fizz 1.5L",12
+2025-07,ing050,"Ginger Fizz 1.5L",13
+2025-08,ing050,"Ginger Fizz 1.5L",20
+2025-09,ing050,"Ginger Fizz 1.5L",11
+2025-10,ing050,"Ginger Fizz 1.5L",13
+2023-02,ing051,"Lime Mint Sparkle 33cl",4
+2023-03,ing051,"Lime Mint Sparkle 33cl",6
+2023-04,ing051,"Lime Mint Sparkle 33cl",7
+2023-05,ing051,"Lime Mint Sparkle 33cl",9
+2023-06,ing051,"Lime Mint Sparkle 33cl",5
+2023-07,ing051,"Lime Mint Sparkle 33cl",6
+2023-08,ing051,"Lime Mint Sparkle 33cl",8
+2023-09,ing051,"Lime Mint Sparkle 33cl",4
+2023-10,ing051,"Lime Mint Sparkle 33cl",8
+2023-11,ing051,"Lime Mint Sparkle 33cl",8
+2023-12,ing051,"Lime Mint Sparkle 33cl",7
+2024-01,ing051,"Lime Mint Sparkle 33cl",9
+2024-02,ing051,"Lime Mint Sparkle 33cl",6
+2024-03,ing051,"Lime Mint Sparkle 33cl",7
+2024-04,ing051,"Lime Mint Sparkle 33cl",6
+2024-05,ing051,"Lime Mint Sparkle 33cl",10
+2024-06,ing051,"Lime Mint Sparkle 33cl",8
+2024-07,ing051,"Lime Mint Sparkle 33cl",6
+2024-08,ing051,"Lime Mint Sparkle 33cl",8
+2024-09,ing051,"Lime Mint Sparkle 33cl",6
+2024-10,ing051,"Lime Mint Sparkle 33cl",6
+2024-11,ing051,"Lime Mint Sparkle 33cl",10
+2024-12,ing051,"Lime Mint Sparkle 33cl",7
+2025-01,ing051,"Lime Mint Sparkle 33cl",9
+2025-02,ing051,"Lime Mint Sparkle 33cl",4
+2025-03,ing051,"Lime Mint Sparkle 33cl",9
+2025-04,ing051,"Lime Mint Sparkle 33cl",7
+2025-05,ing051,"Lime Mint Sparkle 33cl",7
+2025-06,ing051,"Lime Mint Sparkle 33cl",8
+2025-07,ing051,"Lime Mint Sparkle 33cl",5
+2025-08,ing051,"Lime Mint Sparkle 33cl",7
+2025-09,ing051,"Lime Mint Sparkle 33cl",7
+2025-10,ing051,"Lime Mint Sparkle 33cl",5
+2023-02,ing052,"Lime Mint Sparkle 1.5L",9
+2023-03,ing052,"Lime Mint Sparkle 1.5L",12
+2023-04,ing052,"Lime Mint Sparkle 1.5L",13
+2023-05,ing052,"Lime Mint Sparkle 1.5L",14
+2023-06,ing052,"Lime Mint Sparkle 1.5L",13
+2023-07,ing052,"Lime Mint Sparkle 1.5L",19
+2023-08,ing052,"Lime Mint Sparkle 1.5L",8
+2023-09,ing052,"Lime Mint Sparkle 1.5L",12
+2023-10,ing052,"Lime Mint Sparkle 1.5L",16
+2023-11,ing052,"Lime Mint Sparkle 1.5L",11
+2023-12,ing052,"Lime Mint Sparkle 1.5L",14
+2024-01,ing052,"Lime Mint Sparkle 1.5L",10
+2024-02,ing052,"Lime Mint Sparkle 1.5L",12
+2024-03,ing052,"Lime Mint Sparkle 1.5L",16
+2024-04,ing052,"Lime Mint Sparkle 1.5L",16
+2024-05,ing052,"Lime Mint Sparkle 1.5L",14
+2024-06,ing052,"Lime Mint Sparkle 1.5L",12
+2024-07,ing052,"Lime Mint Sparkle 1.5L",15
+2024-08,ing052,"Lime Mint Sparkle 1.5L",15
+2024-09,ing052,"Lime Mint Sparkle 1.5L",16
+2024-10,ing052,"Lime Mint Sparkle 1.5L",10
+2024-11,ing052,"Lime Mint Sparkle 1.5L",15
+2024-12,ing052,"Lime Mint Sparkle 1.5L",13
+2025-01,ing052,"Lime Mint Sparkle 1.5L",16
+2025-02,ing052,"Lime Mint Sparkle 1.5L",17
+2025-03,ing052,"Lime Mint Sparkle 1.5L",15
+2025-04,ing052,"Lime Mint Sparkle 1.5L",17
+2025-05,ing052,"Lime Mint Sparkle 1.5L",16
+2025-06,ing052,"Lime Mint Sparkle 1.5L",11
+2025-07,ing052,"Lime Mint Sparkle 1.5L",13
+2025-08,ing052,"Lime Mint Sparkle 1.5L",14
+2025-09,ing052,"Lime Mint Sparkle 1.5L",11
+2025-10,ing052,"Lime Mint Sparkle 1.5L",11
+2023-02,ing053,"Berry Kombucha 33cl",3
+2023-03,ing053,"Berry Kombucha 33cl",11
+2023-04,ing053,"Berry Kombucha 33cl",9
+2023-05,ing053,"Berry Kombucha 33cl",14
+2023-06,ing053,"Berry Kombucha 33cl",8
+2023-07,ing053,"Berry Kombucha 33cl",7
+2023-08,ing053,"Berry Kombucha 33cl",9
+2023-09,ing053,"Berry Kombucha 33cl",9
+2023-10,ing053,"Berry Kombucha 33cl",12
+2023-11,ing053,"Berry Kombucha 33cl",13
+2023-12,ing053,"Berry Kombucha 33cl",12
+2024-01,ing053,"Berry Kombucha 33cl",8
+2024-02,ing053,"Berry Kombucha 33cl",10
+2024-03,ing053,"Berry Kombucha 33cl",7
+2024-04,ing053,"Berry Kombucha 33cl",11
+2024-05,ing053,"Berry Kombucha 33cl",11
+2024-06,ing053,"Berry Kombucha 33cl",15
+2024-07,ing053,"Berry Kombucha 33cl",9
+2024-08,ing053,"Berry Kombucha 33cl",9
+2024-09,ing053,"Berry Kombucha 33cl",11
+2024-10,ing053,"Berry Kombucha 33cl",15
+2024-11,ing053,"Berry Kombucha 33cl",10
+2024-12,ing053,"Berry Kombucha 33cl",12
+2025-01,ing053,"Berry Kombucha 33cl",12
+2025-02,ing053,"Berry Kombucha 33cl",10
+2025-03,ing053,"Berry Kombucha 33cl",11
+2025-04,ing053,"Berry Kombucha 33cl",11
+2025-05,ing053,"Berry Kombucha 33cl",11
+2025-06,ing053,"Berry Kombucha 33cl",11
+2025-07,ing053,"Berry Kombucha 33cl",10
+2025-08,ing053,"Berry Kombucha 33cl",10
+2025-09,ing053,"Berry Kombucha 33cl",10
+2025-10,ing053,"Berry Kombucha 33cl",10
+2023-02,ing054,"Berry Kombucha 1.5L",5
+2023-03,ing054,"Berry Kombucha 1.5L",17
+2023-04,ing054,"Berry Kombucha 1.5L",19
+2023-05,ing054,"Berry Kombucha 1.5L",16
+2023-06,ing054,"Berry Kombucha 1.5L",8
+2023-07,ing054,"Berry Kombucha 1.5L",11
+2023-08,ing054,"Berry Kombucha 1.5L",14
+2023-09,ing054,"Berry Kombucha 1.5L",17
+2023-10,ing054,"Berry Kombucha 1.5L",16
+2023-11,ing054,"Berry Kombucha 1.5L",13
+2023-12,ing054,"Berry Kombucha 1.5L",15
+2024-01,ing054,"Berry Kombucha 1.5L",16
+2024-02,ing054,"Berry Kombucha 1.5L",12
+2024-03,ing054,"Berry Kombucha 1.5L",12
+2024-04,ing054,"Berry Kombucha 1.5L",14
+2024-05,ing054,"Berry Kombucha 1.5L",12
+2024-06,ing054,"Berry Kombucha 1.5L",17
+2024-07,ing054,"Berry Kombucha 1.5L",17
+2024-08,ing054,"Berry Kombucha 1.5L",14
+2024-09,ing054,"Berry Kombucha 1.5L",15
+2024-10,ing054,"Berry Kombucha 1.5L",14
+2024-11,ing054,"Berry Kombucha 1.5L",18
+2024-12,ing054,"Berry Kombucha 1.5L",14
+2025-01,ing054,"Berry Kombucha 1.5L",17
+2025-02,ing054,"Berry Kombucha 1.5L",11
+2025-03,ing054,"Berry Kombucha 1.5L",22
+2025-04,ing054,"Berry Kombucha 1.5L",14
+2025-05,ing054,"Berry Kombucha 1.5L",17
+2025-06,ing054,"Berry Kombucha 1.5L",13
+2025-07,ing054,"Berry Kombucha 1.5L",13
+2025-08,ing054,"Berry Kombucha 1.5L",14
+2025-09,ing054,"Berry Kombucha 1.5L",21
+2025-10,ing054,"Berry Kombucha 1.5L",14

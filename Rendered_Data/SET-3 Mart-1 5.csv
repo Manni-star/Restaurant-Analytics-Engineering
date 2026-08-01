@@ -1,0 +1,70 @@
+year_month,ing_id,ing_name,times_ran_out_of_stock,total_days_spent_out_of_stock
+2023-02,ing018,"Smoked Salmon",2,8
+2023-03,ing001,"Flatbread Dough (8-pack)",5,8
+2023-03,ing018,"Smoked Salmon",2,29
+2023-04,ing001,"Flatbread Dough (8-pack)",4,8
+2023-04,ing018,"Smoked Salmon",2,25
+2023-05,ing018,"Smoked Salmon",4,26
+2023-05,ing001,"Flatbread Dough (8-pack)",3,4
+2023-06,ing018,"Smoked Salmon",3,26
+2023-06,ing001,"Flatbread Dough (8-pack)",3,3
+2023-07,ing001,"Flatbread Dough (8-pack)",5,6
+2023-07,ing029,"Pulled Pork",2,2
+2023-07,ing018,"Smoked Salmon",2,27
+2023-08,ing001,"Flatbread Dough (8-pack)",3,4
+2023-08,ing018,"Smoked Salmon",2,20
+2023-08,ing029,"Pulled Pork",1,1
+2023-09,ing001,"Flatbread Dough (8-pack)",2,5
+2023-09,ing018,"Smoked Salmon",2,26
+2023-09,ing048,"Cold Brew Coffee 1.5L",1,1
+2023-10,ing018,"Smoked Salmon",4,19
+2023-11,ing018,"Smoked Salmon",3,23
+2023-12,ing001,"Flatbread Dough (8-pack)",6,7
+2023-12,ing018,"Smoked Salmon",4,25
+2024-01,ing018,"Smoked Salmon",5,23
+2024-01,ing001,"Flatbread Dough (8-pack)",3,7
+2024-02,ing018,"Smoked Salmon",3,19
+2024-02,ing001,"Flatbread Dough (8-pack)",3,5
+2024-03,ing001,"Flatbread Dough (8-pack)",5,12
+2024-03,ing018,"Smoked Salmon",3,23
+2024-04,ing001,"Flatbread Dough (8-pack)",3,6
+2024-04,ing018,"Smoked Salmon",1,28
+2024-04,ing010,"Wild Mushrooms",1,2
+2024-05,ing001,"Flatbread Dough (8-pack)",5,8
+2024-05,ing018,"Smoked Salmon",4,22
+2024-06,ing018,"Smoked Salmon",2,26
+2024-06,ing001,"Flatbread Dough (8-pack)",2,2
+2024-07,ing001,"Flatbread Dough (8-pack)",4,6
+2024-07,ing018,"Smoked Salmon",2,26
+2024-08,ing001,"Flatbread Dough (8-pack)",5,6
+2024-08,ing018,"Smoked Salmon",4,24
+2024-08,ing010,"Wild Mushrooms",1,1
+2024-09,ing018,"Smoked Salmon",3,26
+2024-09,ing001,"Flatbread Dough (8-pack)",2,2
+2024-10,ing001,"Flatbread Dough (8-pack)",4,6
+2024-10,ing018,"Smoked Salmon",2,28
+2024-11,ing018,"Smoked Salmon",5,17
+2024-11,ing001,"Flatbread Dough (8-pack)",3,3
+2024-12,ing001,"Flatbread Dough (8-pack)",6,7
+2024-12,ing018,"Smoked Salmon",5,24
+2024-12,ing048,"Cold Brew Coffee 1.5L",1,1
+2025-01,ing001,"Flatbread Dough (8-pack)",4,6
+2025-01,ing018,"Smoked Salmon",4,21
+2025-02,ing001,"Flatbread Dough (8-pack)",2,5
+2025-02,ing018,"Smoked Salmon",2,22
+2025-03,ing018,"Smoked Salmon",4,28
+2025-03,ing001,"Flatbread Dough (8-pack)",3,3
+2025-04,ing001,"Flatbread Dough (8-pack)",5,11
+2025-04,ing018,"Smoked Salmon",5,22
+2025-05,ing018,"Smoked Salmon",3,26
+2025-05,ing001,"Flatbread Dough (8-pack)",1,1
+2025-06,ing018,"Smoked Salmon",5,23
+2025-06,ing001,"Flatbread Dough (8-pack)",1,2
+2025-07,ing018,"Smoked Salmon",4,23
+2025-07,ing001,"Flatbread Dough (8-pack)",1,1
+2025-08,ing001,"Flatbread Dough (8-pack)",2,2
+2025-08,ing018,"Smoked Salmon",1,28
+2025-09,ing018,"Smoked Salmon",3,16
+2025-10,ing018,"Smoked Salmon",4,21
+2025-10,ing001,"Flatbread Dough (8-pack)",1,1
+2025-10,ing054,"Berry Kombucha 1.5L",1,1
