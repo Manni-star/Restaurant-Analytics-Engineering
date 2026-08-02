@@ -45,6 +45,7 @@ GROUP BY
 -- 6. TOP SELLING ITEMS
 SELECT 
 	it.item_id,
+    it.item_name,
     ROUND(SUM(o.quantity * it.item_price)) AS total_sales_kpi
 FROM orders o
 INNER JOIN items it
