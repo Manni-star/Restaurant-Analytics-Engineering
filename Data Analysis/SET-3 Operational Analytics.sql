@@ -42,8 +42,8 @@ SELECT
     invd.consumed_packages,
     consumed_packages - LAG(consumed_packages, 1, 0) OVER (
 		PARTITION BY ing_id ORDER BY snapshot_date ASC) AS depletion_velocity
-FROM inventory_daily_snapshot invd
-LIMIT 10;
+FROM inventory_daily_snapshot invd;
+-- LIMIT 10;
 
 
 
