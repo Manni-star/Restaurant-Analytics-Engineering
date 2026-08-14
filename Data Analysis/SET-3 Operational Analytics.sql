@@ -1808,7 +1808,19 @@ GROUP BY
 -- Value-Accumulation Cohort Matrix:
 -- ( It tracks the volume footprint over time )
 
-WITH first_purchase_cohort AS ( 
+WITH RECURSIVE calendar_spine AS (
+    -- Step 1: The Anchor - Establish the hardcoded start date of your dataset
+    SELECT STR_TO_DATE('2023-02-01', '%Y-%m-%d') AS cohort_month
+    
+    UNION ALL
+    
+    -- Step 2: The Loop - Increment month-by-month until the termination boundary
+    SELECT DATE_ADD(cohort_month, INTERVAL 1 MONTH)
+    FROM calendar_spine
+    WHERE cohort_month < STR_TO_DATE('2025-10-01', '%Y-%m-%d')
+),
+
+first_purchase_cohort AS ( 
 SELECT
 	cust_id,
     MIN(DATE(created_at)) AS first_purchase, -- logs First Purchase
@@ -1829,10 +1841,12 @@ relative_time_distance AS(
 	FROM first_purchase_cohort fpc
     JOIN orders o
 		ON o.cust_id = fpc.cust_id
-) 			-- (cust_id, first_purchase, acquisition_cohort, months_since_signup)
+),			-- (cust_id, first_purchase, acquisition_cohort, months_since_signup)
 
+cohort_metrics AS (
 SELECT
 	acquisition_cohort,
+    
     -- KPI 1: Headcount (Counts unique users generated per month)
 	COUNT(DISTINCT cust_id) AS customer_acquisition,
     
@@ -1870,17 +1884,33 @@ SELECT
     ROUND(
 		SUM(CASE WHEN months_since_signup BETWEEN 0 AND 12 THEN quantity ELSE 0 END)
         / NULLIF(COUNT(DISTINCT cust_id), 0)   -- Volume / Headcount
-	, 1) AS avg_month_12, -- avg_cohort_items_per_customer_month_12
+	, 1) AS cumulative_avg_m12, -- avg_cohort_items_per_customer_month_12
     
         -- Range Segment 3:
     ROUND(
 		SUM(CASE WHEN months_since_signup BETWEEN 0 AND 24 THEN quantity ELSE 0 END)
         / NULLIF(COUNT(DISTINCT cust_id), 0)   -- Volume / Headcount
-	, 1) AS avg_month_24  -- avg_cohort_items_per_customer_month_24
+	, 1) AS cumulative_avg_m24  -- avg_cohort_items_per_customer_month_24
 
 FROM relative_time_distance rtd
 GROUP BY
-	acquisition_cohort;
+	acquisition_cohort
+)
+
+SELECT
+	DATE_FORMAT(cs.cohort_month, '%b-%y') AS acquisition_cohort,
+    COALESCE(customer_acquisition, 0) AS customer_acquisition,
+    COALESCE(ltv_month_0, 0) AS ltv_m0,
+    COALESCE(cumulative_ltv_month_12, 0) AS cumulative_ltv_m12,
+    COALESCE(cumulative_ltv_month_24, 0) AS cumulative_ltv_m24,
+    avg_month_0 AS avg_m0, -- Do not coalesce percentages
+    cumulative_avg_m12, -- Do not coalesce percentages
+    cumulative_avg_m24 --  NULLs can be formatted as clean blanks/dashes in Streamlit.
+
+FROM calendar_spine cs
+LEFT JOIN cohort_metrics cm
+	ON DATE_FORMAT(cs.cohort_month, '%Y-%m') = cm.acquisition_cohort
+ORDER BY cs.cohort_month ASC;
 
 
 
