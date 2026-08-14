@@ -740,7 +740,7 @@ def render_tab_4(load_portfolio_data):
  
     # Centered alignment wrapper using standard HTML inline styles
     st.markdown(
-        "<h3 style='text-align: center;'>👥 Zone 4: Structural User Retention Heatmaps & Profit Elasticity Curves</h3>", 
+        "<h3 style='text-align: center;'>👥 Zone 4: User Retention and Customer Lifetime Value Heatmaps</h3>", 
         unsafe_allow_html=True
     )
     
