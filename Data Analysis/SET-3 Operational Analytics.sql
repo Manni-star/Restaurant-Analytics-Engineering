@@ -462,7 +462,7 @@ SELECT
 	YEAR(snapshot_date) AS max_year,
     ing_id,
     SUM(consumed_packages) AS total_consumed_packages,
-    ROUND(SUM(consumed_packages) / 365, 2) AS burn_rate
+    SUM(consumed_packages) / 365 AS burn_rate
 FROM inventory_daily_snapshot
 WHERE YEAR(snapshot_date) = 
 		(SELECT max_year FROM target_year_cte)
@@ -477,9 +477,7 @@ SELECT
 	b1.max_year,
 	invd.*,
     burn_rate,
-    ROUND(
-		closing_stock / NULLIF(burn_rate, 0)
-	) AS days_without_replishment
+	closing_stock / NULLIF(burn_rate, 0) AS days_without_replishment
 FROM base b1
 JOIN inventory_daily_snapshot invd
 	ON b1.ing_id = invd.ing_id
