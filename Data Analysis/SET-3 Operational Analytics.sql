@@ -1244,30 +1244,34 @@ SELECT MAX(YEAR(`date`)) FROM `v_daily_payroll`; -- Latest Year is "2025"
 
 -- We'll introduce Weighting Vector to simulate an Activity-Based Costing (ABC) Model !
 
--- (PARETO QUERY)
+-- Daily Wages
 WITH daily_payroll AS (  
 SELECT
-	`date` AS _date, -- Daily payroll and not Monthly for Pareto Analysis cumulation operation after Join
+	`date` AS _date,
     SUM(wages) AS daily_wages
 FROM `v_daily_payroll`
-WHERE YEAR(`date`) >= 2025   -- Pareto Analysis for Latest Year only
+WHERE YEAR(`date`) >= 2025   -- Latest Year only
 GROUP BY 
 	`date`
 ORDER BY _date
 ),
 
 -- REVENUE AND COST PRICE (daily)
-base AS (      -- ingredients Grain removed
+base AS (
 SELECT
-	DATE(o.created_at) AS _date,
-    o.order_id,
-	it.item_id,
-
-	MAX(o.quantity * it.item_price * 1.70) AS revenue_item, -- MULTIPLYING item_price BY 1.70 Factor to achieve NPM = 15% as MAX NPM. 
-    
-	ROUND(
-		SUM((ing.ing_price / ing.ing_weight) * r.quantity_value * o.quantity)
-	, 2) AS cost_price_ingredient
+    DATE(o.created_at) AS _date,
+	o.order_id,
+    o.item_id,
+    o.quantity,
+	it.item_price,
+	ing.ing_id,
+	ing.ing_name,
+	ing.ing_meas,
+	r.quantity_value,
+	r.quantity_unit,
+	ing.ing_price,
+    ing.ing_weight,
+    quantity * quantity_value * (ing_price / ing_weight) AS cost_price_ingredient
 FROM orders o
 JOIN items it
 	ON o.item_id = it.item_id
@@ -1276,64 +1280,67 @@ JOIN recipe r
 JOIN ingredients ing
 	ON r.ingredients = ing.ing_id
 WHERE YEAR(o.created_at) >= 2025 -- Pareto Analysis for Latest Year only
--- 	AND order_id = "ORD_15347"
-GROUP BY 
-	DATE(o.created_at),
-	o.order_id,
-    it.item_id
-ORDER BY _date
 ),
 
--- JOIN monthly_payroll to base:
-revenue_wages_base AS (
-SELECT
-	b.*,
-    dp.daily_wages
-FROM base b
-JOIN daily_payroll dp
-	ON b.`_date` = dp.`_date`
-ORDER BY _date
-),
-
--- NET PROFIT = (Revenue - Ingredient Cost - Wages)
--- NET PROFIT MARGIN CALCULATION:
-activity_based_costing AS (
+-- Revenue and Cogs
+base_2 AS(
 SELECT
 	_date,
-    item_id, -- Pareto Analysis at Item Level
+    order_id,
+	item_id,
+    MAX(quantity) AS ord_quantity,
+    MAX(quantity * item_price * 1.70) AS revenue, -- MULTIPLYING item_price BY 1.70 Factor to achieve NPM = 15% as MAX NPM.
+	SUM(cost_price_ingredient) AS cogs
+FROM base
+-- WHERE order_id = "ORD_00001"
+GROUP BY
+	_date,
+    order_id,
+    item_id
+),
+
+-- Activity Based Costing
+base_3 AS (
+SELECT
+	b2.*,
+    dp.daily_wages AS wages,
+    SUM(ord_quantity) OVER (PARTITION BY _date, order_id, item_id) /
+		SUM(ord_quantity) OVER (PARTITION BY _date) AS weighting_vector,
+	
     
-	ROUND(
-		SUM(revenue_item) 
-	, 2) AS total_revenue_daily, -- 1. Daily Revenue by item
-    
-	ROUND(
-		SUM(revenue_item) / SUM(SUM(revenue_item)) OVER ( PARTITION BY _date) 
-	, 2) AS weighting_vector, -- ABC Approach
-    
-    ROUND(SUM(cost_price_ingredient)) AS total_cost_price_daily, -- 2. Daily Cost by item
-    
-    ROUND(MAX(daily_wages)) AS total_daily_wages, -- 3. Wages
-    
-	ROUND(
-		SUM(revenue_item) / SUM(SUM(revenue_item)) OVER ( PARTITION BY _date) 
-	, 2) * 
-		ROUND(MAX(daily_wages)) AS activity_based_costing   -- weighting_vector * total_daily_wages = ABC
-    
-FROM revenue_wages_base
+    (SUM(ord_quantity) OVER (PARTITION BY _date, order_id, item_id) /
+		SUM(ord_quantity) OVER (PARTITION BY _date)
+	) * dp.daily_wages AS activity_based_costing
+        
+FROM daily_payroll dp
+JOIN base_2 b2
+	ON dp.`_date` = b2.`_date`
+),
+
+base_4 AS (
+SELECT
+	b3.*,
+    ROUND((revenue - cogs - activity_based_costing), 2) AS net_profit_init
+FROM base_3 b3
+),
+
+-- Net Profit
+base_5 AS (
+SELECT
+	_date,
+    item_id,
+    SUM(ord_quantity) AS ord_quantity,
+    SUM(weighting_vector) AS weighting_vector,
+    SUM(revenue) AS revenue,
+    SUM(cogs) AS cogs,
+    MAX(wages) AS wages,
+    SUM(net_profit_init) AS net_profit
+FROM base_4
 GROUP BY
 	_date,
     item_id
-ORDER BY _date
 ),
 
-net_profit AS (
-SELECT
-	abc._date,
-    item_id,
-    total_revenue_daily - total_cost_price_daily - activity_based_costing AS net_profit
-    
-FROM activity_based_costing abc
-),
 
 -- PARETO ANALYSIS Base:
 base_pareto AS (
@@ -1341,7 +1348,7 @@ SELECT
     YEAR(_date) AS max_year,
     item_id,
     SUM(net_profit) AS annual_net_profit
-FROM net_profit np
+FROM base_5 np
 WHERE net_profit > 0 
 GROUP BY 
     YEAR(_date),
@@ -1384,29 +1391,34 @@ ORDER BY annual_net_profit DESC;
 
 
 -- (Taken from Pareto Query code and modified)
+-- Daily Wages
 WITH daily_payroll AS (  
 SELECT
-	`date` AS _date, -- Daily payroll and not Monthly for Pareto Analysis cumulation operation after Join
+	`date` AS _date,
     SUM(wages) AS daily_wages
 FROM `v_daily_payroll`
-WHERE YEAR(`date`) >= 2025   -- Pareto Analysis for Latest Year only
+WHERE YEAR(`date`) >= 2025   -- Latest Year only
 GROUP BY 
 	`date`
 ORDER BY _date
 ),
 
 -- REVENUE AND COST PRICE (daily)
-base AS (  
+base AS (
 SELECT
-	DATE(o.created_at) AS _date,
-    o.order_id,
-	it.item_id,
-    
-	MAX(o.quantity * it.item_price * 1.70) AS revenue_item, -- Multiplying item_price BY 1.70 Factor to achieve NPM = 15% as MAX NPM. 
-    
-	ROUND(
-		SUM((ing.ing_price / ing.ing_weight) * r.quantity_value * o.quantity)
-	, 2) AS cost_price_ingredient
+    DATE(o.created_at) AS _date,
+	o.order_id,
+    o.item_id,
+    o.quantity,
+	it.item_price,
+	ing.ing_id,
+	ing.ing_name,
+	ing.ing_meas,
+	r.quantity_value,
+	r.quantity_unit,
+	ing.ing_price,
+    ing.ing_weight,
+    quantity * quantity_value * (ing_price / ing_weight) AS cost_price_ingredient
 FROM orders o
 JOIN items it
 	ON o.item_id = it.item_id
@@ -1415,63 +1427,67 @@ JOIN recipe r
 JOIN ingredients ing
 	ON r.ingredients = ing.ing_id
 WHERE YEAR(o.created_at) >= 2025 -- Pareto Analysis for Latest Year only
-GROUP BY 
-	DATE(o.created_at),
-	o.order_id,
-    it.item_id
-ORDER BY _date
 ),
 
--- JOIN monthly_payroll to base:
-revenue_wages_base AS (
-SELECT
-	b.*,
-    dp.daily_wages
-FROM base b
-JOIN daily_payroll dp
-	ON b.`_date` = dp.`_date`
-ORDER BY _date
-),
-
--- NET PROFIT = (Revenue - Ingredient Cost - Wages)
--- NET PROFIT MARGIN CALCULATION:
-activity_based_costing AS (
+-- Revenue and Cogs
+base_2 AS(
 SELECT
 	_date,
-    item_id, -- Pareto Analysis at Item Level
+    order_id,
+	item_id,
+    MAX(quantity) AS ord_quantity,
+    MAX(quantity * item_price * 1.70) AS revenue, -- MULTIPLYING item_price BY 1.70 Factor to achieve NPM = 15% as MAX NPM.
+	SUM(cost_price_ingredient) AS cogs
+FROM base
+-- WHERE order_id = "ORD_00001"
+GROUP BY
+	_date,
+    order_id,
+    item_id
+),
+
+-- Activity Based Costing
+base_3 AS (
+SELECT
+	b2.*,
+    dp.daily_wages AS wages,
+    SUM(ord_quantity) OVER (PARTITION BY _date, order_id, item_id) /
+		SUM(ord_quantity) OVER (PARTITION BY _date) AS weighting_vector,
+	
     
-	ROUND(
-		SUM(revenue_item) 
-	, 2) AS total_revenue_daily, -- 1.
-    
-	ROUND(
-		SUM(revenue_item) / SUM(SUM(revenue_item)) OVER ( PARTITION BY _date) 
-	, 2) AS weighting_vector, -- ABC Approach
-    
-    ROUND(SUM(cost_price_ingredient)) AS total_cost_price_daily, -- 2.
-    
-    ROUND(MAX(daily_wages)) AS total_daily_wages, -- 3.
-    
-	ROUND(
-		SUM(revenue_item) / SUM(SUM(revenue_item)) OVER ( PARTITION BY _date) 
-	, 2) * 
-		ROUND(MAX(daily_wages)) AS activity_based_costing   -- weighting_vector * total_daily_wages = ABC
-    
-FROM revenue_wages_base
+    (SUM(ord_quantity) OVER (PARTITION BY _date, order_id, item_id) /
+		SUM(ord_quantity) OVER (PARTITION BY _date)
+	) * dp.daily_wages AS activity_based_costing
+        
+FROM daily_payroll dp
+JOIN base_2 b2
+	ON dp.`_date` = b2.`_date`
+),
+
+base_4 AS (
+SELECT
+	b3.*,
+    ROUND((revenue - cogs - activity_based_costing), 2) AS net_profit_init
+FROM base_3 b3
+),
+
+-- Net Profit
+base_5 AS (
+SELECT
+	_date,
+    item_id,
+    SUM(ord_quantity) AS ord_quantity,
+    SUM(weighting_vector) AS weighting_vector,
+    SUM(revenue) AS revenue,
+    SUM(cogs) AS cogs,
+    MAX(wages) AS wages,
+    SUM(net_profit_init) AS net_profit
+FROM base_4
 GROUP BY
 	_date,
     item_id
-ORDER BY _date
 ),
 
-net_profit AS (
-SELECT
-	abc._date,
-    item_id,
-    total_revenue_daily - total_cost_price_daily - activity_based_costing AS net_profit
-    
-FROM activity_based_costing abc
-),
 
 -- PARETO ANALYSIS Base:
 base_pareto AS (
@@ -1479,11 +1495,12 @@ SELECT
     YEAR(_date) AS max_year,
     item_id,
     SUM(net_profit) AS annual_net_profit
-FROM net_profit np
+FROM base_5 np
 GROUP BY 
     YEAR(_date),
     item_id
 )
+
 SELECT
 	*
 FROM base_pareto
@@ -1492,10 +1509,9 @@ ORDER BY annual_net_profit ASC ;
 
 
 -- CONCLUSION:
--- MAX annual_net_profit = -3588.03 (loss) for it032
 
 -- Target NPM = (Revenue - Ingredient Cost - LABOR_Wages) / Revenue
--- (Revenue - Ingredient Cost - LABOR_Wages) = -3588.03
+
 -- There are 3 ways to Increase Profits to 0 (Break-Even):
 	-- a. Increase Revenue
     -- b. Decrease Ingredient Cost
@@ -1503,90 +1519,12 @@ ORDER BY annual_net_profit ASC ;
     
     -- a. We already Increased Revenue by 1.70 x Item_Price ( As Revenue = #Orders * Item_Price ) to get a 15% Max "Monthly" NPM
     -- We can "Preferentially" increase Item_Price of individual Items even further for Items incurring a loss. 
-    -- LOSS ITEMS are (it032, it030, it028, it026, it027, it031, it029, it025)
+    -- LOSS ITEMS are (it027, it031, it029, it030, it025, it028, it032, etc)
     
-    
-	-- b. Decrease Ingredient Cost: (Ref. to (i) Exported csv)
-
-/*
-# _date	item_id	total_revenue_daily	total_cost_price_daily	activity_based_costing	net_profit
-		2025-01-01	it032	118.83	50	145.28	-76.45
-		2025-01-02	it032	83.18	35	49.92	-1.74
-		2025-01-03	it032	11.88	5	0.00	6.88
-		2025-01-04	it032	83.18	35	44.88	3.30
-		2025-01-05	it032	130.71	55	54.40	21.31
-		2025-01-06	it032	47.53	20	72.64	-45.11
-		...
-
-	Getting a NPM= 0 (Break-Even) is impossible by lowering Ingredient Cost ! 
-    (Refer to Research document query: "SQL File 33".sql)
-    So we have to adjust the Other Factor i.e. Wages (activity_based_costing) in tandem with "total_cost_price_daily"
-    
-    
-*/   
-    
-    -- c. Decrease Labor is identified on Days for ITEM incuring MAX Loss( it032) AS:
-    /*
-			# _day	_dayNumber	annual_daywise_loss
-			Mon			1		-1267.13
-			Tue			2		-1254.79
-			Wed			3		-1247.22
-			Thu			4		-453.07
-			Fri			5		15.63
-			Sat			6		42.10
-			Sun			7		576.45
-            
-	So, the Loss Days for the operations are primarily - Mon, Tue and Wed
-    (Ref to "annual_daywise_loss" Research query file).
-    
-    */
-
-    --  But decreasing Labor on  Mon, Tue and Wed could also impact Pareto Products.
-    --  Hence, we will also conduct Impact Assessment.
-      
-
-	-- d. Another Alternative Way: Cost Price/ Revenue Analysis:
-		-- total_cost_price_daily / total_revenue_daily = 50/ 118.83 = 42%
-		-- A 42% food cost is very high for retail food operations (the industry standard target is 28% to 32%).
-        /*
-		   By simply substituting an expensive cheese brand or shrinking the portion size slightly
-		   to bring that food cost down to 30%, 
-		   we can inject $12 of pure profit back into every $100 of sales, 
-		   instantly pushing it032 toward a positive net return.
-		*/
+	-- b & c. We'll implement Scenario Based Approach for these as below:
 
 
-	-- Exploring Further Options (c) and (d):
--- Also Tests reveal that (Ref to 'Tests on Scheduling' script):
-
--- Measure 1:
--- CUTTING workforce below leads to a Decrease in Daily Wages (on Mon, Tue and Wed) by 0.12 or 12% !!
-	-- We have 3 Delivery Drivers on Monday
-	   -- Let's cut it to 2 per shift. ( So, 1 x 2 = 2 cuts for every shift in a Day)
-	-- We have 2 Kitchen Assistant on Monday
-		-- Let's cut it to 1 per shift. ( So, 1 x 2 = 2 cuts for every shift in a Day )
--- So, we shall apply this 12% reduction on Daily wages on Mon, Tue and Wed
-
-
--- Measure 2:
--- CUTTING 'FOOD COST RATIO' (COST / REVENUE) to 0.30 and under, will Impact only these Items:
-	/*
-	item_id	avg_cost	avg_revenue	avg_food_cost_ratio
-	it027	9.9040		25.171240		0.39
-	it028	20.6080		52.463000		0.39
-	it030	21.3927		49.914534		0.43
-	it032	28.5141		67.766948		0.42
-	*/
--- Hence, for COST / REVENUE >= 0.35, we shall tame the COST of these Items as under:
-	/*
-		total_cost_price_daily / total_revenue_daily = 0.35
-        Or, total_cost_price_daily = 0.35 * total_revenue_daily
-
-	*/
-
-
-
-	-- IMPACT ANALYSIS applying Measure 1 and Measure 2:
+-- Scenario IMPACT ANALYSIS by applying Measure 1 and Measure 2:
 -- SCENARIO 1:
 -- Measure 1: 12% reduction on Daily wages on Mon, Tue and Wed
 -- Measure 2: Setting a ceiling at 35 % for Food "Cost Ratio" i.e. Setting
@@ -1602,37 +1540,42 @@ ORDER BY annual_net_profit ASC ;
 
 
 -- SCENARIO 3:
--- Measure 1: 23% reduction on Daily wages on Mon, Tue and Wed
+-- Measure 1: 50% reduction on Daily wages on Mon, Tue and Wed
 -- Measure 2: Setting a ceiling at 30 % for Food "Cost Ratio" i.e. Setting
 		-- 	  total_cost_price_daily = 0.30 * total_revenue_daily, 
 		--    for Items having (total_cost_price_daily / total_revenue_daily) >= 0.30
 
 
 
--- PARETO ANALYSIS WITH SCENARIO ANALYSIS: 
+-- SCENARIO IMPACT ANALYSIS:
+-- Daily Wages
 WITH daily_payroll AS (  
 SELECT
-	`date` AS _date, -- Daily payroll and not Monthly for Pareto Analysis cumulation operation after Join
+	`date` AS _date,
     SUM(wages) AS daily_wages
 FROM `v_daily_payroll`
-WHERE YEAR(`date`) >= 2025   -- Pareto Analysis for Latest Year only
+WHERE YEAR(`date`) >= 2025   -- Latest Year only
 GROUP BY 
 	`date`
 ORDER BY _date
 ),
 
 -- REVENUE AND COST PRICE (daily)
-base AS (  
+base AS (
 SELECT
-	DATE(o.created_at) AS _date,
-    o.order_id,
-	it.item_id,
-    
-	MAX(o.quantity * it.item_price * 1.70) AS revenue_item, -- MULTIPLYING item_price BY 1.70 Factor to achieve NPM = 15% as MAX NPM. 
-    
-	ROUND(
-		SUM((ing.ing_price / ing.ing_weight) * r.quantity_value * o.quantity)
-	, 2) AS cost_price_ingredient
+    DATE(o.created_at) AS _date,
+	o.order_id,
+    o.item_id,
+    o.quantity,
+	it.item_price,
+	ing.ing_id,
+	ing.ing_name,
+	ing.ing_meas,
+	r.quantity_value,
+	r.quantity_unit,
+	ing.ing_price,
+    ing.ing_weight,
+    quantity * quantity_value * (ing_price / ing_weight) AS cost_price_ingredient
 FROM orders o
 JOIN items it
 	ON o.item_id = it.item_id
@@ -1640,70 +1583,71 @@ JOIN recipe r
 	ON it.sku = r.sku
 JOIN ingredients ing
 	ON r.ingredients = ing.ing_id
-WHERE YEAR(o.created_at) >= 2025 -- Pareto Analysis for Latest Year only
-
-GROUP BY 
-	DATE(o.created_at),
-	o.order_id,
-    it.item_id
-ORDER BY _date
+WHERE YEAR(o.created_at) >= 2025 -- Analysis for Latest Year only
 ),
 
--- JOIN monthly_payroll to base:
-revenue_wages_base AS (
-SELECT
-	b.*,
-    dp.daily_wages
-FROM base b
-JOIN daily_payroll dp
-	ON b.`_date` = dp.`_date`
-ORDER BY _date
-),
-
--- NET PROFIT = (Revenue - Ingredient Cost - Wages)
--- NET PROFIT MARGIN CALCULATION:
-activity_based_costing AS (
+-- Revenue and Cogs
+base_2 AS(
 SELECT
 	_date,
-    item_id, -- Pareto Analysis at Item Level
+    order_id,
+	item_id,
+    MAX(quantity) AS ord_quantity,
+    MAX(quantity * item_price * 1.70) AS revenue, -- MULTIPLYING item_price BY 1.70 Factor to achieve NPM = 15% as MAX NPM.
+	SUM(cost_price_ingredient) AS cogs
+FROM base
+-- WHERE order_id = "ORD_00001"
+GROUP BY
+	_date,
+    order_id,
+    item_id
+),
+
+-- Activity Based Costing
+base_3 AS (
+SELECT
+	b2.*,
+    dp.daily_wages AS wages,
+    SUM(ord_quantity) OVER (PARTITION BY _date, order_id, item_id) /
+		SUM(ord_quantity) OVER (PARTITION BY _date) AS weighting_vector,
+	
     
-	ROUND(
-		SUM(revenue_item) 
-	, 2) AS total_revenue_daily, -- 1. Daily Revenue by item
-    
-	ROUND(
-		SUM(revenue_item) / SUM(SUM(revenue_item)) OVER ( PARTITION BY _date) 
-	, 2) AS weighting_vector, -- ABC Approach
-    
-    ROUND(SUM(cost_price_ingredient)) AS total_cost_price_daily, -- 2. Daily Cost by item
-    
-    ROUND(MAX(daily_wages)) AS total_daily_wages, -- 3. Wages
-    
-	ROUND(
-		SUM(revenue_item) / SUM(SUM(revenue_item)) OVER ( PARTITION BY _date) 
-	, 2) * 
-		ROUND(MAX(daily_wages)) AS activity_based_costing   -- weighting_vector * total_daily_wages = ABC
-    
-FROM revenue_wages_base
+    (SUM(ord_quantity) OVER (PARTITION BY _date, order_id, item_id) /
+		SUM(ord_quantity) OVER (PARTITION BY _date)
+	) * dp.daily_wages AS activity_based_costing
+        
+FROM daily_payroll dp
+JOIN base_2 b2
+	ON dp.`_date` = b2.`_date`
+),
+
+base_4 AS (
+SELECT
+	b3.*,
+    ROUND((revenue - cogs - activity_based_costing), 2) AS net_profit_init
+FROM base_3 b3
+),
+
+-- Net Profit
+base_5 AS (
+SELECT
+	_date,
+    item_id,
+    SUM(ord_quantity) AS ord_quantity,
+    SUM(weighting_vector) AS weighting_vector,
+    ROUND(SUM(activity_based_costing), 2) AS activity_based_costing,
+    ROUND(SUM(revenue), 2) AS revenue,
+    ROUND(SUM(cogs), 2) AS cogs,
+    MAX(wages) AS wages,
+    SUM(net_profit_init) AS net_profit
+FROM base_4
 GROUP BY
 	_date,
     item_id
-ORDER BY _date
 ),
 
-net_profit AS (
-SELECT
-	abc._date,
-    item_id,
-    total_revenue_daily,
-    total_cost_price_daily,
-    activity_based_costing,
-    total_revenue_daily - total_cost_price_daily - activity_based_costing AS net_profit
-    
-FROM activity_based_costing abc
-),
 
--- Measure 1 and Measure 2: (For each Scenario 1, Scenario 2, Scenario 3)
+-- SCENERIO IMPLEMENTATION of Measure 1 and Measure 2: (For each Scenario 1, Scenario 2, Scenario 3)
 measures_base_sc AS (
 SELECT
 	*,
@@ -1720,10 +1664,10 @@ SELECT
     
     -- Measure 2:
     CASE
-		WHEN (total_cost_price_daily / total_revenue_daily) >= 0.35
-			THEN ROUND(0.35 * total_revenue_daily, 2)		-- 35% Ceiling
-		WHEN (total_cost_price_daily / total_revenue_daily) < 0.35
-			THEN total_cost_price_daily
+		WHEN (cogs / revenue) >= 0.35
+			THEN ROUND(0.35 * revenue, 2)		-- 35% Ceiling
+		WHEN (cogs / revenue) < 0.35
+			THEN cogs
 	END AS sc1_total_cost_price_daily,
     
     
@@ -1740,10 +1684,10 @@ SELECT
     
     -- Measure 2:
     CASE
-		WHEN (total_cost_price_daily / total_revenue_daily) >= 0.35  
-			THEN ROUND(0.35 * total_revenue_daily, 2)		-- 35% Ceiling
-		WHEN (total_cost_price_daily / total_revenue_daily) < 0.35
-			THEN total_cost_price_daily
+		WHEN (cogs / revenue) >= 0.35  
+			THEN ROUND(0.35 * revenue, 2)		-- 35% Ceiling
+		WHEN (cogs / revenue) < 0.35
+			THEN cogs
 	END AS sc2_total_cost_price_daily,
     
     -- ===========
@@ -1753,32 +1697,32 @@ SELECT
     -- Measure 1:
     CASE
 		WHEN DATE_FORMAT(`_date`, '%a') IN ('Mon', 'Tue', 'Wed')
-			THEN ROUND(activity_based_costing * 0.77, 2) 	-- 23 % Reduction
+			THEN ROUND(activity_based_costing * 0.50, 2) 	-- 50 % Reduction
 		ELSE activity_based_costing
 	END AS sc3_activity_based_costing,
     
     -- Measure 2:
     CASE
-		WHEN (total_cost_price_daily / total_revenue_daily) >= 0.30
-			THEN ROUND(0.30 * total_revenue_daily, 2) 		-- 30% Ceiling
-		WHEN (total_cost_price_daily / total_revenue_daily) < 0.30
-			THEN total_cost_price_daily
+		WHEN (cogs / revenue) >= 0.30
+			THEN ROUND(0.30 * revenue, 2) 		-- 30% Ceiling
+		WHEN (cogs / revenue) < 0.30
+			THEN cogs
 	END AS sc3_total_cost_price_daily  
     
     
-FROM net_profit
+FROM base_5
 ),
 
 results AS (
 SELECT
 	*,
-    (total_revenue_daily - sc1_total_cost_price_daily - sc1_activity_based_costing) AS
+    (revenue - sc1_total_cost_price_daily - sc1_activity_based_costing) AS
 		sc1_new_net_profit,
         
-    (total_revenue_daily - sc2_total_cost_price_daily - sc2_activity_based_costing) AS
+    (revenue - sc2_total_cost_price_daily - sc2_activity_based_costing) AS
 		sc2_new_net_profit,
 
-    (total_revenue_daily - sc3_total_cost_price_daily - sc3_activity_based_costing) AS
+    (revenue - sc3_total_cost_price_daily - sc3_activity_based_costing) AS
 		sc3_new_net_profit	
 FROM measures_base_sc
 )
