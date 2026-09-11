@@ -481,16 +481,16 @@ def render_tab_4(load_portfolio_data):
         col_text_left, col_text_right = st.columns(2)
 
         with col_text_left:
-            st.write("##### 🟥 Baseline Profit Realities (Burdened with Labor Wages)")
-            st.caption("Exposes true net margins. Items dipping below the $0 baseline represent menu products actively operating at a financial deficit.")
+            st.write("##### 🟥 Baseline Net Profit (Burdened with High Labor Overheads)")
+            st.caption("Exposes Net Loss items at Micro Level. Items dipping below the $0 baseline represent menu products actively operating at a financial deficit.")
 
         with col_text_right:
             st.write("##### 🟩 Algorithmic Price Optimization Simulation Lift")
             
             sc_map = {
-                "🚀 Scenario 1: Loss-Item Break-Even Stabilization": "sc1_new_net_profit",
-                "📈 Scenario 2: Mid-Tier Structural Margin Lift": "sc2_new_net_profit",
-                "💎 Scenario 3: Maximum Wallet-Share Yield Optimization": "sc3_new_net_profit"
+                "📈 Scenario 1:   12% Daily Wages Reduction  &  35% Food Cost Ratio Ceiling": "sc1_new_net_profit",
+                "📈 Scenario 2:   24% Daily Wages Reduction  &  35% Food Cost Ratio Ceiling": "sc2_new_net_profit",
+                "📈 Scenario 3:   50% Daily Wages Reduction  &  30% Food Cost Ratio Ceiling": "sc3_new_net_profit"
             }
             
             selected_sc_label = st.selectbox(
@@ -499,7 +499,7 @@ def render_tab_4(load_portfolio_data):
                 key="sb_zone3_scenarios",
                 label_visibility="collapsed" # Hides the redundant label text to save vertical pixels
             )
-            st.caption("Simulates your prescriptive algorithms shifting menu retail values upward to rescue fragile products from deficit territory.")
+            st.caption("Simulates the prescriptive algorithms to rescue Net Loss items from deficit territory.")
             
         active_sc_column = sc_map[selected_sc_label]
 
