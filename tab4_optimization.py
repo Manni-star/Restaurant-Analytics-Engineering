@@ -519,7 +519,7 @@ def render_tab_4(load_portfolio_data):
                 labels={'net_profit': 'True Annual Net Profit ($ CAD)', 'item_id': 'Product Code'},
                 
                 # RANGE MATCH: Locks the horizontal boundaries
-                range_x=[-25000, 45000]
+                range_x=[-25000, 40000]
             )
             
             
@@ -539,7 +539,7 @@ def render_tab_4(load_portfolio_data):
                 labels={active_sc_column: 'Projected Annual Net Profit ($ CAD)', 'item_id': 'Product Code'},
                 
                 # RANGE MATCH: Locks the horizontal boundaries
-                range_x=[-25000, 45000]
+                range_x=[-25000, 40000]
             )
             
             
