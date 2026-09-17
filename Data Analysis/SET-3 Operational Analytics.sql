@@ -427,13 +427,20 @@ SELECT
     
     -- Automated recommendation based on 3 criterias
     CASE 
+        -- Low instability score (<=0.35) + high frequency = predictable targets to consolidate
         WHEN p.total_reorders_placed >= 6 
          AND p.reorder_instability_score <= 0.35 
          AND d.monthly_drawn <= 15 THEN 'CRITICAL TARGET: Consolidate to Bulk'
+         
         WHEN p.total_reorders_placed >= 4 
          AND p.reorder_instability_score <= 0.35 THEN 'RECOMMENDED: Increase Order Size'
+         
+        -- High instability score (>0.35) = Chaotic ordering behavior
+        WHEN p.reorder_instability_score > 0.35 THEN 'VOLATILE DEMAND: Review Chaotic Patterns'
+        
         ELSE 'MAINTAIN: Current Cadence is Stable'
     END AS optimization_action
+
 FROM procurement_metrics p
 JOIN drawdown_metrics d 
   ON p.ing_id = d.ing_id 
